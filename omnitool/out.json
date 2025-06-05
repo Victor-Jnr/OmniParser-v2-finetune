@@ -1,0 +1,413 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.2806026339530945,
+        0.027542373165488243,
+        0.3502824902534485,
+        0.04555084928870201
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05461393669247627,
+        0.10275423526763916,
+        0.8662900328636169,
+        0.1281779706478119
+      ],
+      "interactivity": false,
+      "content": "CloudStream-WiFi network details",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.060263652354478836,
+        0.1705508530139923,
+        0.3879472613334656,
+        0.19173729419708252
+      ],
+      "interactivity": false,
+      "content": "Connect automatically",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.2743644118309021,
+        0.1525423675775528,
+        0.29978814721107483
+      ],
+      "interactivity": false,
+      "content": "Status",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.30084747076034546,
+        0.1770244836807251,
+        0.3188559412956238
+      ],
+      "interactivity": false,
+      "content": "Connected",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05273069813847542,
+        0.3855932056903839,
+        0.32203391194343567,
+        0.409957617521286
+      ],
+      "interactivity": false,
+      "content": "Connection speed",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.4067796468734741,
+        0.1600753366947174,
+        0.4300847351551056
+      ],
+      "interactivity": false,
+      "content": "866Mbps",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.4936440587043762,
+        0.17890772223472595,
+        0.5190678238868713
+      ],
+      "interactivity": false,
+      "content": "Security",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5197740197181702,
+        0.49788135290145874,
+        0.6760828495025635,
+        0.5169491767883301
+      ],
+      "interactivity": false,
+      "content": "IP address",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.5201271176338196,
+        0.27871939539909363,
+        0.5370762944221497
+      ],
+      "interactivity": false,
+      "content": "WPA/WPA2-Personal",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5160075426101685,
+        0.5190678238868713,
+        0.8079096078872681,
+        0.5370762944221497
+      ],
+      "interactivity": false,
+      "content": "fe80::bf91:103d:8e63:e2e8",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5216572284698486,
+        0.5360169410705566,
+        0.6346516013145447,
+        0.5508474707603455
+      ],
+      "interactivity": false,
+      "content": "10.0.17.195",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05273069813847542,
+        0.7955508232116699,
+        0.14124293625354767,
+        0.8220338821411133
+      ],
+      "interactivity": false,
+      "content": "Proxy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.8622881174087524,
+        0.21092279255390167,
+        0.8866525292396545
+      ],
+      "interactivity": false,
+      "content": "IP settings",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.050847455859184265,
+        0.9279661178588867,
+        0.16572505235671997,
+        0.9544491767883301
+      ],
+      "interactivity": false,
+      "content": "Privacy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.039698876440525055,
+        0.5988227128982544,
+        0.9500529170036316,
+        0.7674273252487183
+      ],
+      "interactivity": true,
+      "content": "Subnet mask Router 255.255.240.0 10.0.16.2 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8183032870292664,
+        0.0015464843017980456,
+        0.9655271768569946,
+        0.08157411962747574
+      ],
+      "interactivity": true,
+      "content": "75 Size: 0.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6927909851074219,
+        0.9177103042602539,
+        0.9666717052459717,
+        0.9648298621177673
+      ],
+      "interactivity": true,
+      "content": "Use device MAC  ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5092659592628479,
+        0.34036797285079956,
+        0.9333828091621399,
+        0.4472389817237854
+      ],
+      "interactivity": true,
+      "content": "Signal strength Excellent ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5255419015884399,
+        0.0007434189319610596,
+        0.6718043088912964,
+        0.0765724703669548
+      ],
+      "interactivity": true,
+      "content": "Yv: 0.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1361280232667923,
+        0.04854116588830948
+      ],
+      "interactivity": true,
+      "content": "17:12 0 P: 0 /1 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8318179249763489,
+        0.7867533564567566,
+        0.9511485695838928,
+        0.8310767412185669
+      ],
+      "interactivity": true,
+      "content": "None  ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8369100093841553,
+        0.8602879047393799,
+        0.9506339430809021,
+        0.887754499912262
+      ],
+      "interactivity": true,
+      "content": "DHCP  ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.38287353515625,
+        1.5121698197617661e-05,
+        0.528935968875885,
+        0.07380997389554977
+      ],
+      "interactivity": true,
+      "content": "Xv: 0.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.12337230890989304,
+        0.019160503521561623,
+        0.21714863181114197,
+        0.049941934645175934
+      ],
+      "interactivity": true,
+      "content": "dX: 0.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.511479377746582,
+        0.2398972064256668,
+        0.9451802372932434,
+        0.3433906137943268
+      ],
+      "interactivity": true,
+      "content": "Technology Generation 5 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6667307615280151,
+        0.025016585364937782,
+        0.8125373125076294,
+        0.045885343104600906
+      ],
+      "interactivity": true,
+      "content": "Prs: 0.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8391380906105042,
+        0.16333389282226562,
+        0.9413251876831055,
+        0.19683626294136047
+      ],
+      "interactivity": true,
+      "content": "Toggleoggleoggle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.053916435688734055,
+        0.24051609635353088,
+        0.1020398959517479,
+        0.27480432391166687
+      ],
+      "interactivity": true,
+      "content": "Information",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04263542965054512,
+        0.04401041567325592,
+        0.1071021780371666,
+        0.07777642458677292
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.053086332976818085,
+        0.3479403555393219,
+        0.1058148592710495,
+        0.38592958450317383
+      ],
+      "interactivity": true,
+      "content": "Speed",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04527183622121811,
+        0.4560341536998749,
+        0.11037981510162354,
+        0.5005044341087341
+      ],
+      "interactivity": true,
+      "content": "Security",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5233919024467468,
+        0.4623490869998932,
+        0.5712496638298035,
+        0.4931454360485077
+      ],
+      "interactivity": true,
+      "content": "Heart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.052017755806446075,
+        0.5859652161598206,
+        0.10382432490587234,
+        0.6146190166473389
+      ],
+      "interactivity": true,
+      "content": "Ticket",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 3.154407024383545
+}

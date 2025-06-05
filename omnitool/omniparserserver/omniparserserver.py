@@ -1,5 +1,7 @@
 '''
 python -m omniparserserver --som_model_path ../../weights/icon_detect/model.pt --caption_model_name florence2 --caption_model_path ../../weights/icon_caption_florence --device cuda --BOX_TRESHOLD 0.05
+
+python -m omniparserserver --som_model_path ../../weights/icon_detect/model.pt --caption_model_name florence2 --caption_model_path ../../weights/icon_caption_florence --device cuda --BOX_TRESHOLD 0.05 --port 9333
 '''
 
 import sys
@@ -33,6 +35,7 @@ omniparser = Omniparser(config)
 
 class ParseRequest(BaseModel):
     base64_image: str
+    output_base64: bool = False
 
 @app.post("/parse/")
 async def parse(parse_request: ParseRequest):
@@ -41,7 +44,10 @@ async def parse(parse_request: ParseRequest):
     dino_labled_img, parsed_content_list = omniparser.parse(parse_request.base64_image)
     latency = time.time() - start
     print('time:', latency)
-    return {"som_image_base64": dino_labled_img, "parsed_content_list": parsed_content_list, 'latency': latency}
+    if parse_request.output_base64:
+        return {"som_image_base64": dino_labled_img, "parsed_content_list": parsed_content_list, 'latency': latency}
+    else:
+        return {"parsed_content_list": parsed_content_list, 'latency': latency}
 
 @app.get("/probe/")
 async def root():
