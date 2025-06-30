@@ -1,0 +1,443 @@
+{
+  "image_path": "raw_images/live_full_screen_playing.png",
+  "image_size": [
+    2560,
+    1440
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.0,
+        0.03945312649011612,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "P: 0 /1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14179687201976776,
+        0.0,
+        0.18125000596046448,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "dX: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.283203125,
+        0.0,
+        0.3238281309604645,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4261718690395355,
+        0.0,
+        0.4644531309604645,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Xv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5687500238418579,
+        0.0,
+        0.607421875,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7113281488418579,
+        0.0,
+        0.7542968988418579,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.854296863079071,
+        0.0,
+        0.9019531011581421,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06562499701976776,
+        0.02361111156642437,
+        0.17499999701976776,
+        0.05486110970377922
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano CR",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.19882813096046448,
+        0.10277777910232544,
+        0.830078125,
+        0.15833333134651184
+      ],
+      "interactivity": false,
+      "content": "iEL SHOW MAS VISTO DEL MES!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.28437501192092896,
+        0.20000000298023224,
+        0.7425781488418579,
+        0.23888888955116272
+      ],
+      "interactivity": false,
+      "content": "CAMARAS 1, 2 Y 3 DISPONIBLES 24/7",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3499999940395355,
+        0.24444444477558136,
+        0.675000011920929,
+        0.2701388895511627
+      ],
+      "interactivity": false,
+      "content": "iMIRIALO COMO QUIERAS!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.201171875,
+        0.4868055582046509,
+        0.26445311307907104,
+        0.5131944417953491
+      ],
+      "interactivity": false,
+      "content": "EUGENIA",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.779296875,
+        0.4868055582046509,
+        0.873046875,
+        0.5111111402511597
+      ],
+      "interactivity": false,
+      "content": "JUAN PABLO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3499999940395355,
+        0.5256944298744202,
+        0.6781250238418579,
+        0.5770833492279053
+      ],
+      "interactivity": false,
+      "content": "GRAN HERMIANO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.25117188692092896,
+        0.7076388597488403,
+        0.29804688692092896,
+        0.7277777791023254
+      ],
+      "interactivity": false,
+      "content": "KATIA",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4281249940395355,
+        0.7888888716697693,
+        0.4937500059604645,
+        0.8361111283302307
+      ],
+      "interactivity": false,
+      "content": "7x24",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2730468809604645,
+        0.8729166388511658,
+        0.49882811307907104,
+        0.9097222089767456
+      ],
+      "interactivity": false,
+      "content": "GRAN HERMANO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.501953125,
+        0.875,
+        0.5718749761581421,
+        0.90625
+      ],
+      "interactivity": false,
+      "content": "2025",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.610546886920929,
+        0.8715277910232544,
+        0.7574218511581421,
+        0.9083333611488342
+      ],
+      "interactivity": false,
+      "content": "RGENTINA)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6273437738418579,
+        0.8923611044883728,
+        0.7320312261581421,
+        0.949305534362793
+      ],
+      "interactivity": false,
+      "content": "Qualitymara 3",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.30000001192092896,
+        0.9152777791023254,
+        0.36992186307907104,
+        0.9409722089767456
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4957031309604645,
+        0.9152777791023254,
+        0.579296886920929,
+        0.9409722089767456
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano cal",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5810351371765137,
+        0.8911668658256531,
+        0.6204365491867065,
+        0.9429965615272522
+      ],
+      "interactivity": true,
+      "content": "480P ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7821286916732788,
+        0.8897435665130615,
+        0.8717061877250671,
+        0.945310652256012
+      ],
+      "interactivity": true,
+      "content": "Lock ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4964323937892914,
+        0.7796749472618103,
+        0.6011093854904175,
+        0.8448055982589722
+      ],
+      "interactivity": true,
+      "content": "Pro ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7187501788139343,
+        0.593241810798645,
+        0.8182028532028198,
+        0.7453266382217407
+      ],
+      "interactivity": true,
+      "content": "ULISES ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03174048662185669,
+        0.023598777130246162,
+        0.0555838942527771,
+        0.06660624593496323
+      ],
+      "interactivity": true,
+      "content": "Back",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8685094714164734,
+        0.027516614645719528,
+        0.9190236926078796,
+        0.16421286761760712
+      ],
+      "interactivity": true,
+      "content": "Help",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15691089630126953,
+        0.8829076290130615,
+        0.28498539328575134,
+        0.961808443069458
+      ],
+      "interactivity": true,
+      "content": "Channel",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.805485725402832,
+        0.05187055841088295,
+        0.8421909213066101,
+        0.11941865086555481
+      ],
+      "interactivity": true,
+      "content": "Toggle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8954831957817078,
+        0.8649576902389526,
+        0.924465000629425,
+        0.9249376058578491
+      ],
+      "interactivity": true,
+      "content": "Dark red",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.868243396282196,
+        0.8664916753768921,
+        0.8976009488105774,
+        0.9260362386703491
+      ],
+      "interactivity": true,
+      "content": "Online",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9327205419540405,
+        0.2681067883968353,
+        0.9661800265312195,
+        0.3372439444065094
+      ],
+      "interactivity": true,
+      "content": "Sound",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7406595349311829,
+        0.033035557717084885,
+        0.7847217321395874,
+        0.16892273724079132
+      ],
+      "interactivity": true,
+      "content": "Close me",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9903831481933594,
+        0.03691744804382324,
+        1.0,
+        0.13653776049613953
+      ],
+      "interactivity": true,
+      "content": "a stopwatch function.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3799024522304535,
+        0.898400604724884,
+        0.4929680824279785,
+        0.9417632222175598
+      ],
+      "interactivity": true,
+      "content": "Previous",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "label_coordinates": {
+    "0": [
+      

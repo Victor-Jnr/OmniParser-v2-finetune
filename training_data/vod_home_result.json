@@ -1,0 +1,537 @@
+{
+  "image_path": "raw_images/vod_home.png",
+  "image_size": [
+    1440,
+    2560
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.029296875,
+        0.06805555522441864,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "P: 0/1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.27916666865348816,
+        0.029296875,
+        0.3548611104488373,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4229166805744171,
+        0.029296875,
+        0.49444442987442017,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Xv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5645833611488342,
+        0.02812499925494194,
+        0.6361111402511597,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7097222208976746,
+        0.029296875,
+        0.7888888716697693,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.8527777791023254,
+        0.02812499925494194,
+        0.9375,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.04027777910232544,
+        0.4761718809604645,
+        0.43541666865348816,
+        0.501171886920929
+      ],
+      "interactivity": false,
+      "content": "Zombie infection",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.04027777910232544,
+        0.608203113079071,
+        0.3291666805744171,
+        0.637499988079071
+      ],
+      "interactivity": false,
+      "content": "EXTERMINIO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3784722089767456,
+        0.7144531011581421,
+        0.6083333492279053,
+        0.736328125
+      ],
+      "interactivity": false,
+      "content": "RAINT BUSAN",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05763888731598854,
+        0.767578125,
+        0.3013888895511627,
+        0.7906249761581421
+      ],
+      "interactivity": false,
+      "content": "28 Days Later....",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7645833492279053,
+        0.768750011920929,
+        0.8326388597488403,
+        0.7894531488418579
+      ],
+      "interactivity": false,
+      "content": "REC",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4138889014720917,
+        0.8832031488418579,
+        0.5659722089767456,
+        0.901171863079071
+      ],
+      "interactivity": false,
+      "content": "ECHO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.41592928767204285,
+        0.09752605855464935,
+        0.6023681163787842,
+        0.15357664227485657
+      ],
+      "interactivity": true,
+      "content": "TV Series ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03049180842936039,
+        0.19907212257385254,
+        0.960803210735321,
+        0.4565522074699402
+      ],
+      "interactivity": true,
+      "content": "FENPCIA ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5998525619506836,
+        0.09770487248897552,
+        0.7285866737365723,
+        0.15343591570854187
+      ],
+      "interactivity": true,
+      "content": "Kids ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2600718140602112,
+        0.09754421561956406,
+        0.4187820553779602,
+        0.15347251296043396
+      ],
+      "interactivity": true,
+      "content": "Movies ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.014125675894320011,
+        0.09781735390424728,
+        0.259787380695343,
+        0.15273968875408173
+      ],
+      "interactivity": true,
+      "content": "Recommended ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6485026478767395,
+        0.5223733186721802,
+        0.9492269158363342,
+        0.7590123414993286
+      ],
+      "interactivity": true,
+      "content": "REC] ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7243883013725281,
+        0.09768366068601608,
+        0.8860660195350647,
+        0.15351895987987518
+      ],
+      "interactivity": true,
+      "content": "Animes ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3444143533706665,
+        0.7528085708618164,
+        0.6293439865112305,
+        0.8153854608535767
+      ],
+      "interactivity": true,
+      "content": "Train to Busan. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.030894692987203598,
+        0.8015213012695312,
+        0.35943496227264404,
+        0.855267345905304
+      ],
+      "interactivity": true,
+      "content": "Popular Movies ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8525778651237488,
+        0.01082146167755127,
+        0.8876842856407166,
+        0.027282875031232834
+      ],
+      "interactivity": true,
+      "content": "WiFi connectivity.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8125141859054565,
+        0.01051378808915615,
+        0.8448607325553894,
+        0.02802443504333496
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8940329551696777,
+        0.010863599367439747,
+        0.9438233971595764,
+        0.026496371254324913
+      ],
+      "interactivity": true,
+      "content": "Number 74",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1772352010011673,
+        0.010535120964050293,
+        0.2078293263912201,
+        0.02642223611474037
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1421302855014801,
+        0.010705241933465004,
+        0.1724308431148529,
+        0.026422003284096718
+      ],
+      "interactivity": true,
+      "content": "Mail",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7869156002998352,
+        0.042673517018556595,
+        0.8644983768463135,
+        0.08583526313304901
+      ],
+      "interactivity": true,
+      "content": "Find and Replace",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8923227787017822,
+        0.042813658714294434,
+        0.970169723033905,
+        0.08464832603931427
+      ],
+      "interactivity": true,
+      "content": "Clock",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.10770326107740402,
+        0.00985216535627842,
+        0.1374495029449463,
+        0.027357572689652443
+      ],
+      "interactivity": true,
+      "content": "RattlesApp",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21686145663261414,
+        0.009749585762619972,
+        0.24673870205879211,
+        0.02747783437371254
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9023991823196411,
+        0.4729207158088684,
+        0.963679850101471,
+        0.5076106190681458
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8981253504753113,
+        0.8112598657608032,
+        0.9652392864227295,
+        0.8493385314941406
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.031985409557819366,
+        0.03773495554924011,
+        0.17424049973487854,
+        0.08528229594230652
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9460601806640625,
+        0.010519755072891712,
+        0.9665898680686951,
+        0.027116816490888596
+      ],
+      "interactivity": true,
+      "content": "Lightning",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03070215694606304,
+        0.5206528306007385,
+        0.3302666246891022,
+        0.6171898245811462
+      ],
+      "interactivity": true,
+      "content": "Hyperlink",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8030546307563782,
+        0.9375190734863281,
+        0.8623502850532532,
+        0.9710220098495483
+      ],
+      "interactivity": true,
+      "content": "User profile",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5326586961746216,
+        0.8779487609863281,
+        0.5669771432876587,
+        0.9194835424423218
+      ],
+      "interactivity": true,
+      "content": "Superscript",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4868853986263275,
+        0.876164436340332,
+        0.5268102288246155,
+        0.9191434979438782
+      ],
+      "interactivity": true,
+      "content": "Highlight",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.34315210580825806,
+        0.5200908780097961,
+        0.6391171216964722,
+        0.6100187301635742
+      ],
+      "interactivity": true,
+      "content": "a person standing.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4129820466041565,
+        0.8779231309890747,
+        0.44332119822502136,
+        0.9187064170837402
+      ],
+      "interactivity": true,
+      "content": "Elevator",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13966645300388336,
+        0.02907087281346321,
+        0.20922182500362396,
+        0.04357009381055832
+      ],
+      "interactivity": true,
+      "content": "Decrease 0.5",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13764721155166626,
+        0.9382549524307251,
+        0.19227655231952667,
+        0.9674354791641235
+      ],
+      "interactivity": true,
+      "content": "Home",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.44415581226348877,
+        0.8706234693527222,
+        0.48589026927948,
+        0.9207627177238464
+      ],
+      "interactivity": true,
+      "content": "Italic",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4698013365268707,
+        0.9383338093757629,
+        0.5297399759292603,
+        0.9696782231330872
+      ],
+      "interactivity": true,
+      "content": "TV & TV Show",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

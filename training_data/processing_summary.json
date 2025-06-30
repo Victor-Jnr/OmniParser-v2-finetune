@@ -1,0 +1,19 @@
+{
+  "total_images": 12,
+  "successful": 12,
+  "failed": 12,
+  "failed_images": [
+    "raw_images/live_channel.png",
+    "raw_images/live_favorite.png",
+    "raw_images/live_full_screen_playing.png",
+    "raw_images/login.png",
+    "raw_images/user_profile.png",
+    "raw_images/vod_home.png",
+    "raw_images/vod_play_detail.png",
+    "raw_images/vod_play_detail_full_screen.png",
+    "raw_images/vod_play_detail_full_screen_playing.png",
+    "raw_images/yc_home.png",
+    "raw_images/yc_user_profile.png",
+    "raw_images/yc_vod_playing_fullscreen.png"
+  ]
+}

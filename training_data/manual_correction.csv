@@ -1,0 +1,266 @@
+image_name,image_path,element_id,bbox_x1,bbox_y1,bbox_x2,bbox_y2,original_content,corrected_content,keep_element,source
+live_channel.png,raw_images/live_channel.png,29,0,0.415503681,0.503932536,0.472809017,Channel ,Channel ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,30,0.198166147,0.485885322,0.335368603,0.511932075,Deportes ,Deportes ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,31,0.275151879,0.86594522,0.386868238,0.899610341,ECDF ,ECDF ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,32,0.160540521,0.867873013,0.241248921,0.901484668,5,5,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,33,0.155774713,0.785477161,0.240798295,0.830409884,4,4,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,34,0.899635851,0.043358136,0.965568542,0.083077811,Q ,Q ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,35,0.368046314,0.484344572,0.537436604,0.511808038,Cine y Series ,Cine y Series ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,36,0.563716888,0.481593668,0.736093819,0.513722777,Mas popular ,Mas popular ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,37,0.005395529,0.483932018,0.182226136,0.511741936,ChannelList ,ChannelList ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,38,0.156279877,0.708023787,0.240132093,0.753233194,3,3,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,39,0.935317814,0.470943272,1,0.522635579,Venez ,Venez ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,40,0.771142721,0.487542063,0.879283845,0.506724536,Colombia ,Colombia ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,41,0.152398154,0.553731024,0.2349713,0.600179791,1,1,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,42,0.155445844,0.631363571,0.240402281,0.676428497,2,2,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,43,0.263537109,0.557938755,0.621584415,0.59555757,Gran Hermano CR ,Gran Hermano CR ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,44,0.499494374,0.416855812,1,0.471987903,Favorite ,Favorite ,TRUE,box_yolo_content_ocr
+live_channel.png,raw_images/live_channel.png,45,0.852213383,0.010642574,0.887914896,0.02714617,WiFi connectivity.,WiFi connectivity.,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,46,0.812038422,0.010195935,0.845739663,0.027802866,Close,Close,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,47,0.893700421,0.010754717,0.943697214,0.026455864,Number 74,Number 74,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,48,0.905989051,0.559106708,0.969984412,0.597319245,Forward,Forward,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,49,0.017363247,0.783972621,0.141606793,0.831994176,System,System,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,50,0.215849221,0.009328017,0.24752222,0.027977521,More options,More options,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,51,0.90637368,0.791721523,0.966908693,0.825281739,Forward,Forward,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,52,0.016678762,0.707249761,0.144249707,0.755472302,System,System,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,53,0.905339241,0.868561566,0.967028499,0.903637111,Forward,Forward,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,54,0.8356269,0.369689047,0.924072444,0.391323239,Color picker,Color picker,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,55,0.017290343,0.630659699,0.142383561,0.678097129,System,System,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,56,0.904388785,0.637347341,0.966923356,0.672646224,Forward,Forward,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,57,0.761218965,0.714023769,0.820390821,0.745100796,CreateCreate,CreateCreate,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,58,0.904387176,0.713853836,0.967027724,0.750202775,Forward,Forward,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,59,0.804044604,0.936674297,0.863446534,0.969885468,User profile,User profile,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,60,0.023283768,0.871351421,0.137430325,0.899105668,ECOFE,ECOFE,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,61,0.018107308,0.553402424,0.143051758,0.600386798,Fingeringer,Fingeringer,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,62,0.944660246,0.010257855,0.96655035,0.027220776,Lightning,Lightning,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,63,0.750952423,0.637856305,0.813181639,0.668536842,CreateCreate,CreateCreate,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,64,0.471758395,0.938544095,0.527164817,0.966998696,TV & TV Show,Live,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,65,0.761644304,0.790648758,0.822646916,0.82255584,CreateCreate,CreateCreate,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,66,0.140761644,0.028340304,0.173588842,0.044364952,Dx:,Dx:,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,67,0.135530412,0.937853515,0.197022602,0.970227718,Home,Home,TRUE,box_yolo_content_yolo
+live_channel.png,raw_images/live_channel.png,68,0.039633539,0.028709557,0.063631415,0.043213144,A list or date.,A list or date.,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,15,0,0.408125013,0.502370775,0.466795266,Channel ,Channel ,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,16,0.496310294,0.408485323,1,0.467280686,Favorite ,Favorite ,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,17,0,0.625826836,0.577904701,0.70458591,003 ATV El Deportivo ,003 ATV El Deportivo ,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,18,0.897794783,0.043077976,0.967480659,0.086417153,Q ,Search,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,19,0.160024107,0.724027455,0.242415085,0.757147014,4,4,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,20,0.021494696,0.725441813,0.141651064,0.750652611,prime video ,prime video ,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,21,0.159869194,0.493007123,0.233016565,0.526137412,1,1,TRUE,box_yolo_content_ocr
+live_favorite.png,raw_images/live_favorite.png,22,0.85166049,0.01042667,0.888105929,0.027636658,WiFi connectivity.,WiFi connectivity.,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,23,0.811473191,0.009977365,0.84672302,0.028182244,Close,Close,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,24,0.89344281,0.010426668,0.943679154,0.026934484,70a,70a,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,25,0.140731543,0.009643557,0.173028931,0.027178843,Mail,Mail,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,26,0.175429299,0.009200221,0.207891405,0.027231935,Microsoft Edge browser,Microsoft Edge browser,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,27,0.105782427,0.008944651,0.137754038,0.027903084,RattlesApp,RattlesApp,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,28,0.215209365,0.008612394,0.247132614,0.027972177,More options,More options,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,29,0.793473661,0.642574847,0.862831652,0.685629308,Heart,Favorite,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,30,0.793852091,0.490118891,0.862904847,0.530305088,Heart,Favorite,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,31,0.792327523,0.720197618,0.86371088,0.762395918,Heart,Favorite,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,32,0.899281383,0.712948799,0.976552069,0.779273033,Navigation,Navigation,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,33,0.795703232,0.568194866,0.861882627,0.606479347,Heart,Favorite,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,34,0.944758296,0.009525656,0.966719747,0.027488839,Power,Power,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,35,0.802245438,0.936897278,0.862882316,0.970962882,User profile,User profile,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,36,0.481138855,0.336014688,0.592305899,0.358768463,Magic Pro - Video Editor,Magic Pro - Video Editor,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,37,0.014978827,0.495730489,0.146678418,0.525278926,TTV Sports,TTV Sports,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,38,0.904190838,0.642163754,0.972868085,0.686585903,Forward,Forward,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,39,0.900950968,0.485677809,0.974824548,0.53552103,Forward,Forward,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,40,0.472703844,0.939417243,0.526356459,0.966427028,TV & TV Show,Live,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,41,0.13481307,0.937777519,0.198896557,0.9695822,Home,Home,TRUE,box_yolo_content_yolo
+live_favorite.png,raw_images/live_favorite.png,42,0.013350582,0.572776198,0.14681302,0.598426998,Empire TV,Empire TV,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,22,0.581035137,0.891166866,0.620436549,0.942996562,480P ,480P ,TRUE,box_yolo_content_ocr
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,23,0.782128692,0.889743567,0.871706188,0.945310652,Lock ,Lock ,TRUE,box_yolo_content_ocr
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,24,0.496432394,0.779674947,0.601109385,0.844805598,Pro ,Pro ,TRUE,box_yolo_content_ocr
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,25,0.718750179,0.593241811,0.818202853,0.745326638,ULISES ,ULISES ,TRUE,box_yolo_content_ocr
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,26,0.031740487,0.023598777,0.055583894,0.066606246,Back,Back,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,27,0.868509471,0.027516615,0.919023693,0.164212868,Help,Help,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,28,0.156910896,0.882907629,0.284985393,0.961808443,Channel,Channel,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,29,0.805485725,0.051870558,0.842190921,0.119418651,Toggle,Share ,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,30,0.895483196,0.86495769,0.924465001,0.924937606,Dark red,Dark red,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,31,0.868243396,0.866491675,0.897600949,0.926036239,Online,Online,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,32,0.932720542,0.268106788,0.966180027,0.337243944,Sound,Sound,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,33,0.740659535,0.033035558,0.784721732,0.168922737,Close me,Close,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,34,0.990383148,0.036917448,1,0.13653776,a stopwatch function.,a stopwatch function.,TRUE,box_yolo_content_yolo
+live_full_screen_playing.png,raw_images/live_full_screen_playing.png,35,0.379902452,0.898400605,0.492968082,0.941763222,Previous,Previous,TRUE,box_yolo_content_yolo
+login.png,raw_images/login.png,13,0.038690865,0.495577425,0.960590303,0.57356298,Login ,Login ,TRUE,box_yolo_content_ocr
+login.png,raw_images/login.png,14,0.03897332,0.165216684,0.962476611,0.244146734,Enter your account. ,Enter your account. ,TRUE,box_yolo_content_ocr
+login.png,raw_images/login.png,15,0.042382557,0.405195892,0.299317032,0.42927295,Forgot password ,Forgot password ,TRUE,box_yolo_content_ocr
+login.png,raw_images/login.png,16,0.389868766,0.049115144,0.606418252,0.075329766,Account Login. ,Account Login. ,TRUE,box_yolo_content_ocr
+login.png,raw_images/login.png,17,0.173460722,0.009747064,0.206744298,0.027749762,Microsoft Edge browser,Microsoft Edge browser,TRUE,box_yolo_content_yolo
+login.png,raw_images/login.png,18,0.139056474,0.009770811,0.170745641,0.026626894,Mail,Mail,TRUE,box_yolo_content_yolo
+login.png,raw_images/login.png,19,0.212934911,0.009594208,0.245699435,0.029132551,More options,More options,TRUE,box_yolo_content_yolo
+login.png,raw_images/login.png,20,0.018298935,0.046010684,0.070256911,0.082194425,Back,Back,TRUE,box_yolo_content_yolo
+login.png,raw_images/login.png,21,0.87325871,0.335271895,0.932432115,0.36244908,Sleep,Show password,TRUE,box_yolo_content_yolo
+login.png,raw_images/login.png,22,0.060456075,0.324276984,0.129421815,0.376392335,Lock,Lock,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,13,0.666853845,0.436516374,0.958870113,0.527921677,Share ,Share ,TRUE,box_yolo_content_ocr
+user_profile.png,raw_images/user_profile.png,14,0.351598203,0.436163425,0.645171583,0.528242767,History ,History ,TRUE,box_yolo_content_ocr
+user_profile.png,raw_images/user_profile.png,15,0.039732955,0.435898125,0.330567896,0.528538227,Favorites ,Favorites ,TRUE,box_yolo_content_ocr
+user_profile.png,raw_images/user_profile.png,16,0.333457768,0.350560576,0.665724099,0.400566339,Renew Now ,Renew Now ,TRUE,box_yolo_content_ocr
+user_profile.png,raw_images/user_profile.png,17,0.029155392,0.112525269,0.96914655,0.250254005,Zard ID:260987394 VIP ,Zard ID:260987394 VIP ,TRUE,box_yolo_content_ocr
+user_profile.png,raw_images/user_profile.png,18,0.851156116,0.010355541,0.888434708,0.028647041,WiFi connectivity,WiFi connectivity,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,19,0.810629129,0.010071775,0.847152174,0.028971946,Close,Close,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,20,0.89154613,0.00994791,0.94399327,0.027799109,System 7A,System 7A,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,21,0.630366206,0.300137907,0.836564779,0.327537715,"0,0L0,9 0,5 4.5,0z","0,0L0,9 0,5 4.5,0z",TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,22,0.888060331,0.079539463,0.965150774,0.125007942,Notifications,Notifications,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,23,0.893640816,0.676962197,0.992601871,0.746081352,HideHide Menu,HideHide Menu,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,24,0.174761325,0.008304602,0.211305872,0.031179288,Adobe Photoshop,Adobe Photoshop,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,25,0.782814026,0.081501707,0.855537415,0.120889068,Cross-reference,Scan,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,26,0.214087397,0.007166347,0.248550013,0.03175826,More options,More options,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,27,0.801880419,0.937955379,0.863885522,0.970383346,User profile,User profile,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,28,0.943829656,0.009161803,0.969514966,0.02780072,Power,Power,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,29,0.895300806,0.60954535,0.990768969,0.676754177,HideHideHide,HideHideHide,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,30,0.88806355,0.842662454,0.966176689,0.869926453,Minimize,Enable,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,31,0.46818763,0.938188255,0.532034636,0.969015241,TV & TV Show,Live,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,32,0.896935523,0.743637919,0.989037216,0.818873107,HideHideHide,HideHideHide,TRUE,box_yolo_content_yolo
+user_profile.png,raw_images/user_profile.png,33,0.134759396,0.93885386,0.197401136,0.968357086,Home,Home,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,12,0.415929288,0.097526059,0.602368116,0.153576642,TV Series ,TV Series ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,13,0.030491808,0.199072123,0.960803211,0.456552207,FENPCIA ,FENPCIA ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,14,0.599852562,0.097704872,0.728586674,0.153435916,Kids ,Kids ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,15,0.260071814,0.097544216,0.418782055,0.153472513,Movies ,Movies ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,16,0.014125676,0.097817354,0.259787381,0.152739689,Recommended ,Recommended ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,17,0.648502648,0.522373319,0.949226916,0.759012341,REC] ,REC] ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,18,0.724388301,0.097683661,0.88606602,0.15351896,Animes ,Animes ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,19,0.344414353,0.752808571,0.629343987,0.815385461,Train to Busan. ,Train to Busan. ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,20,0.030894693,0.801521301,0.359434962,0.855267346,Popular Movies ,Popular Movies ,TRUE,box_yolo_content_ocr
+vod_home.png,raw_images/vod_home.png,21,0.852577865,0.010821462,0.887684286,0.027282875,WiFi connectivity.,WiFi connectivity.,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,22,0.812514186,0.010513788,0.844860733,0.028024435,Close,Close,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,23,0.894032955,0.010863599,0.943823397,0.026496371,Number 74,Number 74,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,24,0.177235201,0.010535121,0.207829326,0.026422236,Microsoft Edge browser,Microsoft Edge browser,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,25,0.142130286,0.010705242,0.172430843,0.026422003,Mail,Mail,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,26,0.7869156,0.042673517,0.864498377,0.085835263,Find and Replace,Find and Replace,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,27,0.892322779,0.042813659,0.970169723,0.084648326,Clock,Clock,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,28,0.107703261,0.009852165,0.137449503,0.027357573,RattlesApp,RattlesApp,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,29,0.216861457,0.009749586,0.246738702,0.027477834,More options,More options,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,30,0.902399182,0.472920716,0.96367985,0.507610619,More options,More options,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,31,0.89812535,0.811259866,0.965239286,0.849338531,More options,More options,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,32,0.03198541,0.037734956,0.1742405,0.085282296,System,System,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,33,0.946060181,0.010519755,0.966589868,0.027116816,Lightning,Lightning,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,34,0.030702157,0.520652831,0.330266625,0.617189825,Hyperlink,Hyperlink,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,35,0.803054631,0.937519073,0.862350285,0.97102201,User profile,User profile,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,36,0.532658696,0.877948761,0.566977143,0.919483542,Superscript,Superscript,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,37,0.486885399,0.876164436,0.526810229,0.919143498,Highlight,Highlight,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,38,0.343152106,0.520090878,0.639117122,0.61001873,a person standing.,a person standing.,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,39,0.412982047,0.877923131,0.443321198,0.918706417,Elevator,Elevator,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,40,0.139666453,0.029070873,0.209221825,0.043570094,Decrease 0.5,Decrease 0.5,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,41,0.137647212,0.938254952,0.192276552,0.967435479,Home,Home,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,42,0.444155812,0.870623469,0.485890269,0.920762718,Italic,Italic,TRUE,box_yolo_content_yolo
+vod_home.png,raw_images/vod_home.png,43,0.469801337,0.938333809,0.529739976,0.969678223,TV & TV Show,Live,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,37,0.647016108,0.469030946,0.782437801,0.543628812,5,5,TRUE,box_yolo_content_ocr
+vod_play_detail.png,raw_images/vod_play_detail.png,38,0.029206635,0.424547285,0.291130602,0.456528366,Season 3  ,Season 3  ,TRUE,box_yolo_content_ocr
+vod_play_detail.png,raw_images/vod_play_detail.png,39,0.79740262,0.426250756,0.970959127,0.454938978,6 Episodes ,6 Episodes ,TRUE,box_yolo_content_ocr
+vod_play_detail.png,raw_images/vod_play_detail.png,40,0.335386753,0.872617424,0.660146236,0.986127973,RATATOUILLE ,RATATOUILLE ,TRUE,box_yolo_content_ocr
+vod_play_detail.png,raw_images/vod_play_detail.png,41,0.492285758,0.469353199,0.628070891,0.543667674,"4, September, 2024",4,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,42,0.802232504,0.469105184,0.937576294,0.543536544,"6, September, 2024",6,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,43,0.336819887,0.469470412,0.473144621,0.54386121,"3, September, 2024",3,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,44,0.02779522,0.469191641,0.163529336,0.544475853,Play,Play,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,45,0.182734981,0.469326437,0.318416685,0.544026911,"2, September, 2024",2,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,46,0.75423193,0.337654918,0.852751493,0.390555441,Toggle,Share ,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,47,0.871813297,0.337562561,0.97128582,0.390470415,Add & Replace,Favorite,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,48,0.415851414,0.113430187,0.586352468,0.205286101,Play button for video or audio.,Play button for video or audio.,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,49,0.753782511,0.251536012,0.841416061,0.318149358,System,System,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,50,0.852221847,0.01092949,0.887670398,0.027998066,WiFi connectivity.,WiFi connectivity.,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,51,0.811454773,0.010601462,0.844859123,0.028459102,Close,Close,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,52,0.893118978,0.010970345,0.943979561,0.027142633,Number 74,Number 74,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,53,0.838476896,0.251806676,0.927162349,0.316864341,A video game or video game.,A video game or video game.,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,54,0.667511642,0.251486599,0.755254984,0.318922102,Movies & TV,Movies & TV,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,55,0.944590926,0.010832245,0.967852592,0.02740638,Lightning,Lightning,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,56,0.925084412,0.251563966,1,0.315704197,a person in a suit.,a person in a suit.,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,57,0.326008201,0.335083187,0.389360636,0.373617649,S3,S3,TRUE,box_yolo_content_yolo
+vod_play_detail.png,raw_images/vod_play_detail.png,58,0.665516078,0.790164828,0.992247462,0.997839153,A beach or nature-related setting.,A beach or nature-related setting.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,35,0.821166039,0.888734877,0.921718419,0.953882098,Lock ,Lock ,TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,36,0.807686627,0.346028209,1,0.667560399," player: ijkPlayer vdec: MediaCodec fps: 300.00 / 0.00 v-cache: 1.29 sec,6.1KB a_cache: 1.96 sec,34.5 KB tcp_speed: 0 B/s bit_rate: 766.242 seek_load_cost: 0 ms resolution: 854 x 480 "," player: ijkPlayer vdec: MediaCodec fps: 300.00 / 0.00 v-cache: 1.29 sec,6.1KB a_cache: 1.96 sec,34.5 KB tcp_speed: 0 B/s bit_rate: 766.242 seek_load_cost: 0 ms resolution: 854 x 480 ",TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,37,0.616480827,0.889250517,0.739721894,0.947877824,480P Quality ,480P Quality ,TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,38,0.033966612,0.055256866,0.204947352,0.09238594,4802dc4d342ae112d44c ,4802dc4d342ae112d44c ,TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,39,0.034684207,0.180998489,0.12814264,0.21842736,"ng,kor-480p) ","ng,kor-480p) ",TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,40,0.467971414,0.419782519,0.563912034,0.58901298,Play button for video or audio.,Play button for video or audio.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,41,0.599314332,0.23766996,0.67929244,0.440126508,a clock or a timer.,a clock or a timer.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,42,0.870866418,0.076080404,0.91834259,0.168285877,Help,Help,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,43,0.744150937,0.090644285,0.780938327,0.157923162,Close,Close,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,44,0.804285705,0.081724487,0.843890846,0.169701338,Toggle,Toggle,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,45,0.939189136,0.078312345,0.988522351,0.167644903,Rounded rectangle,Rounded rectangle,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,46,0.931509376,0.26724565,0.968342006,0.335099369,Sound,Sound,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,47,0.436701864,0.613316834,0.517663479,0.815735519,Increase,Increase,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,48,1.13E-05,0,0.010380583,0.02409598,P:,P:,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,49,0.517626584,0.607948363,0.599332213,0.804094195,A video editing tool.,A video editing tool.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,50,0.678861201,0.591363788,0.760194719,0.796340883,A video or audio file.,A video or audio file.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,51,0.99091357,0.078634389,1,0.166128695,"M0,0L9,0 4.5,5z","M0,0L9,0 4.5,5z",TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,52,0.599616408,0.448143989,0.678859293,0.600800514,a person working.,a person working.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,53,0.031356301,0,0.038218196,0.0242434,"1, September, 2024","1, September, 2024",TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,54,0.012814669,0,0.021758778,0.023696931,Oval,Oval,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,55,0.677675068,0.383631825,0.761822581,0.593445778,a group of people.,a group of people.,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen.png,raw_images/vod_play_detail_full_screen.png,56,0.600588799,0.593409836,0.679668069,0.795599818,View as profile,View as profile,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,12,0.822641551,0.889553666,0.917465806,0.949012399,Lock ,Lock ,TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,13,0.092782713,0.087686837,0.216155291,0.128719166,Squid Game S3 1 ,Squid Game S3 1 ,TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,14,0.619573712,0.891159058,0.736155689,0.943744242,Quality 480P ,Quality 480P ,TRUE,box_yolo_content_ocr
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,15,0.86397171,0.067316942,0.924244285,0.181699067,Help,Help,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,16,0.934586525,0.273550451,0.965152383,0.325865179,Speaker,Speaker,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,17,0.935649514,0.068052165,0.993601978,0.173822418,Rounded rectangle,Screen cast,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,18,0.742941976,0.091500789,0.780163646,0.152346075,Close,Close,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,19,0.801488698,0.071361631,0.845901668,0.167356998,Toggle,Share ,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,20,0.108523749,0.892596245,0.238457769,0.947010458,Epsiodepsi,Epsiodes,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,21,0.065362021,0.799893439,0.095871761,0.84373939,Orange,Seek bar,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,22,0.044108003,0.088995084,0.068044811,0.136327043,Back,Back,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,23,0.062921785,0.272146344,0.093428209,0.328462034,Brightness settings,Brightness settings,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,24,0.990517437,0.070980377,1,0.166853845,"M0,0L9,0 4.5,5z","M0,0L9,0 4.5,5z",TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,25,0.935065866,0.345186561,0.968490958,0.397240818,Togglebar,Togglebar,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,26,0.467459023,0.419753253,0.561239421,0.588554144,Align,Playing,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,12,0.017027114,0.523230195,0.533164024,0.686561286,Premier League ,Premier League ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,13,0.538380802,0.524032772,1,0.686091781,LaLiga ,LaLiga ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,14,0.012133492,0.096449658,0.262789577,0.153251931,Recommended ,Recommended ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,15,0.556942582,0.096301556,0.685554326,0.153178975,Kids ,Kids ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,16,0.414923012,0.096229114,0.562943935,0.1530696,Series ,Series ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,17,0.26041761,0.096391737,0.418278664,0.153079897,Movies ,Movies ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,18,0.68195188,0.096390113,0.832901001,0.152987868,Anime ,Anime ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,19,0.701920748,0.926080585,0.796338737,0.983928978, Profile , Profile ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,20,0.409767926,0.049098581,0.601010382,0.078553982,YouCine ,YouCine ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,21,0.016524633,0.699059427,0.240411714,0.715718508,SS PREMIER LEAGUE ,SS PREMIER LEAGUE ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,22,0.538461566,0.698691189,0.651126921,0.716249466,SS LALIGA ,SS LALIGA ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,23,0.20994547,0.925979435,0.287994474,0.985423863,VOD ,VOD ,TRUE,box_yolo_content_ocr
+yc_home.png,raw_images/yc_home.png,24,0.029513115,0.842718124,0.329210401,0.914160907,A beach or ocean-related feature.,A beach or ocean-related feature.,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,25,0.331774652,0.842405498,0.630331695,0.914460003,A skull or skull-related feature.,A skull or skull-related feature.,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,26,0.824531615,0.010419315,0.85843277,0.028163338,Close,Close,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,27,0.864097238,0.010218875,0.899950981,0.027863884,WiFi connectivity.,WiFi connectivity.,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,28,0.905826986,0.009354767,0.958639026,0.02769112,Number 74,Number 74,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,29,0.218513742,0.009109673,0.251233071,0.028444225,More options,More options,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,30,0.862175524,0.412828058,0.887536645,0.427690893,Navigator,Navigator,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,31,0.635021806,0.842170417,0.932555318,0.919955373,Bubblehead,Bubblehead,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,32,0.923420727,0.413927615,0.947402418,0.427499235,Gray,Gray,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,33,0.892619848,0.413632005,0.917308867,0.427270502,Dark gray,Dark gray,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,34,0.954215646,0.413462818,0.978936255,0.429161459,White,White,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,35,0.9096573,0.0434184,0.97649318,0.08614181,Find,Search,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,36,0,0.029538399,0.025613552,0.04371931,P:,P:,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,37,0.939846814,0.462819427,0.998726428,0.499770314,Next,Next,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,38,0.022271771,0.029064476,0.038425073,0.042472422,Oval,Oval,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,39,0.943357825,0.78988421,0.998929024,0.823441505,Next,Next,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,40,0.040191162,0.028895259,0.056236245,0.042540539,/,/,TRUE,box_yolo_content_yolo
+yc_home.png,raw_images/yc_home.png,41,0.93425107,0.842311978,1,0.913737774,Open a new tab (⌘N),Open a new tab (⌘N),TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,12,0.510935664,0.443243206,0.963591993,0.556733727,Invite friends. ,Invite friends. ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,13,0.039162699,0.443136692,0.486783266,0.557554901,Renew ,Renew ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,14,0.101069853,0.69065702,0.296186775,0.803554893,My orders ,My orders ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,15,0.432639241,0.302539349,0.563879251,0.411246687,History ,History ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,16,0.372797817,0.690454006,0.62897712,0.797181964,Reward Centerr ,Reward Centerr ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,17,0.702132165,0.92489779,0.796242952,0.986594796,Profile ,Profile ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,18,0.681705534,0.690776169,0.922427058,0.813469529,Event Center ,Event Center ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,19,0.729549646,0.302686125,0.872542799,0.413192451,Account ,Account ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,20,0.21342884,0.925517857,0.287302136,0.983504891,VOD ,VOD ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,21,0.043049071,0.287699372,0.35667932,0.432809204,Favorites ,Favorites ,TRUE,box_yolo_content_ocr
+yc_user_profile.png,raw_images/yc_user_profile.png,22,0.824780107,0.009979042,0.858379602,0.028352723,Close,Close,TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,23,0.046515316,0.121645786,0.249101475,0.230783701,a person working.,a person working.,TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,24,0.863937736,0.009789526,0.900215983,0.027981501,WiFi connectivity.,WiFi connectivity.,TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,25,0.906432927,0.008601326,0.958196163,0.027993387,Number 74,Number 74,TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,26,0.221298724,0.008538825,0.253304362,0.029926013,More options,More options,TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,27,0.879072428,0.049079157,0.96752131,0.102170065,Page Break,Scan,TRUE,box_yolo_content_yolo
+yc_user_profile.png,raw_images/yc_user_profile.png,28,0.772546887,0.056076895,0.838812411,0.092540205,Notifications,Notifications,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,8,0.478133589,0.84092015,0.55071038,0.96381104,grana ,grana ,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,9,0.667382419,0.077802084,0.716380298,0.142443791,480P ,480P ,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,10,0.599572301,0.857013643,0.651817441,0.948771179,10,Forward 10,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,11,0.378078908,0.85394907,0.429190546,0.956534266,10,Back 10,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,12,0.059932135,0.082256168,0.189709067,0.131611079,Ironheart S1 1 ,Ironheart S1 1 ,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,13,0.92996788,0.760336816,0.984335721,0.803974926,40:58:00,40:58:00,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,14,0.431488127,0.844811499,0.477650344,0.972571671,Preciso ,Preciso ,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,15,0.541307211,0.857339501,0.59776175,0.957385957,Dinheiro. ,Dinheiro. ,TRUE,box_yolo_content_ocr
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,16,0.847641587,0.077491738,0.89290446,0.143953085,Code,Screen ratio,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,17,0.932632148,0.077183142,0.978096485,0.14960368,a menu or list option.,a menu or list option.,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,18,0.850195527,0.880129397,0.883992553,0.937688589,Laptop,Subtitle,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,19,0.927524745,0.867802441,0.977551818,0.962560534,Headset,Audio language,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,20,0.756574929,0.074864037,0.80627358,0.16280371,Rounded rectangle,Screen cast,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,21,0.112832524,0.205117121,0.862232327,0.800258577,a paint bucket tool.,a paint bucket tool.,TRUE,box_yolo_content_yolo

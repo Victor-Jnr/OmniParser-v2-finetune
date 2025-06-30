@@ -78,3 +78,289 @@ If you find our work useful, please consider citing our work:
       url={https://arxiv.org/abs/2408.00203}, 
 }
 ```
+
+## 技术架构详解 - 三层提取机制
+
+OmniParser采用了一个三层级联的检测和识别架构，分别处理不同类型的界面元素：
+
+### 1. 完整的处理流程
+
+```
+输入图片 → PaddleOCR文本检测 → YOLO图标检测 → 重叠处理与融合 → Florence2语义理解 → 输出结构化结果
+```
+
+具体流程如下：
+
+1. **第一层：OCR文本检测 (PaddleOCR)**
+   - 使用PaddleOCR识别图像中的所有文本区域
+   - 提取文本内容和边界框坐标
+   - 生成 `box_ocr_content_ocr` 类型的元素
+
+2. **第二层：图标区域检测 (YOLO)**
+   - 使用训练好的YOLO模型检测可交互的图标区域
+   - 输出边界框坐标，但不包含语义内容
+   - 此时图标元素的content为None
+
+3. **第三层：重叠处理与语义融合**
+   - 使用`remove_overlap_new()`函数处理OCR和YOLO检测结果的重叠
+   - 如果OCR文本在YOLO检测的图标内部，则合并为 `box_yolo_content_ocr`
+   - 如果YOLO检测到的图标没有OCR文本，保留为 `box_yolo_content_yolo`
+
+4. **第四层：语义内容生成 (Florence2)**
+   - 对于content为None的图标区域，裁剪出64x64的图像片段
+   - 使用Florence2模型生成语义描述
+   - 更新图标的content字段
+
+### 2. 三种Source类型的含义
+
+- **`box_ocr_content_ocr`**: 纯OCR识别的文本区域，interactivity=False
+- **`box_yolo_content_ocr`**: YOLO检测到的图标区域内包含OCR文本，合并了两者信息，interactivity=True
+- **`box_yolo_content_yolo`**: YOLO检测到的图标区域，由Florence2生成语义描述，interactivity=True
+
+### 3. YOLO如何输出Content
+
+YOLO本身只检测边界框，不直接输出content。Content的生成过程是：
+
+1. **重叠检测阶段**：如果YOLO框内有OCR文本，直接使用OCR的文本作为content
+2. **语义生成阶段**：对于没有OCR文本的YOLO框，通过以下步骤生成content：
+   ```python
+   # 裁剪图标区域
+   cropped_image = image_source[ymin:ymax, xmin:xmax, :]
+   cropped_image = cv2.resize(cropped_image, (64, 64))
+   
+   # 使用Florence2生成描述
+   inputs = processor(images=batch, text=["<CAPTION>"], return_tensors="pt")
+   generated_ids = model.generate(input_ids=inputs["input_ids"], 
+                                 pixel_values=inputs["pixel_values"], 
+                                 max_new_tokens=20, num_beams=1)
+   ```
+
+### 4. 提高APK探测准确度的建议
+
+**问题分析**：单纯训练YOLO模型有一定局限性
+
+**推荐方案**：
+1. **数据增强**：
+   - 使用项目现有输出作为基础数据
+   - 人工修正边界框和标签
+   - 增加移动端界面的训练样本
+
+2. **模型组合优化**：
+   - 保持三层架构，重点优化YOLO检测准确率
+   - 针对APK界面特点，调整检测阈值 (BOX_THRESHOLD, IoU阈值)
+   - 考虑使用更大的图像输入尺寸 (imgsz参数)
+
+3. **训练策略**：
+   ```python
+   # 数据准备流程
+   原始APK截图 → OmniParser处理 → 人工校正 → 转换为YOLO训练格式 → 增量训练
+   ```
+
+4. **特殊优化**：
+   - 增强Florence2模型对移动界面元素的描述能力
+   - 优化OCR参数以更好识别移动端文本
+   - 调整重叠处理的IoU阈值，适应移动端界面特点
+
+**关键代码位置**：
+- YOLO训练：`weights/icon_detect/`
+- 重叠处理：`util/utils.py:remove_overlap_new()`
+- 语义生成：`util/utils.py:get_parsed_content_icon()`
+
+### 5. 核心代码示例
+
+**重叠处理逻辑**：
+```python
+def remove_overlap_new(boxes, iou_threshold, ocr_bbox=None):
+    # OCR文本在YOLO图标内部的判断
+    if is_inside(box3, box1): # ocr inside icon
+        ocr_labels += box3_elem['content'] + ' '
+        filtered_boxes.remove(box3_elem)
+    elif is_inside(box1, box3): # icon inside ocr
+        box_added = True  # 不添加此图标框
+        break
+    
+    # 根据是否有OCR文本设置不同的source
+    if ocr_labels:
+        filtered_boxes.append({
+            'type': 'icon', 
+            'bbox': box1_elem['bbox'], 
+            'interactivity': True, 
+            'content': ocr_labels, 
+            'source': 'box_yolo_content_ocr'
+        })
+    else:
+        filtered_boxes.append({
+            'type': 'icon', 
+            'bbox': box1_elem['bbox'], 
+            'interactivity': True, 
+            'content': None, 
+            'source': 'box_yolo_content_yolo'
+        })
+```
+
+**完整处理流程**：
+```python
+# 主处理函数 get_som_labeled_img() 的核心步骤
+def get_som_labeled_img(image_source, model, ...):
+    # 1. YOLO检测图标
+    xyxy, logits, phrases = predict_yolo(model, image_source, ...)
+    
+    # 2. 创建OCR和YOLO元素
+    ocr_bbox_elem = [{'type': 'text', 'bbox': box, 'content': txt, 'source': 'box_ocr_content_ocr'} 
+                     for box, txt in zip(ocr_bbox, ocr_text)]
+    xyxy_elem = [{'type': 'icon', 'bbox': box, 'content': None} 
+                 for box in xyxy.tolist()]
+    
+    # 3. 处理重叠并融合
+    filtered_boxes = remove_overlap_new(xyxy_elem, iou_threshold, ocr_bbox_elem)
+    
+    # 4. 对content=None的图标生成语义描述
+    if use_local_semantics:
+        parsed_content_icon = get_parsed_content_icon(filtered_boxes, ...)
+        # 填充空content
+        for box in filtered_boxes_elem:
+            if box['content'] is None:
+                box['content'] = parsed_content_icon.pop(0)
+```
+
+### 6. 流程可视化
+
+上述流程可以用以下图表表示：
+
+```
+输入图片
+├── PaddleOCR文本检测 → OCR边界框 + 文本内容
+└── YOLO图标检测 → YOLO边界框 (content=None)
+                    ↓
+              remove_overlap_new() 重叠处理
+                    ↓
+         ┌─────────────────────────┐
+         ├── OCR文本在YOLO框内? ──┤
+         └─────────────────────────┘
+         ↓是                    ↓否
+box_yolo_content_ocr     box_yolo_content_yolo
+(合并OCR文本)              (content=None)
+                              ↓
+                      Florence2语义生成
+                              ↓
+                       更新content字段
+                              ↓
+                      最终结构化输出
+```
+
+### 7. Florence2模型的详细工作原理
+
+Florence2模型在OmniParser中扮演着关键的语义理解角色，专门负责为没有OCR文本的图标区域生成语义描述。
+
+#### 7.1 Florence2的输入处理
+```python
+def get_parsed_content_icon(filtered_boxes, starting_idx, image_source, caption_model_processor, ...):
+    # 1. 提取需要处理的图标区域（content=None的YOLO检测框）
+    non_ocr_boxes = filtered_boxes[starting_idx:]  # 跳过已有content的OCR区域
+    
+    # 2. 裁剪并预处理图像
+    croped_pil_image = []
+    for coord in non_ocr_boxes:
+        # 将相对坐标转换为像素坐标
+        xmin, xmax = int(coord[0]*width), int(coord[2]*width)
+        ymin, ymax = int(coord[1]*height), int(coord[3]*height)
+        
+        # 裁剪出图标区域并调整为64x64标准尺寸
+        cropped_image = image_source[ymin:ymax, xmin:xmax, :]
+        cropped_image = cv2.resize(cropped_image, (64, 64))
+        croped_pil_image.append(to_pil(cropped_image))
+```
+
+#### 7.2 Florence2的推理过程
+```python
+    # 3. 批量处理图像（优化性能）
+    model, processor = caption_model_processor['model'], caption_model_processor['processor']
+    
+    for i in range(0, len(croped_pil_image), batch_size):
+        batch = croped_pil_image[i:i+batch_size]
+        
+        # 4. 准备输入（图像+提示词）
+        inputs = processor(
+            images=batch, 
+            text=["<CAPTION>"] * len(batch),  # Florence2特有的提示格式
+            return_tensors="pt", 
+            do_resize=False
+        ).to(device=device, dtype=torch.float16)
+        
+        # 5. 生成语义描述
+        generated_ids = model.generate(
+            input_ids=inputs["input_ids"],
+            pixel_values=inputs["pixel_values"],
+            max_new_tokens=20,  # 限制输出长度
+            num_beams=1,        # 贪婪搜索
+            do_sample=False     # 确定性输出
+        )
+        
+        # 6. 解码生成的文本
+        generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
+        generated_texts.extend([gen.strip() for gen in generated_text])
+```
+
+#### 7.3 Florence2在不同场景中的应用
+
+**输入示例**：64x64的图标裁剪图像
+- 📁 文件夹图标 → "folder"
+- ⚙️ 设置齿轮 → "settings gear icon"
+- 🔍 搜索放大镜 → "magnifying glass search"
+- ➕ 添加按钮 → "plus add button"
+
+**实际输出示例**（来自项目数据）：
+```json
+{
+  "type": "icon",
+  "bbox": [0.8391380906105042, 0.16333389282226562, 0.9413251876831055, 0.19683626294136047],
+  "interactivity": true,
+  "content": "a loading or buffering indicator.",
+  "source": "box_yolo_content_yolo"
+}
+```
+
+#### 7.4 Florence2模型的优势
+
+1. **专门优化**：Florence2是微软专门为视觉理解任务优化的多模态模型
+2. **高效推理**：支持批量处理，64x64小图像处理速度快
+3. **语义丰富**：能够识别图标的功能含义，而不仅仅是视觉特征
+4. **上下文理解**：结合UI界面的上下文生成更准确的描述
+
+#### 7.5 Florence2 vs OCR的协作关系
+
+| 处理对象 | 处理方式 | 输出特点 | Source标记 |
+|---------|----------|----------|------------|
+| 文本区域 | PaddleOCR直接识别 | 精确的文字内容 | box_ocr_content_ocr |
+| 有文字的图标 | OCR+YOLO融合 | "文字内容 + 图标属性" | box_yolo_content_ocr |
+| 纯图标区域 | Florence2语义理解 | 功能性描述 | box_yolo_content_yolo |
+
+**关键差异**：
+- **OCR**：识别"what is written"（写了什么）
+- **Florence2**：理解"what does it do"（做什么用的）
+
+#### 7.6 针对APK界面的Florence2优化建议
+
+1. **移动端特化训练**：
+   ```python
+   # 增加移动端界面元素的训练样本
+   - Android Material Design图标
+   - iOS Human Interface Guidelines图标
+   - 常见的移动应用控件
+   ```
+
+2. **提示词优化**：
+   ```python
+   # 针对移动端的专用提示词
+   mobile_prompt = "<MOBILE_UI_CAPTION>"  # 替代通用的"<CAPTION>"
+   ```
+
+3. **后处理优化**：
+   ```python
+   # 针对移动端常见词汇的后处理映射
+   mobile_mappings = {
+       "hamburger menu": "menu",
+       "navigation drawer": "menu",
+       "floating action button": "add button"
+   }
+   ```

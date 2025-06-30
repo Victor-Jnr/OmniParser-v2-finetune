@@ -1,0 +1,839 @@
+{
+  "image_path": "raw_images/live_channel.png",
+  "image_size": [
+    1440,
+    2560
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.03680555522441864,
+        0.00937500037252903,
+        0.21111111342906952,
+        0.02812499925494194
+      ],
+      "interactivity": false,
+      "content": "19:48 O  ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.27916666865348816,
+        0.029296875,
+        0.3548611104488373,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5645833611488342,
+        0.029296875,
+        0.6361111402511597,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7097222208976746,
+        0.029296875,
+        0.7888888716697693,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0486111119389534,
+        0.11210937798023224,
+        0.8284721970558167,
+        0.15234375
+      ],
+      "interactivity": false,
+      "content": "User: 260987394/b9faa7d37c634802dc4d342as112d44GES!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05694444477558136,
+        0.14179687201976776,
+        0.3826389014720917,
+        0.15625
+      ],
+      "interactivity": false,
+      "content": "Net: 192.168.100.126(wlan)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05486110970377922,
+        0.15742187201976776,
+        0.7923611402511597,
+        0.17499999701976776
+      ],
+      "interactivity": false,
+      "content": "Program: cyx_2BDEE2A1F788,62999DDD0_48Qp(lives7480p)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05000000074505806,
+        0.16640624403953552,
+        0.8541666865348816,
+        0.20234374701976776
+      ],
+      "interactivity": false,
+      "content": "Media: cyx_521ea1e06372550334401f9becr=480p player: jkPlayer",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05486110970377922,
+        0.19257812201976776,
+        0.25,
+        0.21054688096046448
+      ],
+      "interactivity": false,
+      "content": "Proxy: proxy - 1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6729166507720947,
+        0.19570311903953552,
+        0.8784722089767456,
+        0.21367187798023224
+      ],
+      "interactivity": false,
+      "content": "vdec: MediaCodec",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05694444477558136,
+        0.20937499403953552,
+        0.3951388895511627,
+        0.22695311903953552
+      ],
+      "interactivity": false,
+      "content": "AV: h264/ts, Gop: 4999 ms",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6743055582046509,
+        0.21054688096046448,
+        0.8729166388511658,
+        0.22812500596046448
+      ],
+      "interactivity": false,
+      "content": "fps: 29.63 1 29.63",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05486110970377922,
+        0.22617188096046448,
+        0.9486111402511597,
+        0.24375000596046448
+      ],
+      "interactivity": false,
+      "content": "Spent(first/link/index/media/render): 1920/0/0/10/1taches 1.03 sec,6.3 KB",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05138888955116272,
+        0.24257811903953552,
+        0.9631944298744202,
+        0.26054686307907104
+      ],
+      "interactivity": false,
+      "content": "Catons(program/media/seek/origin/net/local): 0/0/@/cache 765 msec,3.9 KB",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05138888955116272,
+        0.2582031190395355,
+        0.6729166507720947,
+        0.28242188692092896
+      ],
+      "interactivity": false,
+      "content": "Latency: 8081 ms, exp:JFBuffer:23/0sMANO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6708333492279053,
+        0.2574218809604645,
+        0.8638888597488403,
+        0.27265626192092896
+      ],
+      "interactivity": false,
+      "content": "tcp_speed: 0 B/s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0555555559694767,
+        0.27617186307907104,
+        0.31388887763023376,
+        0.29570311307907104
+      ],
+      "interactivity": false,
+      "content": "Offset: 0/0, 350/0 s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6743055582046509,
+        0.2738281190395355,
+        0.8125,
+        0.2886718809604645
+      ],
+      "interactivity": false,
+      "content": "bit_rate: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.675000011920929,
+        0.28632813692092896,
+        0.9076389074325562,
+        0.3050781190395355
+      ],
+      "interactivity": false,
+      "content": "seek_load_cost: 0 ms",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05486110970377922,
+        0.294921875,
+        0.4375,
+        0.3125
+      ],
+      "interactivity": false,
+      "content": "Duration(recv/alive): 376/352 s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6729166507720947,
+        0.3031249940395355,
+        0.9138888716697693,
+        0.31757813692092896
+      ],
+      "interactivity": false,
+      "content": "resolution: 1280 x 720",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05347222089767456,
+        0.3082031309604645,
+        0.2805555462837219,
+        0.33125001192092896
+      ],
+      "interactivity": false,
+      "content": "Recv30: 4MB-35s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05277777835726738,
+        0.345703125,
+        0.19513888657093048,
+        0.3636718690395355
+      ],
+      "interactivity": false,
+      "content": "Peers: 2/12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05486110970377922,
+        0.3636718690395355,
+        0.4819444417953491,
+        0.3843750059604645
+      ],
+      "interactivity": false,
+      "content": "StarGazer: bjac.mdj1kgdsycom:80",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05138888955116272,
+        0.3792968690395355,
+        0.7722222208976746,
+        0.3988281190395355
+      ],
+      "interactivity": false,
+      "content": " Recv(cache/peer/ori_tcp/ori_cdp): 070/53/0 MB, Rate: 0%",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05486110970377922,
+        0.3980468809604645,
+        0.3826389014720917,
+        0.4144531190395355
+      ],
+      "interactivity": false,
+      "content": "Send(peer/player): 1/0 MB",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.27569442987442017,
+        0.643750011920929,
+        0.8090277910232544,
+        0.6644531488418579
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano Camara 1 CR",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2777777910232544,
+        0.720703125,
+        0.8201388716697693,
+        0.7417968511581421
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano Camara 2 CR",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2777777910232544,
+        0.796875,
+        0.8201388716697693,
+        0.817578136920929
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano Camara 3 CR",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.41550368070602417,
+        0.503932535648346,
+        0.4728090167045593
+      ],
+      "interactivity": true,
+      "content": "Channel ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1981661468744278,
+        0.4858853220939636,
+        0.3353686034679413,
+        0.5119320750236511
+      ],
+      "interactivity": true,
+      "content": "Deportes ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2751518785953522,
+        0.8659452199935913,
+        0.3868682384490967,
+        0.8996103405952454
+      ],
+      "interactivity": true,
+      "content": "ECDF ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.16054052114486694,
+        0.8678730130195618,
+        0.24124892055988312,
+        0.9014846682548523
+      ],
+      "interactivity": true,
+      "content": "005 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15577471256256104,
+        0.7854771614074707,
+        0.24079829454421997,
+        0.8304098844528198
+      ],
+      "interactivity": true,
+      "content": "004 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8996358513832092,
+        0.04335813596844673,
+        0.9655685424804688,
+        0.0830778107047081
+      ],
+      "interactivity": true,
+      "content": "Q ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3680463135242462,
+        0.48434457182884216,
+        0.5374366044998169,
+        0.5118080377578735
+      ],
+      "interactivity": true,
+      "content": "Cine y Series ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5637168884277344,
+        0.48159366846084595,
+        0.7360938191413879,
+        0.5137227773666382
+      ],
+      "interactivity": true,
+      "content": "Mas popular ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.005395528860390186,
+        0.4839320182800293,
+        0.18222613632678986,
+        0.5117419362068176
+      ],
+      "interactivity": true,
+      "content": "ChannelList ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15627987682819366,
+        0.7080237865447998,
+        0.24013209342956543,
+        0.7532331943511963
+      ],
+      "interactivity": true,
+      "content": "003 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9353178143501282,
+        0.47094327211380005,
+        1.0,
+        0.5226355791091919
+      ],
+      "interactivity": true,
+      "content": "Venez ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7711427211761475,
+        0.487542062997818,
+        0.8792838454246521,
+        0.5067245364189148
+      ],
+      "interactivity": true,
+      "content": "Colombia ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15239815413951874,
+        0.5537310242652893,
+        0.2349712997674942,
+        0.6001797914505005
+      ],
+      "interactivity": true,
+      "content": "001 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15544584393501282,
+        0.631363570690155,
+        0.24040228128433228,
+        0.676428496837616
+      ],
+      "interactivity": true,
+      "content": "002 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26353710889816284,
+        0.5579387545585632,
+        0.621584415435791,
+        0.5955575704574585
+      ],
+      "interactivity": true,
+      "content": "Gran Hermano CR ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.49949437379837036,
+        0.4168558120727539,
+        1.0,
+        0.47198790311813354
+      ],
+      "interactivity": true,
+      "content": "Favorite ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8522133827209473,
+        0.010642574168741703,
+        0.8879148960113525,
+        0.027146169915795326
+      ],
+      "interactivity": true,
+      "content": "WiFi connectivity.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8120384216308594,
+        0.010195935145020485,
+        0.8457396626472473,
+        0.02780286595225334
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8937004208564758,
+        0.010754716582596302,
+        0.9436972141265869,
+        0.026455864310264587
+      ],
+      "interactivity": true,
+      "content": "Number 74",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9059890508651733,
+        0.559106707572937,
+        0.9699844121932983,
+        0.5973192453384399
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.01736324653029442,
+        0.7839726209640503,
+        0.14160679280757904,
+        0.8319941759109497
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21584922075271606,
+        0.009328017011284828,
+        0.24752222001552582,
+        0.02797752059996128
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9063736796379089,
+        0.791721522808075,
+        0.9669086933135986,
+        0.8252817392349243
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.016678761690855026,
+        0.7072497606277466,
+        0.14424970746040344,
+        0.7554723024368286
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.905339241027832,
+        0.8685615658760071,
+        0.9670284986495972,
+        0.9036371111869812
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8356269001960754,
+        0.36968904733657837,
+        0.9240724444389343,
+        0.3913232386112213
+      ],
+      "interactivity": true,
+      "content": "Color picker",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.01729034259915352,
+        0.6306596994400024,
+        0.14238356053829193,
+        0.678097128868103
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9043887853622437,
+        0.6373473405838013,
+        0.9669233560562134,
+        0.6726462244987488
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7612189650535583,
+        0.714023768901825,
+        0.8203908205032349,
+        0.7451007962226868
+      ],
+      "interactivity": true,
+      "content": "CreateCreate",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9043871760368347,
+        0.7138538360595703,
+        0.9670277237892151,
+        0.7502027750015259
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8040446043014526,
+        0.9366742968559265,
+        0.8634465336799622,
+        0.9698854684829712
+      ],
+      "interactivity": true,
+      "content": "User profile",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.023283768445253372,
+        0.871351420879364,
+        0.1374303251504898,
+        0.8991056680679321
+      ],
+      "interactivity": true,
+      "content": "ECOFE",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.018107308074831963,
+        0.5534024238586426,
+        0.14305175840854645,
+        0.6003867983818054
+      ],
+      "interactivity": true,
+      "content": "Fingeringer",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9446602463722229,
+        0.01025785505771637,
+        0.966550350189209,
+        0.027220776304602623
+      ],
+      "interactivity": true,
+      "content": "Lightning",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.750952422618866,
+        0.6378563046455383,
+        0.8131816387176514,
+        0.6685368418693542
+      ],
+      "interactivity": true,
+      "content": "CreateCreate",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4717583954334259,
+        0.9385440945625305,
+        0.5271648168563843,
+        0.9669986963272095
+      ],
+      "interactivity": true,
+      "content": "TV & TV Show",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7616443037986755,
+        0.7906487584114075,
+        0.8226469159126282,
+        0.8225558400154114
+      ],
+      "interactivity": true,
+      "content": "CreateCreate",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.14076164364814758,
+        0.028340304270386696,
+        0.1735888421535492,
+        0.04436495155096054
+      ],
+      "interactivity": true,
+      "content": "Dx:",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13553041219711304,
+        0.9378535151481628,
+        0.19702260196208954,
+        0.9702277183532715
+      ],
+      "interactivity": true,
+      "content": "Home",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03963353857398033,
+        0.02870955690741539,
+        0.06363141536712646,
+        0.043213143944740295
+      ],
+      "interactivity": true,
+      "content": "A list or date.",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "label_coordinates": {
+    "0": [
+      

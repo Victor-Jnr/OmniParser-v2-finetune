@@ -1,0 +1,695 @@
+{
+  "image_path": "raw_images/vod_play_detail_full_screen.png",
+  "image_size": [
+    2560,
+    1440
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.140625,
+        0.0,
+        0.18125000596046448,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "dX: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.283203125,
+        0.0,
+        0.3238281309604645,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4261718690395355,
+        0.0,
+        0.4644531309604645,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Xv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5687500238418579,
+        0.0,
+        0.607421875,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7113281488418579,
+        0.0,
+        0.755078136920929,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.854296863079071,
+        0.0,
+        0.9019531011581421,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03750000149011612,
+        0.02777777798473835,
+        0.26054686307907104,
+        0.05347222089767456
+      ],
+      "interactivity": false,
+      "content": "User: 260987394/b0faa7d37c63",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03750000149011612,
+        0.09375,
+        0.21875,
+        0.11944444477558136
+      ],
+      "interactivity": false,
+      "content": "Net: 192$68:100126(vlan)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.1215277761220932,
+        0.26445311307907104,
+        0.15069444477558136
+      ],
+      "interactivity": false,
+      "content": "Program: 0AFB1F0CA0314FEDA1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.14861111342906952,
+        0.265625,
+        0.18611110746860504
+      ],
+      "interactivity": false,
+      "content": "C69B7886E224B0(vod-spa,spa,e",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.21666666865348816,
+        0.2574218809604645,
+        0.24791666865348816
+      ],
+      "interactivity": false,
+      "content": "Media: 125168B1A9714853A86F",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.24791666865348816,
+        0.15195313096046448,
+        0.28125
+      ],
+      "interactivity": false,
+      "content": "586EA345CBB8",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.28333333134651184,
+        0.15937499701976776,
+        0.31458333134651184
+      ],
+      "interactivity": false,
+      "content": "Proxypassive - 1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03632812574505806,
+        0.3125,
+        0.21875,
+        0.34375
+      ],
+      "interactivity": false,
+      "content": "AV: h264/mp4, Gop: 0 ms",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.34375,
+        0.234375,
+        0.375
+      ],
+      "interactivity": false,
+      "content": "Spent(first/link/index/media/",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.3715277910232544,
+        0.22617188096046448,
+        0.40833333134651184
+      ],
+      "interactivity": false,
+      "content": "render): 0/420/190/0/0 ms",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03632812574505806,
+        0.40833333134651184,
+        0.23867186903953552,
+        0.4340277910232544
+      ],
+      "interactivity": false,
+      "content": "Catons(program/media/seek/",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.43541666865348816,
+        0.24179688096046448,
+        0.4652777910232544
+      ],
+      "interactivity": false,
+      "content": "origin/net/local): 0/0/0/0/0/0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.46875,
+        0.07929687201976776,
+        0.49444442987442017
+      ],
+      "interactivity": false,
+      "content": "ms /0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.4965277910232544,
+        0.263671875,
+        0.5256944298744202
+      ],
+      "interactivity": false,
+      "content": "Latency: 0 ms, exp: 1, Buffer: 1/1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.5569444298744202,
+        0.23554687201976776,
+        0.5881944298744202
+      ],
+      "interactivity": false,
+      "content": "Offset:7326810/328879453,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03476562350988388,
+        0.5840277671813965,
+        0.10390625149011612,
+        0.6201388835906982
+      ],
+      "interactivity": false,
+      "content": "0/3433 s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.6173611283302307,
+        0.22812500596046448,
+        0.6486111283302307
+      ],
+      "interactivity": false,
+      "content": "Duration(recv/alive): 0/68 s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.6486111283302307,
+        0.15312500298023224,
+        0.6798611283302307
+      ],
+      "interactivity": false,
+      "content": "Recv30: 0MB-0s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.7076388597488403,
+        0.11367187649011612,
+        0.7409722208976746
+      ],
+      "interactivity": false,
+      "content": "Peers: 4/12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.7409722208976746,
+        0.111328125,
+        0.7722222208976746
+      ],
+      "interactivity": false,
+      "content": "StarGazer:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.7722222208976746,
+        0.19804687798023224,
+        0.8034722208976746
+      ],
+      "interactivity": false,
+      "content": "bjac.mdj1kgdcv.com:80",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03750000149011612,
+        0.8048611283302307,
+        0.21054688096046448,
+        0.8305555582046509
+      ],
+      "interactivity": false,
+      "content": "Recv(cache/peer/ori_tcp/",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.8988281488418579,
+        0.8013888597488403,
+        0.948046863079071,
+        0.8361111283302307
+      ],
+      "interactivity": false,
+      "content": "57:13",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03437500074505806,
+        0.8326388597488403,
+        0.26445311307907104,
+        0.8638888597488403
+      ],
+      "interactivity": false,
+      "content": "ori_cdp): 0/0/28/0 MB, Rate: 0%",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.8618055582046509,
+        0.22304686903953552,
+        0.8930555582046509
+      ],
+      "interactivity": false,
+      "content": "Send(peer/player): 0/0 MB",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.033203125,
+        0.8777777552604675,
+        0.24101562798023224,
+        0.9416666626930237
+      ],
+      "interactivity": false,
+      "content": "Link: d557814192c7h$odes",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3636718690395355,
+        0.9006944298744202,
+        0.529296875,
+        0.9395833611488342
+      ],
+      "interactivity": false,
+      "content": "Audio & Subtitle",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03554687649011612,
+        0.9229166507720947,
+        0.18867187201976776,
+        0.9541666507720947
+      ],
+      "interactivity": false,
+      "content": "f0c4f4c9b2e1ae099a/",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03632812574505806,
+        0.9576388597488403,
+        0.16054686903953552,
+        0.9888888597488403
+      ],
+      "interactivity": false,
+      "content": "66.225.197.175:80",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8211660385131836,
+        0.8887348771095276,
+        0.921718418598175,
+        0.953882098197937
+      ],
+      "interactivity": true,
+      "content": "Lock ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8076866269111633,
+        0.346028208732605,
+        1.0,
+        0.6675603985786438
+      ],
+      "interactivity": true,
+      "content": " player: ijkPlayer vdec: MediaCodec fps: 300.00 / 0.00 v-cache: 1.29 sec,6.1KB a_cache: 1.96 sec,34.5 KB tcp_speed: 0 B/s bit_rate: 766.242 seek_load_cost: 0 ms resolution: 854 x 480 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.616480827331543,
+        0.8892505168914795,
+        0.7397218942642212,
+        0.947877824306488
+      ],
+      "interactivity": true,
+      "content": "480P Quality ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.033966612070798874,
+        0.05525686591863632,
+        0.2049473524093628,
+        0.09238594025373459
+      ],
+      "interactivity": true,
+      "content": "4802dc4d342ae112d44c ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.034684207290410995,
+        0.18099848926067352,
+        0.12814263999462128,
+        0.2184273600578308
+      ],
+      "interactivity": true,
+      "content": "ng,kor-480p) ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.46797141432762146,
+        0.41978251934051514,
+        0.563912034034729,
+        0.5890129804611206
+      ],
+      "interactivity": true,
+      "content": "Play button for video or audio.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5993143320083618,
+        0.2376699596643448,
+        0.6792924404144287,
+        0.44012650847435
+      ],
+      "interactivity": true,
+      "content": "a clock or a timer.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8708664178848267,
+        0.07608040422201157,
+        0.9183425903320312,
+        0.16828587651252747
+      ],
+      "interactivity": true,
+      "content": "Help",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7441509366035461,
+        0.09064428508281708,
+        0.7809383273124695,
+        0.15792316198349
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8042857050895691,
+        0.08172448724508286,
+        0.8438908457756042,
+        0.16970133781433105
+      ],
+      "interactivity": true,
+      "content": "Toggle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9391891360282898,
+        0.07831234484910965,
+        0.9885223507881165,
+        0.1676449030637741
+      ],
+      "interactivity": true,
+      "content": "Rounded rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9315093755722046,
+        0.26724565029144287,
+        0.9683420062065125,
+        0.33509936928749084
+      ],
+      "interactivity": true,
+      "content": "Sound",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.43670186400413513,
+        0.6133168339729309,
+        0.5176634788513184,
+        0.8157355189323425
+      ],
+      "interactivity": true,
+      "content": "Increase",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        1.1309981346130371e-05,
+        0.0,
+        0.010380582883954048,
+        0.02409598045051098
+      ],
+      "interactivity": true,
+      "content": "P:",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5176265835762024,
+        0.607948362827301,
+        0.5993322134017944,
+        0.8040941953659058
+      ],
+      "interactivity": true,
+      "content": "A video editing tool.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6788612008094788,
+        0.591363787651062,
+        0.760194718837738,
+        0.7963408827781677
+      ],
+      "interactivity": true,
+      "content": "A video or audio file.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9909135699272156,
+        0.07863438874483109,
+        1.0,
+        0.16612869501113892
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5996164083480835,
+        0.44814398884773254,
+        0.678859293460846,
+        0.6008005142211914
+      ],
+      "interactivity": true,
+      "content": "a person working.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03135630115866661,
+        0.0,
+        0.03821819648146629,
+        0.024243399500846863
+      ],
+      "interactivity": true,
+      "content": "1, September, 2024",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.01281466893851757,
+        0.0,
+        0.021758778020739555,
+        0.023696931079030037
+      ],
+      "interactivity": true,
+      "content": "Oval",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6776750683784485,
+        0.3836318254470825,
+        0.7618225812911987,
+        0.5934457778930664
+      ],
+      "interactivity": true,
+      "content": "a group of people.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6005887985229492,
+        0.5934098362922668,
+        0.6796680688858032,
+        0.7955998182296753
+      ],
+      "interactivity": true,
+      "content": "View as profile",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "label_coordinates": {
+    "0": [
+      

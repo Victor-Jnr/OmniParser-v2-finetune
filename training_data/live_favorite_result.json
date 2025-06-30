@@ -1,0 +1,525 @@
+{
+  "image_path": "raw_images/live_favorite.png",
+  "image_size": [
+    1440,
+    2560
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.03888889029622078,
+        0.01132812537252903,
+        0.14166666567325592,
+        0.02617187425494194
+      ],
+      "interactivity": false,
+      "content": "19:56 ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.029296875,
+        0.07013888657093048,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "P: 0 / 1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14166666567325592,
+        0.02812499925494194,
+        0.21319444477558136,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "dX: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5645833611488342,
+        0.029296875,
+        0.6361111402511597,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7097222208976746,
+        0.029296875,
+        0.7888888716697693,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.8513888716697693,
+        0.02812499925494194,
+        0.9409722089767456,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3291666805744171,
+        0.2574218809604645,
+        0.6694444417953491,
+        0.2750000059604645
+      ],
+      "interactivity": false,
+      "content": "GRAN HERMIANO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2222222238779068,
+        0.31367188692092896,
+        0.28680557012557983,
+        0.3238281309604645
+      ],
+      "interactivity": false,
+      "content": "KATIA",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7263888716697693,
+        0.314453125,
+        0.7756944298744202,
+        0.326171875
+      ],
+      "interactivity": false,
+      "content": "JLISES",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.25,
+        0.3667968809604645,
+        0.7520833611488342,
+        0.38007813692092896
+      ],
+      "interactivity": false,
+      "content": "GRAN HERMANO 2O25 (ARGENTINA)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.28125,
+        0.38007813692092896,
+        0.7277777791023254,
+        0.390625
+      ],
+      "interactivity": false,
+      "content": "Gran Hermano Gran Hermano camara 1 Gran Hermano camara 2 Gran Hermano camara 3",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.49882811307907104,
+        0.7409722208976746,
+        0.5199218988418579
+      ],
+      "interactivity": false,
+      "content": "TNT SPORTS PREMIUM.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16180555522441864,
+        0.576171875,
+        0.23680555820465088,
+        0.595703125
+      ],
+      "interactivity": false,
+      "content": "002",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.27222222089767456,
+        0.5738281011581421,
+        0.49097222089767456,
+        0.595703125
+      ],
+      "interactivity": false,
+      "content": "ESPN 4 HD",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2777777910232544,
+        0.7300781011581421,
+        0.6597222089767456,
+        0.751171886920929
+      ],
+      "interactivity": false,
+      "content": "AMAZON PRIME HD",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.40812501311302185,
+        0.5023707747459412,
+        0.46679526567459106
+      ],
+      "interactivity": true,
+      "content": "Channel ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.496310293674469,
+        0.4084853231906891,
+        1.0,
+        0.46728068590164185
+      ],
+      "interactivity": true,
+      "content": "Favorite ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.6258268356323242,
+        0.5779047012329102,
+        0.7045859098434448
+      ],
+      "interactivity": true,
+      "content": "003 ATV El Deportivo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.897794783115387,
+        0.0430779755115509,
+        0.9674806594848633,
+        0.08641715347766876
+      ],
+      "interactivity": true,
+      "content": "Q ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.16002410650253296,
+        0.7240274548530579,
+        0.24241508543491364,
+        0.7571470141410828
+      ],
+      "interactivity": true,
+      "content": "004 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.02149469591677189,
+        0.7254418134689331,
+        0.14165106415748596,
+        0.7506526112556458
+      ],
+      "interactivity": true,
+      "content": "prime video ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15986919403076172,
+        0.4930071234703064,
+        0.23301656544208527,
+        0.5261374115943909
+      ],
+      "interactivity": true,
+      "content": "001 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8516604900360107,
+        0.01042667031288147,
+        0.8881059288978577,
+        0.027636658400297165
+      ],
+      "interactivity": true,
+      "content": "WiFi connectivity.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8114731907844543,
+        0.009977364912629128,
+        0.8467230200767517,
+        0.028182243928313255
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8934428095817566,
+        0.010426667518913746,
+        0.94367915391922,
+        0.026934484019875526
+      ],
+      "interactivity": true,
+      "content": "70a",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.140731543302536,
+        0.009643557481467724,
+        0.17302893102169037,
+        0.027178842574357986
+      ],
+      "interactivity": true,
+      "content": "Mail",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1754292994737625,
+        0.009200220927596092,
+        0.20789140462875366,
+        0.027231935411691666
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.10578242689371109,
+        0.008944651111960411,
+        0.13775403797626495,
+        0.027903083711862564
+      ],
+      "interactivity": true,
+      "content": "RattlesApp",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21520936489105225,
+        0.008612394332885742,
+        0.24713261425495148,
+        0.027972176671028137
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7934736609458923,
+        0.6425748467445374,
+        0.8628316521644592,
+        0.6856293082237244
+      ],
+      "interactivity": true,
+      "content": "Heart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7938520908355713,
+        0.4901188910007477,
+        0.8629048466682434,
+        0.5303050875663757
+      ],
+      "interactivity": true,
+      "content": "Heart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7923275232315063,
+        0.7201976180076599,
+        0.863710880279541,
+        0.7623959183692932
+      ],
+      "interactivity": true,
+      "content": "Heart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.89928138256073,
+        0.7129487991333008,
+        0.9765520691871643,
+        0.7792730331420898
+      ],
+      "interactivity": true,
+      "content": "Navigation",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7957032322883606,
+        0.5681948661804199,
+        0.8618826270103455,
+        0.6064793467521667
+      ],
+      "interactivity": true,
+      "content": "Heart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9447582960128784,
+        0.009525655768811703,
+        0.9667197465896606,
+        0.027488838881254196
+      ],
+      "interactivity": true,
+      "content": "Power",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8022454380989075,
+        0.9368972778320312,
+        0.8628823161125183,
+        0.9709628820419312
+      ],
+      "interactivity": true,
+      "content": "User profile",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.48113885521888733,
+        0.33601468801498413,
+        0.5923058986663818,
+        0.3587684631347656
+      ],
+      "interactivity": true,
+      "content": "Magic Pro - Video Editor",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.014978826977312565,
+        0.4957304894924164,
+        0.14667841792106628,
+        0.5252789258956909
+      ],
+      "interactivity": true,
+      "content": "TTV Sports",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9041908383369446,
+        0.6421637535095215,
+        0.9728680849075317,
+        0.6865859031677246
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9009509682655334,
+        0.4856778085231781,
+        0.9748245477676392,
+        0.5355210304260254
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.47270384430885315,
+        0.9394172430038452,
+        0.5263564586639404,
+        0.9664270281791687
+      ],
+      "interactivity": true,
+      "content": "TV & TV Show",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1348130702972412,
+        0.9377775192260742,
+        0.19889655709266663,
+        0.969582200050354
+      ],
+      "interactivity": true,
+      "content": "Home",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.013350581750273705,
+        0.572776198387146,
+        0.1468130201101303,
+        0.5984269976615906
+      ],
+      "interactivity": true,
+      "content": "Empire TV",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

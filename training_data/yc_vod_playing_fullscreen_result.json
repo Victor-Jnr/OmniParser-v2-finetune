@@ -1,0 +1,273 @@
+{
+  "image_path": "raw_images/yc_vod_playing_fullscreen.png",
+  "image_size": [
+    2560,
+    1440
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.0,
+        0.04062499850988388,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "P:0/1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.140625,
+        0.0,
+        0.18242187798023224,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "dX: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.283203125,
+        0.0,
+        0.3238281309604645,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4261718690395355,
+        0.0,
+        0.4644531309604645,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Xv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5687500238418579,
+        0.0,
+        0.607421875,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7113281488418579,
+        0.0,
+        0.7542968988418579,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.854296863079071,
+        0.0,
+        0.9019531011581421,
+        0.02569444477558136
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.04570312425494194,
+        0.7666666507720947,
+        0.09257812798023224,
+        0.7993055582046509
+      ],
+      "interactivity": false,
+      "content": "01:19",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.47813358902931213,
+        0.8409201502799988,
+        0.5507103800773621,
+        0.9638110399246216
+      ],
+      "interactivity": true,
+      "content": "grana ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6673824191093445,
+        0.07780208438634872,
+        0.7163802981376648,
+        0.14244379103183746
+      ],
+      "interactivity": true,
+      "content": "480P ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5995723009109497,
+        0.8570136427879333,
+        0.6518174409866333,
+        0.9487711787223816
+      ],
+      "interactivity": true,
+      "content": "10 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3780789077281952,
+        0.8539490699768066,
+        0.4291905462741852,
+        0.9565342664718628
+      ],
+      "interactivity": true,
+      "content": "10 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05993213504552841,
+        0.08225616812705994,
+        0.18970906734466553,
+        0.13161107897758484
+      ],
+      "interactivity": true,
+      "content": "Ironheart S1 1 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9299678802490234,
+        0.7603368163108826,
+        0.984335720539093,
+        0.8039749264717102
+      ],
+      "interactivity": true,
+      "content": "40:58 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.43148812651634216,
+        0.8448114991188049,
+        0.47765034437179565,
+        0.9725716710090637
+      ],
+      "interactivity": true,
+      "content": "Preciso ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5413072109222412,
+        0.8573395013809204,
+        0.5977617502212524,
+        0.9573859572410583
+      ],
+      "interactivity": true,
+      "content": "Dinheiro. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8476415872573853,
+        0.07749173790216446,
+        0.8929044604301453,
+        0.1439530849456787
+      ],
+      "interactivity": true,
+      "content": "Code",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9326321482658386,
+        0.07718314230442047,
+        0.9780964851379395,
+        0.1496036797761917
+      ],
+      "interactivity": true,
+      "content": "a menu or list option.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8501955270767212,
+        0.8801293969154358,
+        0.8839925527572632,
+        0.9376885890960693
+      ],
+      "interactivity": true,
+      "content": "Laptop",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.927524745464325,
+        0.8678024411201477,
+        0.9775518178939819,
+        0.9625605344772339
+      ],
+      "interactivity": true,
+      "content": "Headset",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7565749287605286,
+        0.07486403733491898,
+        0.8062735795974731,
+        0.16280370950698853
+      ],
+      "interactivity": true,
+      "content": "Rounded rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.11283252388238907,
+        0.2051171213388443,
+        0.8622323274612427,
+        0.8002585768699646
+      ],
+      "interactivity": true,
+      "content": "a paint bucket tool.",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

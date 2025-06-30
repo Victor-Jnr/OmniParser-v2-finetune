@@ -1,0 +1,285 @@
+{
+  "image_path": "raw_images/login.png",
+  "image_size": [
+    1440,
+    2560
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.8097222447395325,
+        0.007031249813735485,
+        0.9645833373069763,
+        0.03125
+      ],
+      "interactivity": false,
+      "content": "4",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03888889029622078,
+        0.01132812537252903,
+        0.13611111044883728,
+        0.02617187425494194
+      ],
+      "interactivity": false,
+      "content": "19:57 ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.029296875,
+        0.07361111044883728,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "P: 0/1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13958333432674408,
+        0.029296875,
+        0.21319444477558136,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "dX: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.28125,
+        0.029296875,
+        0.3548611104488373,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4229166805744171,
+        0.029296875,
+        0.4965277910232544,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Xv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5645833611488342,
+        0.029296875,
+        0.6361111402511597,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7076388597488403,
+        0.029296875,
+        0.7888888716697693,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.8493055701255798,
+        0.029296875,
+        0.9375,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.04236111044883728,
+        0.12812499701976776,
+        0.1909722238779068,
+        0.15000000596046448
+      ],
+      "interactivity": false,
+      "content": "Account",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.04444444552063942,
+        0.2738281190395355,
+        0.20763888955116272,
+        0.2925781309604645
+      ],
+      "interactivity": false,
+      "content": "Password",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07916666567325592,
+        0.33867186307907104,
+        0.5479166507720947,
+        0.359375
+      ],
+      "interactivity": false,
+      "content": "8 Input your password",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.32152777910232544,
+        0.923046886920929,
+        0.6763888597488403,
+        0.939453125
+      ],
+      "interactivity": false,
+      "content": "Current device account: 260987394",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03869086503982544,
+        0.4955774247646332,
+        0.9605903029441833,
+        0.5735629796981812
+      ],
+      "interactivity": true,
+      "content": "Login ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03897332027554512,
+        0.16521668434143066,
+        0.9624766111373901,
+        0.24414673447608948
+      ],
+      "interactivity": true,
+      "content": "Enter your account. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.042382556945085526,
+        0.4051958918571472,
+        0.29931703209877014,
+        0.42927294969558716
+      ],
+      "interactivity": true,
+      "content": "Forgot password ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.38986876606941223,
+        0.0491151437163353,
+        0.606418251991272,
+        0.07532976567745209
+      ],
+      "interactivity": true,
+      "content": "Account Login. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1734607219696045,
+        0.009747063741087914,
+        0.20674429833889008,
+        0.027749761939048767
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1390564739704132,
+        0.009770810604095459,
+        0.1707456409931183,
+        0.026626894250512123
+      ],
+      "interactivity": true,
+      "content": "Mail",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21293491125106812,
+        0.009594207629561424,
+        0.2456994354724884,
+        0.029132550582289696
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.018298935145139694,
+        0.046010684221982956,
+        0.07025691121816635,
+        0.08219442516565323
+      ],
+      "interactivity": true,
+      "content": "Back",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8732587099075317,
+        0.3352718949317932,
+        0.9324321150779724,
+        0.3624490797519684
+      ],
+      "interactivity": true,
+      "content": "Sleep",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.06045607477426529,
+        0.32427698373794556,
+        0.12942181527614594,
+        0.37639233469963074
+      ],
+      "interactivity": true,
+      "content": "Lock",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}

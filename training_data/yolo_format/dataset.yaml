@@ -1,0 +1,6 @@
+names:
+- icon
+nc: 1
+path: /mnt/e/git/OmniParser/training_data/yolo_format
+train: train
+val: val

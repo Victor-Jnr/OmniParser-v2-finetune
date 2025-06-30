@@ -1,0 +1,357 @@
+{
+  "image_path": "raw_images/yc_user_profile.png",
+  "image_size": [
+    1440,
+    2560
+  ],
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.03333333507180214,
+        0.00820312462747097,
+        0.21875,
+        0.029296875
+      ],
+      "interactivity": false,
+      "content": "20:08 0  ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.029296875,
+        0.07152777910232544,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "P: 0/1",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13958333432674408,
+        0.029296875,
+        0.21319444477558136,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "dX: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.27916666865348816,
+        0.029296875,
+        0.3548611104488373,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "dY: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4229166805744171,
+        0.029296875,
+        0.49444442987442017,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Xv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5625,
+        0.029296875,
+        0.6361111402511597,
+        0.044921875
+      ],
+      "interactivity": false,
+      "content": "Yv: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7076388597488403,
+        0.029296875,
+        0.7888888716697693,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Prs: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.8513888716697693,
+        0.029296875,
+        0.9395833611488342,
+        0.04374999925494194
+      ],
+      "interactivity": false,
+      "content": "Size: 0.0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2680555582046509,
+        0.14492186903953552,
+        0.5,
+        0.169921875
+      ],
+      "interactivity": false,
+      "content": "66725078",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2631944417953491,
+        0.18007811903953552,
+        0.4888888895511627,
+        0.19492188096046448
+      ],
+      "interactivity": false,
+      "content": "VIP is valid until: 13.12.2026",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0868055522441864,
+        0.616406261920929,
+        0.4333333373069763,
+        0.643750011920929
+      ],
+      "interactivity": false,
+      "content": "Member Center",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0868055522441864,
+        0.8695312738418579,
+        0.44236111640930176,
+        0.8968750238418579
+      ],
+      "interactivity": false,
+      "content": "Other Functions",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5109356641769409,
+        0.44324320554733276,
+        0.963591992855072,
+        0.5567337274551392
+      ],
+      "interactivity": true,
+      "content": "Invite friends. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03916269913315773,
+        0.44313669204711914,
+        0.4867832660675049,
+        0.5575549006462097
+      ],
+      "interactivity": true,
+      "content": "Renew ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1010698527097702,
+        0.6906570196151733,
+        0.29618677496910095,
+        0.803554892539978
+      ],
+      "interactivity": true,
+      "content": "My orders ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4326392412185669,
+        0.3025393486022949,
+        0.5638792514801025,
+        0.4112466871738434
+      ],
+      "interactivity": true,
+      "content": "History ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.37279781699180603,
+        0.6904540061950684,
+        0.6289771199226379,
+        0.7971819639205933
+      ],
+      "interactivity": true,
+      "content": "Reward Centerr ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7021321654319763,
+        0.9248977899551392,
+        0.7962429523468018,
+        0.9865947961807251
+      ],
+      "interactivity": true,
+      "content": "Profile ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6817055344581604,
+        0.6907761693000793,
+        0.9224270582199097,
+        0.8134695291519165
+      ],
+      "interactivity": true,
+      "content": "Event Center ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7295496463775635,
+        0.3026861250400543,
+        0.8725427985191345,
+        0.4131924510002136
+      ],
+      "interactivity": true,
+      "content": "Account ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21342884004116058,
+        0.9255178570747375,
+        0.2873021364212036,
+        0.9835048913955688
+      ],
+      "interactivity": true,
+      "content": "VOD ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04304907098412514,
+        0.2876993715763092,
+        0.3566793203353882,
+        0.4328092038631439
+      ],
+      "interactivity": true,
+      "content": "Favorites ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8247801065444946,
+        0.00997904222458601,
+        0.858379602432251,
+        0.02835272252559662
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.046515315771102905,
+        0.12164578586816788,
+        0.24910147488117218,
+        0.23078370094299316
+      ],
+      "interactivity": true,
+      "content": "a person working.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8639377355575562,
+        0.009789526462554932,
+        0.9002159833908081,
+        0.027981501072645187
+      ],
+      "interactivity": true,
+      "content": "WiFi connectivity.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9064329266548157,
+        0.008601325564086437,
+        0.9581961631774902,
+        0.02799338661134243
+      ],
+      "interactivity": true,
+      "content": "Number 74",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2212987244129181,
+        0.008538824506103992,
+        0.2533043622970581,
+        0.029926013201475143
+      ],
+      "interactivity": true,
+      "content": "More options",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8790724277496338,
+        0.049079157412052155,
+        0.9675213098526001,
+        0.10217006504535675
+      ],
+      "interactivity": true,
+      "content": "Page Break",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7725468873977661,
+        0.05607689544558525,
+        0.8388124108314514,
+        0.0925402045249939
+      ],
+      "interactivity": true,
+      "content": "Notifications",
+      "source": "box_yolo_content_yolo"
+    }
+  ]
+}
