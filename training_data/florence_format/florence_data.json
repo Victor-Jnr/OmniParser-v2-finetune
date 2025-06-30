@@ -1,36 +1,6 @@
 [
   {
     "bbox": [
-      0.0,
-      0.41550368070602417,
-      0.503932535648346,
-      0.4728090167045593
-    ],
-    "content": "Channel",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.1981661468744278,
-      0.4858853220939636,
-      0.3353686034679413,
-      0.5119320750236511
-    ],
-    "content": "Deportes",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.2751518785953522,
-      0.8659452199935913,
-      0.3868682384490967,
-      0.8996103405952454
-    ],
-    "content": "ECDF",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
       0.16054052114486694,
       0.8678730130195618,
       0.24124892055988312,
@@ -51,72 +21,12 @@
   },
   {
     "bbox": [
-      0.8996358513832092,
-      0.04335813596844673,
-      0.9655685424804688,
-      0.0830778107047081
-    ],
-    "content": "Q",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.3680463135242462,
-      0.48434457182884216,
-      0.5374366044998169,
-      0.5118080377578735
-    ],
-    "content": "Cine y Series",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.5637168884277344,
-      0.48159366846084595,
-      0.7360938191413879,
-      0.5137227773666382
-    ],
-    "content": "Mas popular",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.005395528860390186,
-      0.4839320182800293,
-      0.18222613632678986,
-      0.5117419362068176
-    ],
-    "content": "ChannelList",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
       0.15627987682819366,
       0.7080237865447998,
       0.24013209342956543,
       0.7532331943511963
     ],
     "content": "3",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.9353178143501282,
-      0.47094327211380005,
-      1.0,
-      0.5226355791091919
-    ],
-    "content": "Venez",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.7711427211761475,
-      0.487542062997818,
-      0.8792838454246521,
-      0.5067245364189148
-    ],
-    "content": "Colombia",
     "image_path": "raw_images/live_channel.png"
   },
   {
@@ -141,192 +51,12 @@
   },
   {
     "bbox": [
-      0.26353710889816284,
-      0.5579387545585632,
-      0.621584415435791,
-      0.5955575704574585
+      0.4717583954334259,
+      0.9385440945625305,
+      0.5271648168563843,
+      0.9669986963272095
     ],
-    "content": "Gran Hermano CR",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.49949437379837036,
-      0.4168558120727539,
-      1.0,
-      0.47198790311813354
-    ],
-    "content": "Favorite",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.8522133827209473,
-      0.010642574168741703,
-      0.8879148960113525,
-      0.027146169915795326
-    ],
-    "content": "WiFi connectivity.",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.8120384216308594,
-      0.010195935145020485,
-      0.8457396626472473,
-      0.02780286595225334
-    ],
-    "content": "Close",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.8937004208564758,
-      0.010754716582596302,
-      0.9436972141265869,
-      0.026455864310264587
-    ],
-    "content": "Number 74",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.9059890508651733,
-      0.559106707572937,
-      0.9699844121932983,
-      0.5973192453384399
-    ],
-    "content": "Forward",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.01736324653029442,
-      0.7839726209640503,
-      0.14160679280757904,
-      0.8319941759109497
-    ],
-    "content": "System",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.21584922075271606,
-      0.009328017011284828,
-      0.24752222001552582,
-      0.02797752059996128
-    ],
-    "content": "More options",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.9063736796379089,
-      0.791721522808075,
-      0.9669086933135986,
-      0.8252817392349243
-    ],
-    "content": "Forward",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.016678761690855026,
-      0.7072497606277466,
-      0.14424970746040344,
-      0.7554723024368286
-    ],
-    "content": "System",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.905339241027832,
-      0.8685615658760071,
-      0.9670284986495972,
-      0.9036371111869812
-    ],
-    "content": "Forward",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.8356269001960754,
-      0.36968904733657837,
-      0.9240724444389343,
-      0.3913232386112213
-    ],
-    "content": "Color picker",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.01729034259915352,
-      0.6306596994400024,
-      0.14238356053829193,
-      0.678097128868103
-    ],
-    "content": "System",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.9043887853622437,
-      0.6373473405838013,
-      0.9669233560562134,
-      0.6726462244987488
-    ],
-    "content": "Forward",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.7612189650535583,
-      0.714023768901825,
-      0.8203908205032349,
-      0.7451007962226868
-    ],
-    "content": "CreateCreate",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.9043871760368347,
-      0.7138538360595703,
-      0.9670277237892151,
-      0.7502027750015259
-    ],
-    "content": "Forward",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.8040446043014526,
-      0.9366742968559265,
-      0.8634465336799622,
-      0.9698854684829712
-    ],
-    "content": "User profile",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.023283768445253372,
-      0.871351420879364,
-      0.1374303251504898,
-      0.8991056680679321
-    ],
-    "content": "ECOFE",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.018107308074831963,
-      0.5534024238586426,
-      0.14305175840854645,
-      0.6003867983818054
-    ],
-    "content": "Fingeringer",
+    "content": "Live",
     "image_path": "raw_images/live_channel.png"
   },
   {
@@ -341,93 +71,93 @@
   },
   {
     "bbox": [
-      0.750952422618866,
-      0.6378563046455383,
-      0.8131816387176514,
-      0.6685368418693542
+      0.005395528860390186,
+      0.4839320182800293,
+      0.18222613632678986,
+      0.5117419362068176
     ],
-    "content": "CreateCreate",
+    "content": "ChannelList",
     "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
-      0.4717583954334259,
-      0.9385440945625305,
-      0.5271648168563843,
-      0.9669986963272095
+      0.023283768445253372,
+      0.871351420879364,
+      0.1374303251504898,
+      0.8991056680679321
     ],
-    "content": "Live",
+    "content": "ECOFE",
     "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
-      0.7616443037986755,
-      0.7906487584114075,
-      0.8226469159126282,
-      0.8225558400154114
+      0.9043887853622437,
+      0.6373473405838013,
+      0.9669233560562134,
+      0.6726462244987488
     ],
-    "content": "CreateCreate",
+    "content": "Forward",
     "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
-      0.14076164364814758,
-      0.028340304270386696,
-      0.1735888421535492,
-      0.04436495155096054
+      0.7711427211761475,
+      0.487542062997818,
+      0.8792838454246521,
+      0.5067245364189148
     ],
-    "content": "Dx:",
+    "content": "Colombia",
     "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
-      0.13553041219711304,
-      0.9378535151481628,
-      0.19702260196208954,
-      0.9702277183532715
-    ],
-    "content": "Home",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.03963353857398033,
-      0.02870955690741539,
-      0.06363141536712646,
-      0.043213143944740295
-    ],
-    "content": "A list or date.",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.0,
-      0.40812501311302185,
-      0.5023707747459412,
-      0.46679526567459106
-    ],
-    "content": "Channel",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.496310293674469,
-      0.4084853231906891,
+      0.9353178143501282,
+      0.47094327211380005,
       1.0,
-      0.46728068590164185
+      0.5226355791091919
     ],
-    "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png"
+    "content": "Venez",
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
-      0.0,
-      0.6258268356323242,
-      0.5779047012329102,
-      0.7045859098434448
+      0.7612189650535583,
+      0.714023768901825,
+      0.8203908205032349,
+      0.7451007962226868
     ],
-    "content": "003 ATV El Deportivo",
-    "image_path": "raw_images/live_favorite.png"
+    "content": "CreateCreate",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.1981661468744278,
+      0.4858853220939636,
+      0.3353686034679413,
+      0.5119320750236511
+    ],
+    "content": "Deportes",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.9043871760368347,
+      0.7138538360595703,
+      0.9670277237892151,
+      0.7502027750015259
+    ],
+    "content": "Forward",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.8522133827209473,
+      0.010642574168741703,
+      0.8879148960113525,
+      0.027146169915795326
+    ],
+    "content": "WiFi connectivity.",
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -451,92 +181,12 @@
   },
   {
     "bbox": [
-      0.02149469591677189,
-      0.7254418134689331,
-      0.14165106415748596,
-      0.7506526112556458
-    ],
-    "content": "prime video",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
       0.15986919403076172,
       0.4930071234703064,
       0.23301656544208527,
       0.5261374115943909
     ],
     "content": "1",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.8516604900360107,
-      0.01042667031288147,
-      0.8881059288978577,
-      0.027636658400297165
-    ],
-    "content": "WiFi connectivity.",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.8114731907844543,
-      0.009977364912629128,
-      0.8467230200767517,
-      0.028182243928313255
-    ],
-    "content": "Close",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.8934428095817566,
-      0.010426667518913746,
-      0.94367915391922,
-      0.026934484019875526
-    ],
-    "content": "70a",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.140731543302536,
-      0.009643557481467724,
-      0.17302893102169037,
-      0.027178842574357986
-    ],
-    "content": "Mail",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.1754292994737625,
-      0.009200220927596092,
-      0.20789140462875366,
-      0.027231935411691666
-    ],
-    "content": "Microsoft Edge browser",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.10578242689371109,
-      0.008944651111960411,
-      0.13775403797626495,
-      0.027903083711862564
-    ],
-    "content": "RattlesApp",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.21520936489105225,
-      0.008612394332885742,
-      0.24713261425495148,
-      0.027972176671028137
-    ],
-    "content": "More options",
     "image_path": "raw_images/live_favorite.png"
   },
   {
@@ -571,82 +221,12 @@
   },
   {
     "bbox": [
-      0.89928138256073,
-      0.7129487991333008,
-      0.9765520691871643,
-      0.7792730331420898
-    ],
-    "content": "Navigation",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
       0.7957032322883606,
       0.5681948661804199,
       0.8618826270103455,
       0.6064793467521667
     ],
     "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.9447582960128784,
-      0.009525655768811703,
-      0.9667197465896606,
-      0.027488838881254196
-    ],
-    "content": "Power",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.8022454380989075,
-      0.9368972778320312,
-      0.8628823161125183,
-      0.9709628820419312
-    ],
-    "content": "User profile",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.48113885521888733,
-      0.33601468801498413,
-      0.5923058986663818,
-      0.3587684631347656
-    ],
-    "content": "Magic Pro - Video Editor",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.014978826977312565,
-      0.4957304894924164,
-      0.14667841792106628,
-      0.5252789258956909
-    ],
-    "content": "TTV Sports",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.9041908383369446,
-      0.6421637535095215,
-      0.9728680849075317,
-      0.6865859031677246
-    ],
-    "content": "Forward",
-    "image_path": "raw_images/live_favorite.png"
-  },
-  {
-    "bbox": [
-      0.9009509682655334,
-      0.4856778085231781,
-      0.9748245477676392,
-      0.5355210304260254
-    ],
-    "content": "Forward",
     "image_path": "raw_images/live_favorite.png"
   },
   {
@@ -661,93 +241,43 @@
   },
   {
     "bbox": [
-      0.1348130702972412,
-      0.9377775192260742,
-      0.19889655709266663,
-      0.969582200050354
+      0.496310293674469,
+      0.4084853231906891,
+      1.0,
+      0.46728068590164185
     ],
-    "content": "Home",
+    "content": "Favorite",
     "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
-      0.013350581750273705,
-      0.572776198387146,
-      0.1468130201101303,
-      0.5984269976615906
+      0.9041908383369446,
+      0.6421637535095215,
+      0.9728680849075317,
+      0.6865859031677246
     ],
-    "content": "Empire TV",
+    "content": "Forward",
     "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
-      0.5810351371765137,
-      0.8911668658256531,
-      0.6204365491867065,
-      0.9429965615272522
+      0.8934428095817566,
+      0.010426667518913746,
+      0.94367915391922,
+      0.026934484019875526
     ],
-    "content": "480P",
-    "image_path": "raw_images/live_full_screen_playing.png"
+    "content": "70a",
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
-      0.7821286916732788,
-      0.8897435665130615,
-      0.8717061877250671,
-      0.945310652256012
+      0.8114731907844543,
+      0.009977364912629128,
+      0.8467230200767517,
+      0.028182243928313255
     ],
-    "content": "Lock",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.4964323937892914,
-      0.7796749472618103,
-      0.6011093854904175,
-      0.8448055982589722
-    ],
-    "content": "Pro",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.7187501788139343,
-      0.593241810798645,
-      0.8182028532028198,
-      0.7453266382217407
-    ],
-    "content": "ULISES",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.03174048662185669,
-      0.023598777130246162,
-      0.0555838942527771,
-      0.06660624593496323
-    ],
-    "content": "Back",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.8685094714164734,
-      0.027516614645719528,
-      0.9190236926078796,
-      0.16421286761760712
-    ],
-    "content": "Help",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.15691089630126953,
-      0.8829076290130615,
-      0.28498539328575134,
-      0.961808443069458
-    ],
-    "content": "Channel",
-    "image_path": "raw_images/live_full_screen_playing.png"
+    "content": "Close",
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -757,36 +287,6 @@
       0.11941865086555481
     ],
     "content": "Share",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.8954831957817078,
-      0.8649576902389526,
-      0.924465000629425,
-      0.9249376058578491
-    ],
-    "content": "Dark red",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.868243396282196,
-      0.8664916753768921,
-      0.8976009488105774,
-      0.9260362386703491
-    ],
-    "content": "Online",
-    "image_path": "raw_images/live_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.9327205419540405,
-      0.2681067883968353,
-      0.9661800265312195,
-      0.3372439444065094
-    ],
-    "content": "Sound",
     "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
@@ -801,62 +301,62 @@
   },
   {
     "bbox": [
-      0.9903831481933594,
-      0.03691744804382324,
-      1.0,
-      0.13653776049613953
+      0.868243396282196,
+      0.8664916753768921,
+      0.8976009488105774,
+      0.9260362386703491
     ],
-    "content": "a stopwatch function.",
+    "content": "Online",
     "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.3799024522304535,
-      0.898400604724884,
-      0.4929680824279785,
-      0.9417632222175598
+      0.7187501788139343,
+      0.593241810798645,
+      0.8182028532028198,
+      0.7453266382217407
     ],
-    "content": "Previous",
+    "content": "ULISES",
     "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.03869086503982544,
-      0.4955774247646332,
-      0.9605903029441833,
-      0.5735629796981812
+      0.7821286916732788,
+      0.8897435665130615,
+      0.8717061877250671,
+      0.945310652256012
     ],
-    "content": "Login",
-    "image_path": "raw_images/login.png"
+    "content": "Lock",
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.03897332027554512,
-      0.16521668434143066,
-      0.9624766111373901,
-      0.24414673447608948
+      0.8685094714164734,
+      0.027516614645719528,
+      0.9190236926078796,
+      0.16421286761760712
     ],
-    "content": "Enter your account.",
-    "image_path": "raw_images/login.png"
+    "content": "Help",
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.042382556945085526,
-      0.4051958918571472,
-      0.29931703209877014,
-      0.42927294969558716
+      0.4964323937892914,
+      0.7796749472618103,
+      0.6011093854904175,
+      0.8448055982589722
     ],
-    "content": "Forgot password",
-    "image_path": "raw_images/login.png"
+    "content": "Pro",
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.38986876606941223,
-      0.0491151437163353,
-      0.606418251991272,
-      0.07532976567745209
+      0.8732587099075317,
+      0.3352718949317932,
+      0.9324321150779724,
+      0.3624490797519684
     ],
-    "content": "Account Login.",
+    "content": "Show password",
     "image_path": "raw_images/login.png"
   },
   {
@@ -881,163 +381,13 @@
   },
   {
     "bbox": [
-      0.21293491125106812,
-      0.009594207629561424,
-      0.2456994354724884,
-      0.029132550582289696
+      0.03897332027554512,
+      0.16521668434143066,
+      0.9624766111373901,
+      0.24414673447608948
     ],
-    "content": "More options",
+    "content": "Enter your account.",
     "image_path": "raw_images/login.png"
-  },
-  {
-    "bbox": [
-      0.018298935145139694,
-      0.046010684221982956,
-      0.07025691121816635,
-      0.08219442516565323
-    ],
-    "content": "Back",
-    "image_path": "raw_images/login.png"
-  },
-  {
-    "bbox": [
-      0.8732587099075317,
-      0.3352718949317932,
-      0.9324321150779724,
-      0.3624490797519684
-    ],
-    "content": "Show password",
-    "image_path": "raw_images/login.png"
-  },
-  {
-    "bbox": [
-      0.06045607477426529,
-      0.32427698373794556,
-      0.12942181527614594,
-      0.37639233469963074
-    ],
-    "content": "Lock",
-    "image_path": "raw_images/login.png"
-  },
-  {
-    "bbox": [
-      0.6668538451194763,
-      0.4365163743495941,
-      0.9588701128959656,
-      0.5279216766357422
-    ],
-    "content": "Share",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.35159820318222046,
-      0.43616342544555664,
-      0.645171582698822,
-      0.5282427668571472
-    ],
-    "content": "History",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.039732955396175385,
-      0.4358981251716614,
-      0.3305678963661194,
-      0.5285382270812988
-    ],
-    "content": "Favorites",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.3334577679634094,
-      0.35056057572364807,
-      0.6657240986824036,
-      0.40056633949279785
-    ],
-    "content": "Renew Now",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.029155392199754715,
-      0.11252526938915253,
-      0.9691465497016907,
-      0.2502540051937103
-    ],
-    "content": "Zard ID:260987394 VIP",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.8511561155319214,
-      0.010355541482567787,
-      0.8884347081184387,
-      0.02864704094827175
-    ],
-    "content": "WiFi connectivity",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.81062912940979,
-      0.010071774944663048,
-      0.8471521735191345,
-      0.028971945866942406
-    ],
-    "content": "Close",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.8915461301803589,
-      0.009947909973561764,
-      0.9439932703971863,
-      0.027799108996987343
-    ],
-    "content": "System 7A",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.6303662061691284,
-      0.3001379072666168,
-      0.8365647792816162,
-      0.3275377154350281
-    ],
-    "content": "0,0L0,9 0,5 4.5,0z",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.8880603313446045,
-      0.0795394629240036,
-      0.965150773525238,
-      0.12500794231891632
-    ],
-    "content": "Notifications",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.8936408162117004,
-      0.6769621968269348,
-      0.9926018714904785,
-      0.7460813522338867
-    ],
-    "content": "HideHide Menu",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.1747613251209259,
-      0.008304601535201073,
-      0.2113058716058731,
-      0.031179288402199745
-    ],
-    "content": "Adobe Photoshop",
-    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -1047,46 +397,6 @@
       0.12088906764984131
     ],
     "content": "Scan",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.21408739686012268,
-      0.007166347000747919,
-      0.24855001270771027,
-      0.03175825998187065
-    ],
-    "content": "More options",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.801880419254303,
-      0.937955379486084,
-      0.8638855218887329,
-      0.97038334608078
-    ],
-    "content": "User profile",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.9438296556472778,
-      0.009161802940070629,
-      0.9695149660110474,
-      0.027800720185041428
-    ],
-    "content": "Power",
-    "image_path": "raw_images/user_profile.png"
-  },
-  {
-    "bbox": [
-      0.8953008055686951,
-      0.6095453500747681,
-      0.9907689690589905,
-      0.6767541766166687
-    ],
-    "content": "HideHideHide",
     "image_path": "raw_images/user_profile.png"
   },
   {
@@ -1111,6 +421,26 @@
   },
   {
     "bbox": [
+      0.21408739686012268,
+      0.007166347000747919,
+      0.24855001270771027,
+      0.03175825998187065
+    ],
+    "content": "More options",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.1747613251209259,
+      0.008304601535201073,
+      0.2113058716058731,
+      0.031179288402199745
+    ],
+    "content": "Adobe Photoshop",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
       0.8969355225563049,
       0.7436379194259644,
       0.9890372157096863,
@@ -1121,162 +451,22 @@
   },
   {
     "bbox": [
-      0.13475939631462097,
-      0.9388538599014282,
-      0.19740113615989685,
-      0.9683570861816406
+      0.801880419254303,
+      0.937955379486084,
+      0.8638855218887329,
+      0.97038334608078
     ],
-    "content": "Home",
+    "content": "User profile",
     "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
-      0.41592928767204285,
-      0.09752605855464935,
-      0.6023681163787842,
-      0.15357664227485657
+      0.4698013365268707,
+      0.9383338093757629,
+      0.5297399759292603,
+      0.9696782231330872
     ],
-    "content": "TV Series",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.03049180842936039,
-      0.19907212257385254,
-      0.960803210735321,
-      0.4565522074699402
-    ],
-    "content": "FENPCIA",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.5998525619506836,
-      0.09770487248897552,
-      0.7285866737365723,
-      0.15343591570854187
-    ],
-    "content": "Kids",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.2600718140602112,
-      0.09754421561956406,
-      0.4187820553779602,
-      0.15347251296043396
-    ],
-    "content": "Movies",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.014125675894320011,
-      0.09781735390424728,
-      0.259787380695343,
-      0.15273968875408173
-    ],
-    "content": "Recommended",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.6485026478767395,
-      0.5223733186721802,
-      0.9492269158363342,
-      0.7590123414993286
-    ],
-    "content": "REC]",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.7243883013725281,
-      0.09768366068601608,
-      0.8860660195350647,
-      0.15351895987987518
-    ],
-    "content": "Animes",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.3444143533706665,
-      0.7528085708618164,
-      0.6293439865112305,
-      0.8153854608535767
-    ],
-    "content": "Train to Busan.",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.030894692987203598,
-      0.8015213012695312,
-      0.35943496227264404,
-      0.855267345905304
-    ],
-    "content": "Popular Movies",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.8525778651237488,
-      0.01082146167755127,
-      0.8876842856407166,
-      0.027282875031232834
-    ],
-    "content": "WiFi connectivity.",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.8125141859054565,
-      0.01051378808915615,
-      0.8448607325553894,
-      0.02802443504333496
-    ],
-    "content": "Close",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.8940329551696777,
-      0.010863599367439747,
-      0.9438233971595764,
-      0.026496371254324913
-    ],
-    "content": "Number 74",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.1772352010011673,
-      0.010535120964050293,
-      0.2078293263912201,
-      0.02642223611474037
-    ],
-    "content": "Microsoft Edge browser",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.1421302855014801,
-      0.010705241933465004,
-      0.1724308431148529,
-      0.026422003284096718
-    ],
-    "content": "Mail",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.7869156002998352,
-      0.042673517018556595,
-      0.8644983768463135,
-      0.08583526313304901
-    ],
-    "content": "Find and Replace",
+    "content": "Live",
     "image_path": "raw_images/vod_home.png"
   },
   {
@@ -1291,52 +481,12 @@
   },
   {
     "bbox": [
-      0.10770326107740402,
-      0.00985216535627842,
-      0.1374495029449463,
-      0.027357572689652443
+      0.7869156002998352,
+      0.042673517018556595,
+      0.8644983768463135,
+      0.08583526313304901
     ],
-    "content": "RattlesApp",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.21686145663261414,
-      0.009749585762619972,
-      0.24673870205879211,
-      0.02747783437371254
-    ],
-    "content": "More options",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.9023991823196411,
-      0.4729207158088684,
-      0.963679850101471,
-      0.5076106190681458
-    ],
-    "content": "More options",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.8981253504753113,
-      0.8112598657608032,
-      0.9652392864227295,
-      0.8493385314941406
-    ],
-    "content": "More options",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.031985409557819366,
-      0.03773495554924011,
-      0.17424049973487854,
-      0.08528229594230652
-    ],
-    "content": "System",
+    "content": "Find and Replace",
     "image_path": "raw_images/vod_home.png"
   },
   {
@@ -1351,102 +501,12 @@
   },
   {
     "bbox": [
-      0.03070215694606304,
-      0.5206528306007385,
-      0.3302666246891022,
-      0.6171898245811462
+      0.014125675894320011,
+      0.09781735390424728,
+      0.259787380695343,
+      0.15273968875408173
     ],
-    "content": "Hyperlink",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.8030546307563782,
-      0.9375190734863281,
-      0.8623502850532532,
-      0.9710220098495483
-    ],
-    "content": "User profile",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.5326586961746216,
-      0.8779487609863281,
-      0.5669771432876587,
-      0.9194835424423218
-    ],
-    "content": "Superscript",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.4868853986263275,
-      0.876164436340332,
-      0.5268102288246155,
-      0.9191434979438782
-    ],
-    "content": "Highlight",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.34315210580825806,
-      0.5200908780097961,
-      0.6391171216964722,
-      0.6100187301635742
-    ],
-    "content": "a person standing.",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.4129820466041565,
-      0.8779231309890747,
-      0.44332119822502136,
-      0.9187064170837402
-    ],
-    "content": "Elevator",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.13966645300388336,
-      0.02907087281346321,
-      0.20922182500362396,
-      0.04357009381055832
-    ],
-    "content": "Decrease 0.5",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.13764721155166626,
-      0.9382549524307251,
-      0.19227655231952667,
-      0.9674354791641235
-    ],
-    "content": "Home",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.44415581226348877,
-      0.8706234693527222,
-      0.48589026927948,
-      0.9207627177238464
-    ],
-    "content": "Italic",
-    "image_path": "raw_images/vod_home.png"
-  },
-  {
-    "bbox": [
-      0.4698013365268707,
-      0.9383338093757629,
-      0.5297399759292603,
-      0.9696782231330872
-    ],
-    "content": "Live",
+    "content": "Recommended",
     "image_path": "raw_images/vod_home.png"
   },
   {
@@ -1457,36 +517,6 @@
       0.5436288118362427
     ],
     "content": "5",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.029206635430455208,
-      0.4245472848415375,
-      0.29113060235977173,
-      0.45652836561203003
-    ],
-    "content": "Season 3",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.7974026203155518,
-      0.42625075578689575,
-      0.9709591269493103,
-      0.45493897795677185
-    ],
-    "content": "6 Episodes",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.3353867530822754,
-      0.8726174235343933,
-      0.6601462364196777,
-      0.9861279726028442
-    ],
-    "content": "RATATOUILLE",
     "image_path": "raw_images/vod_play_detail.png"
   },
   {
@@ -1521,16 +551,6 @@
   },
   {
     "bbox": [
-      0.02779521979391575,
-      0.46919164061546326,
-      0.16352933645248413,
-      0.5444758534431458
-    ],
-    "content": "Play",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
       0.18273498117923737,
       0.4693264365196228,
       0.31841668486595154,
@@ -1561,16 +581,6 @@
   },
   {
     "bbox": [
-      0.4158514142036438,
-      0.11343018710613251,
-      0.5863524675369263,
-      0.20528610050678253
-    ],
-    "content": "Play button for video or audio.",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
       0.7537825107574463,
       0.2515360116958618,
       0.84141606092453,
@@ -1581,382 +591,12 @@
   },
   {
     "bbox": [
-      0.8522218465805054,
-      0.010929489508271217,
-      0.8876703977584839,
-      0.0279980655759573
-    ],
-    "content": "WiFi connectivity.",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.8114547729492188,
-      0.010601461865007877,
-      0.8448591232299805,
-      0.028459101915359497
-    ],
-    "content": "Close",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.8931189775466919,
-      0.01097034476697445,
-      0.9439795613288879,
-      0.027142632752656937
-    ],
-    "content": "Number 74",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.8384768962860107,
-      0.25180667638778687,
-      0.9271623492240906,
-      0.31686434149742126
-    ],
-    "content": "A video game or video game.",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.6675116419792175,
-      0.251486599445343,
-      0.7552549839019775,
-      0.31892210245132446
-    ],
-    "content": "Movies & TV",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.9445909261703491,
-      0.010832244530320168,
-      0.9678525924682617,
-      0.02740637958049774
-    ],
-    "content": "Lightning",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.9250844120979309,
-      0.2515639662742615,
-      1.0,
-      0.31570419669151306
-    ],
-    "content": "a person in a suit.",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.3260082006454468,
-      0.3350831866264343,
-      0.389360636472702,
-      0.37361764907836914
-    ],
-    "content": "S3",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.6655160784721375,
-      0.7901648283004761,
-      0.992247462272644,
-      0.9978391528129578
-    ],
-    "content": "A beach or nature-related setting.",
-    "image_path": "raw_images/vod_play_detail.png"
-  },
-  {
-    "bbox": [
-      0.8211660385131836,
-      0.8887348771095276,
-      0.921718418598175,
-      0.953882098197937
-    ],
-    "content": "Lock",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.8076866269111633,
-      0.346028208732605,
-      1.0,
-      0.6675603985786438
-    ],
-    "content": "player: ijkPlayer vdec: MediaCodec fps: 300.00 / 0.00 v-cache: 1.29 sec,6.1KB a_cache: 1.96 sec,34.5 KB tcp_speed: 0 B/s bit_rate: 766.242 seek_load_cost: 0 ms resolution: 854 x 480",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.616480827331543,
-      0.8892505168914795,
-      0.7397218942642212,
-      0.947877824306488
-    ],
-    "content": "480P Quality",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.033966612070798874,
-      0.05525686591863632,
-      0.2049473524093628,
-      0.09238594025373459
-    ],
-    "content": "4802dc4d342ae112d44c",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.034684207290410995,
-      0.18099848926067352,
-      0.12814263999462128,
-      0.2184273600578308
-    ],
-    "content": "ng,kor-480p)",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.46797141432762146,
-      0.41978251934051514,
-      0.563912034034729,
-      0.5890129804611206
-    ],
-    "content": "Play button for video or audio.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.5993143320083618,
-      0.2376699596643448,
-      0.6792924404144287,
-      0.44012650847435
-    ],
-    "content": "a clock or a timer.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.8708664178848267,
-      0.07608040422201157,
-      0.9183425903320312,
-      0.16828587651252747
-    ],
-    "content": "Help",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.7441509366035461,
-      0.09064428508281708,
-      0.7809383273124695,
-      0.15792316198349
-    ],
-    "content": "Close",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.8042857050895691,
-      0.08172448724508286,
-      0.8438908457756042,
-      0.16970133781433105
-    ],
-    "content": "Toggle",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.9391891360282898,
-      0.07831234484910965,
-      0.9885223507881165,
-      0.1676449030637741
-    ],
-    "content": "Rounded rectangle",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.9315093755722046,
-      0.26724565029144287,
-      0.9683420062065125,
-      0.33509936928749084
-    ],
-    "content": "Sound",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.43670186400413513,
-      0.6133168339729309,
-      0.5176634788513184,
-      0.8157355189323425
-    ],
-    "content": "Increase",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      1.1309981346130371e-05,
-      0.0,
-      0.010380582883954048,
-      0.02409598045051098
-    ],
-    "content": "P:",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.5176265835762024,
-      0.607948362827301,
-      0.5993322134017944,
-      0.8040941953659058
-    ],
-    "content": "A video editing tool.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.6788612008094788,
-      0.591363787651062,
-      0.760194718837738,
-      0.7963408827781677
-    ],
-    "content": "A video or audio file.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.9909135699272156,
-      0.07863438874483109,
-      1.0,
-      0.16612869501113892
-    ],
-    "content": "M0,0L9,0 4.5,5z",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.5996164083480835,
-      0.44814398884773254,
-      0.678859293460846,
-      0.6008005142211914
-    ],
-    "content": "a person working.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.03135630115866661,
-      0.0,
-      0.03821819648146629,
-      0.024243399500846863
-    ],
-    "content": "1, September, 2024",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.01281466893851757,
-      0.0,
-      0.021758778020739555,
-      0.023696931079030037
-    ],
-    "content": "Oval",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.6776750683784485,
-      0.3836318254470825,
-      0.7618225812911987,
-      0.5934457778930664
-    ],
-    "content": "a group of people.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.6005887985229492,
-      0.5934098362922668,
-      0.6796680688858032,
-      0.7955998182296753
-    ],
-    "content": "View as profile",
-    "image_path": "raw_images/vod_play_detail_full_screen.png"
-  },
-  {
-    "bbox": [
-      0.8226415514945984,
-      0.8895536661148071,
-      0.9174658060073853,
-      0.9490123987197876
-    ],
-    "content": "Lock",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.09278271347284317,
-      0.08768683671951294,
-      0.2161552906036377,
-      0.12871916592121124
-    ],
-    "content": "Squid Game S3 1",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.619573712348938,
-      0.8911590576171875,
-      0.7361556887626648,
-      0.9437442421913147
-    ],
-    "content": "Quality 480P",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.8639717102050781,
-      0.0673169419169426,
-      0.9242442846298218,
-      0.18169906735420227
-    ],
-    "content": "Help",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.9345865249633789,
-      0.27355045080184937,
-      0.965152382850647,
-      0.3258651793003082
-    ],
-    "content": "Speaker",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
       0.9356495141983032,
       0.06805216521024704,
       0.9936019778251648,
       0.17382241785526276
     ],
     "content": "Screen cast",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.7429419755935669,
-      0.09150078892707825,
-      0.7801636457443237,
-      0.15234607458114624
-    ],
-    "content": "Close",
     "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
@@ -1991,46 +631,6 @@
   },
   {
     "bbox": [
-      0.04410800337791443,
-      0.0889950841665268,
-      0.06804481148719788,
-      0.13632704317569733
-    ],
-    "content": "Back",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.06292178481817245,
-      0.2721463441848755,
-      0.09342820942401886,
-      0.32846203446388245
-    ],
-    "content": "Brightness settings",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.9905174374580383,
-      0.07098037749528885,
-      1.0,
-      0.16685384511947632
-    ],
-    "content": "M0,0L9,0 4.5,5z",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
-      0.9350658655166626,
-      0.3451865613460541,
-      0.9684909582138062,
-      0.3972408175468445
-    ],
-    "content": "Togglebar",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
-  },
-  {
-    "bbox": [
       0.4674590229988098,
       0.4197532534599304,
       0.5612394213676453,
@@ -2041,182 +641,32 @@
   },
   {
     "bbox": [
-      0.0170271135866642,
-      0.5232301950454712,
-      0.5331640243530273,
-      0.6865612864494324
+      0.619573712348938,
+      0.8911590576171875,
+      0.7361556887626648,
+      0.9437442421913147
     ],
-    "content": "Premier League",
-    "image_path": "raw_images/yc_home.png"
+    "content": "Quality 480P",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.5383808016777039,
-      0.5240327715873718,
-      1.0,
-      0.6860917806625366
-    ],
-    "content": "LaLiga",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.012133492156863213,
-      0.09644965827465057,
-      0.2627895772457123,
-      0.15325193107128143
-    ],
-    "content": "Recommended",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.5569425821304321,
-      0.09630155563354492,
-      0.6855543255805969,
-      0.15317897498607635
-    ],
-    "content": "Kids",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.4149230122566223,
-      0.09622911363840103,
-      0.5629439353942871,
-      0.1530696004629135
-    ],
-    "content": "Series",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.2604176104068756,
-      0.09639173746109009,
-      0.41827866435050964,
-      0.15307989716529846
-    ],
-    "content": "Movies",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.6819518804550171,
-      0.09639011323451996,
-      0.8329010009765625,
-      0.15298786759376526
-    ],
-    "content": "Anime",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.701920747756958,
-      0.926080584526062,
-      0.7963387370109558,
-      0.9839289784431458
-    ],
-    "content": "Profile",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.40976792573928833,
-      0.049098581075668335,
-      0.6010103821754456,
-      0.07855398207902908
-    ],
-    "content": "YouCine",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.016524633392691612,
-      0.6990594267845154,
-      0.24041171371936798,
-      0.7157185077667236
-    ],
-    "content": "SS PREMIER LEAGUE",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.5384615659713745,
-      0.698691189289093,
-      0.6511269211769104,
-      0.7162494659423828
-    ],
-    "content": "SS LALIGA",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.2099454700946808,
-      0.9259794354438782,
-      0.28799447417259216,
-      0.9854238629341125
-    ],
-    "content": "VOD",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.02951311506330967,
-      0.8427181243896484,
-      0.32921040058135986,
-      0.9141609072685242
-    ],
-    "content": "A beach or ocean-related feature.",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.33177465200424194,
-      0.8424054980278015,
-      0.6303316950798035,
-      0.9144600033760071
-    ],
-    "content": "A skull or skull-related feature.",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.824531614780426,
-      0.010419314727187157,
-      0.8584327697753906,
-      0.02816333808004856
+      0.7429419755935669,
+      0.09150078892707825,
+      0.7801636457443237,
+      0.15234607458114624
     ],
     "content": "Close",
-    "image_path": "raw_images/yc_home.png"
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
-      0.8640972375869751,
-      0.010218875482678413,
-      0.8999509811401367,
-      0.027863884344697
+      0.9096572995185852,
+      0.04341839998960495,
+      0.9764931797981262,
+      0.08614180982112885
     ],
-    "content": "WiFi connectivity.",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.905826985836029,
-      0.009354767389595509,
-      0.9586390256881714,
-      0.02769112028181553
-    ],
-    "content": "Number 74",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.21851374208927155,
-      0.009109673090279102,
-      0.2512330710887909,
-      0.02844422496855259
-    ],
-    "content": "More options",
+    "content": "Search",
     "image_path": "raw_images/yc_home.png"
   },
   {
@@ -2231,212 +681,62 @@
   },
   {
     "bbox": [
-      0.6350218057632446,
-      0.8421704173088074,
-      0.9325553178787231,
-      0.9199553728103638
+      0.21851374208927155,
+      0.009109673090279102,
+      0.2512330710887909,
+      0.02844422496855259
     ],
-    "content": "Bubblehead",
+    "content": "More options",
     "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
-      0.9234207272529602,
-      0.4139276146888733,
-      0.9474024176597595,
-      0.4274992346763611
+      0.012133492156863213,
+      0.09644965827465057,
+      0.2627895772457123,
+      0.15325193107128143
     ],
-    "content": "Gray",
+    "content": "Recommended",
     "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
-      0.8926198482513428,
-      0.41363200545310974,
-      0.9173088669776917,
-      0.4272705018520355
+      0.02951311506330967,
+      0.8427181243896484,
+      0.32921040058135986,
+      0.9141609072685242
     ],
-    "content": "Dark gray",
+    "content": "A beach or ocean-related feature.",
     "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
-      0.9542156457901001,
-      0.4134628176689148,
-      0.9789362549781799,
-      0.4291614592075348
+      0.40976792573928833,
+      0.049098581075668335,
+      0.6010103821754456,
+      0.07855398207902908
     ],
-    "content": "White",
+    "content": "YouCine",
     "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
-      0.9096572995185852,
-      0.04341839998960495,
-      0.9764931797981262,
-      0.08614180982112885
-    ],
-    "content": "Search",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.0,
-      0.02953839860856533,
-      0.02561355195939541,
-      0.04371931031346321
-    ],
-    "content": "P:",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.9398468136787415,
-      0.4628194272518158,
-      0.9987264275550842,
-      0.49977031350135803
-    ],
-    "content": "Next",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.022271770983934402,
-      0.029064476490020752,
-      0.03842507302761078,
-      0.04247242212295532
-    ],
-    "content": "Oval",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.9433578252792358,
-      0.7898842096328735,
-      0.9989290237426758,
-      0.8234415054321289
-    ],
-    "content": "Next",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.0401911623775959,
-      0.028895258903503418,
-      0.05623624473810196,
-      0.0425405390560627
-    ],
-    "content": "/",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.934251070022583,
-      0.8423119783401489,
-      1.0,
-      0.9137377738952637
-    ],
-    "content": "Open a new tab (\u2318N)",
-    "image_path": "raw_images/yc_home.png"
-  },
-  {
-    "bbox": [
-      0.5109356641769409,
-      0.44324320554733276,
-      0.963591992855072,
-      0.5567337274551392
-    ],
-    "content": "Invite friends.",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.03916269913315773,
-      0.44313669204711914,
-      0.4867832660675049,
-      0.5575549006462097
-    ],
-    "content": "Renew",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.1010698527097702,
-      0.6906570196151733,
-      0.29618677496910095,
-      0.803554892539978
-    ],
-    "content": "My orders",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.4326392412185669,
-      0.3025393486022949,
-      0.5638792514801025,
-      0.4112466871738434
-    ],
-    "content": "History",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.37279781699180603,
-      0.6904540061950684,
-      0.6289771199226379,
-      0.7971819639205933
-    ],
-    "content": "Reward Centerr",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.7021321654319763,
-      0.9248977899551392,
-      0.7962429523468018,
-      0.9865947961807251
+      0.701920747756958,
+      0.926080584526062,
+      0.7963387370109558,
+      0.9839289784431458
     ],
     "content": "Profile",
-    "image_path": "raw_images/yc_user_profile.png"
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
-      0.6817055344581604,
-      0.6907761693000793,
-      0.9224270582199097,
-      0.8134695291519165
+      0.8790724277496338,
+      0.049079157412052155,
+      0.9675213098526001,
+      0.10217006504535675
     ],
-    "content": "Event Center",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.7295496463775635,
-      0.3026861250400543,
-      0.8725427985191345,
-      0.4131924510002136
-    ],
-    "content": "Account",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.21342884004116058,
-      0.9255178570747375,
-      0.2873021364212036,
-      0.9835048913955688
-    ],
-    "content": "VOD",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.04304907098412514,
-      0.2876993715763092,
-      0.3566793203353882,
-      0.4328092038631439
-    ],
-    "content": "Favorites",
+    "content": "Scan",
     "image_path": "raw_images/yc_user_profile.png"
   },
   {
@@ -2451,32 +751,12 @@
   },
   {
     "bbox": [
-      0.046515315771102905,
-      0.12164578586816788,
-      0.24910147488117218,
-      0.23078370094299316
+      0.7295496463775635,
+      0.3026861250400543,
+      0.8725427985191345,
+      0.4131924510002136
     ],
-    "content": "a person working.",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.8639377355575562,
-      0.009789526462554932,
-      0.9002159833908081,
-      0.027981501072645187
-    ],
-    "content": "WiFi connectivity.",
-    "image_path": "raw_images/yc_user_profile.png"
-  },
-  {
-    "bbox": [
-      0.9064329266548157,
-      0.008601325564086437,
-      0.9581961631774902,
-      0.02799338661134243
-    ],
-    "content": "Number 74",
+    "content": "Account",
     "image_path": "raw_images/yc_user_profile.png"
   },
   {
@@ -2491,43 +771,43 @@
   },
   {
     "bbox": [
-      0.8790724277496338,
-      0.049079157412052155,
-      0.9675213098526001,
-      0.10217006504535675
+      0.4326392412185669,
+      0.3025393486022949,
+      0.5638792514801025,
+      0.4112466871738434
     ],
-    "content": "Scan",
+    "content": "History",
     "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
-      0.7725468873977661,
-      0.05607689544558525,
-      0.8388124108314514,
-      0.0925402045249939
+      0.9064329266548157,
+      0.008601325564086437,
+      0.9581961631774902,
+      0.02799338661134243
     ],
-    "content": "Notifications",
+    "content": "Number 74",
     "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
-      0.47813358902931213,
-      0.8409201502799988,
-      0.5507103800773621,
-      0.9638110399246216
+      0.37279781699180603,
+      0.6904540061950684,
+      0.6289771199226379,
+      0.7971819639205933
     ],
-    "content": "grana",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+    "content": "Reward Centerr",
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
-      0.6673824191093445,
-      0.07780208438634872,
-      0.7163802981376648,
-      0.14244379103183746
+      0.5109356641769409,
+      0.44324320554733276,
+      0.963591992855072,
+      0.5567337274551392
     ],
-    "content": "480P",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+    "content": "Invite friends.",
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -2551,16 +831,6 @@
   },
   {
     "bbox": [
-      0.05993213504552841,
-      0.08225616812705994,
-      0.18970906734466553,
-      0.13161107897758484
-    ],
-    "content": "Ironheart S1 1",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
-  },
-  {
-    "bbox": [
       0.9299678802490234,
       0.7603368163108826,
       0.984335720539093,
@@ -2571,42 +841,12 @@
   },
   {
     "bbox": [
-      0.43148812651634216,
-      0.8448114991188049,
-      0.47765034437179565,
-      0.9725716710090637
-    ],
-    "content": "Preciso",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
-  },
-  {
-    "bbox": [
-      0.5413072109222412,
-      0.8573395013809204,
-      0.5977617502212524,
-      0.9573859572410583
-    ],
-    "content": "Dinheiro.",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
-  },
-  {
-    "bbox": [
       0.8476415872573853,
       0.07749173790216446,
       0.8929044604301453,
       0.1439530849456787
     ],
     "content": "Screen ratio",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
-  },
-  {
-    "bbox": [
-      0.9326321482658386,
-      0.07718314230442047,
-      0.9780964851379395,
-      0.1496036797761917
-    ],
-    "content": "a menu or list option.",
     "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
@@ -2641,12 +881,72 @@
   },
   {
     "bbox": [
-      0.11283252388238907,
-      0.2051171213388443,
-      0.8622323274612427,
-      0.8002585768699646
+      0.43148812651634216,
+      0.8448114991188049,
+      0.47765034437179565,
+      0.9725716710090637
     ],
-    "content": "a paint bucket tool.",
+    "content": "Preciso",
     "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.5413072109222412,
+      0.8573395013809204,
+      0.5977617502212524,
+      0.9573859572410583
+    ],
+    "content": "Dinheiro.",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.8211660385131836,
+      0.8887348771095276,
+      0.921718418598175,
+      0.953882098197937
+    ],
+    "content": "Lock",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.43670186400413513,
+      0.6133168339729309,
+      0.5176634788513184,
+      0.8157355189323425
+    ],
+    "content": "Increase",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.6788612008094788,
+      0.591363787651062,
+      0.760194718837738,
+      0.7963408827781677
+    ],
+    "content": "A video or audio file.",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.034684207290410995,
+      0.18099848926067352,
+      0.12814263999462128,
+      0.2184273600578308
+    ],
+    "content": "ng,kor-480p)",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.9315093755722046,
+      0.26724565029144287,
+      0.9683420062065125,
+      0.33509936928749084
+    ],
+    "content": "Sound",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
   }
 ]

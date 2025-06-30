@@ -53,9 +53,9 @@ import supervision as sv
 import torchvision.transforms as T
 from util.box_annotator import BoxAnnotator 
 
-from transformers import BitsAndBytesConfig
+# from transformers import BitsAndBytesConfig
 
-quantization_config_4bit = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True)
+# quantization_config_4bit = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True)
 
 
 def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2-opt-2.7b", device=None):

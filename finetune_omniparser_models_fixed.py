@@ -455,7 +455,7 @@ class Florence2LocalModelTrainer:
                 if val_loss < best_val_loss:
                     best_val_loss = val_loss
                     patience_counter = 0
-                    self.save_model("weights/icon_caption_florence_conservative")
+                    self.save_model("weights/icon_caption_florence_finetuned")
                 else:
                     patience_counter += 1
                     if patience_counter >= patience:
@@ -822,7 +822,7 @@ def main():
     try:
         trainer.train_local_model(
             florence_data=florence_data,
-            epochs=6,
+            epochs=7,
             batch_size=3,  
             lr=1e-7,  
             warmup_ratio=0.1 # 学习率预热是一种训练技巧，用于在训练初期逐渐增加学习率，以帮助模型更快地收敛。

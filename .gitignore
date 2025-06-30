@@ -17,3 +17,6 @@ pip
 /weights/*
 /.claude
 .claude/settings.local.json
+/trainning_data
+/training_data_s
+

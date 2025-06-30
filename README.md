@@ -486,7 +486,7 @@ Complete workflow example showing how to use all components
 python collect_training_data.py --output_dir ./data --apply_corrections
 
 # 只保留20%未修改数据（推荐用于大量原始数据场景）
-python collect_training_data.py --output_dir ./data --apply_corrections --old_percentage 20
+python collect_training_data.py --output_dir ./training_data --apply_corrections --old_percentage 20
 
 # 保留80%未修改数据（适合修改数据很多的场景）
 python collect_training_data.py --output_dir ./data --apply_corrections --old_percentage 80
