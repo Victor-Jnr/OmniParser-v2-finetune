@@ -98,11 +98,17 @@ python collect_training_data.py \
     --apply_corrections
 ```
 
-### 2.4 若 json 处理失败使用以下命令修复后重新执行 2.3
+### 2.3.1 若 json 处理失败使用以下命令修复后重新执行 2.3
 
 ```
 python repair_json_files.py --output_dir ./training_data
 ```
+
+### 2.4 删除一部分老数据 old_percentage 20 为保存 20% 的老数据, 其它为新数据, 适当增加保存量
+```
+python collect_training_data.py --output_dir ./training_data --apply_corrections --old_percentage 20
+```
+
 
 ### 2.5 数据增强功能（提升模型性能）
 

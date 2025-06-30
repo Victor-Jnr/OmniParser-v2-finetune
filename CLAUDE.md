@@ -48,6 +48,12 @@ mv weights/icon_caption weights/icon_caption_florence
 # Basic Gradio demo
 python gradio_demo.py
 
+# CLI demo with OCR enabled (default)
+python demo.py path/to/image.png
+
+# CLI demo without OCR (icons only) - useful for performance testing
+python demo.py path/to/image.png --no_ocr
+
 # OmniTool agent interface
 python omnitool/gradio/app.py --windows_host_url localhost:8006 --omniparser_server_url localhost:8000
 
@@ -74,6 +80,7 @@ ruff format .
 
 - Training data format in `training_data/florence_format/`
 - Manual corrections tracked in `training_data/manual_correction.csv`
+- **Detailed fine-tuning methods**: See [FINETUNING_METHODS_README.md](FINETUNING_METHODS_README.md) for comprehensive analysis of current parameter-efficient fine-tuning approach, LoRA techniques, and layer selection strategies
 
 ## Key File Locations
 

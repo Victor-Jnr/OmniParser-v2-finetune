@@ -5,6 +5,17 @@ Converted from demo_nofile.ipynb
 
 This script demonstrates the OmniParser functionality for processing images
 and extracting UI elements with bounding boxes and captions.
+
+Usage:
+    # Run with OCR enabled (default)
+    python demo.py path/to/image.png
+    
+    # Run without OCR (icons only)
+    python demo.py path/to/image.png --no_ocr
+    
+    # Compare performance with and without OCR
+    python demo.py imgs/example.png --no_ocr  # Icons only
+    python demo.py imgs/example.png           # Icons + OCR text
 """
 
 import os
@@ -16,7 +27,19 @@ from ultralytics import YOLO
 from PIL import Image
 from util.utils import get_som_labeled_img, check_ocr_box, get_caption_model_processor, get_yolo_model
 
-def main(image_path):
+def main(image_path, use_ocr=True):
+    """
+    Process an image with OmniParser to extract UI elements.
+    
+    Args:
+        image_path (str): Path to the image file to process
+        use_ocr (bool): Whether to enable PaddleOCR text detection. 
+                       Set to False to skip OCR processing and only detect icons.
+                       Default: True
+    
+    Returns:
+        tuple: (labeled_image, label_coordinates, parsed_content_list, dataframe)
+    """
     image_path = image_path
     # Configuration
     device = 'cuda'
@@ -68,20 +91,25 @@ def main(image_path):
         'thickness': max(int(3 * box_overlay_ratio), 1),
     }
     
-    # Perform OCR
-    print("Performing OCR...")
-    start_time = time.time()
-    ocr_bbox_rslt, is_goal_filtered = check_ocr_box(
-        image_path, 
-        display_img=False, 
-        output_bb_format='xyxy', 
-        goal_filtering=None, 
-        easyocr_args={'paragraph': False, 'text_threshold': 0.9}, 
-        use_paddleocr=True
-    )
-    text, ocr_bbox = ocr_bbox_rslt
-    ocr_time = time.time() - start_time
-    print(f"OCR completed in {ocr_time:.2f} seconds")
+    # Perform OCR (conditionally)
+    if use_ocr:
+        print("Performing OCR...")
+        start_time = time.time()
+        ocr_bbox_rslt, is_goal_filtered = check_ocr_box(
+            image_path, 
+            display_img=False, 
+            output_bb_format='xyxy', 
+            goal_filtering=None, 
+            easyocr_args={'paragraph': False, 'text_threshold': 0.9}, 
+            use_paddleocr=True
+        )
+        text, ocr_bbox = ocr_bbox_rslt
+        ocr_time = time.time() - start_time
+        print(f"OCR completed in {ocr_time:.2f} seconds")
+    else:
+        print("Skipping OCR (use_ocr=False)")
+        text, ocr_bbox = [], []
+        ocr_time = 0
     
     # Get SOM labeled image with captions
     print("Generating SOM labeled image...")
@@ -161,6 +189,15 @@ def main(image_path):
     for i, content in enumerate(parsed_content_list):
         print(f"Element {i}: {content}")
     
+    # Print timing summary
+    total_time = ocr_time + caption_time
+    print(f"\n=== Processing Time Summary ===")
+    print(f"OCR Time: {ocr_time:.2f}s {'(enabled)' if use_ocr else '(disabled)'}")
+    print(f"Caption Time: {caption_time:.2f}s")
+    print(f"Total Time: {total_time:.2f}s")
+    if use_ocr:
+        print(f"OCR Percentage: {(ocr_time/total_time)*100:.1f}% of total processing time")
+    
     # Print return content structure
     print("\nReturn Content Structure:")
     print(f"1. Labeled Image: {type(dino_labeled_img)} - saved to {output_image_path}")
@@ -171,9 +208,20 @@ def main(image_path):
     return dino_labeled_img, label_coordinates, parsed_content_list, df
 
 if __name__ == "__main__":
-    # for file in os.listdir('imgs'):
-    #     if file.endswith('.png') or file.endswith('.jpg') and not file.endswith('_labeled.png') and not file.endswith('_labeled.jpg') and not file.startswith('demo') :
-    #         image_path = os.path.join('imgs', file)
-    #         main(image_path) 
-    main('imgs/vod_play_detail_full_screen.png')
-    # main('imgs/live_channel_labeled.png')
+    import argparse
+    
+    parser = argparse.ArgumentParser(description="OmniParser Demo - Process images and extract UI elements")
+    parser.add_argument("image_path", nargs='?', default='imgs/vod_play_detail_full_screen.png', 
+                       help="Path to the image file to process")
+    parser.add_argument("--no_ocr", action="store_true", 
+                       help="Disable PaddleOCR text detection (default: enabled)")
+    
+    args = parser.parse_args()
+    
+    # Handle OCR flag logic - OCR is enabled by default unless --no_ocr is specified
+    use_ocr = not args.no_ocr
+    
+    print(f"Processing image: {args.image_path}")
+    print(f"OCR enabled: {use_ocr}")
+    
+    main(args.image_path, use_ocr=use_ocr)

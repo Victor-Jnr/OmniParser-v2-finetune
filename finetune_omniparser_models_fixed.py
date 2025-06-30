@@ -826,9 +826,9 @@ def main():
     try:
         trainer.train_local_model(
             florence_data=florence_data,
-            epochs=20, # 自动早停, 可设大点
+            epochs=10, # 自动早停, 可设大点
             batch_size=4,  # batch_size 根据内存大小调整, 计算方式: 内存大小
-            lr=5e-5,  # 样本太少, 需要增加学习率
+            lr=1e-5,  # 样本太少, 需要增加学习率
             # lr=1e-5,  
             warmup_ratio=0.1 # 学习率预热是一种训练技巧，用于在训练初期逐渐增加学习率，以帮助模型更快地收敛。
         )
