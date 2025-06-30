@@ -20,10 +20,11 @@ from typing import List, Dict, Tuple
 from tqdm import tqdm
 import pandas as pd
 import shutil
+import random
 
 # Import OmniParser components
 from util.utils import get_som_labeled_img, check_ocr_box, get_caption_model_processor, get_yolo_model
-from finetune_omniparser_models import prepare_training_data_from_omniparser_output
+from finetune_omniparser_models_old import prepare_training_data_from_omniparser_output
 
 class TrainingDataCollector:
     """Collect training data using existing OmniParser models"""
@@ -250,8 +251,13 @@ class TrainingDataCollector:
         print("3. Set 'keep_element' to False for elements you want to exclude")
         print("4. Save the file and run: python collect_training_data.py --apply_corrections")
     
-    def apply_manual_corrections(self, output_dir: str) -> List[Dict]:
-        """Apply manual corrections from CSV file"""
+    def apply_manual_corrections(self, output_dir: str, old_percentage: float = 50) -> List[Dict]:
+        """Apply manual corrections from CSV file with data balancing
+        
+        Args:
+            output_dir: Directory containing correction data
+            old_percentage: Percentage of unchanged data to keep (0-100)
+        """
         output_path = Path(output_dir)
         correction_file = output_path / "manual_correction.csv"
         
@@ -259,8 +265,12 @@ class TrainingDataCollector:
             print(f"Manual correction file not found: {correction_file}")
             return []
         
-        print("Applying manual corrections...")
+        print(f"Applying manual corrections with {old_percentage}% unchanged data retention...")
         df = pd.read_csv(correction_file)
+        
+        # Track changes for data balancing
+        modified_elements = []  # Elements that were changed
+        unchanged_elements = []  # Elements that were not changed
         
         # Group by image
         corrected_results = []
@@ -295,7 +305,7 @@ class TrainingDataCollector:
                         print(f"Warning: No image_size in {result_file}, using default")
                         original_result['image_size'] = [1920, 1080]  # Default size
                     
-                    # Apply corrections
+                    # Apply corrections and track changes
                     corrected_parsed_content = []
                     for _, row in group.iterrows():
                         if pd.isna(row['keep_element']) or row['keep_element']:  # Handle NaN values as True
@@ -307,8 +317,31 @@ class TrainingDataCollector:
                                     # Update content with corrected version
                                     corrected_element = original_element.copy()
                                     corrected_content = row['corrected_content']
+                                    
+                                    # Check if this element was actually modified
+                                    was_modified = False
                                     if pd.notna(corrected_content):  # Check if not NaN
-                                        corrected_element['content'] = str(corrected_content)
+                                        new_content = str(corrected_content)
+                                        if new_content != original_element.get('content', ''):
+                                            corrected_element['content'] = new_content
+                                            was_modified = True
+                                    
+                                    # Track for data balancing
+                                    element_info = {
+                                        'element': corrected_element,
+                                        'image_info': {
+                                            'image_path': image_path,
+                                            'image_size': tuple(original_result['image_size']) if isinstance(original_result['image_size'], list) else original_result['image_size'],
+                                            'image_name': image_name
+                                        },
+                                        'was_modified': was_modified
+                                    }
+                                    
+                                    if was_modified:
+                                        modified_elements.append(element_info)
+                                    else:
+                                        unchanged_elements.append(element_info)
+                                    
                                     corrected_parsed_content.append(corrected_element)
                                 else:
                                     print(f"Warning: Element ID {element_id} out of range for {image_name}")
@@ -316,7 +349,7 @@ class TrainingDataCollector:
                                 print(f"Warning: Error processing element for {image_name}: {e}")
                                 continue
                     
-                    # Create corrected result
+                    # Create corrected result (will be reorganized later for balancing)
                     corrected_result = {
                         'image_path': image_path,
                         'image_size': tuple(original_result['image_size']) if isinstance(original_result['image_size'], list) else original_result['image_size'],
@@ -362,13 +395,69 @@ class TrainingDataCollector:
                 print(f"Warning: Result file not found: {result_file}")
                 failed_files.append(str(result_file))
         
-        print(f"Applied corrections to {len(corrected_results)} images")
+        # Data balancing analysis and adjustment
+        total_modified = len(modified_elements)
+        total_unchanged = len(unchanged_elements)
+        total_elements = total_modified + total_unchanged
+        
+        if total_elements == 0:
+            print("No elements found for processing!")
+            return []
+        
+        modified_percentage = (total_modified / total_elements) * 100
+        unchanged_percentage = (total_unchanged / total_elements) * 100
+        
+        print(f"\n📊 Data Distribution Analysis:")
+        print(f"  Modified elements: {total_modified} ({modified_percentage:.1f}%)")
+        print(f"  Unchanged elements: {total_unchanged} ({unchanged_percentage:.1f}%)")
+        print(f"  Total elements: {total_elements}")
+        
+        # Calculate how many unchanged elements to keep
+        target_unchanged_count = int((old_percentage / 100) * total_elements)
+        
+        # If we need to reduce unchanged elements
+        if total_unchanged > target_unchanged_count:
+            print(f"\n🎯 Data Balancing:")
+            print(f"  Target unchanged elements: {target_unchanged_count} ({old_percentage}%)")
+            print(f"  Randomly removing {total_unchanged - target_unchanged_count} unchanged elements")
+            
+            # Randomly sample unchanged elements to keep
+            random.seed(42)  # For reproducibility
+            unchanged_elements = random.sample(unchanged_elements, target_unchanged_count)
+        
+        # Combine modified and sampled unchanged elements
+        final_elements = modified_elements + unchanged_elements
+        final_modified = len(modified_elements)
+        final_unchanged = len(unchanged_elements)
+        final_total = len(final_elements)
+        
+        print(f"\n✅ Final Data Distribution:")
+        print(f"  Modified elements: {final_modified} ({(final_modified/final_total)*100:.1f}%)")
+        print(f"  Unchanged elements: {final_unchanged} ({(final_unchanged/final_total)*100:.1f}%)")
+        print(f"  Total elements: {final_total}")
+        
+        # Reorganize elements back into image-based structure
+        balanced_results = {}
+        for element_info in final_elements:
+            image_name = element_info['image_info']['image_name']
+            if image_name not in balanced_results:
+                balanced_results[image_name] = {
+                    'image_path': element_info['image_info']['image_path'],
+                    'image_size': element_info['image_info']['image_size'],
+                    'parsed_content_list': []
+                }
+            balanced_results[image_name]['parsed_content_list'].append(element_info['element'])
+        
+        # Convert back to list format
+        final_corrected_results = list(balanced_results.values())
+        
+        print(f"\nApplied corrections to {len(final_corrected_results)} images with balanced data")
         if failed_files:
             print(f"Failed to process {len(failed_files)} files:")
             for f in failed_files:
                 print(f"  - {f}")
         
-        return corrected_results
+        return final_corrected_results
 
     def repair_json_files(self, output_dir: str):
         """Repair corrupted JSON files in the output directory"""
@@ -437,6 +526,8 @@ def main():
                        help='Create manual correction interface')
     parser.add_argument('--apply_corrections', action='store_true',
                        help='Apply manual corrections and generate training data')
+    parser.add_argument('--old_percentage', type=float, default=50,
+                       help='Percentage of unchanged data to keep (0-100, default: 50)')
     
     args = parser.parse_args()
     
@@ -449,7 +540,7 @@ def main():
         
         print("Applying manual corrections mode")
         collector = TrainingDataCollector(device=args.device)
-        corrected_results = collector.apply_manual_corrections(args.output_dir)
+        corrected_results = collector.apply_manual_corrections(args.output_dir, args.old_percentage)
         if corrected_results:
             print("Generating training data from corrected annotations...")
             yolo_config, florence_data = prepare_training_data_from_omniparser_output(
@@ -468,6 +559,7 @@ def main():
             print("Usage examples:")
             print("  Normal processing: python collect_training_data.py --input_dir ./images --output_dir ./data")
             print("  Apply corrections: python collect_training_data.py --output_dir ./data --apply_corrections")
+            print("  Apply corrections with 20% old data: python collect_training_data.py --output_dir ./data --apply_corrections --old_percentage 20")
             return
         
         if not os.path.exists(args.input_dir):
@@ -501,6 +593,7 @@ def main():
             print(f"\nNext steps:")
             print(f"1. Edit the file: {args.output_dir}/manual_correction.csv")
             print(f"2. Run: python collect_training_data.py --output_dir {args.output_dir} --apply_corrections")
+            print(f"   Optional: --old_percentage 20 (to keep only 20% unchanged data)")
 
 if __name__ == "__main__":
     main() 

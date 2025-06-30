@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 from demo import main as demo_main
 from collect_training_data import TrainingDataCollector
-from finetune_omniparser_models import prepare_training_data_from_omniparser_output, YOLOTrainer, Florence2Trainer
+from finetune_omniparser_models_old import prepare_training_data_from_omniparser_output, YOLOTrainer, Florence2Trainer
 
 def example_data_collection():
     """示例：从图像收集训练数据"""

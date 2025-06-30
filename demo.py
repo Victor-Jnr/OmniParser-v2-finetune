@@ -34,8 +34,8 @@ def main(image_path):
     
     caption_model_processor = get_caption_model_processor(
         model_name="florence2", 
-        model_name_or_path="weights/icon_caption_florence", 
-        # model_name_or_path="weights/icon_caption_florence_finetuned", 
+        # model_name_or_path="weights/icon_caption_florence", 
+        model_name_or_path="weights/icon_caption_florence_finetuned", 
         device=device
     )
     print("Caption model loaded")
