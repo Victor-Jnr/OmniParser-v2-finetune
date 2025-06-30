@@ -79,6 +79,7 @@ def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2
         if device == 'cpu':
             model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True)
         else:
+            print(f'{model_name_or_path} model loaded to gpu')
             # model = AutoModelForCausalLM.from_pretrained(model_name_or_path, quantization_config=quantization_config_4bit, torch_dtype=torch.float16, trust_remote_code=True).to(device)
             model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16, trust_remote_code=True).to(device)
     return {'model': model.to(device), 'processor': processor}

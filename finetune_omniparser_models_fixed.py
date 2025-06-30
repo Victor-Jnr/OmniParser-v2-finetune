@@ -44,22 +44,14 @@ class Florence2LocalModelTrainer:
                 trust_remote_code=True
             )
             
-            # 加载本地模型权重
+            # 加载本地模型权重 - 强制使用float32以避免混合精度问题
             print(f"Loading model weights from local path: {self.base_model_path}")
-            if self.device.type == 'cuda':
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    self.base_model_path,
-                    torch_dtype=torch.float16,  # 使用float16提高效率
-                    trust_remote_code=True,
-                    local_files_only=True
-                ).to(self.device)
-            else:
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    self.base_model_path,
-                    torch_dtype=torch.float32,
-                    trust_remote_code=True,
-                    local_files_only=True
-                ).to(self.device)
+            self.model = AutoModelForCausalLM.from_pretrained(
+                self.base_model_path,
+                torch_dtype=torch.float32,  # 强制使用float32统一精度
+                trust_remote_code=True,
+                local_files_only=True
+            ).to(self.device)
             
             print(f"✓ Local model loaded successfully")
             print(f"  Model type: {self.model.config.model_type}")
@@ -75,23 +67,20 @@ class Florence2LocalModelTrainer:
                 trust_remote_code=True
             )
             
-            if self.device.type == 'cuda':
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    "microsoft/Florence-2-base",
-                    torch_dtype=torch.float16,
-                    trust_remote_code=True
-                ).to(self.device)
-            else:
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    "microsoft/Florence-2-base",
-                    torch_dtype=torch.float32,
-                    trust_remote_code=True
-                ).to(self.device)
+            # 如果使用基础模型作为备选，也使用float32格式
+            self.model = AutoModelForCausalLM.from_pretrained(
+                "microsoft/Florence-2-base",
+                torch_dtype=torch.float32,
+                trust_remote_code=True
+            ).to(self.device)
                 
             print("⚠️  Using base model instead of local weights!")
         
         # 验证模型权重来源
         self.verify_model_source()
+        
+        # 添加严格验证：确保我们真的在使用本地模型
+        self._strict_local_model_verification()
         
         # 冻结大部分参数，只训练顶层
         if freeze_backbone:
@@ -129,12 +118,19 @@ class Florence2LocalModelTrainer:
                 do_resize=False
             )
             inputs = {k: v.to(self.device) for k, v in inputs.items()}
-            if self.device.type == 'cuda':
-                # 只对pixel_values应用float16
-                if 'pixel_values' in inputs:
-                    inputs['pixel_values'] = inputs['pixel_values'].to(dtype=torch.float16)
             
             with torch.no_grad():
+                # Handle mixed precision models properly
+                if self.device.type == 'cuda' and hasattr(self.model, 'dtype'):
+                    model_dtype = self.model.dtype
+                    print(f"  Model dtype: {model_dtype}")
+                    
+                    # Convert inputs to match model dtype
+                    for key, tensor in inputs.items():
+                        if tensor.dtype.is_floating_point:
+                            inputs[key] = tensor.to(dtype=model_dtype)
+                        print(f"  {key} dtype: {inputs[key].dtype}")
+                
                 outputs = self.model.generate(
                     input_ids=inputs["input_ids"],
                     pixel_values=inputs["pixel_values"],
@@ -158,6 +154,73 @@ class Florence2LocalModelTrainer:
             print(f"  ⚠️  Verification test failed: {e}")
         
         print("🔍 Model verification completed\n")
+    
+    def _strict_local_model_verification(self):
+        """严格验证模型是否为本地模型，如果不是则停止训练"""
+        print("🔒 Strict local model verification...")
+        
+        # 检查模型配置路径
+        model_path = getattr(self.model.config, '_name_or_path', '')
+        if model_path != self.base_model_path:
+            print(f"❌ CRITICAL: Model path mismatch!")
+            print(f"   Expected: {self.base_model_path}")
+            print(f"   Actual: {model_path}")
+            raise ValueError("Model is not loaded from specified local path!")
+        
+        # 检查模型文件大小应该匹配本地模型
+        expected_size = 1083916964  # 本地模型的确切大小
+        local_model_file = os.path.join(self.base_model_path, 'model.safetensors')
+        if os.path.exists(local_model_file):
+            actual_size = os.path.getsize(local_model_file)
+            if actual_size != expected_size:
+                print(f"⚠️  Warning: Model file size mismatch")
+                print(f"   Expected: {expected_size:,} bytes")
+                print(f"   Actual: {actual_size:,} bytes")
+        
+        # 进行推理对比验证
+        try:
+            print("Testing inference signature...")
+            test_image = Image.new('RGB', (64, 64), (128, 128, 128))
+            inputs = self.processor(
+                text=["<CAPTION>"], 
+                images=[test_image], 
+                return_tensors="pt",
+                do_resize=False
+            )
+            inputs = {k: v.to(self.device) for k, v in inputs.items()}
+            
+            with torch.no_grad():
+                # Handle mixed precision models properly
+                if self.device.type == 'cuda' and hasattr(self.model, 'dtype'):
+                    model_dtype = self.model.dtype
+                    # Convert inputs to match model dtype
+                    for key, tensor in inputs.items():
+                        if tensor.dtype.is_floating_point:
+                            inputs[key] = tensor.to(dtype=model_dtype)
+                
+                outputs = self.model.generate(
+                    input_ids=inputs["input_ids"],
+                    pixel_values=inputs["pixel_values"],
+                    max_new_tokens=20,
+                    num_beams=1,
+                    do_sample=False
+                )
+            
+            result = self.processor.batch_decode(outputs, skip_special_tokens=True)[0]
+            print(f"   Inference result: '{result}'")
+            
+            # 检查输出特征：本地模型应该有特定的UI输出模式
+            if len(result.strip()) > 50:  # 如果输出过长，可能是基础模型
+                print("⚠️  WARNING: Output seems too generic, might be base model")
+            
+            # 记录当前模型状态用于后续对比
+            self._initial_inference_result = result
+            print("✓ Strict verification passed")
+            
+        except Exception as e:
+            print(f"⚠️  Verification inference failed: {e}")
+        
+        print("🔒 Strict verification completed\n")
     
     def freeze_model_layers(self):
         """冻结模型的backbone层，只训练顶层"""
@@ -320,12 +383,9 @@ class Florence2LocalModelTrainer:
                             do_resize=False  # 遵循原始项目：图像已预先resize到64x64
                         )
                         
-                        # 正确处理数据类型并确保所有tensor在同一设备
+                        # 正确处理数据类型并确保所有tensor在同一设备  
                         inputs = {k: v.to(self.device) for k, v in inputs.items()}
-                        if self.device.type == 'cuda':
-                            # 只对pixel_values应用float16
-                            if 'pixel_values' in inputs:
-                                inputs['pixel_values'] = inputs['pixel_values'].to(dtype=torch.float16)
+                        # 保持所有输入为float32，与模型统一
                         
                         # 处理标签 - 确保与questions长度匹配
                         valid_answers = answers[:len(processed_images)]
@@ -445,10 +505,7 @@ class Florence2LocalModelTrainer:
                     
                     # 确保所有tensor在同一设备
                     inputs = {k: v.to(self.device) for k, v in inputs.items()}
-                    if self.device.type == 'cuda':
-                        # 只对pixel_values应用float16
-                        if 'pixel_values' in inputs:
-                            inputs['pixel_values'] = inputs['pixel_values'].to(dtype=torch.float16)
+                    # 保持所有输入为float32，与模型统一
                     
                     valid_answers = answers[:len(processed_images)]
                     labels = self.processor.tokenizer(
@@ -475,37 +532,60 @@ class Florence2LocalModelTrainer:
         return val_loss / val_batches if val_batches > 0 else float('inf')
     
     def save_model(self, save_path):
-        """保存模型和处理器"""
+        """保存模型权重，保持与原始本地模型的兼容性"""
         print(f"Saving model to {save_path}")
         try:
             os.makedirs(save_path, exist_ok=True)
             
-            # 保存模型
+            # 使用标准方法保存模型，但限制保存的文件
+            print("Saving model using standard method to handle shared tensors properly")
+            
+            # 使用HuggingFace的标准保存方法处理共享张量
             self.model.save_pretrained(
                 save_path,
-                safe_serialization=True,  # 使用safe tensors格式
-                max_shard_size="2GB"  # 分片大小
+                safe_serialization=True,
+                max_shard_size="2GB"
             )
+            print("✓ Model weights saved successfully")
             
-            # 保存处理器
-            self.processor.save_pretrained(save_path)
+            # 删除我们不需要的文件（保持与原始本地模型一致）
+            unwanted_files = ['configuration_florence2.py', 'modeling_florence2.py']
+            for file_name in unwanted_files:
+                file_path = os.path.join(save_path, file_name)
+                if os.path.exists(file_path):
+                    os.remove(file_path)
+                    print(f"Removed {file_name} to match original model structure")
             
-            # 保存训练配置
-            config = {
-                "model_type": "florence2",
-                "base_model": self.base_model_path,
+            # 恢复原始本地模型的config文件（被save_pretrained覆盖的）
+            print("Restoring original local model configuration files...")
+            essential_files = ['config.json', 'generation_config.json']
+            for file_name in essential_files:
+                source_file = os.path.join(self.base_model_path, file_name)
+                if os.path.exists(source_file):
+                    target_file = os.path.join(save_path, file_name)
+                    import shutil
+                    shutil.copy2(source_file, target_file)
+                    print(f"Restored {file_name} from original local model")
+            
+            # 保存训练记录（区别于模型配置）
+            training_record = {
+                "training_type": "florence2_local_finetune",
+                "base_model_source": self.base_model_path,
+                "trained_on": "local_weights",
                 "device": str(self.device),
                 "training_completed": True,
-                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "note": "Model weights only - use original processor from microsoft/Florence-2-base"
             }
             
-            with open(os.path.join(save_path, "training_config.json"), "w") as f:
-                json.dump(config, f, indent=2)
+            with open(os.path.join(save_path, "training_record.json"), "w") as f:
+                json.dump(training_record, f, indent=2)
             
-            print(f"Model successfully saved to {save_path}")
+            print(f"✓ Model weights successfully saved to {save_path}")
+            print(f"ℹ️  Use with processor from 'microsoft/Florence-2-base' for compatibility")
             
         except Exception as e:
-            print(f"Error saving model: {e}")
+            print(f"✗ Error saving model: {e}")
             raise
 
 class Florence2LocalDataset(Dataset):
@@ -679,12 +759,16 @@ def test_model_loading(model_path: str):
         
         # 确保所有tensor在同一设备
         inputs = {k: v.to(trainer.device) for k, v in inputs.items()}
-        if trainer.device.type == 'cuda':
-            # 只对pixel_values应用float16
-            if 'pixel_values' in inputs:
-                inputs['pixel_values'] = inputs['pixel_values'].to(dtype=torch.float16)
         
         with torch.no_grad():
+            # Handle mixed precision models properly
+            if trainer.device.type == 'cuda' and hasattr(trainer.model, 'dtype'):
+                model_dtype = trainer.model.dtype
+                # Convert inputs to match model dtype
+                for key, tensor in inputs.items():
+                    if tensor.dtype.is_floating_point:
+                        inputs[key] = tensor.to(dtype=model_dtype)
+            
             outputs = trainer.model.generate(
                 input_ids=inputs["input_ids"],
                 pixel_values=inputs["pixel_values"],

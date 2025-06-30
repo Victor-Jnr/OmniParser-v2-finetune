@@ -14,3 +14,6 @@ omnitool/gradio/uploads/
 pip
 /.cursor
 /work
+/weights/*
+/.claude
+.claude/settings.local.json
