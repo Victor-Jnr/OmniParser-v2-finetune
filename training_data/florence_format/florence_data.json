@@ -121,16 +121,6 @@
   },
   {
     "bbox": [
-      0.7612189650535583,
-      0.714023768901825,
-      0.8203908205032349,
-      0.7451007962226868
-    ],
-    "content": "CreateCreate",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
       0.1981661468744278,
       0.4858853220939636,
       0.3353686034679413,
@@ -147,16 +137,6 @@
       0.7502027750015259
     ],
     "content": "Forward",
-    "image_path": "raw_images/live_channel.png"
-  },
-  {
-    "bbox": [
-      0.8522133827209473,
-      0.010642574168741703,
-      0.8879148960113525,
-      0.027146169915795326
-    ],
-    "content": "WiFi connectivity.",
     "image_path": "raw_images/live_channel.png"
   },
   {
@@ -948,5 +928,1405 @@
     ],
     "content": "Sound",
     "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_noise_10.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_2_rot_-3.1.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Lightning_aug_1_bright_20.png",
+    "content": "Lightning",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Lightning_aug_2_contrast_0.89_noise_10.png",
+    "content": "Lightning",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_ChannelList_aug_1_noise_10.png",
+    "content": "ChannelList",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_ChannelList_aug_2_noise_10.png",
+    "content": "ChannelList",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_ECOFE_aug_1_contrast_0.83_crop_0.02.png",
+    "content": "ECOFE",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_ECOFE_aug_2_rot_9.1_crop_0.01.png",
+    "content": "ECOFE",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_1_contrast_1.16.png",
+    "content": "Forward",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_2_noise_10_crop_0.01.png",
+    "content": "Forward",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Colombia_aug_1_contrast_0.83.png",
+    "content": "Colombia",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Colombia_aug_2_bright_-5_contrast_0.84.png",
+    "content": "Colombia",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Venez_aug_1_bright_-5.png",
+    "content": "Venez",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Venez_aug_2_crop_0.03_rot_4.9.png",
+    "content": "Venez",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Deportes_aug_1_crop_0.02_noise_10.png",
+    "content": "Deportes",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Deportes_aug_2_rot_-6.3_crop_0.03.png",
+    "content": "Deportes",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_1_noise_10_rot_-4.6.png",
+    "content": "Forward",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_2_noise_10.png",
+    "content": "Forward",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_rot_2.7.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_2_contrast_0.81.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_17_noise_10.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_crop_0.01_bright_-6.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.02.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_contrast_0.92_noise_10.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_18_contrast_0.81.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_noise_10_crop_0.01.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.01_contrast_1.06.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_crop_0.01_bright_-4.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Live_aug_1_rot_1.0_crop_0.02.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Live_aug_2_contrast_0.97_rot_1.7.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Forward_aug_1_bright_2_contrast_1.13.png",
+    "content": "Forward",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Forward_aug_2_bright_-5.png",
+    "content": "Forward",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_70a_aug_1_crop_0.01.png",
+    "content": "70a",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_70a_aug_2_rot_6.5.png",
+    "content": "70a",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Close_aug_1_bright_12_contrast_1.16.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Close_aug_2_crop_0.02_noise_10.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_rot_13.3_bright_4.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_2_contrast_0.83_crop_0.01.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_1_bright_-3.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_2_rot_14.5.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Lock_aug_1_noise_10_bright_2.png",
+    "content": "Lock",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Lock_aug_2_bright_-18.png",
+    "content": "Lock",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Help_aug_1_contrast_1.10.png",
+    "content": "Help",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Help_aug_2_crop_0.01_contrast_0.97.png",
+    "content": "Help",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Pro_aug_1_rot_8.4_crop_0.02.png",
+    "content": "Pro",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Pro_aug_2_noise_10.png",
+    "content": "Pro",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_1_noise_10.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_2_noise_10_contrast_1.11.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Microsoft_Edge_brows_aug_1_contrast_0.84_noise_10.png",
+    "content": "Microsoft Edge browser",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Microsoft_Edge_brows_aug_2_noise_10.png",
+    "content": "Microsoft Edge browser",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Mail_aug_1_contrast_1.05_rot_-6.2.png",
+    "content": "Mail",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Mail_aug_2_rot_2.8.png",
+    "content": "Mail",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_crop_0.02.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_2_contrast_1.15.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_1_crop_0.03.png",
+    "content": "Enable",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_2_contrast_1.01.png",
+    "content": "Enable",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_1_contrast_1.20.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_2_crop_0.02.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_More_options_aug_1_contrast_0.94_rot_-10.3.png",
+    "content": "More options",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_More_options_aug_2_noise_10_contrast_1.01.png",
+    "content": "More options",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Adobe_Photoshop_aug_1_noise_10.png",
+    "content": "Adobe Photoshop",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Adobe_Photoshop_aug_2_crop_0.01_noise_10.png",
+    "content": "Adobe Photoshop",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_HideHideHide_aug_1_bright_12.png",
+    "content": "HideHideHide",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_HideHideHide_aug_2_crop_0.02.png",
+    "content": "HideHideHide",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_User_profile_aug_1_contrast_1.16.png",
+    "content": "User profile",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_User_profile_aug_2_rot_-0.7.png",
+    "content": "User profile",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_1_contrast_0.86.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_2_crop_0.01.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Clock_aug_1_noise_10_contrast_0.99.png",
+    "content": "Clock",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Clock_aug_2_rot_-14.0_contrast_1.19.png",
+    "content": "Clock",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Find_and_Replace_aug_1_noise_10.png",
+    "content": "Find and Replace",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Find_and_Replace_aug_2_bright_-3.png",
+    "content": "Find and Replace",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Lightning_aug_1_noise_10.png",
+    "content": "Lightning",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Lightning_aug_2_contrast_0.99.png",
+    "content": "Lightning",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Recommended_aug_1_bright_2_contrast_1.03.png",
+    "content": "Recommended",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Recommended_aug_2_noise_10.png",
+    "content": "Recommended",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_1_noise_10.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_2_crop_0.03_rot_-9.9.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10_crop_0.01.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_2_rot_-1.3.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Screen_cast_aug_1_contrast_0.95.png",
+    "content": "Screen cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Screen_cast_aug_2_crop_0.02.png",
+    "content": "Screen cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_1_noise_10.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_bright_-13.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_1_contrast_0.84.png",
+    "content": "Epsiodes",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_2_crop_0.02_noise_10.png",
+    "content": "Epsiodes",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_1_rot_14.1.png",
+    "content": "Seek bar",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_2_bright_8_crop_0.03.png",
+    "content": "Seek bar",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_1_contrast_1.04_noise_10.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_rot_0.9.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Quality_480P_aug_1_noise_10_crop_0.01.png",
+    "content": "Quality 480P",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Quality_480P_aug_2_bright_5_rot_10.0.png",
+    "content": "Quality 480P",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Close_aug_1_noise_10.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Close_aug_2_crop_0.01_noise_10.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_1_crop_0.02_contrast_0.90.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_2_noise_10.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_More_options_aug_1_bright_-17.png",
+    "content": "More options",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_More_options_aug_2_bright_-12.png",
+    "content": "More options",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Recommended_aug_1_rot_4.7.png",
+    "content": "Recommended",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Recommended_aug_2_contrast_0.88.png",
+    "content": "Recommended",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_YouCine_aug_1_bright_11_contrast_0.83.png",
+    "content": "YouCine",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_YouCine_aug_2_noise_10.png",
+    "content": "YouCine",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Profile_aug_1_noise_10_bright_3.png",
+    "content": "Profile",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Profile_aug_2_noise_10.png",
+    "content": "Profile",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_1_noise_10_rot_10.0.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_2_crop_0.02_rot_5.7.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Close_aug_1_crop_0.02.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Close_aug_2_bright_16.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Account_aug_1_noise_10.png",
+    "content": "Account",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Account_aug_2_noise_10.png",
+    "content": "Account",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_More_options_aug_1_noise_10_contrast_1.09.png",
+    "content": "More options",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_More_options_aug_2_contrast_1.14.png",
+    "content": "More options",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_History_aug_1_rot_-0.9_noise_10.png",
+    "content": "History",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_History_aug_2_rot_-4.3_noise_10.png",
+    "content": "History",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Number_74_aug_1_crop_0.03.png",
+    "content": "Number 74",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Number_74_aug_2_contrast_0.81.png",
+    "content": "Number 74",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Reward_Centerr_aug_1_rot_-6.3_crop_0.01.png",
+    "content": "Reward Centerr",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Reward_Centerr_aug_2_contrast_0.85.png",
+    "content": "Reward Centerr",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Invite_friends_aug_1_bright_16_contrast_1.13.png",
+    "content": "Invite friends.",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Invite_friends_aug_2_rot_3.1_bright_-2.png",
+    "content": "Invite friends.",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_rot_-13.6_crop_0.02.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_2_bright_-7_contrast_0.91.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_1.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_noise_10_bright_-18.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_405800_aug_1_crop_0.02_rot_8.4.png",
+    "content": "40:58:00",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_405800_aug_2_noise_10.png",
+    "content": "40:58:00",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_rot_0.7_noise_10.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_rot_-2.3_noise_10.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_bright_9.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_2_contrast_1.10_rot_12.2.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_noise_10.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_contrast_0.92.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_1_contrast_1.17.png",
+    "content": "Screen cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_2_rot_-12.4.png",
+    "content": "Screen cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Lock_aug_1_crop_0.02.png",
+    "content": "Lock",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Lock_aug_2_contrast_1.19.png",
+    "content": "Lock",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_ngkor-480p_aug_1_noise_10.png",
+    "content": "ng,kor-480p)",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_ngkor-480p_aug_2_rot_12.9.png",
+    "content": "ng,kor-480p)",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Sound_aug_1_noise_10_bright_9.png",
+    "content": "Sound",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Sound_aug_2_bright_-20_rot_12.8.png",
+    "content": "Sound",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ]
   }
 ]

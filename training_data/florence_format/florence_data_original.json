@@ -1,0 +1,932 @@
+[
+  {
+    "bbox": [
+      0.16054052114486694,
+      0.8678730130195618,
+      0.24124892055988312,
+      0.9014846682548523
+    ],
+    "content": "5",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.15577471256256104,
+      0.7854771614074707,
+      0.24079829454421997,
+      0.8304098844528198
+    ],
+    "content": "4",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.15627987682819366,
+      0.7080237865447998,
+      0.24013209342956543,
+      0.7532331943511963
+    ],
+    "content": "3",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.15239815413951874,
+      0.5537310242652893,
+      0.2349712997674942,
+      0.6001797914505005
+    ],
+    "content": "1",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.15544584393501282,
+      0.631363570690155,
+      0.24040228128433228,
+      0.676428496837616
+    ],
+    "content": "2",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.4717583954334259,
+      0.9385440945625305,
+      0.5271648168563843,
+      0.9669986963272095
+    ],
+    "content": "Live",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.9446602463722229,
+      0.01025785505771637,
+      0.966550350189209,
+      0.027220776304602623
+    ],
+    "content": "Lightning",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.005395528860390186,
+      0.4839320182800293,
+      0.18222613632678986,
+      0.5117419362068176
+    ],
+    "content": "ChannelList",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.023283768445253372,
+      0.871351420879364,
+      0.1374303251504898,
+      0.8991056680679321
+    ],
+    "content": "ECOFE",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.9043887853622437,
+      0.6373473405838013,
+      0.9669233560562134,
+      0.6726462244987488
+    ],
+    "content": "Forward",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.7711427211761475,
+      0.487542062997818,
+      0.8792838454246521,
+      0.5067245364189148
+    ],
+    "content": "Colombia",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.9353178143501282,
+      0.47094327211380005,
+      1.0,
+      0.5226355791091919
+    ],
+    "content": "Venez",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.1981661468744278,
+      0.4858853220939636,
+      0.3353686034679413,
+      0.5119320750236511
+    ],
+    "content": "Deportes",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.9043871760368347,
+      0.7138538360595703,
+      0.9670277237892151,
+      0.7502027750015259
+    ],
+    "content": "Forward",
+    "image_path": "raw_images/live_channel.png"
+  },
+  {
+    "bbox": [
+      0.897794783115387,
+      0.0430779755115509,
+      0.9674806594848633,
+      0.08641715347766876
+    ],
+    "content": "Search",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.16002410650253296,
+      0.7240274548530579,
+      0.24241508543491364,
+      0.7571470141410828
+    ],
+    "content": "4",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.15986919403076172,
+      0.4930071234703064,
+      0.23301656544208527,
+      0.5261374115943909
+    ],
+    "content": "1",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.7934736609458923,
+      0.6425748467445374,
+      0.8628316521644592,
+      0.6856293082237244
+    ],
+    "content": "Favorite",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.7938520908355713,
+      0.4901188910007477,
+      0.8629048466682434,
+      0.5303050875663757
+    ],
+    "content": "Favorite",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.7923275232315063,
+      0.7201976180076599,
+      0.863710880279541,
+      0.7623959183692932
+    ],
+    "content": "Favorite",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.7957032322883606,
+      0.5681948661804199,
+      0.8618826270103455,
+      0.6064793467521667
+    ],
+    "content": "Favorite",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.47270384430885315,
+      0.9394172430038452,
+      0.5263564586639404,
+      0.9664270281791687
+    ],
+    "content": "Live",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.496310293674469,
+      0.4084853231906891,
+      1.0,
+      0.46728068590164185
+    ],
+    "content": "Favorite",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.9041908383369446,
+      0.6421637535095215,
+      0.9728680849075317,
+      0.6865859031677246
+    ],
+    "content": "Forward",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.8934428095817566,
+      0.010426667518913746,
+      0.94367915391922,
+      0.026934484019875526
+    ],
+    "content": "70a",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.8114731907844543,
+      0.009977364912629128,
+      0.8467230200767517,
+      0.028182243928313255
+    ],
+    "content": "Close",
+    "image_path": "raw_images/live_favorite.png"
+  },
+  {
+    "bbox": [
+      0.805485725402832,
+      0.05187055841088295,
+      0.8421909213066101,
+      0.11941865086555481
+    ],
+    "content": "Share",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.7406595349311829,
+      0.033035557717084885,
+      0.7847217321395874,
+      0.16892273724079132
+    ],
+    "content": "Close",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.868243396282196,
+      0.8664916753768921,
+      0.8976009488105774,
+      0.9260362386703491
+    ],
+    "content": "Online",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.7187501788139343,
+      0.593241810798645,
+      0.8182028532028198,
+      0.7453266382217407
+    ],
+    "content": "ULISES",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.7821286916732788,
+      0.8897435665130615,
+      0.8717061877250671,
+      0.945310652256012
+    ],
+    "content": "Lock",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.8685094714164734,
+      0.027516614645719528,
+      0.9190236926078796,
+      0.16421286761760712
+    ],
+    "content": "Help",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.4964323937892914,
+      0.7796749472618103,
+      0.6011093854904175,
+      0.8448055982589722
+    ],
+    "content": "Pro",
+    "image_path": "raw_images/live_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.8732587099075317,
+      0.3352718949317932,
+      0.9324321150779724,
+      0.3624490797519684
+    ],
+    "content": "Show password",
+    "image_path": "raw_images/login.png"
+  },
+  {
+    "bbox": [
+      0.1734607219696045,
+      0.009747063741087914,
+      0.20674429833889008,
+      0.027749761939048767
+    ],
+    "content": "Microsoft Edge browser",
+    "image_path": "raw_images/login.png"
+  },
+  {
+    "bbox": [
+      0.1390564739704132,
+      0.009770810604095459,
+      0.1707456409931183,
+      0.026626894250512123
+    ],
+    "content": "Mail",
+    "image_path": "raw_images/login.png"
+  },
+  {
+    "bbox": [
+      0.03897332027554512,
+      0.16521668434143066,
+      0.9624766111373901,
+      0.24414673447608948
+    ],
+    "content": "Enter your account.",
+    "image_path": "raw_images/login.png"
+  },
+  {
+    "bbox": [
+      0.7828140258789062,
+      0.08150170743465424,
+      0.8555374145507812,
+      0.12088906764984131
+    ],
+    "content": "Scan",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.8880635499954224,
+      0.8426624536514282,
+      0.9661766886711121,
+      0.8699264526367188
+    ],
+    "content": "Enable",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.4681876301765442,
+      0.9381882548332214,
+      0.5320346355438232,
+      0.9690152406692505
+    ],
+    "content": "Live",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.21408739686012268,
+      0.007166347000747919,
+      0.24855001270771027,
+      0.03175825998187065
+    ],
+    "content": "More options",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.1747613251209259,
+      0.008304601535201073,
+      0.2113058716058731,
+      0.031179288402199745
+    ],
+    "content": "Adobe Photoshop",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.8969355225563049,
+      0.7436379194259644,
+      0.9890372157096863,
+      0.8188731074333191
+    ],
+    "content": "HideHideHide",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.801880419254303,
+      0.937955379486084,
+      0.8638855218887329,
+      0.97038334608078
+    ],
+    "content": "User profile",
+    "image_path": "raw_images/user_profile.png"
+  },
+  {
+    "bbox": [
+      0.4698013365268707,
+      0.9383338093757629,
+      0.5297399759292603,
+      0.9696782231330872
+    ],
+    "content": "Live",
+    "image_path": "raw_images/vod_home.png"
+  },
+  {
+    "bbox": [
+      0.8923227787017822,
+      0.042813658714294434,
+      0.970169723033905,
+      0.08464832603931427
+    ],
+    "content": "Clock",
+    "image_path": "raw_images/vod_home.png"
+  },
+  {
+    "bbox": [
+      0.7869156002998352,
+      0.042673517018556595,
+      0.8644983768463135,
+      0.08583526313304901
+    ],
+    "content": "Find and Replace",
+    "image_path": "raw_images/vod_home.png"
+  },
+  {
+    "bbox": [
+      0.9460601806640625,
+      0.010519755072891712,
+      0.9665898680686951,
+      0.027116816490888596
+    ],
+    "content": "Lightning",
+    "image_path": "raw_images/vod_home.png"
+  },
+  {
+    "bbox": [
+      0.014125675894320011,
+      0.09781735390424728,
+      0.259787380695343,
+      0.15273968875408173
+    ],
+    "content": "Recommended",
+    "image_path": "raw_images/vod_home.png"
+  },
+  {
+    "bbox": [
+      0.6470161080360413,
+      0.4690309464931488,
+      0.782437801361084,
+      0.5436288118362427
+    ],
+    "content": "5",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.49228575825691223,
+      0.46935319900512695,
+      0.6280708909034729,
+      0.5436676740646362
+    ],
+    "content": "4",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.8022325038909912,
+      0.46910518407821655,
+      0.9375762939453125,
+      0.5435365438461304
+    ],
+    "content": "6",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.3368198871612549,
+      0.46947041153907776,
+      0.47314462065696716,
+      0.5438612103462219
+    ],
+    "content": "3",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.18273498117923737,
+      0.4693264365196228,
+      0.31841668486595154,
+      0.5440269112586975
+    ],
+    "content": "2",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.7542319297790527,
+      0.3376549184322357,
+      0.8527514934539795,
+      0.3905554413795471
+    ],
+    "content": "Share",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.8718132972717285,
+      0.33756256103515625,
+      0.9712858200073242,
+      0.390470415353775
+    ],
+    "content": "Favorite",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.7537825107574463,
+      0.2515360116958618,
+      0.84141606092453,
+      0.3181493580341339
+    ],
+    "content": "System",
+    "image_path": "raw_images/vod_play_detail.png"
+  },
+  {
+    "bbox": [
+      0.9356495141983032,
+      0.06805216521024704,
+      0.9936019778251648,
+      0.17382241785526276
+    ],
+    "content": "Screen cast",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.8014886975288391,
+      0.07136163115501404,
+      0.8459016680717468,
+      0.16735699772834778
+    ],
+    "content": "Share",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.10852374881505966,
+      0.8925962448120117,
+      0.23845776915550232,
+      0.9470104575157166
+    ],
+    "content": "Epsiodes",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.06536202132701874,
+      0.7998934388160706,
+      0.09587176144123077,
+      0.84373939037323
+    ],
+    "content": "Seek bar",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.4674590229988098,
+      0.4197532534599304,
+      0.5612394213676453,
+      0.5885541439056396
+    ],
+    "content": "Playing",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.619573712348938,
+      0.8911590576171875,
+      0.7361556887626648,
+      0.9437442421913147
+    ],
+    "content": "Quality 480P",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.7429419755935669,
+      0.09150078892707825,
+      0.7801636457443237,
+      0.15234607458114624
+    ],
+    "content": "Close",
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
+  },
+  {
+    "bbox": [
+      0.9096572995185852,
+      0.04341839998960495,
+      0.9764931797981262,
+      0.08614180982112885
+    ],
+    "content": "Search",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.8621755242347717,
+      0.4128280580043793,
+      0.8875366449356079,
+      0.42769089341163635
+    ],
+    "content": "Navigator",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.21851374208927155,
+      0.009109673090279102,
+      0.2512330710887909,
+      0.02844422496855259
+    ],
+    "content": "More options",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.012133492156863213,
+      0.09644965827465057,
+      0.2627895772457123,
+      0.15325193107128143
+    ],
+    "content": "Recommended",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.02951311506330967,
+      0.8427181243896484,
+      0.32921040058135986,
+      0.9141609072685242
+    ],
+    "content": "A beach or ocean-related feature.",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.40976792573928833,
+      0.049098581075668335,
+      0.6010103821754456,
+      0.07855398207902908
+    ],
+    "content": "YouCine",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.701920747756958,
+      0.926080584526062,
+      0.7963387370109558,
+      0.9839289784431458
+    ],
+    "content": "Profile",
+    "image_path": "raw_images/yc_home.png"
+  },
+  {
+    "bbox": [
+      0.8790724277496338,
+      0.049079157412052155,
+      0.9675213098526001,
+      0.10217006504535675
+    ],
+    "content": "Scan",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.8247801065444946,
+      0.00997904222458601,
+      0.858379602432251,
+      0.02835272252559662
+    ],
+    "content": "Close",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.7295496463775635,
+      0.3026861250400543,
+      0.8725427985191345,
+      0.4131924510002136
+    ],
+    "content": "Account",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.2212987244129181,
+      0.008538824506103992,
+      0.2533043622970581,
+      0.029926013201475143
+    ],
+    "content": "More options",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.4326392412185669,
+      0.3025393486022949,
+      0.5638792514801025,
+      0.4112466871738434
+    ],
+    "content": "History",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.9064329266548157,
+      0.008601325564086437,
+      0.9581961631774902,
+      0.02799338661134243
+    ],
+    "content": "Number 74",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.37279781699180603,
+      0.6904540061950684,
+      0.6289771199226379,
+      0.7971819639205933
+    ],
+    "content": "Reward Centerr",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.5109356641769409,
+      0.44324320554733276,
+      0.963591992855072,
+      0.5567337274551392
+    ],
+    "content": "Invite friends.",
+    "image_path": "raw_images/yc_user_profile.png"
+  },
+  {
+    "bbox": [
+      0.5995723009109497,
+      0.8570136427879333,
+      0.6518174409866333,
+      0.9487711787223816
+    ],
+    "content": "Forward 10",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.3780789077281952,
+      0.8539490699768066,
+      0.4291905462741852,
+      0.9565342664718628
+    ],
+    "content": "Back 10",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.9299678802490234,
+      0.7603368163108826,
+      0.984335720539093,
+      0.8039749264717102
+    ],
+    "content": "40:58:00",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.8476415872573853,
+      0.07749173790216446,
+      0.8929044604301453,
+      0.1439530849456787
+    ],
+    "content": "Screen ratio",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.8501955270767212,
+      0.8801293969154358,
+      0.8839925527572632,
+      0.9376885890960693
+    ],
+    "content": "Subtitle",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.927524745464325,
+      0.8678024411201477,
+      0.9775518178939819,
+      0.9625605344772339
+    ],
+    "content": "Audio language",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.7565749287605286,
+      0.07486403733491898,
+      0.8062735795974731,
+      0.16280370950698853
+    ],
+    "content": "Screen cast",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.43148812651634216,
+      0.8448114991188049,
+      0.47765034437179565,
+      0.9725716710090637
+    ],
+    "content": "Preciso",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.5413072109222412,
+      0.8573395013809204,
+      0.5977617502212524,
+      0.9573859572410583
+    ],
+    "content": "Dinheiro.",
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
+  },
+  {
+    "bbox": [
+      0.8211660385131836,
+      0.8887348771095276,
+      0.921718418598175,
+      0.953882098197937
+    ],
+    "content": "Lock",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.43670186400413513,
+      0.6133168339729309,
+      0.5176634788513184,
+      0.8157355189323425
+    ],
+    "content": "Increase",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.6788612008094788,
+      0.591363787651062,
+      0.760194718837738,
+      0.7963408827781677
+    ],
+    "content": "A video or audio file.",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.034684207290410995,
+      0.18099848926067352,
+      0.12814263999462128,
+      0.2184273600578308
+    ],
+    "content": "ng,kor-480p)",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  },
+  {
+    "bbox": [
+      0.9315093755722046,
+      0.26724565029144287,
+      0.9683420062065125,
+      0.33509936928749084
+    ],
+    "content": "Sound",
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
+  }
+]

@@ -104,6 +104,101 @@ python collect_training_data.py \
 python repair_json_files.py --output_dir ./training_data
 ```
 
+### 2.5 数据增强功能（提升模型性能）
+
+项目现在包含先进的数据增强系统，通过图像变换技术扩展训练数据集，显著提升模型泛化能力和性能。
+
+#### 数据增强技术
+
+系统随机应用以下图像变换：
+
+- **旋转变换**：±15度范围内随机旋转（保持文本可读性）
+- **裁剪变换**：0.5-3%边距的随机裁剪（保持UI元素完整性）
+- **亮度调整**：±20像素值的亮度变化（模拟不同光照条件）
+- **对比度调整**：0.8x-1.2x对比度缩放（模拟不同显示设备）
+- **高斯噪声**：添加轻微高斯噪声（模拟图像质量变化）
+
+每张增强图像会随机应用1-2种变换，创造丰富的数据变化。
+
+#### 使用方法
+
+
+**独立运行数据增强**
+
+```bash
+# 对训练数据进行3倍增强: 原始数据 *3 的数据量, 随机在以上选项中处理
+python data_augmentation.py --data_dir training_data/florence_format --multiplier 3
+
+# 自定义目录和5倍增强
+python data_augmentation.py --data_dir /path/to/your/data --multiplier 5
+```
+
+#### **数据清理**
+
+增强后，您可能需要手动查看并删除 `imgs/` 目录中不满意的图片。使用清理选项自动删除对应的JSON条目：
+
+```bash
+# 手动删除不需要的图片后，清理JSON数据
+python data_augmentation.py  --data_dir training_data/florence_format --clean_missing
+
+# 指定目录的数据清理
+python data_augmentation.py --data_dir /path/to/your/data --clean_missing
+```
+
+**推荐的数据调整工作流程**：
+1. 运行数据增强：`python data_augmentation.py --multiplier 3`
+2. 检查生成的图片：`training_data/florence_format/imgs/`
+3. 手动删除不满意的增强图片（保留质量好的）
+4. 运行数据清理：`python data_augmentation.py --clean_missing`
+5. 使用清理后的数据集进行训练
+
+#### 推荐设置
+
+| 数据集规模 | 推荐增强倍数 | 预期训练时间增加 | 性能提升期望 |
+|-----------|-------------|-----------------|-------------|
+| < 50 样本 | 5-10倍 | +200-400% | 显著提升 |
+| 50-200 样本 | 3-5倍 | +100-200% | 明显提升 |
+| > 200 样本 | 2-3倍 | +50-100% | 适度提升 |
+
+#### 输出结构
+
+增强后的数据结构：
+
+```
+training_data/florence_format/
+├── florence_data.json              # 更新的训练数据（含增强样本）
+├── florence_data_original.json     # 原始数据备份
+└── imgs/                           # 增强图像文件夹
+    ├── example_aug_1_rot_5.2.png
+    ├── example_aug_1_bright_-10_noise_10.png
+    └── ...
+```
+
+#### 技术细节
+
+- **处理逻辑**：先裁剪bbox区域，再对裁剪后的图像进行增强变换
+- **坐标更新**：增强后的图像bbox设置为[0,0,1,1]（全图坐标）
+- **图像尺寸标准化**：所有裁剪图像调整为64x64像素（遵循OmniParser标准）
+- **坐标准确性**：无论如何变换，坐标始终指向正确的UI元素内容
+- **自动备份**：原始训练数据自动备份，确保数据安全
+- **错误处理**：robust错误处理机制，处理损坏或缺失图像
+
+#### 质量控制
+
+- 裁剪限制防止内容丢失（最大3%边距）
+- 旋转限制保持文本可读性（±15°）
+- 亮度/对比度范围维持可见性
+- 文件名格式显示应用的变换：`original_aug_N_technique_params.png`
+
+#### 性能优势
+
+- **改善泛化能力**：模型从多样化视觉条件中学习
+- **减少过拟合**：更多样化的训练样本
+- **提高鲁棒性**：处理光照、旋转和噪声变化
+- **提升准确率**：特别有效于小数据集场景
+
+详细使用说明请参考：`DATA_AUGMENTATION_README.md`
+
 ## 步骤3：训练模型
 
 ### 3.1 只训练YOLO模型
@@ -133,9 +228,9 @@ python finetune_omniparser_models.py \
     --mode both \
     --data_dir ./training_data \
     --yolo_epochs 100 \
-    --florence_epochs 5 \
-    --batch_size 8 \
-    --learning_rate 1e-5
+    --florence_epochs 20 \
+    --batch_size 4 \
+    --learning_rate 5e-5
 ```
 
 ## 步骤4：使用训练好的模型

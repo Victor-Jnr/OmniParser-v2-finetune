@@ -636,13 +636,14 @@ class Florence2LocalDataset(Dataset):
         original_content = item.get('content', 'unknown')
         
         # 根据内容类型调整答案格式
-        if any(word in original_content.lower() for word in ['button', 'icon', 'menu', 'tab']):
-            answer = f"{original_content}"
-        elif any(word in original_content.lower() for word in ['text', 'label', 'title']):
-            answer = f"text: {original_content}"
-        else:
-            answer = f"UI: {original_content}"
-        
+        # if any(word in original_content.lower() for word in ['button', 'icon', 'menu', 'tab']):
+        #     answer = f"{original_content}"
+        # elif any(word in original_content.lower() for word in ['text', 'label', 'title']):
+        #     answer = f"text: {original_content}"
+        # else:
+        #     # answer = f"UI: {original_content}"
+        #     answer = f"{original_content}" # no need to 
+        answer = f"{original_content}"
         # 加载和处理图像
         image_path = item.get('image_path', '')
         bbox = item.get('bbox', [0, 0, 1, 1])  # 默认全图
@@ -786,11 +787,14 @@ def test_model_loading(model_path: str):
 
 def main():
     """改进的主训练函数"""
+    
     print("=== Florence2 Local Model Fine-tuning ===")
     
     # 配置
     model_path = "weights/icon_caption_florence"
     data_path = "training_data/florence_format/florence_data.json"
+    
+
     
     # 检查模型路径
     if not os.path.exists(model_path):
@@ -822,9 +826,10 @@ def main():
     try:
         trainer.train_local_model(
             florence_data=florence_data,
-            epochs=7,
-            batch_size=3,  
-            lr=1e-7,  
+            epochs=20, # 自动早停, 可设大点
+            batch_size=4,  # batch_size 根据内存大小调整, 计算方式: 内存大小
+            lr=5e-5,  # 样本太少, 需要增加学习率
+            # lr=1e-5,  
             warmup_ratio=0.1 # 学习率预热是一种训练技巧，用于在训练初期逐渐增加学习率，以帮助模型更快地收敛。
         )
         print("\n✓ Training completed successfully!")

@@ -207,6 +207,40 @@ inputs = processor(images=batch, text=[prompt]*len(batch),
 # 确保模型权重存在
 ls weights/icon_caption_florence/
 
-# 运行改进的微调
+# 运行改进的微调（无数据增强）
 python finetune_omniparser_models_fixed.py
+
+# 运行微调并进行数据增强（推荐用于小数据集）
+python finetune_omniparser_models_fixed.py --data_impr 3
+
+# 运行微调并进行大规模数据增强
+python finetune_omniparser_models_fixed.py --data_impr 5
 ```
+
+## 数据增强系统
+
+项目现在包含先进的数据增强功能，通过图像变换技术扩展训练数据集，提升模型泛化能力。
+
+### 增强技术
+- **旋转变换**：±15度范围内随机旋转
+- **裁剪变换**：0.5-3%边距的随机裁剪（保持内容完整性）
+- **亮度调整**：±20像素值的亮度变化
+- **对比度调整**：0.8x-1.2x对比度缩放
+- **高斯噪声**：添加轻微高斯噪声（强度：10）
+
+### 数据增强使用
+```bash
+# 集成微调：3倍数据增强
+python finetune_omniparser_models_fixed.py --data_impr 3
+
+# 独立数据增强
+python data_augmentation.py --multiplier 3
+
+# 查看详细文档
+cat DATA_AUGMENTATION_README.md
+```
+
+### 推荐设置
+- **小数据集** (< 50样本)：5-10倍增强
+- **中等数据集** (50-200样本)：3-5倍增强  
+- **大数据集** (> 200样本)：2-3倍增强

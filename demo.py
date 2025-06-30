@@ -175,5 +175,5 @@ if __name__ == "__main__":
     #     if file.endswith('.png') or file.endswith('.jpg') and not file.endswith('_labeled.png') and not file.endswith('_labeled.jpg') and not file.startswith('demo') :
     #         image_path = os.path.join('imgs', file)
     #         main(image_path) 
-    # main('imgs/vod_play_detail_full_screen.png')
-    main('imgs/live_channel_labeled.png')
+    main('imgs/vod_play_detail_full_screen.png')
+    # main('imgs/live_channel_labeled.png')
