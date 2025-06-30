@@ -53,6 +53,10 @@ import supervision as sv
 import torchvision.transforms as T
 from util.box_annotator import BoxAnnotator 
 
+from transformers import BitsAndBytesConfig
+
+quantization_config_4bit = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True)
+
 
 def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2-opt-2.7b", device=None):
     """获取图像标题生成模型和处理器"""
@@ -75,6 +79,32 @@ def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2
         if device == 'cpu':
             model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True)
         else:
+            # model = AutoModelForCausalLM.from_pretrained(model_name_or_path, quantization_config=quantization_config_4bit, torch_dtype=torch.float16, trust_remote_code=True).to(device)
+            ''' Traceback (most recent call last):
+  File "/mnt/e/git/OmniParser/demo.py", line 178, in <module>
+    main('imgs/vod_play_detail_full_screen.png')
+  File "/mnt/e/git/OmniParser/demo.py", line 35, in main
+    caption_model_processor = get_caption_model_processor(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/e/git/OmniParser/util/utils.py", line 82, in get_caption_model_processor
+    model = AutoModelForCausalLM.from_pretrained(model_name_or_path, quantization_config=quantization_config_4bit, torch_dtype=torch.float16, trust_remote_code=True).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/omni/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 556, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/omni/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3502, in from_pretrained
+    ) = cls._load_pretrained_model(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/omni/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3926, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/omni/lib/python3.12/site-packages/transformers/modeling_utils.py", line 802, in _load_state_dict_into_meta_model
+    or (not hf_quantizer.check_quantized_param(model, param, param_name, state_dict))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/omni/lib/python3.12/site-packages/transformers/quantizers/quantizer_bnb_4bit.py", line 124, in check_quantized_param
+    if isinstance(module._parameters[tensor_name], bnb.nn.Params4bit):
+                  ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'final_logits_bias '''
             model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16, trust_remote_code=True).to(device)
     return {'model': model.to(device), 'processor': processor}
 

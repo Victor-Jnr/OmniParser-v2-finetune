@@ -173,12 +173,30 @@ def collate_fn_florence(batch):
 class YOLOTrainer:
     """Trainer for YOLO icon detection model"""
     
-    def __init__(self, base_model_path: str = "yolov8n.pt"):
-        self.base_model_path = base_model_path
+    def __init__(self, base_model_path: str = None):
+        # Try to use existing model first, fallback to pretrained
+        if base_model_path is None:
+            existing_model = "weights/icon_detect/model.pt"
+            if os.path.exists(existing_model):
+                self.base_model_path = existing_model
+                print(f"Using existing model: {existing_model}")
+            else:
+                self.base_model_path = "yolov8n.pt"
+                print(f"Using pretrained model: yolov8n.pt")
+        else:
+            self.base_model_path = base_model_path
     
     def train(self, data_config_path: str, epochs: int = 100, img_size: int = 640):
         """Train YOLO model"""
         print("Starting YOLO training...")
+        
+        # Backup existing model if it exists
+        target_path = "weights/icon_detect/model.pt"
+        backup_path = "weights/icon_detect/model_backup.pt"
+        
+        if os.path.exists(target_path):
+            shutil.copy2(target_path, backup_path)
+            print(f"Backed up existing model to: {backup_path}")
         
         # Load base model
         model = YOLO(self.base_model_path)
@@ -200,11 +218,11 @@ class YOLOTrainer:
         
         # Save the best model to weights directory
         best_model_path = model.trainer.best
-        target_path = "weights/icon_detect/model.pt"
         os.makedirs(os.path.dirname(target_path), exist_ok=True)
         shutil.copy2(best_model_path, target_path)
         
         print(f"YOLO training completed. Best model saved to: {target_path}")
+        print(f"Original model backed up to: {backup_path}")
         return results
 
 class Florence2Trainer:
@@ -223,22 +241,26 @@ class Florence2Trainer:
             trust_remote_code=True
         )
         
-        if self.device.type == 'cuda':
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.base_model_path,
-                torch_dtype=torch.float16,
-                trust_remote_code=True
-            ).to(self.device)
-        else:
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.base_model_path,
-                torch_dtype=torch.float32,
-                trust_remote_code=True
-            ).to(self.device)
+        # Load model with consistent precision
+        self.model = AutoModelForCausalLM.from_pretrained(
+            self.base_model_path,
+            torch_dtype=torch.float32,  # Use consistent float32
+            trust_remote_code=True
+        ).to(self.device)
+        
+        # Ensure model is in training mode and using float32
+        self.model.train()
+        self.model = self.model.float()
     
     def train(self, florence_data: List[Dict], epochs: int = 5, batch_size: int = 8, lr: float = 1e-5):
         """Train Florence2 model for icon captioning"""
         print("Starting Florence2 training...")
+        
+        if not florence_data:
+            print("No Florence2 training data available!")
+            return
+        
+        print(f"Training with {len(florence_data)} samples")
         
         self.setup_model_and_processor()
         
@@ -247,9 +269,15 @@ class Florence2Trainer:
         train_data = florence_data[:train_size]
         val_data = florence_data[train_size:]
         
+        if not train_data:
+            print("No training data after split!")
+            return
+        
+        print(f"Train samples: {len(train_data)}, Val samples: {len(val_data)}")
+        
         # Create datasets
         train_dataset = Florence2IconDataset(train_data, self.processor)
-        val_dataset = Florence2IconDataset(val_data, self.processor)
+        val_dataset = Florence2IconDataset(val_data, self.processor) if val_data else None
         
         # Create dataloaders
         train_loader = DataLoader(
@@ -263,7 +291,7 @@ class Florence2Trainer:
             batch_size=batch_size, 
             shuffle=False, 
             collate_fn=collate_fn_florence
-        )
+        ) if val_dataset else None
         
         # Setup optimizer
         optimizer = AdamW(self.model.parameters(), lr=lr)
@@ -280,83 +308,136 @@ class Florence2Trainer:
             self.model.train()
             train_loss = 0
             
-            for batch in tqdm(train_loader, desc=f"Training Epoch {epoch + 1}/{epochs}"):
-                questions, answers, images = batch
-                
-                # Process inputs
-                inputs = self.processor(
-                    text=questions, 
-                    images=images, 
-                    return_tensors="pt", 
-                    padding=True
-                ).to(self.device)
-                
-                # Process labels
-                labels = self.processor.tokenizer(
-                    text=answers, 
-                    return_tensors="pt", 
-                    padding=True, 
-                    return_token_type_ids=False
-                ).input_ids.to(self.device)
-                
-                # Forward pass
-                outputs = self.model(
-                    input_ids=inputs["input_ids"],
-                    pixel_values=inputs["pixel_values"],
-                    labels=labels
-                )
-                
-                loss = outputs.loss
-                loss.backward()
-                
-                optimizer.step()
-                lr_scheduler.step()
-                optimizer.zero_grad()
-                
-                train_loss += loss.item()
+            for batch_idx, batch in enumerate(tqdm(train_loader, desc=f"Training Epoch {epoch + 1}/{epochs}")):
+                try:
+                    questions, answers, images = batch
+                    
+                    # Ensure images are properly converted
+                    processed_images = []
+                    for img in images:
+                        if hasattr(img, 'convert'):
+                            processed_images.append(img.convert('RGB'))
+                        else:
+                            processed_images.append(img)
+                    
+                    # Process inputs with error handling
+                    try:
+                        inputs = self.processor(
+                            text=questions, 
+                            images=processed_images, 
+                            return_tensors="pt", 
+                            padding=True
+                        )
+                        
+                        # Ensure all inputs are float32
+                        inputs = {k: v.to(self.device).float() if v.dtype != torch.long else v.to(self.device) 
+                                for k, v in inputs.items()}
+                        
+                    except Exception as e:
+                        print(f"Error processing batch {batch_idx}: {e}")
+                        continue
+                    
+                    # Process labels
+                    try:
+                        labels = self.processor.tokenizer(
+                            text=answers, 
+                            return_tensors="pt", 
+                            padding=True, 
+                            return_token_type_ids=False
+                        ).input_ids.to(self.device)
+                    except Exception as e:
+                        print(f"Error processing labels for batch {batch_idx}: {e}")
+                        continue
+                    
+                    # Forward pass
+                    try:
+                        outputs = self.model(
+                            input_ids=inputs["input_ids"],
+                            pixel_values=inputs["pixel_values"],
+                            labels=labels
+                        )
+                        
+                        loss = outputs.loss
+                        loss.backward()
+                        
+                        optimizer.step()
+                        lr_scheduler.step()
+                        optimizer.zero_grad()
+                        
+                        train_loss += loss.item()
+                        
+                    except Exception as e:
+                        print(f"Error in forward pass for batch {batch_idx}: {e}")
+                        continue
+                        
+                except Exception as e:
+                    print(f"Error processing batch {batch_idx}: {e}")
+                    continue
             
-            avg_train_loss = train_loss / len(train_loader)
+            avg_train_loss = train_loss / len(train_loader) if len(train_loader) > 0 else 0
             print(f"Epoch {epoch + 1} - Average Training Loss: {avg_train_loss:.4f}")
             
             # Validation
-            self.model.eval()
-            val_loss = 0
-            with torch.no_grad():
-                for batch in tqdm(val_loader, desc=f"Validation Epoch {epoch + 1}/{epochs}"):
-                    questions, answers, images = batch
-                    
-                    inputs = self.processor(
-                        text=questions, 
-                        images=images, 
-                        return_tensors="pt", 
-                        padding=True
-                    ).to(self.device)
-                    
-                    labels = self.processor.tokenizer(
-                        text=answers, 
-                        return_tensors="pt", 
-                        padding=True, 
-                        return_token_type_ids=False
-                    ).input_ids.to(self.device)
-                    
-                    outputs = self.model(
-                        input_ids=inputs["input_ids"],
-                        pixel_values=inputs["pixel_values"],
-                        labels=labels
-                    )
-                    
-                    val_loss += outputs.loss.item()
-            
-            avg_val_loss = val_loss / len(val_loader)
-            print(f"Epoch {epoch + 1} - Average Validation Loss: {avg_val_loss:.4f}")
+            if val_loader:
+                self.model.eval()
+                val_loss = 0
+                val_batches = 0
+                
+                with torch.no_grad():
+                    for batch in tqdm(val_loader, desc=f"Validation Epoch {epoch + 1}/{epochs}"):
+                        try:
+                            questions, answers, images = batch
+                            
+                            processed_images = []
+                            for img in images:
+                                if hasattr(img, 'convert'):
+                                    processed_images.append(img.convert('RGB'))
+                                else:
+                                    processed_images.append(img)
+                            
+                            inputs = self.processor(
+                                text=questions, 
+                                images=processed_images, 
+                                return_tensors="pt", 
+                                padding=True
+                            )
+                            
+                            inputs = {k: v.to(self.device).float() if v.dtype != torch.long else v.to(self.device) 
+                                    for k, v in inputs.items()}
+                            
+                            labels = self.processor.tokenizer(
+                                text=answers, 
+                                return_tensors="pt", 
+                                padding=True, 
+                                return_token_type_ids=False
+                            ).input_ids.to(self.device)
+                            
+                            outputs = self.model(
+                                input_ids=inputs["input_ids"],
+                                pixel_values=inputs["pixel_values"],
+                                labels=labels
+                            )
+                            
+                            val_loss += outputs.loss.item()
+                            val_batches += 1
+                            
+                        except Exception as e:
+                            print(f"Error in validation batch: {e}")
+                            continue
+                
+                avg_val_loss = val_loss / val_batches if val_batches > 0 else 0
+                print(f"Epoch {epoch + 1} - Average Validation Loss: {avg_val_loss:.4f}")
         
         # Save the trained model
         output_dir = "weights/icon_caption_florence_finetuned"
         os.makedirs(output_dir, exist_ok=True)
-        self.model.save_pretrained(output_dir)
-        self.processor.save_pretrained(output_dir)
         
-        print(f"Florence2 training completed. Model saved to: {output_dir}")
+        try:
+            self.model.save_pretrained(output_dir)
+            self.processor.save_pretrained(output_dir)
+            print(f"Florence2 training completed. Model saved to: {output_dir}")
+        except Exception as e:
+            print(f"Error saving model: {e}")
 
 def prepare_training_data_from_omniparser_output(data_dir: str, parsed_outputs: List[Dict]):
     """
@@ -409,61 +490,64 @@ def main():
     
     args = parser.parse_args()
     
-    # Example: Load your prepared data
-    # You need to prepare parsed_outputs with your actual data
-    # Here's the expected format:
-    """
-    parsed_outputs = [
-        {
-            'image_path': 'path/to/image1.jpg',
-            'image_size': (1920, 1080),
-            'parsed_content_list': [
-                {
-                    'type': 'icon',
-                    'bbox': [0.1, 0.1, 0.2, 0.2],
-                    'interactivity': True,
-                    'content': 'Settings button',
-                    'source': 'box_yolo_content_yolo'
-                },
-                # ... more elements
-            ]
-        },
-        # ... more images
-    ]
-    """
+    # Check if data directory exists
+    if not os.path.exists(args.data_dir):
+        print(f"Error: Training data directory {args.data_dir} does not exist!")
+        print("\nTo prepare training data, run:")
+        print(f"python collect_training_data.py --input_dir ./raw_images --output_dir {args.data_dir}")
+        return
     
-    print("Note: You need to prepare your parsed_outputs data.")
-    print("Use OmniParser to process your images and collect the outputs.")
-    print("Then modify this script to load your actual data.")
+    print(f"Loading training data from: {args.data_dir}")
     
-    # For demonstration, create dummy data structure
-    print("\nExample data preparation from existing OmniParser outputs:")
-    print("1. Run OmniParser on your training images")
-    print("2. Collect parsed_content_list outputs") 
-    print("3. Format as shown in the comments above")
-    print("4. Run this script with your prepared data")
+    # Check what training modes are requested and what data is available
+    yolo_config = os.path.join(args.data_dir, 'yolo_format', 'dataset.yaml')
+    florence_data_path = os.path.join(args.data_dir, 'florence_format', 'florence_data.json')
     
-    # Placeholder for actual training
-    if os.path.exists(args.data_dir):
-        if args.mode in ['yolo', 'both']:
-            yolo_config = os.path.join(args.data_dir, 'yolo_format', 'dataset.yaml')
-            if os.path.exists(yolo_config):
-                trainer = YOLOTrainer()
+    # YOLO Training
+    if args.mode in ['yolo', 'both']:
+        if os.path.exists(yolo_config):
+            print(f"Found YOLO training data: {yolo_config}")
+            trainer = YOLOTrainer()
+            try:
                 trainer.train(yolo_config, epochs=args.yolo_epochs)
-        
-        if args.mode in ['florence2', 'both']:
-            florence_data_path = os.path.join(args.data_dir, 'florence_format', 'florence_data.json')
-            if os.path.exists(florence_data_path):
+            except Exception as e:
+                print(f"YOLO training failed: {e}")
+        else:
+            print(f"Warning: YOLO training data not found at {yolo_config}")
+            if args.mode == 'yolo':
+                print("No YOLO data available, exiting.")
+                return
+    
+    # Florence2 Training  
+    if args.mode in ['florence2', 'both']:
+        if os.path.exists(florence_data_path):
+            print(f"Found Florence2 training data: {florence_data_path}")
+            try:
                 with open(florence_data_path, 'r') as f:
                     florence_data = json.load(f)
                 
-                trainer = Florence2Trainer()
-                trainer.train(
-                    florence_data, 
-                    epochs=args.florence_epochs,
-                    batch_size=args.batch_size,
-                    lr=args.learning_rate
-                )
+                if not florence_data:
+                    print("Warning: Florence2 data file is empty!")
+                    if args.mode == 'florence2':
+                        return
+                else:
+                    print(f"Loaded {len(florence_data)} Florence2 training samples")
+                    trainer = Florence2Trainer()
+                    trainer.train(
+                        florence_data, 
+                        epochs=args.florence_epochs,
+                        batch_size=args.batch_size,
+                        lr=args.learning_rate
+                    )
+            except Exception as e:
+                print(f"Florence2 training failed: {e}")
+        else:
+            print(f"Warning: Florence2 training data not found at {florence_data_path}")
+            if args.mode == 'florence2':
+                print("No Florence2 data available, exiting.")
+                return
+    
+    print("Training completed!")
 
 if __name__ == "__main__":
     main() 

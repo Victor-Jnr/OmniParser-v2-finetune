@@ -31,9 +31,11 @@ def main(image_path):
     
     # Initialize caption model (using Florence2)
     print("Loading caption model...")
+    
     caption_model_processor = get_caption_model_processor(
         model_name="florence2", 
         model_name_or_path="weights/icon_caption_florence", 
+        # model_name_or_path="weights/icon_caption_florence_finetuned", 
         device=device
     )
     print("Caption model loaded")
@@ -173,4 +175,4 @@ if __name__ == "__main__":
     #     if file.endswith('.png') or file.endswith('.jpg') and not file.endswith('_labeled.png') and not file.endswith('_labeled.jpg') and not file.startswith('demo') :
     #         image_path = os.path.join('imgs', file)
     #         main(image_path) 
-    main('imgs/teams.png')
+    main('imgs/vod_play_detail_full_screen.png')
