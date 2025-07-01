@@ -237,8 +237,8 @@ class Florence2LocalModelTrainer:
         # 只解冻最关键的层用于微调
         trainable_keywords = [
             'language_model.lm_head',  # 输出层
-            'language_model.model.layers.5',  # 最后一层transformer
-            'language_model.model.layers.4',  # 倒数第二层
+            'language_model.model.encoder.layers.5',  # 最后一层transformer
+            'language_model.model.encoder.layers.4',  # 倒数第二层
             'projector'  # 投影层
         ]
         

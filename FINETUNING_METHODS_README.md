@@ -16,18 +16,22 @@ for param in self.model.parameters():
 
 # 只解冻关键层
 trainable_keywords = [
-    'language_model.lm_head',        # 输出层 - 负责最终文本生成
-    'language_model.model.layers.5', # 最后一层transformer - 高级语义理解
-    'language_model.model.layers.4', # 倒数第二层 - 语义特征提取
-    'projector'                      # 投影层 - 视觉到语言特征映射
+    'language_model.lm_head',                    # 输出层 - 负责最终文本生成
+    'language_model.model.encoder.layers.5',    # 最后一层transformer - 高级语义理解
+    'language_model.model.encoder.layers.4',    # 倒数第二层 - 语义特征提取
+    'projector'                                  # 投影层 - 视觉到语言特征映射
 ]
 ```
 
 #### 2.2 微调效果
-- **总参数**: ~2.3亿 (Florence2-base)
-- **可训练参数**: ~5-10% (约1000-2000万参数)
-- **冻结参数**: ~90-95%
-- **内存需求**: 相比全参数微调减少70-80%
+- **总参数**: ~2.71亿 (Florence2-base)
+- **可训练参数**: ~19.8% (约5360万参数)
+  - lm_head: 3939万参数 (14.55%)
+  - encoder.layers.4: 709万参数 (2.62%)
+  - encoder.layers.5: 709万参数 (2.62%)
+  - projector: 未找到（此模型变体使用不同的视觉-语言融合方式）
+- **冻结参数**: ~80.2% (约2.17亿参数)
+- **内存需求**: 相比全参数微调减少80.2%
 - **训练时间**: 减少60-70%
 
 ## LoRA 微调方法详解

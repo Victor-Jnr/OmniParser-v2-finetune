@@ -32,6 +32,7 @@ dashscope
 groq
 flash_attn
 requests
-
+# finetune lora
+peft==0.10.0
 
 
