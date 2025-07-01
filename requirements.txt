@@ -3,7 +3,7 @@ easyocr
 torchvision
 supervision==0.18.0
 openai==1.3.5
-transformers==4.38.2
+transformers==4.39.0
 ultralytics==8.3.70
 azure-identity
 numpy==1.26.4
@@ -34,5 +34,3 @@ flash_attn
 requests
 # finetune lora
 peft==0.10.0
-
-

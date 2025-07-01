@@ -54,13 +54,25 @@ def main(image_path, use_ocr=True):
     
     # Initialize caption model (using Florence2)
     print("Loading caption model...")
-    
+
+##     
+    # from transformers import BitsAndBytesConfig, AutoProcessor, AutoModelForCausalLM 
+    # quantization_config_bit = BitsAndBytesConfig(load_in_8bit=True, bnb_8bit_compute_dtype=torch.bfloat16, bnb_8bit_use_double_quant=True)
+    # model = AutoModelForCausalLM.from_pretrained("weights/icon_caption_florence", quantization_config=quantization_config_bit, torch_dtype=torch.float32, trust_remote_code=True) # in new version, it automatically select device
+    # model.save_pretrained("weights/icon_caption_florence_8bit_original")
+    # return
+
+
+    model_name_or_path="weights/icon_caption_florence_8bit_original"
+    # model_name_or_path="weights/icon_caption_florence_merged"
     # it's a dict. contains model and processor
     caption_model_processor = get_caption_model_processor(
         model_name="florence2", 
         # model_name_or_path="weights/icon_caption_florence", 
-        model_name_or_path="weights/icon_caption_florence_merged", 
-        device=device
+        model_name_or_path=model_name_or_path, 
+        # model_name_or_path="weights/icon_caption_florence_merged", 
+        device=device,
+        use_quantization=True if "8bit" in model_name_or_path else False
     )
     print("Caption model loaded")
     

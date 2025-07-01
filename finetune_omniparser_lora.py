@@ -30,7 +30,6 @@ class Florence2LoRAModelTrainer:
     - 动态检测所有线性层作为LoRA目标
     - 优先从本地路径加载processor，失败时回退到基础模型
     - 模块化的代码结构，易于维护和扩展
-    - 支持bfloat16优化（需要Ampere+架构GPU）
     - 完整的错误处理和日志记录
     
     相比传统层冻结方法的优势：
@@ -1188,7 +1187,7 @@ if __name__ == "__main__":
             # LoRA 配置参数
             lora_r=16,                 # 提高秩参数获得更强表达能力
             lora_alpha=32,             # 通常是 r 的 2 倍
-            lora_dropout=0.1           # 防止过拟合
+            lora_dropout=0.08          # 防止过拟合
         )
 
         print("\n✓ LoRA training completed successfully!")

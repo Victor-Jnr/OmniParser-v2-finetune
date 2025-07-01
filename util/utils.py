@@ -53,12 +53,10 @@ import supervision as sv
 import torchvision.transforms as T
 from util.box_annotator import BoxAnnotator 
 
-# from transformers import BitsAndBytesConfig
-
-# quantization_config_4bit = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.bfloat16, bnb_4bit_use_double_quant=True)
 
 
-def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2-opt-2.7b", device=None):
+
+def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2-opt-2.7b", device=None,use_quantization=False):
     """获取图像标题生成模型和处理器"""
     if not device:
         device = "cuda" if torch.cuda.is_available() else "cpu"  # 自动选择设备
@@ -80,9 +78,16 @@ def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2
             model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True)
         else:
             print(f'{model_name_or_path} model loaded to gpu')
-            # model = AutoModelForCausalLM.from_pretrained(model_name_or_path, quantization_config=quantization_config_4bit, torch_dtype=torch.float16, trust_remote_code=True).to(device)
-            model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float16, trust_remote_code=True).to(device)
-    return {'model': model.to(device), 'processor': processor}
+            if use_quantization:
+                from transformers import BitsAndBytesConfig
+                quantization_config_bit = BitsAndBytesConfig(load_in_8bit=True, bnb_8bit_compute_dtype=torch.bfloat16, bnb_8bit_use_double_quant=True)
+                model = AutoModelForCausalLM.from_pretrained(model_name_or_path, quantization_config=quantization_config_bit, torch_dtype=torch.float16, trust_remote_code=True)
+            else:
+                model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True)
+            # model = AutoModelForCausalLM.from_pretrained(model_name_or_path, torch_dtype=torch.float32, trust_remote_code=True)#.to(device)
+    return {'model': model, 'processor': processor}
+
+
 
 
 

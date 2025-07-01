@@ -94,12 +94,12 @@ def apply_gaussian_noise(image, noise_strength=10):
     return noisy, f"noise_{noise_strength}"
 
 
-def apply_random_scaling(image, scale_range=(-10, 10)):
+def apply_random_scaling(image, scale_range=(-20, 5)):
     """
     Apply random scaling to simulate different resolution devices.
-    Scale percentage ranges from -10% to +10%.
+    Scale percentage ranges from -20% to +5%.
     """
-    # Random scale percentage between -10 and +10
+    # Random scale percentage between -20 and +5
     scale_percent = random.randint(scale_range[0], scale_range[1])
     scale_factor = 1.0 + (scale_percent / 100.0)
     
@@ -133,7 +133,7 @@ def apply_random_scaling(image, scale_range=(-10, 10)):
 def apply_random_augmentation(image):
     """Apply a random combination of augmentations."""
     augmentations = [
-        apply_random_rotation,
+        # apply_random_rotation,
         apply_random_crop,
         apply_brightness_adjustment,
         apply_contrast_adjustment,
