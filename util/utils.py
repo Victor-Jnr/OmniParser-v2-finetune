@@ -85,6 +85,7 @@ def get_caption_model_processor(model_name, model_name_or_path="Salesforce/blip2
     return {'model': model.to(device), 'processor': processor}
 
 
+
 def get_yolo_model(model_path):
     """加载YOLO目标检测模型"""
     from ultralytics import YOLO

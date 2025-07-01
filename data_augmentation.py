@@ -94,6 +94,42 @@ def apply_gaussian_noise(image, noise_strength=10):
     return noisy, f"noise_{noise_strength}"
 
 
+def apply_random_scaling(image, scale_range=(-10, 10)):
+    """
+    Apply random scaling to simulate different resolution devices.
+    Scale percentage ranges from -10% to +10%.
+    """
+    # Random scale percentage between -10 and +10
+    scale_percent = random.randint(scale_range[0], scale_range[1])
+    scale_factor = 1.0 + (scale_percent / 100.0)
+    
+    h, w = image.shape[:2]
+    
+    # Calculate new dimensions
+    new_w = int(w * scale_factor)
+    new_h = int(h * scale_factor)
+    
+    # Resize the image
+    scaled = cv2.resize(image, (new_w, new_h))
+    
+    # If scaled up, crop to original size; if scaled down, pad to original size
+    if scale_factor > 1.0:
+        # Crop from center
+        start_x = (new_w - w) // 2
+        start_y = (new_h - h) // 2
+        result = scaled[start_y:start_y + h, start_x:start_x + w]
+    else:
+        # Pad to original size
+        pad_x = (w - new_w) // 2
+        pad_y = (h - new_h) // 2
+        result = cv2.copyMakeBorder(
+            scaled, pad_y, h - new_h - pad_y, pad_x, w - new_w - pad_x,
+            cv2.BORDER_REFLECT
+        )
+    
+    return result, f"scale_{scale_percent:+d}pct"
+
+
 def apply_random_augmentation(image):
     """Apply a random combination of augmentations."""
     augmentations = [
@@ -101,7 +137,8 @@ def apply_random_augmentation(image):
         apply_random_crop,
         apply_brightness_adjustment,
         apply_contrast_adjustment,
-        apply_gaussian_noise
+        apply_gaussian_noise,
+        apply_random_scaling
     ]
     
     # Choose 1-2 random augmentations

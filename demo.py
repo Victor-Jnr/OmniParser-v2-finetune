@@ -55,26 +55,17 @@ def main(image_path, use_ocr=True):
     # Initialize caption model (using Florence2)
     print("Loading caption model...")
     
+    # it's a dict. contains model and processor
     caption_model_processor = get_caption_model_processor(
         model_name="florence2", 
         # model_name_or_path="weights/icon_caption_florence", 
-        model_name_or_path="weights/icon_caption_florence_finetuned", 
+        model_name_or_path="weights/icon_caption_florence_merged", 
         device=device
     )
     print("Caption model loaded")
     
     # Image selection (you can modify this to use different images)
-    image_options = [
-        'imgs/google_page.png',
-        'imgs/windows_home.png',
-        'imgs/windows_multitab.png',
-        'imgs/omni3.jpg',
-        'imgs/ios.png',
-        'imgs/word.png'
-    ]
-    
-    # Use word.png as default (as shown in the notebook)
-    # image_path = 'imgs/live.png'
+
     
     # Load and process image
     print(f"Processing image: {image_path}")

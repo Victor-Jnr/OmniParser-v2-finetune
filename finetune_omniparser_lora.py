@@ -609,25 +609,37 @@ class Florence2LoRAModelTrainer:
             # 合并LoRA权重到基础模型
             merged_model = self.model.merge_and_unload()
             
-            # 保存合并后的模型（只保存模型权重，不保存processor）
+            # 保存合并后的模型权重
             print(f"💾 Saving merged model weights to {output_path}...")
             merged_model.save_pretrained(output_path)
             
-            # 保存配置信息
+            # 复制基础模型的配置文件（确保使用正确的config.json）
+            print(f"📋 Copying base model config files...")
+            base_config_files = ['config.json', 'generation_config.json']
+            for config_file in base_config_files:
+                src_path = os.path.join(self.base_model_path, config_file)
+                dst_path = os.path.join(output_path, config_file)
+                if os.path.exists(src_path):
+                    shutil.copy2(src_path, dst_path)
+                    print(f"✓ Copied {config_file} from base model")
+                else:
+                    print(f"⚠️  {config_file} not found in base model path")
+            
+            # 保存合并信息
             merge_record = {
                 "model_type": "florence2_merged",
                 "base_model_source": self.base_model_path,
                 "training_method": "LoRA_merged",
                 "merge_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "note": "Merged model weights only - use with original processor from weights/icon_caption_florence"
+                "note": "Merged model with base model configs - ready for direct use"
             }
             
             with open(os.path.join(output_path, "merge_info.json"), "w") as f:
                 json.dump(merge_record, f, indent=2)
             
             print(f"✓ Model successfully merged and saved to {output_path}")
-            print(f"ℹ️  This merged model contains only weights - use with original processor")
-            print(f"ℹ️  Usage: Load from {output_path} + processor from weights/icon_caption_florence")
+            print(f"ℹ️  Merged model uses base model configs and can be used directly")
+            print(f"ℹ️  Usage: AutoModelForCausalLM.from_pretrained('{output_path}')")
             
             return True
             
@@ -935,7 +947,6 @@ def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
             base_model_path,
             trust_remote_code=True,
             torch_dtype=torch.float32,  # 修复：强制使用float32与本地模型保持一致
-            # torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
             local_files_only=True  # 确保从本地加载
         )
         
@@ -963,10 +974,22 @@ def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
         # 合并权重
         merged_model = model_with_lora.merge_and_unload()
         
-        # 保存合并后的模型（只保存模型权重，不保存processor）
+        # 保存合并后的模型权重
         print(f"💾 Saving merged model weights to {output_path}...")
         os.makedirs(output_path, exist_ok=True)
         merged_model.save_pretrained(output_path)
+        
+        # 复制基础模型的配置文件（确保使用正确的config.json）
+        print(f"📋 Copying base model config files...")
+        base_config_files = ['config.json', 'generation_config.json']
+        for config_file in base_config_files:
+            src_path = os.path.join(base_model_path, config_file)
+            dst_path = os.path.join(output_path, config_file)
+            if os.path.exists(src_path):
+                shutil.copy2(src_path, dst_path)
+                print(f"✓ Copied {config_file} from base model")
+            else:
+                print(f"⚠️  {config_file} not found in base model path")
         
         # 保存合并信息
         merge_info = {
@@ -974,15 +997,15 @@ def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
             "base_model_source": base_model_path,
             "lora_adapter_source": lora_path,
             "merge_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "note": "Merged model weights only - use with original processor from weights/icon_caption_florence"
+            "note": "Merged model with base model configs - ready for direct use"
         }
         
         with open(os.path.join(output_path, "merge_info.json"), "w") as f:
             json.dump(merge_info, f, indent=2)
         
         print(f"✓ Successfully merged LoRA adapter into complete model")
-        print(f"✓ Merged model weights saved to: {output_path}")
-        print(f"ℹ️  Usage: Load model from {output_path} + processor from weights/icon_caption_florence")
+        print(f"✓ Merged model saved to: {output_path}")
+        print(f"ℹ️  Usage: AutoModelForCausalLM.from_pretrained('{output_path}')")
         
         return True
         
@@ -1158,7 +1181,7 @@ if __name__ == "__main__":
     try:
         trainer.train_lora_model(
             florence_data=florence_data,
-            epochs=20,                 # 自动早停, 可设大点
+            epochs=25,                 # 自动早停, 可设大点
             batch_size=16,              # batch_size 根据内存大小调整
             lr=5e-5,                   # LoRA 可以使用稍高的学习率
             warmup_ratio=0.1,          # 学习率预热

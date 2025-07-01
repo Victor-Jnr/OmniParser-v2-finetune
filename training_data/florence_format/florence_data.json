@@ -576,7 +576,7 @@
       0.9936019778251648,
       0.17382241785526276
     ],
-    "content": "Screen cast",
+    "content": "Cast",
     "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
@@ -856,7 +856,7 @@
       0.8062735795974731,
       0.16280370950698853
     ],
-    "content": "Screen cast",
+    "content": "Cast",
     "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
@@ -1731,7 +1731,7 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Screen_cast_aug_1_contrast_0.95.png",
-    "content": "Screen cast",
+    "content": "Cast",
     "bbox": [
       0,
       0,
@@ -1741,7 +1741,7 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Screen_cast_aug_2_crop_0.02.png",
-    "content": "Screen cast",
+    "content": "Cast",
     "bbox": [
       0,
       0,
@@ -2251,7 +2251,7 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_1_contrast_1.17.png",
-    "content": "Screen cast",
+    "content": "Cast",
     "bbox": [
       0,
       0,
@@ -2261,7 +2261,7 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_2_rot_-12.4.png",
-    "content": "Screen cast",
+    "content": "Cast",
     "bbox": [
       0,
       0,
