@@ -19,6 +19,7 @@ import yaml
 import cv2
 import random
 import time
+import argparse
 from pathlib import Path
 
 class Florence2LoRAModelTrainer:
@@ -41,7 +42,8 @@ class Florence2LoRAModelTrainer:
     
     def __init__(self, base_model_path: str = "weights/icon_caption_florence", use_bfloat16: bool = False):
         self.base_model_path = base_model_path
-        self.processor_base_model_path = 'weights/Florence-2-base'
+        # 修复：Processor应该从标准在线模型加载，不是本地路径
+        self.processor_model_path = "microsoft/Florence-2-base"
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.use_bfloat16 = use_bfloat16 and torch.cuda.is_available() and torch.cuda.get_device_capability()[0] >= 8
         self.dtype = torch.bfloat16 if self.use_bfloat16 else torch.float32
@@ -57,36 +59,26 @@ class Florence2LoRAModelTrainer:
     
     def setup_model_and_processor(self, lora_r=16, lora_alpha=32, lora_dropout=0.1):
         """设置本地模型和处理器，应用LoRA微调"""
-        print(f"Loading Florence2 model from local path: {self.processor_base_model_path}")
+        print(f"Loading Florence2 model from local path: {self.base_model_path}")
         
-        # 检查模型文件是否存在
-        if not os.path.exists(self.processor_base_model_path):
-            raise FileNotFoundError(f"Model path {self.processor_base_model_path} does not exist!")
+        # 检查本地模型文件是否存在
+        if not os.path.exists(self.base_model_path):
+            raise FileNotFoundError(f"Local model path {self.base_model_path} does not exist!")
         
         try:
-            # 优先尝试从本地路径加载 processor
-            print(f"Attempting to load processor from local path: {self.processor_base_model_path}")
-            try:
-                self.processor = AutoProcessor.from_pretrained(
-                    self.processor_base_model_path,
-                    trust_remote_code=True,
-                    local_files_only=True
-                )
-                print("✓ Processor loaded from local path")
-            except Exception as processor_error:
-                print(f"⚠️  Could not load processor locally (Error: {processor_error})")
-                print("Fallback: Loading processor from base Florence2 model")
-                self.processor = AutoProcessor.from_pretrained(
-                    "microsoft/Florence-2-base", 
-                    trust_remote_code=True
-                )
-                print("✓ Processor loaded from base model")
+            # 修复1：始终从标准位置加载processor（遵循原始项目设计）
+            print(f"Loading processor from standard location: {self.processor_model_path}")
+            self.processor = AutoProcessor.from_pretrained(
+                self.processor_model_path, 
+                trust_remote_code=True
+            )
+            print("✓ Processor loaded from standard location")
             
-            # 加载本地模型权重 - 使用配置的数据类型
-            print(f"Loading model weights from local path: {self.processor_base_model_path}")
+            # 修复2：始终从本地路径加载模型权重
+            print(f"Loading model weights from local path: {self.base_model_path}")
             print(f"Using dtype: {self.dtype}")
             self.model = AutoModelForCausalLM.from_pretrained(
-                self.processor_base_model_path,
+                self.base_model_path,
                 torch_dtype=self.dtype,
                 trust_remote_code=True,
                 local_files_only=True
@@ -94,25 +86,16 @@ class Florence2LoRAModelTrainer:
             
             print(f"✓ Local model loaded successfully")
             print(f"  Model type: {self.model.config.model_type}")
-            print(f"  Model path: {getattr(self.model.config, '_name_or_path', self.processor_base_model_path)}")
+            print(f"  Model path: {getattr(self.model.config, '_name_or_path', self.base_model_path)}")
             
         except Exception as e:
             print(f"✗ Error loading local model: {e}")
-            print("Fallback: Loading base Florence2 model for training...")
-            
-            self.processor = AutoProcessor.from_pretrained(
-                "microsoft/Florence-2-base", 
-                trust_remote_code=True
-            )
-            
-            # 如果使用基础模型作为备选，使用配置的数据类型
-            self.model = AutoModelForCausalLM.from_pretrained(
-                "microsoft/Florence-2-base",
-                torch_dtype=self.dtype,
-                trust_remote_code=True
-            ).to(self.device)
-                
-            print("⚠️  Using base model instead of local weights!")
+            print("❌ CRITICAL: Local model loading failed!")
+            print(f"❌ Expected model path: {self.base_model_path}")
+            print("❌ Training/merge MUST use local model weights, not falling back to online model")
+            print("❌ Please ensure the local model exists and is accessible")
+            # 不再回退到在线模型，直接抛出错误
+            raise ValueError(f"Cannot load local model from {self.base_model_path}. Training requires local weights.") from e
         
         # 验证模型权重来源
         self.verify_model_source()
@@ -130,17 +113,29 @@ class Florence2LoRAModelTrainer:
         config_path = getattr(self.model.config, '_name_or_path', 'Unknown')
         print(f"  Model config path: {config_path}")
         
-        # 检查模型文件大小（本地微调模型应该与原始不同）
-        model_files = []
-        if os.path.exists(self.base_model_path):
-            for file in os.listdir(self.base_model_path):
-                if file.endswith(('.safetensors', '.bin', '.pt')):
-                    file_path = os.path.join(self.base_model_path, file)
-                    size_mb = os.path.getsize(file_path) / (1024*1024)
-                    model_files.append((file, f"{size_mb:.1f}MB"))
+        # CRITICAL: 确保模型路径匹配
+        if config_path != self.base_model_path:
+            print(f"❌ CRITICAL ERROR: Model path mismatch!")
+            print(f"   Expected: {self.base_model_path}")
+            print(f"   Actual: {config_path}")
+            raise ValueError("Model is not loaded from the specified local path! This will cause incorrect training/merge results.")
         
-        if model_files:
-            print(f"  Local model files: {model_files}")
+        # 检查模型文件大小 - 验证是本地1GB模型而非在线270MB模型
+        expected_size = 1083916964  # 本地模型的确切大小 (~1GB)
+        local_model_file = os.path.join(self.base_model_path, 'model.safetensors')
+        if os.path.exists(local_model_file):
+            actual_size = os.path.getsize(local_model_file)
+            print(f"  Local model size: {actual_size:,} bytes ({actual_size/(1024*1024):.1f}MB)")
+            if actual_size == expected_size:
+                print("  ✓ Model size matches expected local model")
+            else:
+                print(f"  ⚠️  Warning: Model file size unexpected")
+                print(f"     Expected: {expected_size:,} bytes")
+                print(f"     Actual: {actual_size:,} bytes")
+        
+        # 检查参数数量 - 本地模型应该有特定的参数数量
+        total_params = sum(p.numel() for p in self.model.parameters())
+        print(f"  Total model parameters: {total_params:,}")
         
         # 简单推理验证模型行为
         try:
@@ -163,7 +158,6 @@ class Florence2LoRAModelTrainer:
                     for key, tensor in inputs.items():
                         if tensor.dtype.is_floating_point:
                             inputs[key] = tensor.to(dtype=model_dtype)
-                        print(f"  {key} dtype: {inputs[key].dtype}")
                 
                 outputs = self.model.generate(
                     input_ids=inputs["input_ids"],
@@ -176,18 +170,10 @@ class Florence2LoRAModelTrainer:
             result = self.processor.batch_decode(outputs, skip_special_tokens=True)[0]
             print(f"  Model inference test: '{result}'")
             
-            # 检查输出是否包含UI相关内容（本地微调模型的特征）
-            if any(keyword in result.lower() for keyword in ['ui', 'button', 'icon', 'menu', 'tab']):
-                print("  ✓ Model appears to be UI-specialized (likely local)")
-            elif len(result.strip()) < 20:  # 短输出可能是原始模型
-                print("  ⚠️  Short output - could be base model or specialized")
-            else:
-                print("  ⚠️  Output doesn't seem UI-specialized")
-                
         except Exception as e:
             print(f"  ⚠️  Verification test failed: {e}")
         
-        print("🔍 Model verification completed\n")
+        print("✓ Model source verification completed - using local model\n")
     
     def apply_lora_config(self, lora_r=16, lora_alpha=32, lora_dropout=0.1):
         """应用LoRA配置到模型"""
@@ -607,6 +593,48 @@ class Florence2LoRAModelTrainer:
             print(f"✗ Error saving LoRA model: {e}")
             raise
 
+    def merge_and_save_model(self, output_path: str):
+        """
+        合并LoRA权重到基础模型并保存为新的完整模型
+        Args:
+            output_path: 保存合并后模型的路径
+        注意：只保存模型权重，不保存processor（processor与训练无关）
+        """
+        try:
+            print(f"\n🔄 Merging LoRA adapter with base model...")
+            
+            # 确保输出目录存在
+            os.makedirs(output_path, exist_ok=True)
+            
+            # 合并LoRA权重到基础模型
+            merged_model = self.model.merge_and_unload()
+            
+            # 保存合并后的模型（只保存模型权重，不保存processor）
+            print(f"💾 Saving merged model weights to {output_path}...")
+            merged_model.save_pretrained(output_path)
+            
+            # 保存配置信息
+            merge_record = {
+                "model_type": "florence2_merged",
+                "base_model_source": self.base_model_path,
+                "training_method": "LoRA_merged",
+                "merge_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+                "note": "Merged model weights only - use with original processor from weights/icon_caption_florence"
+            }
+            
+            with open(os.path.join(output_path, "merge_info.json"), "w") as f:
+                json.dump(merge_record, f, indent=2)
+            
+            print(f"✓ Model successfully merged and saved to {output_path}")
+            print(f"ℹ️  This merged model contains only weights - use with original processor")
+            print(f"ℹ️  Usage: Load from {output_path} + processor from weights/icon_caption_florence")
+            
+            return True
+            
+        except Exception as e:
+            print(f"✗ Error merging model: {e}")
+            return False
+
 class Florence2LoRADataset(Dataset):
     """LoRA训练数据集 - 复用原始数据集逻辑"""
     
@@ -867,5 +895,293 @@ def main():
         import traceback
         traceback.print_exc()
 
+def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
+    """
+    合并现有的LoRA适配器到基础模型
+    Args:
+        lora_path: LoRA适配器路径
+        base_model_path: 基础模型路径  
+        output_path: 输出路径
+    注意：只保存模型权重，不保存processor（processor与训练无关）
+    """
+    try:
+        print(f"🔄 Loading LoRA adapter from {lora_path}...")
+        
+        # 加载基础模型和processor（仅用于验证）
+        from peft import PeftModel
+        
+        print(f"📥 Loading base model from {base_model_path}...")
+        print(f"🔍 Verifying base model path exists: {os.path.exists(base_model_path)}")
+        
+        # 强制验证本地模型文件
+        if not os.path.exists(base_model_path):
+            raise FileNotFoundError(f"Base model path does not exist: {base_model_path}")
+        
+        model_file = os.path.join(base_model_path, 'model.safetensors')
+        if not os.path.exists(model_file):
+            raise FileNotFoundError(f"Model file does not exist: {model_file}")
+            
+        # 检查模型大小
+        expected_size = 1083916964  # 本地模型应该是这个大小
+        actual_size = os.path.getsize(model_file)
+        print(f"🔍 Base model size: {actual_size:,} bytes ({actual_size/(1024*1024):.1f}MB)")
+        
+        if actual_size != expected_size:
+            print(f"⚠️  Warning: Base model size unexpected!")
+            print(f"   Expected: {expected_size:,} bytes")
+            print(f"   Actual: {actual_size:,} bytes")
+        
+        base_model = AutoModelForCausalLM.from_pretrained(
+            base_model_path,
+            trust_remote_code=True,
+            torch_dtype=torch.float32,  # 修复：强制使用float32与本地模型保持一致
+            # torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+            local_files_only=True  # 确保从本地加载
+        )
+        
+        # 验证加载的模型路径
+        loaded_path = getattr(base_model.config, '_name_or_path', 'Unknown')
+        print(f"🔍 Loaded model config path: {loaded_path}")
+        if loaded_path != base_model_path:
+            raise ValueError(f"Model loaded from wrong path! Expected: {base_model_path}, Got: {loaded_path}")
+        
+        # 验证模型参数数量
+        total_params = sum(p.numel() for p in base_model.parameters())
+        print(f"🔍 Base model parameters: {total_params:,}")
+        expected_params = 270803968  # 本地模型的参数数量
+        if total_params != expected_params:
+            print(f"⚠️  Warning: Parameter count unexpected!")
+            print(f"   Expected: {expected_params:,}")
+            print(f"   Actual: {total_params:,}")
+        
+        print("✓ Base model verification passed")
+        
+        print(f"🔗 Loading and merging LoRA adapter...")
+        # 加载LoRA适配器
+        model_with_lora = PeftModel.from_pretrained(base_model, lora_path)
+        
+        # 合并权重
+        merged_model = model_with_lora.merge_and_unload()
+        
+        # 保存合并后的模型（只保存模型权重，不保存processor）
+        print(f"💾 Saving merged model weights to {output_path}...")
+        os.makedirs(output_path, exist_ok=True)
+        merged_model.save_pretrained(output_path)
+        
+        # 保存合并信息
+        merge_info = {
+            "model_type": "florence2_merged",
+            "base_model_source": base_model_path,
+            "lora_adapter_source": lora_path,
+            "merge_timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "note": "Merged model weights only - use with original processor from weights/icon_caption_florence"
+        }
+        
+        with open(os.path.join(output_path, "merge_info.json"), "w") as f:
+            json.dump(merge_info, f, indent=2)
+        
+        print(f"✓ Successfully merged LoRA adapter into complete model")
+        print(f"✓ Merged model weights saved to: {output_path}")
+        print(f"ℹ️  Usage: Load model from {output_path} + processor from weights/icon_caption_florence")
+        
+        return True
+        
+    except Exception as e:
+        print(f"✗ Error merging LoRA adapter: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+def parse_arguments():
+    """解析命令行参数"""
+    parser = argparse.ArgumentParser(
+        description="Florence2 LoRA Fine-tuning with optional model merging",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Basic LoRA training
+  python finetune_omniparser_lora.py
+  
+  # LoRA training with model merging
+  python finetune_omniparser_lora.py --merge
+  
+  # Custom merge path
+  python finetune_omniparser_lora.py --merge --merge_path weights/my_merged_model
+  
+  # Only merge existing LoRA adapter (no training)
+  python finetune_omniparser_lora.py --merge_only --lora_path weights/icon_caption_florence_lora_finetuned
+        """
+    )
+    
+    parser.add_argument(
+        "--data",
+        type=str,
+        default="training_data/florence_format/florence_data.json",
+        help="Path to training data JSON file"
+    )
+    
+    parser.add_argument(
+        "--model_path",
+        type=str,
+        default="weights/icon_caption_florence",
+        help="Path to base Florence2 model"
+    )
+    
+    parser.add_argument(
+        "--merge",
+        action="store_true",
+        help="Merge LoRA adapter with base model after training"
+    )
+    
+    parser.add_argument(
+        "--merge_path",
+        type=str,
+        default="weights/icon_caption_florence_merged",
+        help="Output path for merged model"
+    )
+    
+    parser.add_argument(
+        "--merge_only",
+        action="store_true",
+        help="Only merge existing LoRA adapter (skip training)"
+    )
+    
+    parser.add_argument(
+        "--lora_path",
+        type=str,
+        default="weights/icon_caption_florence_lora_finetuned",
+        help="Path to existing LoRA adapter for merge-only mode"
+    )
+    
+    parser.add_argument(
+        "--epochs",
+        type=int,
+        default=20,
+        help="Number of training epochs"
+    )
+    
+    parser.add_argument(
+        "--batch_size",
+        type=int,
+        default=16,
+        help="Training batch size"
+    )
+    
+    parser.add_argument(
+        "--lr",
+        type=float,
+        default=5e-5,
+        help="Learning rate"
+    )
+    
+    parser.add_argument(
+        "--lora_r",
+        type=int,
+        default=16,
+        help="LoRA rank parameter"
+    )
+    
+    parser.add_argument(
+        "--lora_alpha",
+        type=int,
+        default=32,
+        help="LoRA alpha parameter"
+    )
+    
+    return parser.parse_args()
+
 if __name__ == "__main__":
-    main()
+    args = parse_arguments()
+    
+    # 如果只是合并现有LoRA适配器
+    if args.merge_only:
+        print("=== LoRA Model Merging ===")
+        print(f"Base model: {args.model_path}")
+        print(f"LoRA adapter: {args.lora_path}")
+        print(f"Output path: {args.merge_path}")
+        
+        if not os.path.exists(args.model_path):
+            print(f"✗ Base model path does not exist: {args.model_path}")
+            exit(1)
+        
+        if not os.path.exists(args.lora_path):
+            print(f"✗ LoRA adapter path does not exist: {args.lora_path}")
+            exit(1)
+        
+        success = merge_existing_lora(args.lora_path, args.model_path, args.merge_path)
+        exit(0 if success else 1)
+    
+    # 正常的训练流程
+    print("=== Florence2 LoRA Model Fine-tuning ===")
+    print(f"Training data: {args.data}")
+    print(f"Base model: {args.model_path}")
+    print(f"Merge after training: {args.merge}")
+    if args.merge:
+        print(f"Merge output path: {args.merge_path}")
+    
+    # 检查依赖
+    try:
+        import peft
+        print(f"✓ PEFT library version: {peft.__version__}")
+    except ImportError:
+        print("✗ PEFT library not found. Please install with: pip install peft")
+        exit(1)
+    
+    # 检查模型路径
+    if not os.path.exists(args.model_path):
+        print(f"Error: Model path {args.model_path} does not exist!")
+        print("Please ensure you have downloaded the Florence2 model weights.")
+        exit(1)
+    
+    # 测试模型加载
+    print("\n1. Testing LoRA model loading...")
+    if not test_lora_model_loading(args.model_path):
+        print("LoRA model loading test failed. Please check your model weights.")
+        exit(1)
+    
+    # 准备训练数据
+    print("\n2. Preparing training data...")
+    florence_data = prepare_training_data(args.data)
+    
+    if not florence_data:
+        print("No training data available. Please prepare your training data first.")
+        print("Expected format: [{\"image_path\": \"path/to/image\", \"content\": \"description\", \"bbox\": [x1,y1,x2,y2]}, ...]")
+        exit(1)
+    
+    # 创建LoRA训练器
+    print("\n3. Creating LoRA trainer...")
+    use_bfloat16 = False  # 设为 True 以启用 bfloat16（如果GPU支持）
+    trainer = Florence2LoRAModelTrainer(base_model_path=args.model_path, use_bfloat16=use_bfloat16)
+    
+    # 开始LoRA训练
+    print("\n4. Starting LoRA training...")
+    try:
+        trainer.train_lora_model(
+            florence_data=florence_data,
+            epochs=20,                 # 自动早停, 可设大点
+            batch_size=16,              # batch_size 根据内存大小调整
+            lr=5e-5,                   # LoRA 可以使用稍高的学习率
+            warmup_ratio=0.1,          # 学习率预热
+            # LoRA 配置参数
+            lora_r=16,                 # 提高秩参数获得更强表达能力
+            lora_alpha=32,             # 通常是 r 的 2 倍
+            lora_dropout=0.1           # 防止过拟合
+        )
+
+        print("\n✓ LoRA training completed successfully!")
+        
+        # 如果开启merge选项，合并并保存完整模型
+        if args.merge:
+            print("\n5. Merging LoRA with base model...")
+            if trainer.merge_and_save_model(args.merge_path):
+                print(f"✓ Merged model weights saved to {args.merge_path}")
+                print(f"ℹ️  Use with processor from weights/icon_caption_florence")
+            else:
+                print("✗ Model merge failed")
+                exit(1)
+
+    except Exception as e:
+        print(f"\n✗ LoRA training failed: {e}")
+        import traceback
+        traceback.print_exc()
+        exit(1)
