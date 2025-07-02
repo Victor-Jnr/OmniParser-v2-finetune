@@ -1050,26 +1050,6 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_channel_Venez_aug_1_bright_-5.png",
-    "content": "Venez",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_channel_Venez_aug_2_crop_0.03_rot_4.9.png",
-    "content": "Venez",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/live_channel_Deportes_aug_1_crop_0.02_noise_10.png",
     "content": "Deportes",
     "bbox": [
@@ -1140,27 +1120,7 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_crop_0.01_bright_-6.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.02.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_contrast_0.92_noise_10.png",
     "content": "Favorite",
     "bbox": [
       0,
@@ -1180,27 +1140,7 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_noise_10_crop_0.01.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.01_contrast_1.06.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_2_crop_0.01_bright_-4.png",
     "content": "Favorite",
     "bbox": [
       0,
@@ -1242,26 +1182,6 @@
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Forward_aug_2_bright_-5.png",
     "content": "Forward",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_70a_aug_1_crop_0.01.png",
-    "content": "70a",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_70a_aug_2_rot_6.5.png",
-    "content": "70a",
     "bbox": [
       0,
       0,
@@ -1362,16 +1282,6 @@
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Help_aug_2_crop_0.01_contrast_0.97.png",
     "content": "Help",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Pro_aug_1_rot_8.4_crop_0.02.png",
-    "content": "Pro",
     "bbox": [
       0,
       0,
@@ -1510,16 +1420,6 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/user_profile_More_options_aug_1_contrast_0.94_rot_-10.3.png",
-    "content": "More options",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/user_profile_More_options_aug_2_noise_10_contrast_1.01.png",
     "content": "More options",
     "bbox": [
@@ -1531,16 +1431,6 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Adobe_Photoshop_aug_1_noise_10.png",
-    "content": "Adobe Photoshop",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/user_profile_Adobe_Photoshop_aug_2_crop_0.01_noise_10.png",
     "content": "Adobe Photoshop",
     "bbox": [
       0,
@@ -1782,16 +1672,6 @@
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_2_crop_0.02_noise_10.png",
     "content": "Epsiodes",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_1_rot_14.1.png",
-    "content": "Seek bar",
     "bbox": [
       0,
       0,
@@ -2060,46 +1940,6 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_History_aug_2_rot_-4.3_noise_10.png",
-    "content": "History",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_Number_74_aug_1_crop_0.03.png",
-    "content": "Number 74",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_Number_74_aug_2_contrast_0.81.png",
-    "content": "Number 74",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_Reward_Centerr_aug_1_rot_-6.3_crop_0.01.png",
-    "content": "Reward Centerr",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Reward_Centerr_aug_2_contrast_0.85.png",
     "content": "Reward Centerr",
     "bbox": [
@@ -2111,16 +1951,6 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Invite_friends_aug_1_bright_16_contrast_1.13.png",
-    "content": "Invite friends.",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_Invite_friends_aug_2_rot_3.1_bright_-2.png",
     "content": "Invite friends.",
     "bbox": [
       0,
@@ -2170,26 +2000,6 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_405800_aug_1_crop_0.02_rot_8.4.png",
-    "content": "40:58:00",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_405800_aug_2_noise_10.png",
-    "content": "40:58:00",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_rot_0.7_noise_10.png",
     "content": "Screen ratio",
     "bbox": [
@@ -2220,16 +2030,6 @@
     ]
   },
   {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_2_contrast_1.10_rot_12.2.png",
-    "content": "Subtitle",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_noise_10.png",
     "content": "Audio language",
     "bbox": [
@@ -2251,16 +2051,6 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_1_contrast_1.17.png",
-    "content": "Cast",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_2_rot_-12.4.png",
     "content": "Cast",
     "bbox": [
       0,

@@ -63,8 +63,8 @@ def main(image_path, use_ocr=True):
     # return
 
 
-    model_name_or_path="weights/icon_caption_florence_8bit_original"
-    # model_name_or_path="weights/icon_caption_florence_merged"
+    # model_name_or_path="weights/icon_caption_florence_8bit_original"
+    model_name_or_path="weights/icon_caption_florence_8bit_lora_finetuned"
     # it's a dict. contains model and processor
     caption_model_processor = get_caption_model_processor(
         model_name="florence2", 

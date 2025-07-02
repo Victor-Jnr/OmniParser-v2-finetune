@@ -592,7 +592,7 @@ class Florence2LoRAModelTrainer:
             print(f"✗ Error saving LoRA model: {e}")
             raise
 
-    def merge_and_save_model(self, output_path: str):
+    def merge_and_save_model(self, output_path: str, save_quantized: bool = False):
         """
         合并LoRA权重到基础模型并保存为新的完整模型
         Args:
@@ -640,6 +640,12 @@ class Florence2LoRAModelTrainer:
             print(f"ℹ️  Merged model uses base model configs and can be used directly")
             print(f"ℹ️  Usage: AutoModelForCausalLM.from_pretrained('{output_path}')")
             
+            if save_quantized:
+                from transformers import BitsAndBytesConfig, AutoProcessor, AutoModelForCausalLM 
+                quantization_config_bit = BitsAndBytesConfig(load_in_8bit=True, bnb_8bit_compute_dtype=torch.bfloat16, bnb_8bit_use_double_quant=True)
+                model = AutoModelForCausalLM.from_pretrained(output_path, quantization_config=quantization_config_bit, torch_dtype=torch.float32, trust_remote_code=True) # in new version, it automatically select device
+                model.save_pretrained("weights/icon_caption_florence_8bit_lora_finetuned")
+
             return True
             
         except Exception as e:
@@ -1180,14 +1186,14 @@ if __name__ == "__main__":
     try:
         trainer.train_lora_model(
             florence_data=florence_data,
-            epochs=25,                 # 自动早停, 可设大点
+            epochs=30,                 # 自动早停, 可设大点
             batch_size=16,              # batch_size 根据内存大小调整
             lr=5e-5,                   # LoRA 可以使用稍高的学习率
             warmup_ratio=0.1,          # 学习率预热
             # LoRA 配置参数
             lora_r=16,                 # 提高秩参数获得更强表达能力
             lora_alpha=32,             # 通常是 r 的 2 倍
-            lora_dropout=0.08          # 防止过拟合
+            lora_dropout=0.05          # 防止过拟合
         )
 
         print("\n✓ LoRA training completed successfully!")
@@ -1195,7 +1201,7 @@ if __name__ == "__main__":
         # 如果开启merge选项，合并并保存完整模型
         if args.merge:
             print("\n5. Merging LoRA with base model...")
-            if trainer.merge_and_save_model(args.merge_path):
+            if trainer.merge_and_save_model(args.merge_path, save_quantized=True):
                 print(f"✓ Merged model weights saved to {args.merge_path}")
                 print(f"ℹ️  Use with processor from weights/icon_caption_florence")
             else:
