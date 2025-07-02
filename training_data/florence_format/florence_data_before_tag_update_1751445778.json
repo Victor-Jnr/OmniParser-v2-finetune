@@ -6,9 +6,8 @@
       0.24124892055988312,
       0.9014846682548523
     ],
-    "content": "Channel 5",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": true
+    "content": "5",
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -18,8 +17,7 @@
       0.8304098844528198
     ],
     "content": "4",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -29,8 +27,7 @@
       0.7532331943511963
     ],
     "content": "3",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -40,8 +37,7 @@
       0.6001797914505005
     ],
     "content": "1",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -51,8 +47,7 @@
       0.676428496837616
     ],
     "content": "2",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -62,8 +57,7 @@
       0.9669986963272095
     ],
     "content": "Live",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -73,8 +67,7 @@
       0.027220776304602623
     ],
     "content": "Lightning",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -84,8 +77,7 @@
       0.5117419362068176
     ],
     "content": "ChannelList",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -95,8 +87,7 @@
       0.8991056680679321
     ],
     "content": "ECOFE",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -106,8 +97,7 @@
       0.6726462244987488
     ],
     "content": "Forward",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -117,8 +107,7 @@
       0.5067245364189148
     ],
     "content": "Colombia",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -128,8 +117,7 @@
       0.5226355791091919
     ],
     "content": "Venez",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -139,8 +127,7 @@
       0.5119320750236511
     ],
     "content": "Deportes",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -150,8 +137,7 @@
       0.7502027750015259
     ],
     "content": "Forward",
-    "image_path": "raw_images/live_channel.png",
-    "is_modified": false
+    "image_path": "raw_images/live_channel.png"
   },
   {
     "bbox": [
@@ -161,8 +147,7 @@
       0.08641715347766876
     ],
     "content": "Search",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -172,8 +157,7 @@
       0.7571470141410828
     ],
     "content": "4",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -183,8 +167,7 @@
       0.5261374115943909
     ],
     "content": "1",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -194,8 +177,7 @@
       0.6856293082237244
     ],
     "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -205,8 +187,7 @@
       0.5303050875663757
     ],
     "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -216,8 +197,7 @@
       0.7623959183692932
     ],
     "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -227,8 +207,7 @@
       0.6064793467521667
     ],
     "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -238,8 +217,7 @@
       0.9664270281791687
     ],
     "content": "Live",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -249,8 +227,7 @@
       0.46728068590164185
     ],
     "content": "Favorite",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -260,8 +237,7 @@
       0.6865859031677246
     ],
     "content": "Forward",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -271,8 +247,7 @@
       0.026934484019875526
     ],
     "content": "70a",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -282,8 +257,7 @@
       0.028182243928313255
     ],
     "content": "Close",
-    "image_path": "raw_images/live_favorite.png",
-    "is_modified": false
+    "image_path": "raw_images/live_favorite.png"
   },
   {
     "bbox": [
@@ -293,8 +267,7 @@
       0.11941865086555481
     ],
     "content": "Share",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -304,8 +277,7 @@
       0.16892273724079132
     ],
     "content": "Close",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -315,8 +287,7 @@
       0.9260362386703491
     ],
     "content": "Online",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -326,8 +297,7 @@
       0.7453266382217407
     ],
     "content": "ULISES",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -337,8 +307,7 @@
       0.945310652256012
     ],
     "content": "Lock",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -348,8 +317,7 @@
       0.16421286761760712
     ],
     "content": "Help",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -359,8 +327,7 @@
       0.8448055982589722
     ],
     "content": "Pro",
-    "image_path": "raw_images/live_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/live_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -370,8 +337,7 @@
       0.3624490797519684
     ],
     "content": "Show password",
-    "image_path": "raw_images/login.png",
-    "is_modified": false
+    "image_path": "raw_images/login.png"
   },
   {
     "bbox": [
@@ -381,8 +347,7 @@
       0.027749761939048767
     ],
     "content": "Microsoft Edge browser",
-    "image_path": "raw_images/login.png",
-    "is_modified": false
+    "image_path": "raw_images/login.png"
   },
   {
     "bbox": [
@@ -392,8 +357,7 @@
       0.026626894250512123
     ],
     "content": "Mail",
-    "image_path": "raw_images/login.png",
-    "is_modified": false
+    "image_path": "raw_images/login.png"
   },
   {
     "bbox": [
@@ -403,8 +367,7 @@
       0.24414673447608948
     ],
     "content": "Enter your account.",
-    "image_path": "raw_images/login.png",
-    "is_modified": false
+    "image_path": "raw_images/login.png"
   },
   {
     "bbox": [
@@ -414,8 +377,7 @@
       0.12088906764984131
     ],
     "content": "Scan",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -425,8 +387,7 @@
       0.8699264526367188
     ],
     "content": "Enable",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -436,8 +397,7 @@
       0.9690152406692505
     ],
     "content": "Live",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -447,8 +407,7 @@
       0.03175825998187065
     ],
     "content": "More options",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -458,8 +417,7 @@
       0.031179288402199745
     ],
     "content": "Adobe Photoshop",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -469,8 +427,7 @@
       0.8188731074333191
     ],
     "content": "HideHideHide",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -480,8 +437,7 @@
       0.97038334608078
     ],
     "content": "User profile",
-    "image_path": "raw_images/user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/user_profile.png"
   },
   {
     "bbox": [
@@ -491,8 +447,7 @@
       0.9696782231330872
     ],
     "content": "Live",
-    "image_path": "raw_images/vod_home.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_home.png"
   },
   {
     "bbox": [
@@ -502,8 +457,7 @@
       0.08464832603931427
     ],
     "content": "Clock",
-    "image_path": "raw_images/vod_home.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_home.png"
   },
   {
     "bbox": [
@@ -513,8 +467,7 @@
       0.08583526313304901
     ],
     "content": "Find and Replace",
-    "image_path": "raw_images/vod_home.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_home.png"
   },
   {
     "bbox": [
@@ -524,8 +477,7 @@
       0.027116816490888596
     ],
     "content": "Lightning",
-    "image_path": "raw_images/vod_home.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_home.png"
   },
   {
     "bbox": [
@@ -535,8 +487,7 @@
       0.15273968875408173
     ],
     "content": "Recommended",
-    "image_path": "raw_images/vod_home.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_home.png"
   },
   {
     "bbox": [
@@ -546,8 +497,7 @@
       0.5436288118362427
     ],
     "content": "5",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -557,8 +507,7 @@
       0.5436676740646362
     ],
     "content": "4",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -568,8 +517,7 @@
       0.5435365438461304
     ],
     "content": "6",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -579,8 +527,7 @@
       0.5438612103462219
     ],
     "content": "3",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -590,8 +537,7 @@
       0.5440269112586975
     ],
     "content": "2",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -601,8 +547,7 @@
       0.3905554413795471
     ],
     "content": "Share",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -612,8 +557,7 @@
       0.390470415353775
     ],
     "content": "Favorite",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -623,8 +567,7 @@
       0.3181493580341339
     ],
     "content": "System",
-    "image_path": "raw_images/vod_play_detail.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail.png"
   },
   {
     "bbox": [
@@ -634,8 +577,7 @@
       0.17382241785526276
     ],
     "content": "Cast",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -645,8 +587,7 @@
       0.16735699772834778
     ],
     "content": "Share",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -656,8 +597,7 @@
       0.9470104575157166
     ],
     "content": "Epsiodes",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -667,8 +607,7 @@
       0.84373939037323
     ],
     "content": "Seek bar",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -678,8 +617,7 @@
       0.5885541439056396
     ],
     "content": "Playing",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -689,8 +627,7 @@
       0.9437442421913147
     ],
     "content": "Quality 480P",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -700,8 +637,7 @@
       0.15234607458114624
     ],
     "content": "Close",
-    "image_path": "raw_images/vod_play_detail_full_screen_playing.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen_playing.png"
   },
   {
     "bbox": [
@@ -711,8 +647,7 @@
       0.08614180982112885
     ],
     "content": "Search",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -722,8 +657,7 @@
       0.42769089341163635
     ],
     "content": "Navigator",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -733,8 +667,7 @@
       0.02844422496855259
     ],
     "content": "More options",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -744,8 +677,7 @@
       0.15325193107128143
     ],
     "content": "Recommended",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -755,8 +687,7 @@
       0.9141609072685242
     ],
     "content": "A beach or ocean-related feature.",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -766,8 +697,7 @@
       0.07855398207902908
     ],
     "content": "YouCine",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -777,8 +707,7 @@
       0.9839289784431458
     ],
     "content": "Profile",
-    "image_path": "raw_images/yc_home.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_home.png"
   },
   {
     "bbox": [
@@ -788,8 +717,7 @@
       0.10217006504535675
     ],
     "content": "Scan",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -799,8 +727,7 @@
       0.02835272252559662
     ],
     "content": "Close",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -810,8 +737,7 @@
       0.4131924510002136
     ],
     "content": "Account",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -821,8 +747,7 @@
       0.029926013201475143
     ],
     "content": "More options",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -832,8 +757,7 @@
       0.4112466871738434
     ],
     "content": "History",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -843,8 +767,7 @@
       0.02799338661134243
     ],
     "content": "Number 74",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -854,8 +777,7 @@
       0.7971819639205933
     ],
     "content": "Reward Centerr",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -865,8 +787,7 @@
       0.5567337274551392
     ],
     "content": "Invite friends.",
-    "image_path": "raw_images/yc_user_profile.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_user_profile.png"
   },
   {
     "bbox": [
@@ -876,8 +797,7 @@
       0.9487711787223816
     ],
     "content": "Forward 10",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -887,8 +807,7 @@
       0.9565342664718628
     ],
     "content": "Back 10",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -898,8 +817,7 @@
       0.8039749264717102
     ],
     "content": "40:58:00",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -909,8 +827,7 @@
       0.1439530849456787
     ],
     "content": "Screen ratio",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -920,8 +837,7 @@
       0.9376885890960693
     ],
     "content": "Subtitle",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -931,8 +847,7 @@
       0.9625605344772339
     ],
     "content": "Audio language",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -942,8 +857,7 @@
       0.16280370950698853
     ],
     "content": "Cast",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -953,8 +867,7 @@
       0.9725716710090637
     ],
     "content": "Preciso",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -964,8 +877,7 @@
       0.9573859572410583
     ],
     "content": "Dinheiro.",
-    "image_path": "raw_images/yc_vod_playing_fullscreen.png",
-    "is_modified": false
+    "image_path": "raw_images/yc_vod_playing_fullscreen.png"
   },
   {
     "bbox": [
@@ -975,8 +887,7 @@
       0.953882098197937
     ],
     "content": "Lock",
-    "image_path": "raw_images/vod_play_detail_full_screen.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
   },
   {
     "bbox": [
@@ -986,8 +897,7 @@
       0.8157355189323425
     ],
     "content": "Increase",
-    "image_path": "raw_images/vod_play_detail_full_screen.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
   },
   {
     "bbox": [
@@ -997,8 +907,7 @@
       0.7963408827781677
     ],
     "content": "A video or audio file.",
-    "image_path": "raw_images/vod_play_detail_full_screen.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
   },
   {
     "bbox": [
@@ -1008,8 +917,7 @@
       0.2184273600578308
     ],
     "content": "ng,kor-480p)",
-    "image_path": "raw_images/vod_play_detail_full_screen.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
   },
   {
     "bbox": [
@@ -1019,8 +927,7 @@
       0.33509936928749084
     ],
     "content": "Sound",
-    "image_path": "raw_images/vod_play_detail_full_screen.png",
-    "is_modified": false
+    "image_path": "raw_images/vod_play_detail_full_screen.png"
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_noise_10.png",
@@ -1030,8 +937,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_2_rot_-3.1.png",
@@ -1041,8 +947,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Lightning_aug_1_bright_20.png",
@@ -1052,8 +957,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Lightning_aug_2_contrast_0.89_noise_10.png",
@@ -1063,8 +967,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_ChannelList_aug_1_noise_10.png",
@@ -1074,8 +977,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_ChannelList_aug_2_noise_10.png",
@@ -1085,8 +987,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_ECOFE_aug_1_contrast_0.83_crop_0.02.png",
@@ -1096,8 +997,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_ECOFE_aug_2_rot_9.1_crop_0.01.png",
@@ -1107,8 +1007,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_1_contrast_1.16.png",
@@ -1118,8 +1017,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_2_noise_10_crop_0.01.png",
@@ -1129,8 +1027,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Colombia_aug_1_contrast_0.83.png",
@@ -1140,8 +1037,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Colombia_aug_2_bright_-5_contrast_0.84.png",
@@ -1151,8 +1047,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Deportes_aug_1_crop_0.02_noise_10.png",
@@ -1162,8 +1057,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Deportes_aug_2_rot_-6.3_crop_0.03.png",
@@ -1173,8 +1067,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_1_noise_10_rot_-4.6.png",
@@ -1184,8 +1077,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_channel_Forward_aug_2_noise_10.png",
@@ -1195,8 +1087,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_rot_2.7.png",
@@ -1206,8 +1097,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_2_contrast_0.81.png",
@@ -1217,8 +1107,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_17_noise_10.png",
@@ -1228,8 +1117,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.02.png",
@@ -1239,8 +1127,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_18_contrast_0.81.png",
@@ -1250,8 +1137,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.01_contrast_1.06.png",
@@ -1261,8 +1147,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Live_aug_1_rot_1.0_crop_0.02.png",
@@ -1272,8 +1157,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Live_aug_2_contrast_0.97_rot_1.7.png",
@@ -1283,8 +1167,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Forward_aug_1_bright_2_contrast_1.13.png",
@@ -1294,8 +1177,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Forward_aug_2_bright_-5.png",
@@ -1305,8 +1187,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Close_aug_1_bright_12_contrast_1.16.png",
@@ -1316,8 +1197,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_favorite_Close_aug_2_crop_0.02_noise_10.png",
@@ -1327,8 +1207,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_rot_13.3_bright_4.png",
@@ -1338,8 +1217,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_2_contrast_0.83_crop_0.01.png",
@@ -1349,8 +1227,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_1_bright_-3.png",
@@ -1360,8 +1237,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_2_rot_14.5.png",
@@ -1371,8 +1247,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Lock_aug_1_noise_10_bright_2.png",
@@ -1382,8 +1257,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Lock_aug_2_bright_-18.png",
@@ -1393,8 +1267,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Help_aug_1_contrast_1.10.png",
@@ -1404,8 +1277,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Help_aug_2_crop_0.01_contrast_0.97.png",
@@ -1415,8 +1287,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Pro_aug_2_noise_10.png",
@@ -1426,8 +1297,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/login_Show_password_aug_1_noise_10.png",
@@ -1437,8 +1307,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/login_Show_password_aug_2_noise_10_contrast_1.11.png",
@@ -1448,8 +1317,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/login_Microsoft_Edge_brows_aug_1_contrast_0.84_noise_10.png",
@@ -1459,8 +1327,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/login_Microsoft_Edge_brows_aug_2_noise_10.png",
@@ -1470,8 +1337,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/login_Mail_aug_1_contrast_1.05_rot_-6.2.png",
@@ -1481,8 +1347,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/login_Mail_aug_2_rot_2.8.png",
@@ -1492,8 +1357,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_crop_0.02.png",
@@ -1503,8 +1367,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_2_contrast_1.15.png",
@@ -1514,8 +1377,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_1_crop_0.03.png",
@@ -1525,8 +1387,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_2_contrast_1.01.png",
@@ -1536,8 +1397,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_1_contrast_1.20.png",
@@ -1547,8 +1407,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_2_crop_0.02.png",
@@ -1558,8 +1417,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_More_options_aug_2_noise_10_contrast_1.01.png",
@@ -1569,8 +1427,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_Adobe_Photoshop_aug_1_noise_10.png",
@@ -1580,8 +1437,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_HideHideHide_aug_1_bright_12.png",
@@ -1591,8 +1447,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_HideHideHide_aug_2_crop_0.02.png",
@@ -1602,8 +1457,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_User_profile_aug_1_contrast_1.16.png",
@@ -1613,8 +1467,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/user_profile_User_profile_aug_2_rot_-0.7.png",
@@ -1624,8 +1477,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_1_contrast_0.86.png",
@@ -1635,8 +1487,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_2_crop_0.01.png",
@@ -1646,8 +1497,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Clock_aug_1_noise_10_contrast_0.99.png",
@@ -1657,8 +1507,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Clock_aug_2_rot_-14.0_contrast_1.19.png",
@@ -1668,8 +1517,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Find_and_Replace_aug_1_noise_10.png",
@@ -1679,8 +1527,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Find_and_Replace_aug_2_bright_-3.png",
@@ -1690,8 +1537,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Lightning_aug_1_noise_10.png",
@@ -1701,8 +1547,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Lightning_aug_2_contrast_0.99.png",
@@ -1712,8 +1557,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Recommended_aug_1_bright_2_contrast_1.03.png",
@@ -1723,8 +1567,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_home_Recommended_aug_2_noise_10.png",
@@ -1734,8 +1577,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_1_noise_10.png",
@@ -1745,8 +1587,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_2_crop_0.03_rot_-9.9.png",
@@ -1756,8 +1597,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10_crop_0.01.png",
@@ -1767,8 +1607,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_2_rot_-1.3.png",
@@ -1778,8 +1617,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Screen_cast_aug_1_contrast_0.95.png",
@@ -1789,8 +1627,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Screen_cast_aug_2_crop_0.02.png",
@@ -1800,8 +1637,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_1_noise_10.png",
@@ -1811,8 +1647,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_bright_-13.png",
@@ -1822,8 +1657,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_1_contrast_0.84.png",
@@ -1833,8 +1667,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_2_crop_0.02_noise_10.png",
@@ -1844,8 +1677,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_2_bright_8_crop_0.03.png",
@@ -1855,8 +1687,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_1_contrast_1.04_noise_10.png",
@@ -1866,8 +1697,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_rot_0.9.png",
@@ -1877,8 +1707,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Quality_480P_aug_1_noise_10_crop_0.01.png",
@@ -1888,8 +1717,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Quality_480P_aug_2_bright_5_rot_10.0.png",
@@ -1899,8 +1727,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Close_aug_1_noise_10.png",
@@ -1910,8 +1737,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Close_aug_2_crop_0.01_noise_10.png",
@@ -1921,8 +1747,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_1_crop_0.02_contrast_0.90.png",
@@ -1932,8 +1757,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_2_noise_10.png",
@@ -1943,8 +1767,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_More_options_aug_1_bright_-17.png",
@@ -1954,8 +1777,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_More_options_aug_2_bright_-12.png",
@@ -1965,8 +1787,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_Recommended_aug_1_rot_4.7.png",
@@ -1976,8 +1797,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_Recommended_aug_2_contrast_0.88.png",
@@ -1987,8 +1807,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_YouCine_aug_1_bright_11_contrast_0.83.png",
@@ -1998,8 +1817,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_YouCine_aug_2_noise_10.png",
@@ -2009,8 +1827,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_Profile_aug_1_noise_10_bright_3.png",
@@ -2020,8 +1837,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_home_Profile_aug_2_noise_10.png",
@@ -2031,8 +1847,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_1_noise_10_rot_10.0.png",
@@ -2042,8 +1857,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_2_crop_0.02_rot_5.7.png",
@@ -2053,8 +1867,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Close_aug_1_crop_0.02.png",
@@ -2064,8 +1877,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Close_aug_2_bright_16.png",
@@ -2075,8 +1887,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Account_aug_1_noise_10.png",
@@ -2086,8 +1897,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Account_aug_2_noise_10.png",
@@ -2097,8 +1907,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_More_options_aug_1_noise_10_contrast_1.09.png",
@@ -2108,8 +1917,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_More_options_aug_2_contrast_1.14.png",
@@ -2119,8 +1927,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_History_aug_1_rot_-0.9_noise_10.png",
@@ -2130,8 +1937,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Reward_Centerr_aug_2_contrast_0.85.png",
@@ -2141,8 +1947,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_user_profile_Invite_friends_aug_1_bright_16_contrast_1.13.png",
@@ -2152,8 +1957,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_rot_-13.6_crop_0.02.png",
@@ -2163,8 +1967,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_2_bright_-7_contrast_0.91.png",
@@ -2174,8 +1977,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_1.png",
@@ -2185,8 +1987,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_noise_10_bright_-18.png",
@@ -2196,8 +1997,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_rot_0.7_noise_10.png",
@@ -2207,8 +2007,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_rot_-2.3_noise_10.png",
@@ -2218,8 +2017,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_bright_9.png",
@@ -2229,8 +2027,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_noise_10.png",
@@ -2240,8 +2037,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_contrast_0.92.png",
@@ -2251,8 +2047,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_cast_aug_1_contrast_1.17.png",
@@ -2262,8 +2057,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Lock_aug_1_crop_0.02.png",
@@ -2273,8 +2067,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Lock_aug_2_contrast_1.19.png",
@@ -2284,8 +2077,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_ngkor-480p_aug_1_noise_10.png",
@@ -2295,8 +2087,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_ngkor-480p_aug_2_rot_12.9.png",
@@ -2306,8 +2097,7 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Sound_aug_1_noise_10_bright_9.png",
@@ -2317,33 +2107,11 @@
       0,
       1,
       1
-    ],
-    "is_modified": false
+    ]
   },
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_Sound_aug_2_bright_-20_rot_12.8.png",
     "content": "Sound",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": false
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_channel_Channel_5_aug_1_scale_-4pct.png",
-    "content": "Channel 5",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_channel_Channel_5_aug_2_scale_-13pct_noise_10.png",
-    "content": "Channel 5",
     "bbox": [
       0,
       0,

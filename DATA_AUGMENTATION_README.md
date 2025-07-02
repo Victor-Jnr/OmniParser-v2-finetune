@@ -42,12 +42,34 @@ python finetune_omniparser_models_fixed.py --data_impr 1
 Run data augmentation separately:
 
 ```bash
-# Augment data with 3x multiplier
+# Basic augmentation with 3x multiplier (equal weights)
 python data_augmentation.py --data_dir training_data/florence_format --multiplier 3
 
-# Augment with custom directory and 5x multiplier
-python data_augmentation.py --data_dir /path/to/your/data --multiplier 5
+# Weighted augmentation - favor noise and brightness
+python data_augmentation.py --multiplier 3 --weight_noise 2 --weight_brightness 1
+
+# Heavy weighting example - 8x noise, 4x crop, 2x brightness
+python data_augmentation.py --multiplier 5 --weight_noise 3 --weight_crop 2 --weight_brightness 1
+
+# Custom directory with weights
+python data_augmentation.py --data_dir /path/to/your/data --multiplier 5 --weight_contrast 2
 ```
+
+#### Weight System Explanation
+
+Each augmentation type has a weight (0-10):
+- **Weight 0**: Default probability (1 entry in selection pool)
+- **Weight 1**: Double probability (2 entries)  
+- **Weight 2**: Quadruple probability (4 entries)
+- **Weight 3**: 8x probability (8 entries)
+- **Weight N**: 2^N probability
+
+Available augmentation types:
+- `--weight_crop`: Random cropping (0.5-3% margin)
+- `--weight_brightness`: Brightness adjustment (±20 pixels)
+- `--weight_contrast`: Contrast scaling (0.8x-1.2x)
+- `--weight_noise`: Gaussian noise (strength: 10)
+- `--weight_scaling`: Random scaling (-20% to +5%)
 
 ### Method 3: Data Cleanup
 

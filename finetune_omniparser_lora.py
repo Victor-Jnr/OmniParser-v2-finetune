@@ -1193,7 +1193,8 @@ if __name__ == "__main__":
             # LoRA 配置参数
             lora_r=16,                 # 提高秩参数获得更强表达能力
             lora_alpha=32,             # 通常是 r 的 2 倍
-            lora_dropout=0.05          # 防止过拟合
+            # lora_dropout=0.05          # 防止过拟合
+            lora_dropout=0
         )
 
         print("\n✓ LoRA training completed successfully!")

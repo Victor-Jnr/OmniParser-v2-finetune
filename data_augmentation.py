@@ -15,7 +15,7 @@ from pathlib import Path
 import argparse
 
 
-def apply_random_rotation(image, max_angle=15):
+def apply_random_rotation(image, max_angle=15): # it's not used
     """Apply random rotation to image within specified angle range."""
     angle = random.uniform(-max_angle, max_angle)
     h, w = image.shape[:2]
@@ -130,27 +130,72 @@ def apply_random_scaling(image, scale_range=(-20, 5)):
     return result, f"scale_{scale_percent:+d}pct"
 
 
-def apply_random_augmentation(image):
-    """Apply a random combination of augmentations."""
-    augmentations = [
-        # apply_random_rotation,
-        apply_random_crop,
-        apply_brightness_adjustment,
-        apply_contrast_adjustment,
-        apply_gaussian_noise,
-        apply_random_scaling
-    ]
+def apply_random_augmentation(image, aug_weights=None):
+    """
+    Apply a random combination of augmentations with configurable weights.
     
-    # Choose 1-2 random augmentations
+    Args:
+        image: Input image to augment
+        aug_weights: Dict with weights for each augmentation (0-10 scale)
+                    Example: {
+                        'crop': 2,      # 2x probability (4 entries in pool)
+                        'brightness': 0, # Default probability (1 entry)
+                        'contrast': 1,   # 2x probability (2 entries)
+                        'noise': 3,      # 4x probability (8 entries)
+                        'scaling': 0,    # Default probability (1 entry)
+                        'rotation': 1    # 2x probability (2 entries)
+                    }
+    """
+    # Default weights (all 0 = equal probability)
+    if aug_weights is None:
+        aug_weights = {
+            'crop': 0,
+            'brightness': 0,
+            'contrast': 0,
+            'noise': 0,
+            'scaling': 0
+        }
+    
+    # Define augmentation functions
+    augmentation_map = {
+        'crop': apply_random_crop,
+        'brightness': apply_brightness_adjustment,
+        'contrast': apply_contrast_adjustment,
+        'noise': apply_gaussian_noise,
+        'scaling': apply_random_scaling
+    }
+    
+    # Build weighted pool by duplicating entries based on weights
+    # Weight 0 = 1 entry, Weight 1 = 2 entries, Weight 2 = 4 entries, etc.
+    weighted_pool = []
+    for aug_name, aug_func in augmentation_map.items():
+        weight = aug_weights.get(aug_name, 0)
+        # Each +1 weight doubles the probability by adding 2^weight entries
+        entries = 2 ** weight
+        for _ in range(entries):
+            weighted_pool.append((aug_name, aug_func))
+    
+    # Choose 1-2 random augmentations from weighted pool
     num_augs = random.randint(1, 2)
-    chosen_augs = random.sample(augmentations, num_augs)
+    # Use replacement=False to avoid applying same augmentation twice
+    chosen_indices = random.sample(range(len(weighted_pool)), min(num_augs, len(weighted_pool)))
+    chosen_augs = [weighted_pool[i] for i in chosen_indices]
     
+    # Remove duplicates (same augmentation type)
+    seen_types = set()
+    unique_augs = []
+    for aug_name, aug_func in chosen_augs:
+        if aug_name not in seen_types:
+            unique_augs.append((aug_name, aug_func))
+            seen_types.add(aug_name)
+    
+    # Apply augmentations
     aug_names = []
     result_image = image.copy()
     
-    for aug_func in chosen_augs:
-        result_image, aug_name = aug_func(result_image)
-        aug_names.append(aug_name)
+    for aug_name, aug_func in unique_augs:
+        result_image, aug_detail = aug_func(result_image)
+        aug_names.append(aug_detail)
     
     return result_image, "_".join(aug_names)
 
@@ -188,7 +233,7 @@ def crop_bbox_from_image(image, bbox):
     return cropped_resized
 
 
-def augment_data(data_dir="training_data/florence_format", multiplier=3):
+def augment_data(data_dir="training_data/florence_format", multiplier=3, aug_weights=None):
     """
     Augment training data by specified multiplier.
     Crops bbox regions first, then applies augmentation to cropped regions.
@@ -196,6 +241,7 @@ def augment_data(data_dir="training_data/florence_format", multiplier=3):
     Args:
         data_dir: Directory containing florence_data.json
         multiplier: Number of times to multiply the original data
+        aug_weights: Dict with weights for each augmentation (0-10 scale)
     """
     # Paths
     data_path = Path(data_dir)
@@ -218,10 +264,23 @@ def augment_data(data_dir="training_data/florence_format", multiplier=3):
     augmented_data = original_data.copy()
     
     # Process each individual item (not by image, but by bbox)
+    modified_count = 0
+    skipped_count = 0
+    
     for idx, item in enumerate(original_data):
         image_path = item["image_path"]
         bbox = item.get("bbox", [0, 0, 1, 1])
         content = item.get("content", "unknown")
+        is_modified = item.get("is_modified", False)
+        
+        # Skip augmentation for unmodified data
+        if not is_modified:
+            skipped_count += 1
+            print(f"Skipping unmodified item {idx + 1}/{len(original_data)}: {content}")
+            continue
+        
+        modified_count += 1
+        print(f"Processing modified item {idx + 1}/{len(original_data)}: {content}")
         
         # Load image
         full_image_path = Path(image_path)
@@ -247,7 +306,7 @@ def augment_data(data_dir="training_data/florence_format", multiplier=3):
         for aug_idx in range(multiplier - 1):  # -1 because we keep the original
             try:
                 # Apply augmentation to cropped image
-                augmented_image, aug_name = apply_random_augmentation(cropped_image)
+                augmented_image, aug_name = apply_random_augmentation(cropped_image, aug_weights)
                 
                 # Create new filename for augmented cropped image
                 original_name = Path(image_path).stem
@@ -276,12 +335,87 @@ def augment_data(data_dir="training_data/florence_format", multiplier=3):
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(augmented_data, f, indent=2, ensure_ascii=False)
     
-    print(f"\nData augmentation complete!")
+    print(f"\n🎯 Selective Data Augmentation Complete!")
     print(f"Original data: {len(original_data)} items")
+    print(f"  - Modified items: {modified_count}")
+    print(f"  - Unchanged items (skipped): {skipped_count}")
     print(f"Augmented data: {len(augmented_data)} items")
-    print(f"Multiplier achieved: {len(augmented_data) / len(original_data):.2f}x")
+    print(f"Effective multiplier: {len(augmented_data) / len(original_data):.2f}x overall")
+    if modified_count > 0:
+        print(f"Modified data multiplier: {(len(augmented_data) - len(original_data) + modified_count) / modified_count:.2f}x")
     print(f"Augmented images saved to: {augmented_imgs_dir}")
     print(f"Updated JSON saved to: {json_path}")
+
+
+def update_modification_tags(data_dir="training_data/florence_format"):
+    """
+    Update is_modified tags by comparing current data with original backup.
+    This is useful when JSON content is changed outside of collect_training_data.py
+    
+    Args:
+        data_dir: Directory containing florence_data.json and florence_data_original.json
+    """
+    # Paths
+    data_path = Path(data_dir)
+    json_path = data_path / "florence_data.json"
+    original_path = data_path / "florence_data_original.json"
+    
+    if not json_path.exists():
+        print(f"Error: {json_path} not found!")
+        return
+    
+    if not original_path.exists():
+        print(f"Error: Original backup {original_path} not found!")
+        print("Run data augmentation first to create the original backup.")
+        return
+    
+    # Load data
+    with open(json_path, 'r', encoding='utf-8') as f:
+        current_data = json.load(f)
+    
+    with open(original_path, 'r', encoding='utf-8') as f:
+        original_data = json.load(f)
+    
+    print(f"Comparing {len(current_data)} current items with {len(original_data)} original items...")
+    
+    # Create lookup dictionary for original data
+    original_lookup = {}
+    for item in original_data:
+        key = f"{item['image_path']}_{item.get('bbox', [0,0,1,1])}"
+        original_lookup[key] = item.get('content', '')
+    
+    # Update modification tags
+    updated_count = 0
+    for item in current_data:
+        key = f"{item['image_path']}_{item.get('bbox', [0,0,1,1])}"
+        current_content = item.get('content', '')
+        original_content = original_lookup.get(key, '')
+        
+        # Check if content was modified
+        was_modified = current_content != original_content
+        
+        # Update or add is_modified tag
+        if item.get('is_modified') != was_modified:
+            item['is_modified'] = was_modified
+            updated_count += 1
+            if was_modified:
+                print(f"Tagged as modified: {current_content} (was: {original_content})")
+    
+    # Save updated data
+    if updated_count > 0:
+        backup_path = data_path / f"florence_data_before_tag_update_{int(time.time())}.json"
+        shutil.copy2(json_path, backup_path)
+        print(f"Current data backed up to: {backup_path}")
+        
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(current_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"\n✅ Updated {updated_count} modification tags")
+        modified_count = sum(1 for item in current_data if item.get('is_modified', False))
+        print(f"Total modified items: {modified_count}/{len(current_data)}")
+        print(f"Updated data saved to: {json_path}")
+    else:
+        print("No tag updates needed. All modification tags are already correct.")
 
 
 def clean_missing_images(data_dir="training_data/florence_format"):
@@ -354,8 +488,31 @@ def main():
                        help="Data multiplication factor")
     parser.add_argument("--clean_missing", action="store_true",
                        help="Clean up JSON data by removing entries for missing images")
+    parser.add_argument("--update_tags", action="store_true",
+                       help="Update is_modified tags by comparing with original data")
+    
+
     
     args = parser.parse_args()
+    
+    # Build augmentation weights dictionary
+    aug_weights = {
+        'crop': 0, # 裁剪, 范围0.5到3
+        'brightness': 0, # 亮度, 范围-20到+20
+        'contrast': 0, # 对比度, 范围0.8到1.2
+        'noise': 0, # 噪声, 强度范围0-10
+        'scaling': 1 # 缩放. 比例范围-20%到+5%
+        # 默认权重为0, 即不进行任何增强, 权重每 +1 条目概率翻倍. 后期只对修改过的数据进行增强
+    }
+    
+    # Print weights configuration
+    if not args.clean_missing and not args.update_tags:
+        print("🎯 Selective Augmentation: Only processing items with 'is_modified': true")
+        print("Augmentation weights configuration:")
+        for aug_type, weight in aug_weights.items():
+            probability_multiplier = 2 ** weight
+            print(f"  {aug_type:>10}: weight={weight} (probability={probability_multiplier}x)")
+        print()
     
     # Check if we're in the right directory
     if not os.path.exists(args.data_dir):
@@ -365,8 +522,10 @@ def main():
     
     if args.clean_missing:
         clean_missing_images(args.data_dir)
+    elif args.update_tags:
+        update_modification_tags(args.data_dir)
     else:
-        augment_data(args.data_dir, args.multiplier)
+        augment_data(args.data_dir, args.multiplier, aug_weights)
 
 
 if __name__ == "__main__":

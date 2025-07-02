@@ -24,7 +24,6 @@ import random
 
 # Import OmniParser components
 from util.utils import get_som_labeled_img, check_ocr_box, get_caption_model_processor, get_yolo_model
-from finetune_omniparser_models_old import prepare_training_data_from_omniparser_output
 
 class TrainingDataCollector:
     """Collect training data using existing OmniParser models"""
@@ -325,6 +324,9 @@ class TrainingDataCollector:
                                         if new_content != original_element.get('content', ''):
                                             corrected_element['content'] = new_content
                                             was_modified = True
+                                    
+                                    # Add metadata tag for augmentation
+                                    corrected_element['is_modified'] = was_modified
                                     
                                     # Track for data balancing
                                     element_info = {

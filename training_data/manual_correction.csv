@@ -193,7 +193,7 @@ vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_p
 vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,14,0.619573712,0.891159058,0.736155689,0.943744242,Quality 480P ,Quality 480P ,TRUE,box_yolo_content_ocr
 vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,15,0.86397171,0.067316942,0.924244285,0.181699067,Help,Help,TRUE,box_yolo_content_yolo
 vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,16,0.934586525,0.273550451,0.965152383,0.325865179,Speaker,Speaker,TRUE,box_yolo_content_yolo
-vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,17,0.935649514,0.068052165,0.993601978,0.173822418,Rounded rectangle,Screen cast,TRUE,box_yolo_content_yolo
+vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,17,0.935649514,0.068052165,0.993601978,0.173822418,Rounded rectangle,Cast,TRUE,box_yolo_content_yolo
 vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,18,0.742941976,0.091500789,0.780163646,0.152346075,Close,Close,TRUE,box_yolo_content_yolo
 vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,19,0.801488698,0.071361631,0.845901668,0.167356998,Toggle,Share ,TRUE,box_yolo_content_yolo
 vod_play_detail_full_screen_playing.png,raw_images/vod_play_detail_full_screen_playing.png,20,0.108523749,0.892596245,0.238457769,0.947010458,Epsiodepsi,Epsiodes,TRUE,box_yolo_content_yolo
@@ -262,5 +262,5 @@ yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,16,0.8476
 yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,17,0.932632148,0.077183142,0.978096485,0.14960368,a menu or list option.,a menu or list option.,TRUE,box_yolo_content_yolo
 yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,18,0.850195527,0.880129397,0.883992553,0.937688589,Laptop,Subtitle,TRUE,box_yolo_content_yolo
 yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,19,0.927524745,0.867802441,0.977551818,0.962560534,Headset,Audio language,TRUE,box_yolo_content_yolo
-yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,20,0.756574929,0.074864037,0.80627358,0.16280371,Rounded rectangle,Screen cast,TRUE,box_yolo_content_yolo
+yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,20,0.756574929,0.074864037,0.80627358,0.16280371,Rounded rectangle,Cast,TRUE,box_yolo_content_yolo
 yc_vod_playing_fullscreen.png,raw_images/yc_vod_playing_fullscreen.png,21,0.112832524,0.205117121,0.862232327,0.800258577,a paint bucket tool.,a paint bucket tool.,TRUE,box_yolo_content_yolo
