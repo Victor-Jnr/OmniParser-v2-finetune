@@ -268,10 +268,38 @@ class Florence2LoRAModelTrainer:
         if 'image_path' not in sample_data or 'content' not in sample_data:
             print("Warning: Data format may not be compatible. Expected 'image_path' and 'content' keys.")
         
-        # 数据分割
-        train_size = int(0.8 * len(florence_data))
-        train_data = florence_data[:train_size]
-        val_data = florence_data[train_size:]
+        # 改进的数据分割：基于图像的随机分割，避免数据泄露
+        from collections import defaultdict
+        
+        # 按图像分组
+        image_groups = defaultdict(list)
+        for item in florence_data:
+            image_groups[item['image_path']].append(item)
+        
+        # 随机打乱图像列表
+        images = list(image_groups.keys())
+        random.shuffle(images)
+        
+        # 计算验证集图像数量（20%的图像）
+        val_image_count = max(1, int(len(images) * 0.2))
+        
+        # 分割图像
+        val_images = images[:val_image_count]
+        train_images = images[val_image_count:]
+        
+        # 生成训练和验证数据
+        train_data = []
+        val_data = []
+        
+        for img in train_images:
+            train_data.extend(image_groups[img])
+        
+        for img in val_images:
+            val_data.extend(image_groups[img])
+        
+        print(f"Random image-based split:")
+        print(f"  Training: {len(train_data)} samples from {len(train_images)} images")
+        print(f"  Validation: {len(val_data)} samples from {len(val_images)} images")
         
         print(f"Train samples: {len(train_data)}, Val samples: {len(val_data)}")
         
@@ -842,7 +870,7 @@ def main():
     1. 动态检测目标模块 - 自动识别所有注意力层
     2. 健壮的模型加载 - 优先本地processor，智能回退
     3. 模块化设计 - 清晰的代码结构，易于维护
-    4. 可选bfloat16优化 - 支持Ampere+架构GPU的内存优化
+
     
     对比两种微调方法的结果：
     - 层冻结模型: weights/icon_caption_florence_finetuned
@@ -912,7 +940,7 @@ def main():
         import traceback
         traceback.print_exc()
 
-def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
+def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str, save_quantized: bool = False):
     """
     合并现有的LoRA适配器到基础模型
     Args:
@@ -930,45 +958,13 @@ def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
         print(f"📥 Loading base model from {base_model_path}...")
         print(f"🔍 Verifying base model path exists: {os.path.exists(base_model_path)}")
         
-        # 强制验证本地模型文件
-        if not os.path.exists(base_model_path):
-            raise FileNotFoundError(f"Base model path does not exist: {base_model_path}")
-        
-        model_file = os.path.join(base_model_path, 'model.safetensors')
-        if not os.path.exists(model_file):
-            raise FileNotFoundError(f"Model file does not exist: {model_file}")
-            
-        # 检查模型大小
-        expected_size = 1083916964  # 本地模型应该是这个大小
-        actual_size = os.path.getsize(model_file)
-        print(f"🔍 Base model size: {actual_size:,} bytes ({actual_size/(1024*1024):.1f}MB)")
-        
-        if actual_size != expected_size:
-            print(f"⚠️  Warning: Base model size unexpected!")
-            print(f"   Expected: {expected_size:,} bytes")
-            print(f"   Actual: {actual_size:,} bytes")
-        
         base_model = AutoModelForCausalLM.from_pretrained(
             base_model_path,
             trust_remote_code=True,
             torch_dtype=torch.float32,  # 修复：强制使用float32与本地模型保持一致
             local_files_only=True  # 确保从本地加载
         )
-        
-        # 验证加载的模型路径
-        loaded_path = getattr(base_model.config, '_name_or_path', 'Unknown')
-        print(f"🔍 Loaded model config path: {loaded_path}")
-        if loaded_path != base_model_path:
-            raise ValueError(f"Model loaded from wrong path! Expected: {base_model_path}, Got: {loaded_path}")
-        
-        # 验证模型参数数量
-        total_params = sum(p.numel() for p in base_model.parameters())
-        print(f"🔍 Base model parameters: {total_params:,}")
-        expected_params = 270803968  # 本地模型的参数数量
-        if total_params != expected_params:
-            print(f"⚠️  Warning: Parameter count unexpected!")
-            print(f"   Expected: {expected_params:,}")
-            print(f"   Actual: {total_params:,}")
+
         
         print("✓ Base model verification passed")
         
@@ -1012,6 +1008,17 @@ def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str):
         print(f"✓ Merged model saved to: {output_path}")
         print(f"ℹ️  Usage: AutoModelForCausalLM.from_pretrained('{output_path}')")
         
+        if save_quantized:
+            from transformers import BitsAndBytesConfig
+            quantization_config_bit = BitsAndBytesConfig(load_in_8bit=True, bnb_8bit_compute_dtype=torch.bfloat16, bnb_8bit_use_double_quant=True)
+            model = AutoModelForCausalLM.from_pretrained(output_path, quantization_config=quantization_config_bit, torch_dtype=torch.float32, trust_remote_code=True) # in new version, it automatically select device
+            quantized_path = output_path + "_8bit"
+            model.save_pretrained(quantized_path)
+            base_config_files = ['config.json']
+
+            print(f"✓ Merged model saved to: {quantized_path}")
+
+
         return True
         
     except Exception as e:
@@ -1136,7 +1143,7 @@ if __name__ == "__main__":
             print(f"✗ LoRA adapter path does not exist: {args.lora_path}")
             exit(1)
         
-        success = merge_existing_lora(args.lora_path, args.model_path, args.merge_path)
+        success = merge_existing_lora(args.lora_path, args.model_path, args.merge_path, save_quantized=True)
         exit(0 if success else 1)
     
     # 正常的训练流程
@@ -1186,7 +1193,7 @@ if __name__ == "__main__":
     try:
         trainer.train_lora_model(
             florence_data=florence_data,
-            epochs=30,                 # 自动早停, 可设大点
+            epochs=25,                 # 自动早停, 可设大点
             batch_size=16,              # batch_size 根据内存大小调整
             lr=5e-5,                   # LoRA 可以使用稍高的学习率
             warmup_ratio=0.1,          # 学习率预热

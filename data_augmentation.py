@@ -15,18 +15,7 @@ from pathlib import Path
 import argparse
 
 
-def apply_random_rotation(image, max_angle=15): # it's not used
-    """Apply random rotation to image within specified angle range."""
-    angle = random.uniform(-max_angle, max_angle)
-    h, w = image.shape[:2]
-    center = (w // 2, h // 2)
-    
-    # Get rotation matrix
-    M = cv2.getRotationMatrix2D(center, angle, 1.0)
-    
-    # Apply rotation
-    rotated = cv2.warpAffine(image, M, (w, h), borderMode=cv2.BORDER_REFLECT)
-    return rotated, f"rot_{angle:.1f}"
+# ROTATION FUNCTION REMOVED - NOT USED IN THIS IMPLEMENTATION
 
 
 def apply_random_crop(image, max_crop_percent=3):
@@ -130,33 +119,27 @@ def apply_random_scaling(image, scale_range=(-20, 5)):
     return result, f"scale_{scale_percent:+d}pct"
 
 
-def apply_random_augmentation(image, aug_weights=None):
+def apply_single_augmentation(image, aug_weights=None):
     """
-    Apply a random combination of augmentations with configurable weights.
+    Apply a SINGLE random augmentation with independent probability for each type.
+    Each entity has its own probability, not combined probabilities.
     
     Args:
         image: Input image to augment
         aug_weights: Dict with weights for each augmentation (0-10 scale)
-                    Example: {
-                        'crop': 2,      # 2x probability (4 entries in pool)
-                        'brightness': 0, # Default probability (1 entry)
-                        'contrast': 1,   # 2x probability (2 entries)
-                        'noise': 3,      # 4x probability (8 entries)
-                        'scaling': 0,    # Default probability (1 entry)
-                        'rotation': 1    # 2x probability (2 entries)
-                    }
+                    Higher weight = higher probability
     """
-    # Default weights (all 0 = equal probability)
+    # Default weights (all equal probability)
     if aug_weights is None:
         aug_weights = {
             'crop': 0,
             'brightness': 0,
             'contrast': 0,
             'noise': 0,
-            'scaling': 0
+            'scaling': 1  # Slightly favor scaling
         }
     
-    # Define augmentation functions
+    # Define augmentation functions (NO ROTATION)
     augmentation_map = {
         'crop': apply_random_crop,
         'brightness': apply_brightness_adjustment,
@@ -165,39 +148,22 @@ def apply_random_augmentation(image, aug_weights=None):
         'scaling': apply_random_scaling
     }
     
-    # Build weighted pool by duplicating entries based on weights
-    # Weight 0 = 1 entry, Weight 1 = 2 entries, Weight 2 = 4 entries, etc.
-    weighted_pool = []
+    # Create weighted list of augmentation types
+    weighted_choices = []
     for aug_name, aug_func in augmentation_map.items():
         weight = aug_weights.get(aug_name, 0)
-        # Each +1 weight doubles the probability by adding 2^weight entries
+        # Weight 0 = 1 entry, Weight 1 = 2 entries, etc.
         entries = 2 ** weight
         for _ in range(entries):
-            weighted_pool.append((aug_name, aug_func))
+            weighted_choices.append((aug_name, aug_func))
     
-    # Choose 1-2 random augmentations from weighted pool
-    num_augs = random.randint(1, 2)
-    # Use replacement=False to avoid applying same augmentation twice
-    chosen_indices = random.sample(range(len(weighted_pool)), min(num_augs, len(weighted_pool)))
-    chosen_augs = [weighted_pool[i] for i in chosen_indices]
+    # Select ONE random augmentation
+    chosen_aug_name, chosen_aug_func = random.choice(weighted_choices)
     
-    # Remove duplicates (same augmentation type)
-    seen_types = set()
-    unique_augs = []
-    for aug_name, aug_func in chosen_augs:
-        if aug_name not in seen_types:
-            unique_augs.append((aug_name, aug_func))
-            seen_types.add(aug_name)
+    # Apply the chosen augmentation with random parameters
+    result_image, aug_detail = chosen_aug_func(image)
     
-    # Apply augmentations
-    aug_names = []
-    result_image = image.copy()
-    
-    for aug_name, aug_func in unique_augs:
-        result_image, aug_detail = aug_func(result_image)
-        aug_names.append(aug_detail)
-    
-    return result_image, "_".join(aug_names)
+    return result_image, aug_detail
 
 
 def crop_bbox_from_image(image, bbox):
@@ -305,8 +271,8 @@ def augment_data(data_dir="training_data/florence_format", multiplier=3, aug_wei
         # Generate augmented versions of the cropped region
         for aug_idx in range(multiplier - 1):  # -1 because we keep the original
             try:
-                # Apply augmentation to cropped image
-                augmented_image, aug_name = apply_random_augmentation(cropped_image, aug_weights)
+                # Apply single augmentation to cropped image
+                augmented_image, aug_name = apply_single_augmentation(cropped_image, aug_weights)
                 
                 # Create new filename for augmented cropped image
                 original_name = Path(image_path).stem
@@ -323,7 +289,8 @@ def augment_data(data_dir="training_data/florence_format", multiplier=3, aug_wei
                 new_item = {
                     "image_path": f"training_data/florence_format/imgs/{new_filename}",
                     "content": content,
-                    "bbox": [0, 0, 1, 1]  # Full image coordinates since it's now a cropped image
+                    "bbox": [0, 0, 1, 1],  # Full image coordinates since it's now a cropped image
+                    "is_modified": True  # Mark augmented data as modified
                 }
                 augmented_data.append(new_item)
                 

@@ -514,6 +514,54 @@ class TrainingDataCollector:
             except Exception as e:
                 print(f"✗ {json_file.name} has other error: {e}")
 
+    def generate_florence_training_data(self, corrected_results: List[Dict], output_dir: str) -> str:
+        """
+        Generate Florence2 training data from corrected results.
+        Returns the path to the generated florence_data.json file.
+        """
+        output_path = Path(output_dir)
+        florence_dir = output_path / "florence_format"
+        florence_dir.mkdir(exist_ok=True)
+        
+        florence_data = []
+        
+        for result in corrected_results:
+            image_path = result['image_path']
+            image_size = result.get('image_size', (1920, 1080))
+            parsed_content_list = result.get('parsed_content_list', [])
+            
+            # Convert each interactive element to Florence format
+            for element in parsed_content_list:
+                if element.get('type') == 'icon' and element.get('interactivity', False):
+                    bbox = element.get('bbox', [0, 0, 1, 1])
+                    content = element.get('content', '')
+                    is_modified = element.get('is_modified', False)
+                    
+                    # Create Florence format entry
+                    florence_entry = {
+                        "image_path": image_path,
+                        "content": content,
+                        "bbox": bbox,
+                        "is_modified": is_modified
+                    }
+                    florence_data.append(florence_entry)
+        
+        # Save Florence data
+        florence_json_path = florence_dir / "florence_data.json"
+        with open(florence_json_path, 'w', encoding='utf-8') as f:
+            json.dump(florence_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"✅ Generated Florence2 training data: {len(florence_data)} samples")
+        print(f"   Saved to: {florence_json_path}")
+        
+        # Count modified vs unmodified
+        modified_count = sum(1 for item in florence_data if item.get('is_modified', False))
+        unmodified_count = len(florence_data) - modified_count
+        print(f"   - Modified samples: {modified_count}")
+        print(f"   - Unmodified samples: {unmodified_count}")
+        
+        return str(florence_json_path)
+
 def main():
     parser = argparse.ArgumentParser(description='Collect training data for OmniParser')
     parser.add_argument('--input_dir', 
@@ -545,12 +593,12 @@ def main():
         corrected_results = collector.apply_manual_corrections(args.output_dir, args.old_percentage)
         if corrected_results:
             print("Generating training data from corrected annotations...")
-            yolo_config, florence_data = prepare_training_data_from_omniparser_output(
-                args.output_dir, corrected_results
-            )
-            print(f"Training data generated:")
-            print(f"  YOLO config: {yolo_config}")
-            print(f"  Florence2 data: {len(florence_data)} samples")
+            florence_json_path = collector.generate_florence_training_data(corrected_results, args.output_dir)
+            print(f"\n🎯 Training data generation complete!")
+            print(f"   Florence2 data saved to: {florence_json_path}")
+            print(f"\nNext steps:")
+            print(f"   1. Run data augmentation: python data_augmentation.py --multiplier 3")
+            print(f"   2. Train models: python finetune_omniparser_lora.py")
         else:
             print("No corrected data found. Make sure manual_correction.csv exists in the output directory.")
     
@@ -582,15 +630,12 @@ def main():
         if not args.manual_correction and results:
             # Directly generate training data without manual correction
             print("Generating training data...")
-            yolo_config, florence_data = prepare_training_data_from_omniparser_output(
-                args.output_dir, results
-            )
-            print(f"Training data generated:")
-            print(f"  YOLO config: {yolo_config}")
-            print(f"  Florence2 data: {len(florence_data)} samples")
-            
-            print(f"\nTo train the models, run:")
-            print(f"python finetune_omniparser_models.py --mode both --data_dir {args.output_dir}")
+            florence_json_path = collector.generate_florence_training_data(results, args.output_dir)
+            print(f"\n🎯 Training data generation complete!")
+            print(f"   Florence2 data saved to: {florence_json_path}")
+            print(f"\nNext steps:")
+            print(f"   1. Run data augmentation: python data_augmentation.py --multiplier 3")
+            print(f"   2. Train models: python finetune_omniparser_lora.py")
         elif args.manual_correction:
             print(f"\nNext steps:")
             print(f"1. Edit the file: {args.output_dir}/manual_correction.csv")
