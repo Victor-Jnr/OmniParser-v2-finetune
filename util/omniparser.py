@@ -15,7 +15,8 @@ class Omniparser(object):
             model_name=config['caption_model_name'], 
             model_name_or_path=config['caption_model_path'], 
             device=device,
-            caption_model_processor=self.caption_model_processfor,
+            # caption_model_processor=self.caption_model_processfor,
+            use_quantization=True
             )
         print('Omniparser initialized!!!')
 
@@ -32,23 +33,19 @@ class Omniparser(object):
             'thickness': max(int(3 * box_overlay_ratio), 1),
         }
 
-        (text, ocr_bbox), _ = check_ocr_box(image, display_img=False, output_bb_format='xyxy', easyocr_args={'text_threshold': 0.8}, use_paddleocr=True)
-        dino_labled_img, label_coordinates, parsed_content_list = get_som_labeled_img(
-            image, 
-            self.som_model, 
-            BOX_TRESHOLD = self.config['BOX_TRESHOLD'], 
-            output_coord_in_ratio=True, 
-            ocr_bbox=ocr_bbox,
-            draw_bbox_config=draw_bbox_config, 
-            caption_model_processor=self.caption_model_processor, 
-            ocr_text=text,
-            use_local_semantics=True,
-            iou_threshold=0.7, scale_img=False, batch_size=128,
-            use_ocr_box=True,
-            ocr_box_threshold=0.8,
-            ocr_box_iou_threshold=0.7,
-            ocr_box_batch_size=128,
-            ocr_box_use_local_semantics=True,
-            )
+
+        (text, ocr_bbox), _ = check_ocr_box(image, display_img=False, output_bb_format='xyxy', easyocr_args={'text_threshold': 0.8}, use_paddleocr=self.config['use_paddleocr'])
+        dino_labled_img, label_coordinates, parsed_content_list = get_som_labeled_img(image, self.som_model, 
+                                                                                      BOX_TRESHOLD = self.config['BOX_TRESHOLD'], 
+                                                                                      output_coord_in_ratio=True, 
+                                                                                      ocr_bbox=ocr_bbox,
+                                                                                      draw_bbox_config=draw_bbox_config, 
+                                                                                      caption_model_processor=self.caption_model_processor, 
+                                                                                      ocr_text=text,
+                                                                                      use_local_semantics=True, 
+                                                                                      iou_threshold=0.7, 
+                                                                                      scale_img=False,
+                                                                                      )
+
 
         return dino_labled_img, parsed_content_list

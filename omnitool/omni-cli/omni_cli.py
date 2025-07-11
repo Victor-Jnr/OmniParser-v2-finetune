@@ -313,5 +313,7 @@ if __name__ == "__main__":
 
 
 '''
-python omni-cli/omni_cli.py --input ../imgs/demo_image.jpg  -o out.json
+
+python misc/omniparser_tools.py --input imgs/live.png   --server 172.27.1.113:9333 -t file            
+python misc/omniparser_tools.py --input imgs/live.png   --server 100.122.57.128:9333 -t file            
 '''
