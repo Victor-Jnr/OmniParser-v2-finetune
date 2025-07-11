@@ -1848,16 +1848,6 @@
     "is_modified": false
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_3_noise_10.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ]
-  },
-  {
     "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_contrast_0.99.png",
     "content": "Live",
     "bbox": [
@@ -1880,63 +1870,8 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_3_crop_0.02.png",
-    "content": "Live",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_noise_10.png",
     "content": "Search",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_2_crop_0.02.png",
-    "content": "Search",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_3_noise_10.png",
-    "content": "Search",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_-20.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_noise_10.png",
-    "content": "Favorite",
     "bbox": [
       0,
       0,
@@ -1957,62 +1892,7 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_3_noise_10.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_crop_0.01.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_favorite_Live_aug_1_noise_10.png",
-    "content": "Live",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_contrast_1.01.png",
-    "content": "Share",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_2_scale_-15pct.png",
-    "content": "Share",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_3_crop_0.03.png",
     "content": "Share",
     "bbox": [
       0,
@@ -2034,40 +1914,7 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_2_noise_10.png",
-    "content": "Close",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_3_bright_-12.png",
-    "content": "Close",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/login_Show_password_aug_1_noise_10.png",
-    "content": "Show password",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_2_bright_4.png",
     "content": "Show password",
     "bbox": [
       0,
@@ -2100,51 +1947,7 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_2_crop_0.03.png",
-    "content": "Scan",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_3_scale_+0pct.png",
-    "content": "Scan",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_1_bright_-10.png",
-    "content": "Enable",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_2_scale_-7pct.png",
-    "content": "Enable",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_3_scale_-16pct.png",
     "content": "Enable",
     "bbox": [
       0,
@@ -2166,28 +1969,6 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_2_scale_-18pct.png",
-    "content": "Live",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_3_crop_0.02.png",
-    "content": "Live",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_1_scale_-20pct.png",
     "content": "Live",
     "bbox": [
@@ -2199,51 +1980,7 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_2_crop_0.01.png",
-    "content": "Live",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_3_scale_-4pct.png",
-    "content": "Live",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_1_contrast_1.07.png",
-    "content": "Share ",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_2_noise_10.png",
-    "content": "Share ",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_3_scale_-14pct.png",
     "content": "Share ",
     "bbox": [
       0,
@@ -2276,17 +2013,6 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_3_crop_0.02.png",
-    "content": "Favorite",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_1_noise_10.png",
     "content": "Cast",
     "bbox": [
@@ -2300,39 +2026,6 @@
   {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_2_scale_+2pct.png",
     "content": "Cast",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_3_bright_-4.png",
-    "content": "Cast",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_1_scale_-20pct.png",
-    "content": "Share ",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_crop_0.02.png",
-    "content": "Share ",
     "bbox": [
       0,
       0,
@@ -2364,51 +2057,7 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_2_scale_+5pct.png",
-    "content": "Epsiodes",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_3_contrast_1.18.png",
-    "content": "Epsiodes",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_1_scale_-3pct.png",
-    "content": "Seek bar",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_2_scale_-9pct.png",
-    "content": "Seek bar",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_3_noise_10.png",
     "content": "Seek bar",
     "bbox": [
       0,
@@ -2474,28 +2123,6 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_2_crop_0.02.png",
-    "content": "Scan",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_3_bright_20.png",
-    "content": "Scan",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_bright_1.png",
     "content": "Forward 10",
     "bbox": [
@@ -2508,17 +2135,6 @@
   },
   {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_2_scale_-3pct.png",
-    "content": "Forward 10",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_3_scale_+1pct.png",
     "content": "Forward 10",
     "bbox": [
       0,
@@ -2617,17 +2233,6 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_3_scale_-15pct.png",
-    "content": "Subtitle",
-    "bbox": [
-      0,
-      0,
-      1,
-      1
-    ],
-    "is_modified": true
-  },
-  {
     "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_crop_0.02.png",
     "content": "Audio language",
     "bbox": [
@@ -2683,7 +2288,2086 @@
     "is_modified": true
   },
   {
-    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_3_scale_-19pct.png",
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_scale_-9pct.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_noise_10.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_2_contrast_0.96.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_4_scale_-13pct.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_bright_-14.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_3_scale_-20pct.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_4_crop_0.02.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_1_crop_0.03.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_3_crop_0.02.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_4_contrast_1.17.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_1_crop_0.01.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_2_scale_-16pct.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_3_scale_+0pct.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_4_crop_0.03.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_contrast_1.09.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_2_crop_0.02.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_3_scale_-3pct.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_4_crop_0.02.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_1_contrast_1.05.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_4_noise_10.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_3_scale_-16pct.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_4_contrast_1.04.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_1_contrast_1.11.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_2_noise_10.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_scale_-9pct.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_3_bright_10.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_4_noise_10.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_4_scale_-6pct.png",
+    "content": "Seek bar",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_1_bright_18.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_noise_10.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_3_crop_0.01.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_1_bright_15.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_3_contrast_0.82.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_home_Search_aug_4_crop_0.01.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_crop_0.03.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_2_crop_0.02.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_-3.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_bright_6.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_3_scale_-6pct.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_4_scale_-17pct.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_bright_-7.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_scale_-15pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_3_contrast_1.06.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_4_scale_+0pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_scale_-19pct.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_4_crop_0.03.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_scale_-8pct.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_scale_-20pct.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_3_contrast_1.01.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_4_scale_-7pct.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_1_scale_-18pct.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_2_scale_+2pct.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_3_bright_-13.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_4_crop_0.02.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_contrast_0.99_Live_aug_1_scale_-13pct.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_contrast_0.99_Live_aug_2_crop_0.01.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_contrast_0.99_Live_aug_3_bright_-16.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_1_contrast_0.99_Live_aug_4_crop_0.03.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_2_crop_0.01_Live_aug_1_contrast_1.11.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_channel_Live_aug_2_crop_0.01_Live_aug_2_noise_10.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_noise_10_Search_aug_1_crop_0.01.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_noise_10_Search_aug_2_contrast_1.15.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_noise_10_Search_aug_3_scale_-7pct.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Search_aug_1_noise_10_Search_aug_4_crop_0.03.png",
+    "content": "Search",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_-10_Favorite_aug_1_crop_0.01.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_-10_Favorite_aug_2_scale_-5pct.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_-10_Favorite_aug_3_contrast_1.19.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_favorite_Favorite_aug_1_bright_-10_Favorite_aug_4_scale_-2pct.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_contrast_1.01_Share_aug_1_crop_0.02.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_contrast_1.01_Share_aug_2_contrast_1.10.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_1_contrast_1.01_Share_aug_3_noise_10.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_3_crop_0.03_Share_aug_1_crop_0.01.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_3_crop_0.03_Share_aug_2_crop_0.01.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_3_crop_0.03_Share_aug_3_scale_-14pct.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Share_aug_3_crop_0.03_Share_aug_4_scale_-11pct.png",
+    "content": "Share",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_3_bright_-12_Close_aug_1_scale_-19pct.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_3_bright_-12_Close_aug_2_contrast_0.81.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_3_bright_-12_Close_aug_3_scale_+1pct.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/live_full_screen_playing_Close_aug_3_bright_-12_Close_aug_4_crop_0.02.png",
+    "content": "Close",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_1_noise_10_Show_password_aug_1_bright_14.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_2_bright_4_Show_password_aug_4_bright_-7.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_3_bright_-19_Show_password_aug_1_scale_-14pct.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_3_bright_-19_Show_password_aug_2_scale_+0pct.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_3_bright_-19_Show_password_aug_3_bright_20.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/login_Show_password_aug_3_bright_-19_Show_password_aug_4_scale_-15pct.png",
+    "content": "Show password",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_bright_11_Scan_aug_1_crop_0.02.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_bright_11_Scan_aug_2_bright_-1.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_bright_11_Scan_aug_3_scale_-6pct.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Scan_aug_1_bright_11_Scan_aug_4_noise_10.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_1_bright_-10_Enable_aug_1_bright_-5.png",
+    "content": "Enable",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_1_bright_-10_Enable_aug_2_scale_+5pct.png",
+    "content": "Enable",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Enable_aug_1_bright_-10_Enable_aug_3_scale_-11pct.png",
+    "content": "Enable",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/user_profile_Live_aug_1_scale_+0pct_Live_aug_1_contrast_1.02.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_home_Live_aug_1_scale_-20pct_Live_aug_1_contrast_0.92.png",
+    "content": "Live",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_1_contrast_1.07_Share_aug_1_bright_-20.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_1_contrast_1.07_Share_aug_2_crop_0.01.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_1_contrast_1.07_Share_aug_3_crop_0.01.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Share_aug_2_noise_10_Share_aug_1_noise_10.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10_Favorite_aug_1_scale_-14pct.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10_Favorite_aug_2_noise_10.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10_Favorite_aug_3_scale_-1pct.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_1_noise_10_Favorite_aug_4_contrast_1.05.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_2_bright_-15_Favorite_aug_1_scale_-19pct.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_3_crop_0.02_Favorite_aug_3_bright_-13.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_Favorite_aug_3_crop_0.02_Favorite_aug_4_noise_10.png",
+    "content": "Favorite",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_1_noise_10_Cast_aug_1_crop_0.02.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_1_noise_10_Cast_aug_2_scale_+3pct.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_1_noise_10_Cast_aug_3_contrast_1.19.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_1_noise_10_Cast_aug_4_crop_0.02.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Cast_aug_2_scale_+2pct_Cast_aug_1_noise_10.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_crop_0.02_Share_aug_1_contrast_1.00.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_crop_0.02_Share_aug_2_crop_0.02.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_crop_0.02_Share_aug_3_contrast_1.00.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_2_crop_0.02_Share_aug_4_noise_10.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_3_contrast_1.08_Share_aug_1_scale_-16pct.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_3_contrast_1.08_Share_aug_2_noise_10.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_3_contrast_1.08_Share_aug_3_contrast_0.89.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Share_aug_3_contrast_1.08_Share_aug_4_bright_-5.png",
+    "content": "Share ",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_1_noise_10_Epsiodes_aug_1_scale_-15pct.png",
+    "content": "Epsiodes",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Epsiodes_aug_1_noise_10_Epsiodes_aug_2_crop_0.02.png",
+    "content": "Epsiodes",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_3_noise_10_Seek_bar_aug_2_scale_+2pct.png",
+    "content": "Seek bar",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_3_noise_10_Seek_bar_aug_3_noise_10.png",
+    "content": "Seek bar",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Seek_bar_aug_3_noise_10_Seek_bar_aug_4_crop_0.01.png",
+    "content": "Seek bar",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_1_scale_-12pct_Playing_aug_4_scale_+0pct.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_scale_-10pct_Playing_aug_1_scale_-18pct.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_scale_-10pct_Playing_aug_2_scale_+2pct.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_scale_-10pct_Playing_aug_3_contrast_1.09.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_2_scale_-10pct_Playing_aug_4_scale_-7pct.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_3_scale_-3pct_Playing_aug_1_contrast_1.02.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/vod_play_detail_full_screen_playing_Playing_aug_3_scale_-3pct_Playing_aug_2_contrast_0.87.png",
+    "content": "Playing",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_1_bright_9_Scan_aug_1_scale_-13pct.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_1_bright_9_Scan_aug_2_bright_-9.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_1_bright_9_Scan_aug_3_crop_0.02.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_1_bright_9_Scan_aug_4_scale_-7pct.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_3_bright_20_Scan_aug_3_contrast_1.19.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_user_profile_Scan_aug_3_bright_20_Scan_aug_4_contrast_1.13.png",
+    "content": "Scan",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_bright_1_Forward_10_aug_1_contrast_1.16.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_bright_1_Forward_10_aug_2_crop_0.01.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_bright_1_Forward_10_aug_3_crop_0.02.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Forward_10_aug_1_bright_1_Forward_10_aug_4_bright_-6.png",
+    "content": "Forward 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_-14_Back_10_aug_1_bright_-6.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_-14_Back_10_aug_2_bright_9.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_-14_Back_10_aug_3_scale_-7pct.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_1_bright_-14_Back_10_aug_4_contrast_1.09.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_crop_0.02_Back_10_aug_1_scale_-10pct.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_crop_0.02_Back_10_aug_2_crop_0.02.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_crop_0.02_Back_10_aug_3_contrast_0.85.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_2_crop_0.02_Back_10_aug_4_contrast_1.18.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_3_contrast_0.82_Back_10_aug_1_contrast_1.04.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_3_contrast_0.82_Back_10_aug_2_scale_-13pct.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_3_contrast_0.82_Back_10_aug_3_contrast_1.04.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Back_10_aug_3_contrast_0.82_Back_10_aug_4_noise_10.png",
+    "content": "Back 10",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_crop_0.02_Screen_ratio_aug_1_crop_0.01.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_crop_0.02_Screen_ratio_aug_2_crop_0.02.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_crop_0.02_Screen_ratio_aug_3_noise_10.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_1_crop_0.02_Screen_ratio_aug_4_crop_0.01.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_noise_10_Screen_ratio_aug_1_scale_+3pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_noise_10_Screen_ratio_aug_2_scale_-8pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_noise_10_Screen_ratio_aug_3_bright_5.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_2_noise_10_Screen_ratio_aug_4_scale_-2pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_3_noise_10_Screen_ratio_aug_1_scale_-20pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_3_noise_10_Screen_ratio_aug_2_scale_-10pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_3_noise_10_Screen_ratio_aug_3_noise_10.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Screen_ratio_aug_3_noise_10_Screen_ratio_aug_4_scale_+2pct.png",
+    "content": "Screen ratio",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_crop_0.01_Subtitle_aug_1_scale_+2pct.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_crop_0.01_Subtitle_aug_2_crop_0.01.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_crop_0.01_Subtitle_aug_3_noise_10.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_1_crop_0.01_Subtitle_aug_4_contrast_1.09.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Subtitle_aug_2_noise_10_Subtitle_aug_1_scale_-12pct.png",
+    "content": "Subtitle",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_crop_0.02_Audio_language_aug_1_contrast_0.93.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_crop_0.02_Audio_language_aug_2_noise_10.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_crop_0.02_Audio_language_aug_3_contrast_0.91.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_1_crop_0.02_Audio_language_aug_4_scale_-20pct.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_scale_-11pct_Audio_language_aug_1_bright_-11.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_scale_-11pct_Audio_language_aug_2_scale_-6pct.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_scale_-11pct_Audio_language_aug_3_scale_-17pct.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_2_scale_-11pct_Audio_language_aug_4_noise_10.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_3_scale_-2pct_Audio_language_aug_1_crop_0.01.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_3_scale_-2pct_Audio_language_aug_2_bright_13.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_3_scale_-2pct_Audio_language_aug_3_crop_0.01.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Audio_language_aug_3_scale_-2pct_Audio_language_aug_4_noise_10.png",
+    "content": "Audio language",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_1_bright_-2_Cast_aug_1_noise_10.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_1_bright_-2_Cast_aug_2_noise_10.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_1_bright_-2_Cast_aug_3_bright_12.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_1_bright_-2_Cast_aug_4_scale_-9pct.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_2_bright_2_Cast_aug_1_bright_14.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_2_bright_2_Cast_aug_2_contrast_1.04.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_2_bright_2_Cast_aug_3_contrast_0.99.png",
+    "content": "Cast",
+    "bbox": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "is_modified": true
+  },
+  {
+    "image_path": "training_data/florence_format/imgs/yc_vod_playing_fullscreen_Cast_aug_2_bright_2_Cast_aug_4_scale_-10pct.png",
     "content": "Cast",
     "bbox": [
       0,

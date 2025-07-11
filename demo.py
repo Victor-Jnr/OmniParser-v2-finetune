@@ -64,7 +64,8 @@ def main(image_path, use_ocr=True):
 
 
     # model_name_or_path="weights/icon_caption_florence_8bit_original"
-    model_name_or_path="weights/icon_caption_florence_8bit_lora_finetuned"
+    # model_name_or_path="weights/icon_caption_florence_8bit_lora_finetuned"
+    model_name_or_path="weights/icon_caption_florence_merged_8bit"
     # it's a dict. contains model and processor
     caption_model_processor = get_caption_model_processor(
         model_name="florence2", 
@@ -75,10 +76,8 @@ def main(image_path, use_ocr=True):
         use_quantization=True if "8bit" in model_name_or_path else False
     )
     print("Caption model loaded")
-    
-    # Image selection (you can modify this to use different images)
 
-    
+    # Image selection (you can modify this to use different images)
     # Load and process image
     print(f"Processing image: {image_path}")
     image = Image.open(image_path)

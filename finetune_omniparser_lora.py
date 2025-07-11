@@ -1010,13 +1010,49 @@ def merge_existing_lora(lora_path: str, base_model_path: str, output_path: str, 
         
         if save_quantized:
             from transformers import BitsAndBytesConfig
+
+            
             quantization_config_bit = BitsAndBytesConfig(load_in_8bit=True, bnb_8bit_compute_dtype=torch.bfloat16, bnb_8bit_use_double_quant=True)
             model = AutoModelForCausalLM.from_pretrained(output_path, quantization_config=quantization_config_bit, torch_dtype=torch.float32, trust_remote_code=True) # in new version, it automatically select device
             quantized_path = output_path + "_8bit"
             model.save_pretrained(quantized_path)
-            base_config_files = ['config.json']
+            
+            # Get all config files from output_path
+            base_config_files = ['config.json', 'generation_config.json', 'modeling_florence2.py', 'configuration_florence2.py']
+            for config_file in base_config_files:
+                if config_file == 'config.json':
+                    # Define paths
+                    src_path = os.path.join(output_path, config_file)
+                    dst_path = os.path.join(quantized_path, config_file)
+                    quantized_config_name = 'quantized_config.json'
+                    quantized_config_path = os.path.join(quantized_path, quantized_config_name)
+                    
+                    # Step 1: Copy dst_path/config.json → quantized_path/quantized_config.json
+                    shutil.copy2(dst_path, quantized_config_path)
+                    shutil.copy2(src_path, dst_path)
+                    # Step 2: Read quantization_config from quantized_path/quantized_config.json
+                    with open(quantized_config_path, 'r') as f:
+                        quantized_config = json.load(f)
+                    quantization_config = quantized_config.get('quantization_config', {})
+                    
+                    # Step 4: Add quantization_config to dst_path/config.json
+                    with open(dst_path, 'r') as f:
+                        final_config = json.load(f)
+                    final_config['quantization_config'] = quantization_config
+                    
+                    with open(dst_path, 'w') as f:
+                        json.dump(final_config, f, indent=2)
+                    # check if the quantized_config is in the config.json
+                    with open(dst_path, 'r') as f:
+                        config = json.load(f)
+                    if 'quantization_config' in config:
+                        print(f"✓ Quantization config is in the config.json")
+                    else:
+                        print(f"✗ Quantization config is not in the config.json")
+                # else:
+                #     print(f"There may something wrong with {config_file}")
 
-            print(f"✓ Merged model saved to: {quantized_path}")
+            print(f"✓ Quantized model saved to: {quantized_path}")
 
 
         return True

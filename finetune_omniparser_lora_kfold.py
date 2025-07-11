@@ -489,7 +489,7 @@ def main():
     try:
         trainer.train_kfold(
             florence_data=florence_data,
-            epochs=25,
+            epochs=20,
             batch_size=16,
             lr=5e-5,
             lora_r=16,
