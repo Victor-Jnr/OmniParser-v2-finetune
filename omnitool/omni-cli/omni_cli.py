@@ -22,6 +22,8 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse
 import mimetypes
+import gzip
+import math
 
 
 def is_url(string):
@@ -113,11 +115,17 @@ def send_parse_request(server_url, base64_image):
         print(f"正在发送请求到: {parse_url}")
         print("请求负载大小:", len(json.dumps(payload)), "字节")
         
+        # 启用gzip压缩
+        headers = {
+            'Content-Type': 'application/json',
+            'Accept-Encoding': 'gzip, deflate'
+        }
+        
         response = requests.post(
             parse_url,
             json=payload,
-            headers={'Content-Type': 'application/json'},
-            timeout=120  # 增加超时时间，因为解析可能需要较长时间
+            headers=headers,
+            timeout=90  # 增加超时时间，因为解析可能需要较长时间
         )
         
         response.raise_for_status()
@@ -134,6 +142,136 @@ def send_parse_request(server_url, base64_image):
         sys.exit(1)
     except Exception as e:
         print(f"处理请求时出错: {e}")
+        sys.exit(1)
+
+def send_chunked_parse_request(server_url, base64_image, chunk_size=1024*1024):
+    """使用分块传输发送解析请求"""
+    try:
+        # 确保服务器 URL 格式正确
+        if not server_url.startswith(('http://', 'https://')):
+            server_url = f"http://{server_url}"
+        
+        # 计算分块信息
+        data_size = len(base64_image)
+        total_chunks = math.ceil(data_size / chunk_size)
+        
+        print(f"数据大小: {data_size} 字节")
+        print(f"分块大小: {chunk_size} 字节")
+        print(f"总分块数: {total_chunks}")
+        
+        # 启用gzip压缩的headers
+        headers = {
+            'Content-Type': 'application/json',
+            'Accept-Encoding': 'gzip, deflate'
+        }
+        
+        # 1. 初始化分块上传会话
+        init_url = f"{server_url.rstrip('/')}/parse/chunk/init/"
+        init_payload = {
+            "total_chunks": total_chunks,
+            "chunk_size": chunk_size,
+            "file_size": data_size
+        }
+        
+        print("正在初始化分块上传会话...")
+        response = requests.post(init_url, json=init_payload, headers=headers, timeout=30)
+        response.raise_for_status()
+        session_id = response.json()['session_id']
+        print(f"会话ID: {session_id}")
+        
+        # 2. 分块上传数据
+        upload_url = f"{server_url.rstrip('/')}/parse/chunk/upload/"
+        for i in range(total_chunks):
+            start_idx = i * chunk_size
+            end_idx = min((i + 1) * chunk_size, data_size)
+            chunk_data = base64_image[start_idx:end_idx]
+            
+            upload_payload = {
+                "session_id": session_id,
+                "chunk_index": i,
+                "chunk_data": chunk_data
+            }
+            
+            print(f"正在上传分块 {i + 1}/{total_chunks}...")
+            response = requests.post(upload_url, json=upload_payload, headers=headers, timeout=60)
+            response.raise_for_status()
+            
+            result = response.json()
+            if result.get('error'):
+                raise Exception(f"上传分块失败: {result['error']}")
+        
+        # 3. 触发处理
+        process_url = f"{server_url.rstrip('/')}/parse/chunk/process/"
+        process_payload = {
+            "session_id": session_id
+        }
+        
+        print("正在处理分块数据...")
+        response = requests.post(process_url, json=process_payload, headers=headers, timeout=120)
+        response.raise_for_status()
+        
+        result = response.json()
+        if result.get('error'):
+            raise Exception(f"处理失败: {result['error']}")
+        
+        return result
+        
+    except requests.RequestException as e:
+        print(f"分块传输失败: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"响应状态码: {e.response.status_code}")
+            try:
+                print(f"响应内容: {e.response.text}")
+            except:
+                pass
+        sys.exit(1)
+    except Exception as e:
+        print(f"处理分块传输时出错: {e}")
+        sys.exit(1)
+
+def send_file_request(server_url, image_path):
+    """直接发送文件而非base64"""
+    try:
+        # 确保服务器 URL 格式正确
+        if not server_url.startswith(('http://', 'https://')):
+            server_url = f"http://{server_url}"
+        
+        parse_url = f"{server_url.rstrip('/')}/parse/file/"
+        
+        # 使用multipart/form-data上传文件
+        with open(image_path, 'rb') as f:
+            files = {'file': (os.path.basename(image_path), f, 'image/jpeg')}
+            
+            print(f"正在上传文件到: {parse_url}")
+            file_size = os.path.getsize(image_path)
+            print(f"文件大小: {file_size} 字节")
+            
+            # 启用gzip压缩的headers
+            headers = {
+                'Accept-Encoding': 'gzip, deflate'
+            }
+            
+            response = requests.post(
+                parse_url,
+                files=files,
+                headers=headers,
+                timeout=120
+            )
+            
+            response.raise_for_status()
+            return response.json()
+            
+    except requests.RequestException as e:
+        print(f"文件上传失败: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"响应状态码: {e.response.status_code}")
+            try:
+                print(f"响应内容: {e.response.text}")
+            except:
+                pass
+        sys.exit(1)
+    except Exception as e:
+        print(f"处理文件上传时出错: {e}")
         sys.exit(1)
 
 
@@ -235,6 +373,32 @@ def main():
         help='不清理临时文件'
     )
     
+    parser.add_argument(
+        '--use-chunked',
+        action='store_true',
+        help='使用分块传输（适用于大文件）'
+    )
+    
+    parser.add_argument(
+        '--chunk-size',
+        type=int,
+        default=1024*1024,  # 1MB
+        help='分块大小（字节）(默认: 1MB)'
+    )
+    
+    parser.add_argument(
+        '--use-file-upload',
+        action='store_true',
+        help='使用文件上传而非base64 JSON（仅适用于本地文件）'
+    )
+    
+    parser.add_argument(
+        '--transfer-method',
+        choices=['auto', 'json', 'chunked', 'file'],
+        default='auto',
+        help='传输方式（默认: auto - 自动选择最优方式）'
+    )
+    
     args = parser.parse_args()
     
     # 仅检查服务器状态
@@ -289,7 +453,39 @@ def main():
         
         # 发送解析请求
         print("\n开始解析...")
-        result = send_parse_request(args.server, base64_image)
+        
+        # 选择传输方式
+        transfer_method = args.transfer_method
+        
+        # 自动选择最优传输方式
+        if transfer_method == 'auto':
+            if input_type == 'file' and not args.use_chunked:
+                # 本地文件优先使用文件上传
+                transfer_method = 'file'
+            else:
+                # 根据数据大小自动选择
+                data_size = len(base64_image)
+                if data_size > 2 * 1024 * 1024:  # 2MB
+                    transfer_method = 'chunked'
+                else:
+                    transfer_method = 'json'
+        
+        # 兼容旧参数
+        if args.use_chunked:
+            transfer_method = 'chunked'
+        elif args.use_file_upload:
+            transfer_method = 'file'
+        
+        # 执行传输
+        if transfer_method == 'file' and input_type == 'file':
+            print("使用文件上传模式")
+            result = send_file_request(args.server, args.input)
+        elif transfer_method == 'chunked':
+            print("使用分块传输模式")
+            result = send_chunked_parse_request(args.server, base64_image, args.chunk_size)
+        else:
+            print("使用标准JSON传输模式")
+            result = send_parse_request(args.server, base64_image)
         
         # 处理结果
         print(f"\n解析完成！延迟: {result.get('latency', 'N/A')} 秒")
