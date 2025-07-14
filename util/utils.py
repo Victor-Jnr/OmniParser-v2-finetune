@@ -338,9 +338,9 @@ def remove_overlap_new(boxes, iou_threshold, ocr_bbox=None):
                             continue
                 if not box_added:
                     if ocr_labels:
-                        filtered_boxes.append({'type': 'icon', 'bbox': box1_elem['bbox'], 'interactivity': True, 'content': ocr_labels, 'source':'box_yolo_content_ocr'})
+                        filtered_boxes.append({'uuid': box1_elem['uuid'], 'type': 'icon', 'bbox': box1_elem['bbox'], 'interactivity': True, 'content': ocr_labels, 'source':'box_yolo_content_ocr'})
                     else:
-                        filtered_boxes.append({'type': 'icon', 'bbox': box1_elem['bbox'], 'interactivity': True, 'content': None, 'source':'box_yolo_content_yolo'})
+                        filtered_boxes.append({'uuid': box1_elem['uuid'], 'type': 'icon', 'bbox': box1_elem['bbox'], 'interactivity': True, 'content': None, 'source':'box_yolo_content_yolo'})
             else:
                 filtered_boxes.append(box1_elem)
     return filtered_boxes # torch.tensor(filtered_boxes)
@@ -490,7 +490,7 @@ def get_som_labeled_img(image_source: Union[str, Image.Image], model=None, BOX_T
 
     # 创建OCR边界框元素字典
     if ocr_bbox and ocr_text:
-        ocr_bbox_elem = [{'type': 'text', 'bbox':box, 'interactivity':False, 'content':txt, 'source': 'box_ocr_content_ocr'} for box, txt in zip(ocr_bbox, ocr_text) if int_box_area(box, w, h) > 0]
+        ocr_bbox_elem = [{'uuid': random_uuid(), 'type': 'text', 'bbox':box, 'interactivity':False, 'content':txt, 'source': 'box_ocr_content_ocr'} for box, txt in zip(ocr_bbox, ocr_text) if int_box_area(box, w, h) > 0]
     else:
         ocr_bbox_elem = [] 
     # 创建图标边界框元素字典
@@ -528,7 +528,7 @@ def get_som_labeled_img(image_source: Union[str, Image.Image], model=None, BOX_T
         # 为图标内容添加ID标识
         for i, txt in enumerate(parsed_content_icon):
             parsed_content_icon_ls.append(f"Icon Box ID {str(i+icon_start)}: {txt}")
-        parsed_content_merged = ocr_text + parsed_content_icon_ls  # 合并OCR和图标内容
+        parsed_content_merged = ocr_text + parsed_content_icon_ls  # 合并OCR和图标内容, 未使用
     else:
         # 只使用OCR文本
         ocr_text = [f"Text Box ID {i}: {txt}" for i, txt in enumerate(ocr_text)]
