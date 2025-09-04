@@ -140,5 +140,3 @@ YOLO label examples (single-class):
 - “Using default image for item …”: image file missing → fix path or run cleanup
 - YOLO not training: verify `dataset.yaml` paths and label normalization
 - Florence2 poor results: ensure `content` quality and correct `bbox` regions; consider augmentation
-
-

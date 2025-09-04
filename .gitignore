@@ -21,3 +21,6 @@ pip
 /training_data_s
 
 /logs
+training_data_generator/example_code.md
+/training_data_generator/raw_images
+training_data_generator/.env
