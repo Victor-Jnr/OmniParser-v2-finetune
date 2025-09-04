@@ -1,0 +1,7262 @@
+[
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5146666666666666,
+      0.014222222222222221,
+      0.5253333333333333,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.49333333333333335,
+      0.014222222222222221,
+      0.504,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.504,
+      0.014222222222222221,
+      0.5146666666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.010666666666666666,
+      0.14222222222222222,
+      0.021333333333333333,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "grid view icon",
+    "bbox": [
+      0.08,
+      0.14222222222222222,
+      0.09066666666666667,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "list view icon",
+    "bbox": [
+      0.09066666666666667,
+      0.14222222222222222,
+      0.10133333333333333,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.10133333333333333,
+      0.14222222222222222,
+      0.112,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.13333333333333333,
+      0.14222222222222222,
+      0.14400000000000002,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9412291666666666,
+      0.014222222222222221,
+      0.9518958333333333,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9198958333333334,
+      0.014222222222222221,
+      0.9305625,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9305625,
+      0.014222222222222221,
+      0.9412291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.8452291666666667,
+      0.20385185185185184,
+      0.8558958333333334,
+      0.23229629629629628
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.45056250000000003,
+      0.20385185185185184,
+      0.46122916666666663,
+      0.23229629629629628
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "cancel button",
+    "bbox": [
+      0.6532291666666666,
+      0.7727407407407407,
+      0.6798958333333334,
+      0.8011851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "open button",
+    "bbox": [
+      0.8985625,
+      0.7727407407407407,
+      0.9252291666666667,
+      0.8011851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "home icon",
+    "bbox": [
+      0.86046875,
+      0.018962962962962963,
+      0.8678125,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "star icon",
+    "bbox": [
+      0.86928125,
+      0.018962962962962963,
+      0.876625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.87809375,
+      0.018962962962962963,
+      0.8854375,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "camera icon",
+    "bbox": [
+      0.8869062499999999,
+      0.018962962962962963,
+      0.89425,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.89571875,
+      0.018962962962962963,
+      0.9030625000000001,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.9853124999999999,
+      0.018962962962962963,
+      0.99265625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5066666666666666,
+      0.76075,
+      0.528,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.48000000000000004,
+      0.76075,
+      0.5013333333333333,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.4533333333333333,
+      0.76075,
+      0.4746666666666667,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001325.jpg",
+    "content": "submit button",
+    "bbox": [
+      0.6665625,
+      0.9637499999999999,
+      0.7198958333333334,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9412291666666666,
+      0.014222222222222221,
+      0.9518958333333333,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9198958333333334,
+      0.014222222222222221,
+      0.9305625,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.9305625,
+      0.014222222222222221,
+      0.9412291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "back arrow",
+    "bbox": [
+      0.0026666666666666666,
+      0.014222222222222221,
+      0.018666666666666668,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "forward arrow",
+    "bbox": [
+      0.021333333333333333,
+      0.014222222222222221,
+      0.037333333333333336,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "refresh icon",
+    "bbox": [
+      0.04,
+      0.014222222222222221,
+      0.056,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "lock icon",
+    "bbox": [
+      0.058666666666666666,
+      0.014222222222222221,
+      0.07466666666666667,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "star icon",
+    "bbox": [
+      0.07733333333333332,
+      0.014222222222222221,
+      0.09333333333333332,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "home icon",
+    "bbox": [
+      0.0026666666666666666,
+      0.09481481481481482,
+      0.024,
+      0.12325925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "new label",
+    "bbox": [
+      0.010666666666666666,
+      0.33185185185185184,
+      0.032,
+      0.3602962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.5146666666666666,
+      0.014222222222222221,
+      0.5306666666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.9092291666666666,
+      0.014222222222222221,
+      0.9198958333333334,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8985625,
+      0.014222222222222221,
+      0.9092291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "back arrow",
+    "bbox": [
+      0.8538593750000001,
+      0.014222222222222221,
+      0.8582656249999999,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "forward arrow",
+    "bbox": [
+      0.859734375,
+      0.014222222222222221,
+      0.864140625,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "refresh icon",
+    "bbox": [
+      0.865609375,
+      0.014222222222222221,
+      0.8700156250000001,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "home icon",
+    "bbox": [
+      0.871484375,
+      0.014222222222222221,
+      0.875890625,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "star icon",
+    "bbox": [
+      0.8773593749999999,
+      0.014222222222222221,
+      0.881765625,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "extensions icon",
+    "bbox": [
+      0.883234375,
+      0.014222222222222221,
+      0.887640625,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "profile icon",
+    "bbox": [
+      0.889109375,
+      0.014222222222222221,
+      0.8935156249999999,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.8949843749999999,
+      0.014222222222222221,
+      0.899390625,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "menu icon",
+    "bbox": [
+      0.900859375,
+      0.014222222222222221,
+      0.905265625,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "dropdown arrow",
+    "bbox": [
+      0.9948593750000001,
+      0.014222222222222221,
+      0.9992656249999999,
+      0.06162962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "menu icon",
+    "bbox": [
+      0.005333333333333333,
+      0.7631666666666667,
+      0.016,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.021333333333333333,
+      0.7631666666666667,
+      0.032,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "notification icon",
+    "bbox": [
+      0.037333333333333336,
+      0.7631666666666667,
+      0.048,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "profile icon",
+    "bbox": [
+      0.05333333333333334,
+      0.7631666666666667,
+      0.064,
+      0.7704166666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "play button",
+    "bbox": [
+      0.6532291666666666,
+      0.8429166666666666,
+      0.6798958333333334,
+      0.8670833333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9882500000000001,
+      0.7631666666666667,
+      0.9970625000000001,
+      0.7776666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9765,
+      0.7631666666666667,
+      0.9853124999999999,
+      0.7776666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.96475,
+      0.7631666666666667,
+      0.9735625,
+      0.7776666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9559375,
+      0.9806666666666666,
+      0.9618125000000001,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.96475,
+      0.9806666666666666,
+      0.970625,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "bluetooth icon",
+    "bbox": [
+      0.9735625,
+      0.9806666666666666,
+      0.9794375,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.982375,
+      0.9806666666666666,
+      0.9882500000000001,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.9911875,
+      0.9806666666666666,
+      0.9970625000000001,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "dropdown arrow",
+    "bbox": [
+      0.6825625,
+      0.2654814814814815,
+      0.6932291666666667,
+      0.3034074074074074
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "AWS logo",
+    "bbox": [
+      0.4532291666666667,
+      0.7704166666666666,
+      0.5065625,
+      0.7945833333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "external link icon",
+    "bbox": [
+      0.8265625,
+      0.7111111111111111,
+      0.8372291666666667,
+      0.7300740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000001902.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.7732291666666666,
+      0.8429166666666666,
+      0.8265625,
+      0.89125
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.016,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.021333333333333333,
+      0.9758333333333334,
+      0.037333333333333336,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.042666666666666665,
+      0.9758333333333334,
+      0.058666666666666666,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.064,
+      0.9758333333333334,
+      0.08,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "antivirus icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9758333333333334,
+      0.10133333333333333,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9758333333333334,
+      0.12266666666666667,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "calendar icon",
+    "bbox": [
+      0.128,
+      0.9758333333333334,
+      0.14400000000000002,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "virtualbox icon",
+    "bbox": [
+      0.14933333333333335,
+      0.9758333333333334,
+      0.16533333333333333,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "python icon",
+    "bbox": [
+      0.17066666666666666,
+      0.9758333333333334,
+      0.18666666666666665,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8932291666666666,
+      0.9758333333333334,
+      0.9038958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9092291666666666,
+      0.9758333333333334,
+      0.9198958333333334,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9252291666666667,
+      0.9758333333333334,
+      0.9358958333333334,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9412291666666666,
+      0.9758333333333334,
+      0.9518958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8545937499999999,
+      0.9637499999999999,
+      0.86046875,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8619375,
+      0.9637499999999999,
+      0.8678125,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.86928125,
+      0.9637499999999999,
+      0.87515625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.876625,
+      0.9637499999999999,
+      0.8825000000000001,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.9559375,
+      0.9637499999999999,
+      0.970625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000002968.jpg",
+    "content": "date icon",
+    "bbox": [
+      0.9720937500000001,
+      0.9637499999999999,
+      0.9853124999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.86046875,
+      0.018962962962962963,
+      0.8678125,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "share icon",
+    "bbox": [
+      0.8825000000000001,
+      0.018962962962962963,
+      0.88984375,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "sort and filter icon",
+    "bbox": [
+      0.86046875,
+      0.07585185185185185,
+      0.8678125,
+      0.11377777777777777
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "find and select icon",
+    "bbox": [
+      0.87515625,
+      0.07585185185185185,
+      0.8825000000000001,
+      0.11377777777777777
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "check for updates icon",
+    "bbox": [
+      0.8971874999999999,
+      0.14222222222222222,
+      0.911875,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "sheet tab icon",
+    "bbox": [
+      0.005333333333333333,
+      0.9637499999999999,
+      0.08,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "add sheet icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9637499999999999,
+      0.096,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "scroll bar",
+    "bbox": [
+      0.24000000000000002,
+      0.9879166666666667,
+      0.29333333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "grid view icon",
+    "bbox": [
+      0.8798958333333334,
+      0.9806666666666666,
+      0.8905625,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "list view icon",
+    "bbox": [
+      0.8958958333333332,
+      0.9806666666666666,
+      0.9065624999999999,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "zoom slider",
+    "bbox": [
+      0.9118958333333335,
+      0.9830833333333333,
+      0.9492291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "grid icon",
+    "bbox": [
+      0.8560625000000001,
+      0.9637499999999999,
+      0.86340625,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "table icon",
+    "bbox": [
+      0.864875,
+      0.9637499999999999,
+      0.87221875,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "chart icon",
+    "bbox": [
+      0.8736875000000001,
+      0.9637499999999999,
+      0.8810312499999999,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000006745.jpg",
+    "content": "zoom slider",
+    "bbox": [
+      0.8825000000000001,
+      0.9685833333333332,
+      0.911875,
+      0.97825
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.021333333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.02666666666666667,
+      0.9758333333333334,
+      0.048,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.05333333333333334,
+      0.9758333333333334,
+      0.07466666666666667,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.08,
+      0.9758333333333334,
+      0.10133333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "security software icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9758333333333334,
+      0.128,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.13333333333333333,
+      0.9758333333333334,
+      0.15466666666666665,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "email icon",
+    "bbox": [
+      0.16,
+      0.9758333333333334,
+      0.18133333333333335,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "virtualbox icon",
+    "bbox": [
+      0.18666666666666665,
+      0.9758333333333334,
+      0.20800000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "application icon",
+    "bbox": [
+      0.21333333333333335,
+      0.9758333333333334,
+      0.23466666666666666,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "application icon",
+    "bbox": [
+      0.24000000000000002,
+      0.9758333333333334,
+      0.2613333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8932291666666666,
+      0.9697916666666667,
+      0.9038958333333333,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9092291666666666,
+      0.9697916666666667,
+      0.9198958333333334,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9252291666666667,
+      0.9697916666666667,
+      0.9358958333333334,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9412291666666666,
+      0.9697916666666667,
+      0.9518958333333333,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8545937499999999,
+      0.9637499999999999,
+      0.86046875,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.8619375,
+      0.9637499999999999,
+      0.8678125,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.86928125,
+      0.9637499999999999,
+      0.87515625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000007970.jpg",
+    "content": "SRP icon",
+    "bbox": [
+      0.876625,
+      0.9637499999999999,
+      0.8825000000000001,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9412291666666666,
+      0.014222222222222221,
+      0.9518958333333333,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9252291666666667,
+      0.014222222222222221,
+      0.9358958333333334,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9092291666666666,
+      0.014222222222222221,
+      0.9198958333333334,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.8265625,
+      0.33185185185185184,
+      0.8425625,
+      0.3602962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "file icon",
+    "bbox": [
+      0.7198958333333334,
+      0.4266666666666667,
+      0.7732291666666666,
+      0.5214814814814815
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "cancel button",
+    "bbox": [
+      0.8265625,
+      0.8059259259259259,
+      0.8532291666666667,
+      0.8533333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "open button",
+    "bbox": [
+      0.8798958333333334,
+      0.8059259259259259,
+      0.9065624999999999,
+      0.8533333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "home icon",
+    "bbox": [
+      0.86046875,
+      0.018962962962962963,
+      0.864875,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "star icon",
+    "bbox": [
+      0.8663437500000001,
+      0.018962962962962963,
+      0.8707499999999999,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "list icon",
+    "bbox": [
+      0.87221875,
+      0.018962962962962963,
+      0.876625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.87809375,
+      0.018962962962962963,
+      0.8825000000000001,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "file icon",
+    "bbox": [
+      0.005333333333333333,
+      0.9637499999999999,
+      0.021333333333333333,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9332291666666667,
+      0.7631666666666667,
+      0.9492291666666667,
+      0.7728333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9172291666666667,
+      0.7631666666666667,
+      0.9278958333333333,
+      0.7728333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9278958333333333,
+      0.7631666666666667,
+      0.9385625,
+      0.7728333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9853124999999999,
+      0.9758333333333334,
+      0.99265625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000009337.jpg",
+    "content": "dropdown arrow",
+    "bbox": [
+      0.064,
+      0.9637499999999999,
+      0.07466666666666667,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.016,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.021333333333333333,
+      0.9758333333333334,
+      0.037333333333333336,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.042666666666666665,
+      0.9758333333333334,
+      0.058666666666666666,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.064,
+      0.9758333333333334,
+      0.08,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "security software icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9758333333333334,
+      0.10133333333333333,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9758333333333334,
+      0.12266666666666667,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "email icon",
+    "bbox": [
+      0.128,
+      0.9758333333333334,
+      0.14400000000000002,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "virtual machine icon",
+    "bbox": [
+      0.14933333333333335,
+      0.9758333333333334,
+      0.16533333333333333,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "tor browser icon",
+    "bbox": [
+      0.17066666666666666,
+      0.9758333333333334,
+      0.18666666666666665,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.4906666666666667,
+      0.9758333333333334,
+      0.5066666666666666,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.512,
+      0.9758333333333334,
+      0.528,
+      0.99275
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8878958333333333,
+      0.9637499999999999,
+      0.8985625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.9012291666666667,
+      0.9637499999999999,
+      0.9118958333333335,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9145625000000001,
+      0.9637499999999999,
+      0.9252291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9278958333333333,
+      0.9637499999999999,
+      0.9385625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9412291666666666,
+      0.9637499999999999,
+      0.9518958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8560625000000001,
+      0.9637499999999999,
+      0.8619375,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.86340625,
+      0.9637499999999999,
+      0.86928125,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8707499999999999,
+      0.9637499999999999,
+      0.876625,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.87809375,
+      0.9637499999999999,
+      0.88396875,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.96328125,
+      0.9637499999999999,
+      0.97796875,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000010576.jpg",
+    "content": "date icon",
+    "bbox": [
+      0.9794375,
+      0.9637499999999999,
+      0.994125,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.005333333333333333,
+      0.009481481481481481,
+      0.02666666666666667,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5066666666666666,
+      0.009481481481481481,
+      0.528,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.48000000000000004,
+      0.009481481481481481,
+      0.5013333333333333,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.4533333333333333,
+      0.009481481481481481,
+      0.4746666666666667,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.7704166666666666,
+      0.09066666666666667,
+      0.7800833333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.7945833333333333,
+      0.09066666666666667,
+      0.80425
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.81875,
+      0.09066666666666667,
+      0.8284166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.8429166666666666,
+      0.09066666666666667,
+      0.8525833333333332
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.8670833333333334,
+      0.09066666666666667,
+      0.87675
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.89125,
+      0.09066666666666667,
+      0.9009166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.9154166666666667,
+      0.09066666666666667,
+      0.9250833333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011308.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.08,
+      0.9395833333333333,
+      0.09066666666666667,
+      0.94925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011557.jpg",
+    "content": "checkmark icon",
+    "bbox": [
+      0.010666666666666666,
+      0.7873333333333333,
+      0.016,
+      0.7921666666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011557.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.18,
+      0.011999999999999999,
+      0.2,
+      0.016
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011557.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.18,
+      0.032,
+      0.2,
+      0.036
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000011557.jpg",
+    "content": "information icon",
+    "bbox": [
+      0.18,
+      0.052000000000000005,
+      0.2,
+      0.056
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9092291666666666,
+      0.014222222222222221,
+      0.9252291666666667,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.8772291666666666,
+      0.014222222222222221,
+      0.8932291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.8932291666666666,
+      0.014222222222222221,
+      0.9092291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.4532291666666667,
+      0.8722962962962963,
+      0.46389583333333334,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.46389583333333334,
+      0.8722962962962963,
+      0.4745625,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "sound icon",
+    "bbox": [
+      0.4745625,
+      0.8722962962962963,
+      0.48522916666666666,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "USB icon",
+    "bbox": [
+      0.48522916666666666,
+      0.8722962962962963,
+      0.4958958333333333,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "shared folder icon",
+    "bbox": [
+      0.4958958333333333,
+      0.8722962962962963,
+      0.5065625,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "clipboard icon",
+    "bbox": [
+      0.5065625,
+      0.8722962962962963,
+      0.5172291666666667,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "fullscreen icon",
+    "bbox": [
+      0.5172291666666667,
+      0.8722962962962963,
+      0.5278958333333333,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "keyboard icon",
+    "bbox": [
+      0.5278958333333333,
+      0.8722962962962963,
+      0.5385624999999999,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "mouse icon",
+    "bbox": [
+      0.5385624999999999,
+      0.8722962962962963,
+      0.5492291666666667,
+      0.9007407407407407
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.021333333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.02666666666666667,
+      0.9758333333333334,
+      0.048,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.05333333333333334,
+      0.9758333333333334,
+      0.07466666666666667,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.08,
+      0.9758333333333334,
+      0.10133333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9758333333333334,
+      0.128,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "antivirus icon",
+    "bbox": [
+      0.13333333333333333,
+      0.9758333333333334,
+      0.15466666666666665,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.16,
+      0.9758333333333334,
+      0.18133333333333335,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "email icon",
+    "bbox": [
+      0.18666666666666665,
+      0.9758333333333334,
+      0.20800000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "3D viewer icon",
+    "bbox": [
+      0.21333333333333335,
+      0.9758333333333334,
+      0.23466666666666666,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "tor browser icon",
+    "bbox": [
+      0.24000000000000002,
+      0.9758333333333334,
+      0.2613333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8798958333333334,
+      0.9637499999999999,
+      0.8905625,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8958958333333332,
+      0.9637499999999999,
+      0.9065624999999999,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9118958333333335,
+      0.9637499999999999,
+      0.9225625000000001,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.9278958333333333,
+      0.9637499999999999,
+      0.9492291666666667,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.8560625000000001,
+      0.9710000000000001,
+      0.8619375,
+      0.9854999999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.86340625,
+      0.9710000000000001,
+      0.86928125,
+      0.9854999999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8707499999999999,
+      0.9710000000000001,
+      0.876625,
+      0.9854999999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000020751.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.87809375,
+      0.9710000000000001,
+      0.88396875,
+      0.9854999999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9948593750000001,
+      0.004740740740740741,
+      0.9992656249999999,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.986046875,
+      0.004740740740740741,
+      0.990453125,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.990453125,
+      0.004740740740740741,
+      0.9948593750000001,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8538593750000001,
+      0.9007407407407407,
+      0.8582656249999999,
+      0.9291851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8582656249999999,
+      0.9007407407407407,
+      0.862671875,
+      0.9291851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "bluetooth icon",
+    "bbox": [
+      0.862671875,
+      0.9007407407407407,
+      0.867078125,
+      0.9291851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.016,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.021333333333333333,
+      0.9758333333333334,
+      0.037333333333333336,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.042666666666666665,
+      0.9758333333333334,
+      0.058666666666666666,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.064,
+      0.9758333333333334,
+      0.08,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9758333333333334,
+      0.10133333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "antivirus icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9758333333333334,
+      0.12266666666666667,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.128,
+      0.9758333333333334,
+      0.14400000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "notification icon",
+    "bbox": [
+      0.14933333333333335,
+      0.9758333333333334,
+      0.16533333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "virtualbox icon",
+    "bbox": [
+      0.17066666666666666,
+      0.9758333333333334,
+      0.18666666666666665,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "tor icon",
+    "bbox": [
+      0.192,
+      0.9758333333333334,
+      0.20800000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.9092291666666666,
+      0.9867083333333333,
+      0.9172291666666667,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.9198958333333334,
+      0.9867083333333333,
+      0.9278958333333333,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9305625,
+      0.9867083333333333,
+      0.9385625,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9412291666666666,
+      0.9867083333333333,
+      0.9492291666666667,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9518958333333333,
+      0.9867083333333333,
+      0.9598958333333333,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8560625000000001,
+      0.9637499999999999,
+      0.8619375,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.86340625,
+      0.9637499999999999,
+      0.86928125,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.8707499999999999,
+      0.9637499999999999,
+      0.876625,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "time display",
+    "bbox": [
+      0.970625,
+      0.9637499999999999,
+      0.9853124999999999,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "date display",
+    "bbox": [
+      0.970625,
+      0.97825,
+      0.9853124999999999,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.87809375,
+      0.9637499999999999,
+      0.88396875,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022208.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.853125,
+      0.9637499999999999,
+      0.8560625000000001,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "close button",
+    "bbox": [
+      0.52,
+      0.014222222222222221,
+      0.5306666666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.4986666666666667,
+      0.014222222222222221,
+      0.5093333333333333,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.5093333333333333,
+      0.014222222222222221,
+      0.52,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9465625000000001,
+      0.004740740740740741,
+      0.9572291666666667,
+      0.023703703703703706
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.6852291666666666,
+      0.2607407407407408,
+      0.6958958333333333,
+      0.2797037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "pencil icon",
+    "bbox": [
+      0.7012291666666667,
+      0.2607407407407408,
+      0.7118958333333334,
+      0.2797037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.7172291666666666,
+      0.2607407407407408,
+      0.7278958333333333,
+      0.2797037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.7332291666666666,
+      0.2607407407407408,
+      0.7438958333333333,
+      0.2797037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.97796875,
+      0.009481481481481481,
+      0.982375,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.98384375,
+      0.009481481481481481,
+      0.9882500000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "close button",
+    "bbox": [
+      0.98971875,
+      0.009481481481481481,
+      0.994125,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "start icon",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.016,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.016,
+      0.9758333333333334,
+      0.032,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.032,
+      0.9758333333333334,
+      0.048,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.064,
+      0.9758333333333334,
+      0.08,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.08,
+      0.9758333333333334,
+      0.096,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "bitdefender icon",
+    "bbox": [
+      0.096,
+      0.9758333333333334,
+      0.112,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.112,
+      0.9758333333333334,
+      0.128,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "mail icon",
+    "bbox": [
+      0.128,
+      0.9758333333333334,
+      0.14400000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "calendar icon",
+    "bbox": [
+      0.14400000000000002,
+      0.9758333333333334,
+      0.16,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "3d builder icon",
+    "bbox": [
+      0.16,
+      0.9758333333333334,
+      0.17600000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "photoshop icon",
+    "bbox": [
+      0.17600000000000002,
+      0.9758333333333334,
+      0.192,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.42922916666666666,
+      0.9637499999999999,
+      0.4425625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.4452291666666667,
+      0.9637499999999999,
+      0.45856250000000004,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.46122916666666663,
+      0.9637499999999999,
+      0.4745625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.47722916666666665,
+      0.9637499999999999,
+      0.4905625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.49322916666666666,
+      0.9637499999999999,
+      0.5065625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.5092291666666667,
+      0.9637499999999999,
+      0.5332291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "app icon 1",
+    "bbox": [
+      0.8798958333333334,
+      0.9637499999999999,
+      0.8958958333333332,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "app icon 2",
+    "bbox": [
+      0.9012291666666667,
+      0.9637499999999999,
+      0.9172291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "app icon 3",
+    "bbox": [
+      0.9225625000000001,
+      0.9637499999999999,
+      0.9385625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "app icon 4",
+    "bbox": [
+      0.9438958333333333,
+      0.9637499999999999,
+      0.9598958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "menu icon",
+    "bbox": [
+      0.0026666666666666666,
+      0.014222222222222221,
+      0.018666666666666668,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000022248.jpg",
+    "content": "time display",
+    "bbox": [
+      0.4533333333333333,
+      0.4266666666666667,
+      0.5066666666666666,
+      0.4551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "virtualbox icon",
+    "bbox": [
+      0.005333333333333333,
+      0.009481481481481481,
+      0.016,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "ubuntu icon",
+    "bbox": [
+      0.016,
+      0.14222222222222222,
+      0.02666666666666667,
+      0.18014814814814814
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "file manager icon",
+    "bbox": [
+      0.016,
+      0.18962962962962965,
+      0.02666666666666667,
+      0.22755555555555554
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.016,
+      0.23703703703703705,
+      0.02666666666666667,
+      0.27496296296296296
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "firefox icon",
+    "bbox": [
+      0.016,
+      0.28444444444444444,
+      0.02666666666666667,
+      0.3223703703703704
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.016,
+      0.33185185185185184,
+      0.02666666666666667,
+      0.3697777777777778
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "kali icon",
+    "bbox": [
+      0.016,
+      0.3792592592592593,
+      0.02666666666666667,
+      0.4171851851851852
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "spotify icon",
+    "bbox": [
+      0.016,
+      0.4266666666666667,
+      0.02666666666666667,
+      0.46459259259259256
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "grid icon",
+    "bbox": [
+      0.016,
+      0.4740740740740741,
+      0.02666666666666667,
+      0.512
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.5066666666666666,
+      0.009481481481481481,
+      0.528,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.48000000000000004,
+      0.009481481481481481,
+      0.5013333333333333,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.4533333333333333,
+      0.009481481481481481,
+      0.4746666666666667,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.6665625,
+      0.04740740740740741,
+      0.6932291666666667,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "workspace icon",
+    "bbox": [
+      0.7038958333333334,
+      0.04740740740740741,
+      0.7145625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.7252291666666667,
+      0.04740740740740741,
+      0.7358958333333334,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.7465625,
+      0.04740740740740741,
+      0.7572291666666667,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.990159375,
+      0.017066666666666664,
+      0.9925093749999999,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9930968750000001,
+      0.017066666666666664,
+      0.9954468750000001,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "close button",
+    "bbox": [
+      0.996034375,
+      0.017066666666666664,
+      0.9983843750000001,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9637499999999999,
+      0.016,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.021333333333333333,
+      0.9637499999999999,
+      0.037333333333333336,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.042666666666666665,
+      0.9637499999999999,
+      0.058666666666666666,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.064,
+      0.9637499999999999,
+      0.08,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9637499999999999,
+      0.10133333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "bitdefender icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9637499999999999,
+      0.12266666666666667,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.128,
+      0.9637499999999999,
+      0.14400000000000002,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.14933333333333335,
+      0.9637499999999999,
+      0.16533333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "mail icon",
+    "bbox": [
+      0.17066666666666666,
+      0.9637499999999999,
+      0.18666666666666665,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "3d viewer icon",
+    "bbox": [
+      0.192,
+      0.9637499999999999,
+      0.20800000000000002,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "opera icon",
+    "bbox": [
+      0.21333333333333335,
+      0.9637499999999999,
+      0.22933333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8985625,
+      0.9818749999999999,
+      0.9092291666666666,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.9145625000000001,
+      0.9818749999999999,
+      0.9252291666666667,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9305625,
+      0.9818749999999999,
+      0.9412291666666666,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9465625000000001,
+      0.9818749999999999,
+      0.9572291666666667,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9572291666666667,
+      0.9818749999999999,
+      0.9598958333333333,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "app icon 1",
+    "bbox": [
+      0.8612291666666666,
+      0.9818749999999999,
+      0.8718958333333333,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "app icon 2",
+    "bbox": [
+      0.8718958333333333,
+      0.9818749999999999,
+      0.8825625,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024035.jpg",
+    "content": "app icon 3",
+    "bbox": [
+      0.8825625,
+      0.9818749999999999,
+      0.8932291666666666,
+      0.9915416666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "close button",
+    "bbox": [
+      0.3813333333333333,
+      0.06162962962962963,
+      0.392,
+      0.0805925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.37066666666666664,
+      0.06162962962962963,
+      0.3813333333333333,
+      0.0805925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.36000000000000004,
+      0.06162962962962963,
+      0.37066666666666664,
+      0.0805925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "close button",
+    "bbox": [
+      0.8718958333333333,
+      0.13748148148148148,
+      0.8825625,
+      0.15644444444444444
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.8505625,
+      0.13748148148148148,
+      0.8612291666666666,
+      0.15644444444444444
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.8612291666666666,
+      0.13748148148148148,
+      0.8718958333333333,
+      0.15644444444444444
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.43722916666666667,
+      0.13748148148148148,
+      0.4478958333333333,
+      0.15644444444444444
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.8958958333333332,
+      0.04740740740740741,
+      0.9065624999999999,
+      0.06637037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9065624999999999,
+      0.04740740740740741,
+      0.9172291666666667,
+      0.06637037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.9172291666666667,
+      0.04740740740740741,
+      0.9278958333333333,
+      0.06637037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "time display",
+    "bbox": [
+      0.8532291666666667,
+      0.04740740740740741,
+      0.8958958333333332,
+      0.06637037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.990159375,
+      0.017066666666666664,
+      0.9925093749999999,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9930968750000001,
+      0.017066666666666664,
+      0.9954468750000001,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "close button",
+    "bbox": [
+      0.996034375,
+      0.017066666666666664,
+      0.9983843750000001,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "start button",
+    "bbox": [
+      0.0,
+      0.9758333333333334,
+      0.016,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.021333333333333333,
+      0.9758333333333334,
+      0.037333333333333336,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.042666666666666665,
+      0.9758333333333334,
+      0.058666666666666666,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.064,
+      0.9758333333333334,
+      0.08,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9758333333333334,
+      0.10133333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 1",
+    "bbox": [
+      0.10666666666666667,
+      0.9758333333333334,
+      0.12266666666666667,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 2",
+    "bbox": [
+      0.128,
+      0.9758333333333334,
+      0.14400000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 3",
+    "bbox": [
+      0.14933333333333335,
+      0.9758333333333334,
+      0.16533333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 4",
+    "bbox": [
+      0.17066666666666666,
+      0.9758333333333334,
+      0.18666666666666665,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 5",
+    "bbox": [
+      0.192,
+      0.9758333333333334,
+      0.20800000000000002,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 6",
+    "bbox": [
+      0.21333333333333335,
+      0.9758333333333334,
+      0.22933333333333333,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 7",
+    "bbox": [
+      0.23466666666666666,
+      0.9758333333333334,
+      0.25066666666666665,
+      1.0
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9252291666666667,
+      0.9806666666666666,
+      0.9305625,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.9305625,
+      0.9806666666666666,
+      0.9358958333333334,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9358958333333334,
+      0.9806666666666666,
+      0.9412291666666666,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9412291666666666,
+      0.9806666666666666,
+      0.9465625000000001,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.9065624999999999,
+      0.9806666666666666,
+      0.9118958333333335,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 1",
+    "bbox": [
+      0.8425625,
+      0.9806666666666666,
+      0.8478958333333334,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 2",
+    "bbox": [
+      0.8478958333333334,
+      0.9806666666666666,
+      0.8532291666666667,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 3",
+    "bbox": [
+      0.8532291666666667,
+      0.9806666666666666,
+      0.8585625,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 4",
+    "bbox": [
+      0.8585625,
+      0.9806666666666666,
+      0.8638958333333332,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 5",
+    "bbox": [
+      0.8638958333333332,
+      0.9806666666666666,
+      0.8692291666666667,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "app icon 6",
+    "bbox": [
+      0.8692291666666667,
+      0.9806666666666666,
+      0.8745624999999999,
+      0.9903333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000024312.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.010666666666666666,
+      0.11377777777777777,
+      0.5226666666666666,
+      0.8343703703703704
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "browser tab icon",
+    "bbox": [
+      0.0026666666666666666,
+      0.004740740740740741,
+      0.018666666666666668,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "browser tab icon",
+    "bbox": [
+      0.024,
+      0.004740740740740741,
+      0.04,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "browser tab icon",
+    "bbox": [
+      0.04533333333333334,
+      0.004740740740740741,
+      0.06133333333333334,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "browser tab icon",
+    "bbox": [
+      0.06666666666666667,
+      0.004740740740740741,
+      0.08266666666666667,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "browser tab icon",
+    "bbox": [
+      0.08800000000000001,
+      0.004740740740740741,
+      0.10400000000000001,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "menu icon",
+    "bbox": [
+      0.0026666666666666666,
+      0.042666666666666665,
+      0.018666666666666668,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.504,
+      0.042666666666666665,
+      0.52,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.5253333333333333,
+      0.042666666666666665,
+      0.5306666666666666,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "link icon",
+    "bbox": [
+      0.24000000000000002,
+      0.23703703703703705,
+      0.2533333333333333,
+      0.2607407407407408
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "link icon",
+    "bbox": [
+      0.24000000000000002,
+      0.28444444444444444,
+      0.2533333333333333,
+      0.30814814814814817
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.6665625,
+      0.04740740740740741,
+      0.6825625,
+      0.08533333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9438958333333333,
+      0.009481481481481481,
+      0.9545625,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9225625000000001,
+      0.009481481481481481,
+      0.9332291666666667,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.9332291666666667,
+      0.009481481481481481,
+      0.9438958333333333,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "help icon",
+    "bbox": [
+      0.8538593750000001,
+      0.018962962962962963,
+      0.8582656249999999,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.859734375,
+      0.018962962962962963,
+      0.864140625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.865609375,
+      0.018962962962962963,
+      0.8700156250000001,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "bell icon",
+    "bbox": [
+      0.871484375,
+      0.018962962962962963,
+      0.875890625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "grid icon",
+    "bbox": [
+      0.8773593749999999,
+      0.018962962962962963,
+      0.881765625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.883234375,
+      0.018962962962962963,
+      0.887640625,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "more options",
+    "bbox": [
+      0.889109375,
+      0.018962962962962963,
+      0.8935156249999999,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "menu icon",
+    "bbox": [
+      0.4318958333333333,
+      0.018962962962962963,
+      0.4425625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8798958333333334,
+      0.018962962962962963,
+      0.8905625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/000026688.jpg",
+    "content": "notification icon",
+    "bbox": [
+      0.9012291666666667,
+      0.018962962962962963,
+      0.9118958333333335,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "command prompt icon",
+    "bbox": [
+      0.005333333333333333,
+      0.009481481481481481,
+      0.02666666666666667,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5066666666666666,
+      0.009481481481481481,
+      0.528,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "settings button",
+    "bbox": [
+      0.4,
+      0.23703703703703705,
+      0.4533333333333333,
+      0.28444444444444444
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "settings button",
+    "bbox": [
+      0.4,
+      0.33185185185185184,
+      0.4533333333333333,
+      0.3792592592592593
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "settings button",
+    "bbox": [
+      0.4,
+      0.4266666666666667,
+      0.4533333333333333,
+      0.4740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "environment variables button",
+    "bbox": [
+      0.32,
+      0.5214814814814815,
+      0.4533333333333333,
+      0.5688888888888889
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "ok button",
+    "bbox": [
+      0.21333333333333335,
+      0.6162962962962963,
+      0.24000000000000002,
+      0.6637037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "cancel button",
+    "bbox": [
+      0.26666666666666666,
+      0.6162962962962963,
+      0.29333333333333333,
+      0.6637037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9412291666666666,
+      0.004740740740740741,
+      0.9518958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9198958333333334,
+      0.004740740740740741,
+      0.9305625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9305625,
+      0.004740740740740741,
+      0.9412291666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.986046875,
+      0.014222222222222221,
+      0.990453125,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9911875,
+      0.014222222222222221,
+      0.9955937499999999,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "close button",
+    "bbox": [
+      0.996328125,
+      0.014222222222222221,
+      1.0,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "weather icon",
+    "bbox": [
+      0.005333333333333333,
+      0.9637499999999999,
+      0.032,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "start icon",
+    "bbox": [
+      0.08,
+      0.9710000000000001,
+      0.10133333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9710000000000001,
+      0.128,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.13333333333333333,
+      0.9710000000000001,
+      0.15466666666666665,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "chat icon",
+    "bbox": [
+      0.16,
+      0.9710000000000001,
+      0.18133333333333335,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.18666666666666665,
+      0.9710000000000001,
+      0.20800000000000002,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.21333333333333335,
+      0.9710000000000001,
+      0.23466666666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.24000000000000002,
+      0.9710000000000001,
+      0.2613333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.4318958333333333,
+      0.9637499999999999,
+      0.45856250000000004,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.46389583333333334,
+      0.9637499999999999,
+      0.4905625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.4958958333333333,
+      0.9637499999999999,
+      0.5225624999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.5278958333333333,
+      0.9637499999999999,
+      0.5545625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "code editor icon",
+    "bbox": [
+      0.5598958333333334,
+      0.9637499999999999,
+      0.5865625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "notepad icon",
+    "bbox": [
+      0.5918958333333334,
+      0.9637499999999999,
+      0.6185624999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.6238958333333334,
+      0.9637499999999999,
+      0.6505624999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.6558958333333333,
+      0.9637499999999999,
+      0.6825625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "language icon",
+    "bbox": [
+      0.8532291666666667,
+      0.9758333333333334,
+      0.8798958333333334,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "recording icon",
+    "bbox": [
+      0.8852291666666666,
+      0.9758333333333334,
+      0.9012291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9065624999999999,
+      0.9758333333333334,
+      0.9225625000000001,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9278958333333333,
+      0.9758333333333334,
+      0.9438958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.86046875,
+      0.9637499999999999,
+      0.8678125,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/006597_00_03_39.900.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.86928125,
+      0.9637499999999999,
+      0.876625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5066666666666666,
+      0.009481481481481481,
+      0.528,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.48000000000000004,
+      0.009481481481481481,
+      0.5013333333333333,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.4533333333333333,
+      0.009481481481481481,
+      0.4746666666666667,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9412291666666666,
+      0.004740740740740741,
+      0.9518958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9198958333333334,
+      0.004740740740740741,
+      0.9305625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9305625,
+      0.004740740740740741,
+      0.9412291666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "cursor",
+    "bbox": [
+      0.7012291666666667,
+      0.5831111111111111,
+      0.7065625,
+      0.6020740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "close button",
+    "bbox": [
+      0.990159375,
+      0.007585185185185185,
+      0.9948593750000001,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9841375,
+      0.007585185185185185,
+      0.9888375,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9781156249999999,
+      0.007585185185185185,
+      0.9828156250000001,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "weather icon",
+    "bbox": [
+      0.0026666666666666666,
+      0.9637499999999999,
+      0.02666666666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "start button",
+    "bbox": [
+      0.08,
+      0.9806666666666666,
+      0.096,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.10133333333333333,
+      0.9806666666666666,
+      0.11733333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.12266666666666667,
+      0.9806666666666666,
+      0.13866666666666666,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "chat icon",
+    "bbox": [
+      0.14400000000000002,
+      0.9806666666666666,
+      0.16,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.16533333333333333,
+      0.9806666666666666,
+      0.18133333333333335,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.18666666666666665,
+      0.9806666666666666,
+      0.20266666666666666,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.20800000000000002,
+      0.9806666666666666,
+      0.224,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.4345625,
+      0.9637499999999999,
+      0.46122916666666663,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.4665625,
+      0.9637499999999999,
+      0.49322916666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.4985625,
+      0.9637499999999999,
+      0.5252291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.5305625,
+      0.9637499999999999,
+      0.5572291666666668,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "code editor icon",
+    "bbox": [
+      0.5625625,
+      0.9637499999999999,
+      0.5892291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "notepad icon",
+    "bbox": [
+      0.5945625,
+      0.9637499999999999,
+      0.6212291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.6265625,
+      0.9637499999999999,
+      0.6532291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "language icon",
+    "bbox": [
+      0.8398958333333333,
+      0.9637499999999999,
+      0.8665625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "recording icon",
+    "bbox": [
+      0.8718958333333333,
+      0.9637499999999999,
+      0.8985625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9038958333333333,
+      0.9637499999999999,
+      0.9305625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9358958333333334,
+      0.9637499999999999,
+      0.9598958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.86046875,
+      0.9516666666666667,
+      0.8707499999999999,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007350_00_04_05.000.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.87221875,
+      0.9516666666666667,
+      0.8810312499999999,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.42922916666666666,
+      0.004740740740740741,
+      0.45056250000000003,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9172291666666667,
+      0.004740740740740741,
+      0.9278958333333333,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9305625,
+      0.004740740740740741,
+      0.9412291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9438958333333333,
+      0.004740740740740741,
+      0.9545625,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "close window icon",
+    "bbox": [
+      0.9332291666666667,
+      0.07585185185185185,
+      0.9492291666666667,
+      0.1042962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "minimize window icon",
+    "bbox": [
+      0.9012291666666667,
+      0.07585185185185185,
+      0.9172291666666667,
+      0.1042962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "maximize window icon",
+    "bbox": [
+      0.9172291666666667,
+      0.07585185185185185,
+      0.9332291666666667,
+      0.1042962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9853124999999999,
+      0.009481481481481481,
+      0.9882500000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.98971875,
+      0.009481481481481481,
+      0.99265625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "close button",
+    "bbox": [
+      0.994125,
+      0.009481481481481481,
+      0.9970625000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9637499999999999,
+      0.016,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.021333333333333333,
+      0.9637499999999999,
+      0.037333333333333336,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.042666666666666665,
+      0.9637499999999999,
+      0.058666666666666666,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.064,
+      0.9637499999999999,
+      0.08,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.08533333333333333,
+      0.9637499999999999,
+      0.10133333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9637499999999999,
+      0.12266666666666667,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.128,
+      0.9637499999999999,
+      0.14400000000000002,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "security icon",
+    "bbox": [
+      0.14933333333333335,
+      0.9637499999999999,
+      0.16533333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "3D viewer icon",
+    "bbox": [
+      0.17066666666666666,
+      0.9637499999999999,
+      0.18666666666666665,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "photoshop icon",
+    "bbox": [
+      0.192,
+      0.9637499999999999,
+      0.20800000000000002,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8932291666666666,
+      0.9697916666666667,
+      0.9038958333333333,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.9092291666666666,
+      0.9697916666666667,
+      0.9198958333333334,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9252291666666667,
+      0.9697916666666667,
+      0.9358958333333334,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9412291666666666,
+      0.9697916666666667,
+      0.9518958333333333,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.8505625,
+      0.9697916666666667,
+      0.8612291666666666,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "bluetooth icon",
+    "bbox": [
+      0.8558958333333334,
+      0.9697916666666667,
+      0.8665625,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.8612291666666666,
+      0.9697916666666667,
+      0.8718958333333333,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "calendar icon",
+    "bbox": [
+      0.8665625,
+      0.9697916666666667,
+      0.8772291666666666,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "chat icon",
+    "bbox": [
+      0.8718958333333333,
+      0.9697916666666667,
+      0.8825625,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/007375_00_04_05.833.jpg",
+    "content": "email icon",
+    "bbox": [
+      0.8772291666666666,
+      0.9697916666666667,
+      0.8878958333333333,
+      0.9818749999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "command prompt icon",
+    "bbox": [
+      0.010666666666666666,
+      0.018962962962962963,
+      0.042666666666666665,
+      0.056888888888888885
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5066666666666666,
+      0.018962962962962963,
+      0.5226666666666666,
+      0.056888888888888885
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9332291666666667,
+      0.009481481481481481,
+      0.9438958333333333,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.9438958333333333,
+      0.009481481481481481,
+      0.9545625,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9545625,
+      0.009481481481481481,
+      0.9598958333333333,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9882500000000001,
+      0.018962962962962963,
+      0.9970625000000001,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9765,
+      0.018962962962962963,
+      0.9853124999999999,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.982375,
+      0.018962962962962963,
+      0.9911875,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "weather icon",
+    "bbox": [
+      0.0026666666666666666,
+      0.9395833333333333,
+      0.02666666666666667,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "start button",
+    "bbox": [
+      0.13333333333333333,
+      0.9637499999999999,
+      0.15466666666666665,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.16,
+      0.9637499999999999,
+      0.18133333333333335,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.18666666666666665,
+      0.9637499999999999,
+      0.20800000000000002,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "chat icon",
+    "bbox": [
+      0.21333333333333335,
+      0.9637499999999999,
+      0.23466666666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.24000000000000002,
+      0.9637499999999999,
+      0.2613333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.26666666666666666,
+      0.9637499999999999,
+      0.28800000000000003,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "chat icon",
+    "bbox": [
+      0.4345625,
+      0.9395833333333333,
+      0.46122916666666663,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.4665625,
+      0.9395833333333333,
+      0.49322916666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.4985625,
+      0.9395833333333333,
+      0.5252291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.5305625,
+      0.9395833333333333,
+      0.5572291666666668,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.5625625,
+      0.9395833333333333,
+      0.5892291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "code editor icon",
+    "bbox": [
+      0.5945625,
+      0.9395833333333333,
+      0.6212291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "notepad icon",
+    "bbox": [
+      0.6265625,
+      0.9395833333333333,
+      0.6532291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "arrow up icon",
+    "bbox": [
+      0.8265625,
+      0.9637499999999999,
+      0.8372291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "recording icon",
+    "bbox": [
+      0.8425625,
+      0.9637499999999999,
+      0.8532291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "language icon",
+    "bbox": [
+      0.8585625,
+      0.9637499999999999,
+      0.8745624999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.8798958333333334,
+      0.9637499999999999,
+      0.8905625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8958958333333332,
+      0.9637499999999999,
+      0.9065624999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.87515625,
+      0.9637499999999999,
+      0.8825000000000001,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008417_00_04_40.567.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8854375,
+      0.9637499999999999,
+      0.8927812500000001,
+      0.9758333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.6132291666666667,
+      0.018962962962962963,
+      0.6345625,
+      0.056888888888888885
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9172291666666667,
+      0.018962962962962963,
+      0.9278958333333333,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.9278958333333333,
+      0.018962962962962963,
+      0.9385625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9385625,
+      0.018962962962962963,
+      0.9492291666666667,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "play icon",
+    "bbox": [
+      0.9492291666666667,
+      0.11377777777777777,
+      0.9598958333333333,
+      0.1517037037037037
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.43722916666666667,
+      0.8059259259259259,
+      0.46922916666666664,
+      0.8438518518518519
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "ports icon",
+    "bbox": [
+      0.46922916666666664,
+      0.8059259259259259,
+      0.5012291666666667,
+      0.8438518518518519
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.97796875,
+      0.009481481481481481,
+      0.982375,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.98384375,
+      0.009481481481481481,
+      0.9882500000000001,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "close button",
+    "bbox": [
+      0.98971875,
+      0.009481481481481481,
+      0.994125,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "play button",
+    "bbox": [
+      0.9192187500000001,
+      0.04740740740740741,
+      0.9236249999999999,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "pause button",
+    "bbox": [
+      0.92509375,
+      0.04740740740740741,
+      0.9295000000000001,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "more options",
+    "bbox": [
+      0.93096875,
+      0.04740740740740741,
+      0.9353750000000001,
+      0.07585185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "add terminal",
+    "bbox": [
+      0.90453125,
+      0.7111111111111111,
+      0.9089375000000001,
+      0.7395555555555556
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "split terminal",
+    "bbox": [
+      0.91040625,
+      0.7111111111111111,
+      0.9148125,
+      0.7395555555555556
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "collapse terminal",
+    "bbox": [
+      0.91628125,
+      0.7111111111111111,
+      0.9206875,
+      0.7395555555555556
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "close terminal",
+    "bbox": [
+      0.92215625,
+      0.7111111111111111,
+      0.9265625,
+      0.7395555555555556
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "cmd icon",
+    "bbox": [
+      0.86046875,
+      0.7585185185185186,
+      0.864875,
+      0.786962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "powershell icon",
+    "bbox": [
+      0.86046875,
+      0.8059259259259259,
+      0.864875,
+      0.8343703703703704
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.4345625,
+      0.9637499999999999,
+      0.46122916666666663,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.4665625,
+      0.9637499999999999,
+      0.49322916666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.4985625,
+      0.9637499999999999,
+      0.5252291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.5305625,
+      0.9637499999999999,
+      0.5572291666666668,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "code editor icon",
+    "bbox": [
+      0.5625625,
+      0.9637499999999999,
+      0.5892291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "notepad icon",
+    "bbox": [
+      0.5945625,
+      0.9637499999999999,
+      0.6212291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "image viewer icon",
+    "bbox": [
+      0.6265625,
+      0.9637499999999999,
+      0.6532291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.8798958333333334,
+      0.9758333333333334,
+      0.8905625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8958958333333332,
+      0.9758333333333334,
+      0.9065624999999999,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9118958333333335,
+      0.9758333333333334,
+      0.9225625000000001,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "language icon",
+    "bbox": [
+      0.9278958333333333,
+      0.9758333333333334,
+      0.9385625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "notification icon",
+    "bbox": [
+      0.9438958333333333,
+      0.9758333333333334,
+      0.9545625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "python icon",
+    "bbox": [
+      0.8560625000000001,
+      0.9637499999999999,
+      0.864875,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "lock icon",
+    "bbox": [
+      0.982375,
+      0.9637499999999999,
+      0.9911875,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8560625000000001,
+      0.9879166666666667,
+      0.8619375,
+      0.9975833333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/008843_00_04_54.767.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.86340625,
+      0.9879166666666667,
+      0.86928125,
+      0.9975833333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "close button",
+    "bbox": [
+      0.5146666666666666,
+      0.004740740740740741,
+      0.5306666666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.4826666666666667,
+      0.004740740740740741,
+      0.4986666666666667,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.4986666666666667,
+      0.004740740740740741,
+      0.5146666666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.18666666666666665,
+      0.6162962962962963,
+      0.19733333333333333,
+      0.6447407407407408
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9305625,
+      0.014222222222222221,
+      0.9412291666666666,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9465625000000001,
+      0.014222222222222221,
+      0.9572291666666667,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9882500000000001,
+      0.009481481481481481,
+      0.99265625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.99265625,
+      0.009481481481481481,
+      0.9970625000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "close button",
+    "bbox": [
+      0.9970625000000001,
+      0.009481481481481481,
+      1.0,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "weather icon",
+    "bbox": [
+      0.0,
+      0.9516666666666667,
+      0.02666666666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9637499999999999,
+      0.13333333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.13866666666666666,
+      0.9637499999999999,
+      0.16533333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "app icon 1",
+    "bbox": [
+      0.17066666666666666,
+      0.9637499999999999,
+      0.19733333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "app icon 2",
+    "bbox": [
+      0.20266666666666666,
+      0.9637499999999999,
+      0.22933333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "app icon 3",
+    "bbox": [
+      0.23466666666666666,
+      0.9637499999999999,
+      0.2613333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "app icon 4",
+    "bbox": [
+      0.26666666666666666,
+      0.9637499999999999,
+      0.29333333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "app icon 5",
+    "bbox": [
+      0.2986666666666667,
+      0.9637499999999999,
+      0.3253333333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "chat icon",
+    "bbox": [
+      0.4345625,
+      0.9395833333333333,
+      0.46122916666666663,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.4665625,
+      0.9395833333333333,
+      0.49322916666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "browser icon",
+    "bbox": [
+      0.4985625,
+      0.9395833333333333,
+      0.5252291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "windows icon",
+    "bbox": [
+      0.5305625,
+      0.9395833333333333,
+      0.5572291666666668,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.5625625,
+      0.9395833333333333,
+      0.5892291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "notepad icon",
+    "bbox": [
+      0.5945625,
+      0.9395833333333333,
+      0.6212291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.6265625,
+      0.9395833333333333,
+      0.6532291666666666,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "up arrow icon",
+    "bbox": [
+      0.8798958333333334,
+      0.9637499999999999,
+      0.8905625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "recording icon",
+    "bbox": [
+      0.8932291666666666,
+      0.9637499999999999,
+      0.9038958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "language icon",
+    "bbox": [
+      0.9065624999999999,
+      0.9637499999999999,
+      0.9172291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "clipboard icon",
+    "bbox": [
+      0.9198958333333334,
+      0.9637499999999999,
+      0.9305625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9332291666666667,
+      0.9637499999999999,
+      0.9438958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.86046875,
+      0.9637499999999999,
+      0.8678125,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/009182_00_05_06.067.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8707499999999999,
+      0.9637499999999999,
+      0.87809375,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9412291666666666,
+      0.014222222222222221,
+      0.9518958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9252291666666667,
+      0.014222222222222221,
+      0.9358958333333334,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.9332291666666667,
+      0.014222222222222221,
+      0.9438958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.8958958333333332,
+      0.014222222222222221,
+      0.9065624999999999,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.8798958333333334,
+      0.014222222222222221,
+      0.8905625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8638958333333332,
+      0.014222222222222221,
+      0.8745624999999999,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.8478958333333334,
+      0.014222222222222221,
+      0.8585625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8318958333333334,
+      0.014222222222222221,
+      0.8425625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.8158958333333334,
+      0.014222222222222221,
+      0.8265625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "wifi question mark",
+    "bbox": [
+      0.6132291666666667,
+      0.3792592592592593,
+      0.7732291666666666,
+      0.5688888888888889
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.9853124999999999,
+      0.009481481481481481,
+      0.9882500000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.98971875,
+      0.009481481481481481,
+      0.99265625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/021146_00_11_44.867.jpg",
+    "content": "close button",
+    "bbox": [
+      0.994125,
+      0.009481481481481481,
+      0.9970625000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.6665625,
+      0.009481481481481481,
+      0.7198958333333334,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9332291666666667,
+      0.009481481481481481,
+      0.9492291666666667,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.9172291666666667,
+      0.009481481481481481,
+      0.9332291666666667,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9012291666666667,
+      0.009481481481481481,
+      0.9172291666666667,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.43722916666666667,
+      0.14222222222222222,
+      0.4532291666666667,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.43722916666666667,
+      0.23703703703703705,
+      0.4532291666666667,
+      0.2654814814814815
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "storage icon",
+    "bbox": [
+      0.43722916666666667,
+      0.33185185185185184,
+      0.4532291666666667,
+      0.3602962962962963
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "audio icon",
+    "bbox": [
+      0.43722916666666667,
+      0.4266666666666667,
+      0.4532291666666667,
+      0.4551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "usb icon",
+    "bbox": [
+      0.43722916666666667,
+      0.5214814814814815,
+      0.4532291666666667,
+      0.5499259259259259
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "shared folders icon",
+    "bbox": [
+      0.43722916666666667,
+      0.6162962962962963,
+      0.4532291666666667,
+      0.6447407407407408
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "description icon",
+    "bbox": [
+      0.43722916666666667,
+      0.7111111111111111,
+      0.4532291666666667,
+      0.7395555555555556
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "preview icon",
+    "bbox": [
+      0.8265625,
+      0.14222222222222222,
+      0.8425625,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.924359375,
+      0.004740740740740741,
+      0.927296875,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.928765625,
+      0.004740740740740741,
+      0.931703125,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "close button",
+    "bbox": [
+      0.933171875,
+      0.004740740740740741,
+      0.9361093749999999,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "accessibility icon",
+    "bbox": [
+      0.855328125,
+      0.042666666666666665,
+      0.859734375,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "pencil icon",
+    "bbox": [
+      0.861203125,
+      0.042666666666666665,
+      0.865609375,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.867078125,
+      0.042666666666666665,
+      0.871484375,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.872953125,
+      0.042666666666666665,
+      0.8773593749999999,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "dropdown arrow",
+    "bbox": [
+      0.878828125,
+      0.042666666666666665,
+      0.881765625,
+      0.07111111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "menu icon",
+    "bbox": [
+      0.4265625,
+      0.7583333333333333,
+      0.43669583333333334,
+      0.7699333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.43669583333333334,
+      0.7583333333333333,
+      0.44682916666666667,
+      0.7699333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.44682916666666667,
+      0.7583333333333333,
+      0.45696250000000005,
+      0.7699333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.45696250000000005,
+      0.7583333333333333,
+      0.4670958333333333,
+      0.7699333333333334
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8798958333333334,
+      0.9758333333333334,
+      0.8905625,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.8905625,
+      0.9758333333333334,
+      0.9012291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9012291666666667,
+      0.9758333333333334,
+      0.9118958333333335,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9118958333333335,
+      0.9758333333333334,
+      0.9225625000000001,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9225625000000001,
+      0.9758333333333334,
+      0.9332291666666667,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.9332291666666667,
+      0.9758333333333334,
+      0.9598958333333333,
+      0.9879166666666667
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.8545937499999999,
+      0.9637499999999999,
+      0.86046875,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "people icon",
+    "bbox": [
+      0.8619375,
+      0.9637499999999999,
+      0.8678125,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.86928125,
+      0.9637499999999999,
+      0.87515625,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.876625,
+      0.9637499999999999,
+      0.8825000000000001,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.88396875,
+      0.9637499999999999,
+      0.88984375,
+      0.9806666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "clipboard icon",
+    "bbox": [
+      0.8971874999999999,
+      0.9468333333333334,
+      0.9030625000000001,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "pencil icon",
+    "bbox": [
+      0.90453125,
+      0.9468333333333334,
+      0.91040625,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.911875,
+      0.9468333333333334,
+      0.91775,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "monitor icon",
+    "bbox": [
+      0.9192187500000001,
+      0.9468333333333334,
+      0.92509375,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "gear icon",
+    "bbox": [
+      0.9265625,
+      0.9468333333333334,
+      0.9324375,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/029608_00_16_26.933.jpg",
+    "content": "globe icon",
+    "bbox": [
+      0.9339062499999999,
+      0.9468333333333334,
+      0.93978125,
+      0.9637499999999999
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9465625000000001,
+      0.004740740740740741,
+      0.9572291666666667,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.9305625,
+      0.004740740740740741,
+      0.9412291666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.9385625,
+      0.004740740740740741,
+      0.9492291666666667,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "workspace icon",
+    "bbox": [
+      0.9172291666666667,
+      0.004740740740740741,
+      0.9278958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.9012291666666667,
+      0.004740740740740741,
+      0.9118958333333335,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.990159375,
+      0.0037925925925925926,
+      0.9925093749999999,
+      0.0256
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.992803125,
+      0.0037925925925925926,
+      0.995153125,
+      0.0256
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.9954468750000001,
+      0.0037925925925925926,
+      0.997796875,
+      0.0256
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.8537125,
+      0.0256,
+      0.8581187499999999,
+      0.06731851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8587062499999999,
+      0.0256,
+      0.8631125,
+      0.06731851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "pen icon",
+    "bbox": [
+      0.8637,
+      0.0256,
+      0.86810625,
+      0.06731851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.86869375,
+      0.0256,
+      0.8731000000000001,
+      0.06731851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8736875000000001,
+      0.0256,
+      0.87809375,
+      0.06731851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "dropdown icon",
+    "bbox": [
+      0.99618125,
+      0.0256,
+      0.99853125,
+      0.06731851851851851
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9092291666666666,
+      0.9842916666666668,
+      0.9198958333333334,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9225625000000001,
+      0.9842916666666668,
+      0.9332291666666667,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9358958333333334,
+      0.9842916666666668,
+      0.9465625000000001,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.9492291666666667,
+      0.9842916666666668,
+      0.9598958333333333,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "app icon 1",
+    "bbox": [
+      0.8798958333333334,
+      0.9842916666666668,
+      0.8905625,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "app icon 2",
+    "bbox": [
+      0.8932291666666666,
+      0.9842916666666668,
+      0.9038958333333333,
+      0.9939583333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "cloud icon",
+    "bbox": [
+      0.8538593750000001,
+      0.9770416666666666,
+      0.859734375,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.861203125,
+      0.9770416666666666,
+      0.867078125,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.8685468749999999,
+      0.9770416666666666,
+      0.874421875,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.875890625,
+      0.9770416666666666,
+      0.881765625,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.883234375,
+      0.9770416666666666,
+      0.889109375,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "clipboard icon",
+    "bbox": [
+      0.8538593750000001,
+      0.9625416666666667,
+      0.859734375,
+      0.9722083333333335
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "pencil icon",
+    "bbox": [
+      0.861203125,
+      0.9625416666666667,
+      0.867078125,
+      0.9722083333333335
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "folder icon",
+    "bbox": [
+      0.8685468749999999,
+      0.9625416666666667,
+      0.874421875,
+      0.9722083333333335
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.875890625,
+      0.9625416666666667,
+      0.881765625,
+      0.9722083333333335
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "globe icon",
+    "bbox": [
+      0.883234375,
+      0.9625416666666667,
+      0.889109375,
+      0.9722083333333335
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.964015625,
+      0.9770416666666666,
+      0.969890625,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031026_00_17_14.200.jpg",
+    "content": "date icon",
+    "bbox": [
+      0.971359375,
+      0.9770416666666666,
+      0.977234375,
+      0.9867083333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "virtualbox icon",
+    "bbox": [
+      0.4521625,
+      0.3489185185185185,
+      0.47882916666666664,
+      0.4058074074074074
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9305625,
+      0.014222222222222221,
+      0.9412291666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.9412291666666666,
+      0.014222222222222221,
+      0.9518958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.9198958333333334,
+      0.014222222222222221,
+      0.9305625,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "bluetooth icon",
+    "bbox": [
+      0.9092291666666666,
+      0.014222222222222221,
+      0.9198958333333334,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.8878958333333333,
+      0.014222222222222221,
+      0.9092291666666666,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.42922916666666666,
+      0.014222222222222221,
+      0.4398958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.4398958333333333,
+      0.014222222222222221,
+      0.45056250000000003,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.45056250000000003,
+      0.014222222222222221,
+      0.46122916666666663,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.46122916666666663,
+      0.014222222222222221,
+      0.4718958333333333,
+      0.033185185185185186
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "window icon",
+    "bbox": [
+      0.8538593750000001,
+      0.004740740740740741,
+      0.8582656249999999,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "minimize icon",
+    "bbox": [
+      0.859,
+      0.004740740740740741,
+      0.86340625,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "maximize icon",
+    "bbox": [
+      0.864140625,
+      0.004740740740740741,
+      0.8685468749999999,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "close icon",
+    "bbox": [
+      0.86928125,
+      0.004740740740740741,
+      0.8736875000000001,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.8538593750000001,
+      0.04740740740740741,
+      0.8582656249999999,
+      0.08533333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.859,
+      0.04740740740740741,
+      0.86340625,
+      0.08533333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.864140625,
+      0.04740740740740741,
+      0.8685468749999999,
+      0.08533333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.86928125,
+      0.04740740740740741,
+      0.8736875000000001,
+      0.08533333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.9853124999999999,
+      0.004740740740740741,
+      0.98971875,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.990453125,
+      0.004740740740740741,
+      0.9948593750000001,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "clock icon",
+    "bbox": [
+      0.9955937499999999,
+      0.004740740740740741,
+      1.0,
+      0.042666666666666665
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "start menu icon",
+    "bbox": [
+      0.0,
+      0.9637499999999999,
+      0.021333333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "search icon",
+    "bbox": [
+      0.02666666666666667,
+      0.9637499999999999,
+      0.048,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "task view icon",
+    "bbox": [
+      0.05333333333333334,
+      0.9637499999999999,
+      0.07466666666666667,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "chrome icon",
+    "bbox": [
+      0.08,
+      0.9637499999999999,
+      0.10133333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "edge icon",
+    "bbox": [
+      0.10666666666666667,
+      0.9637499999999999,
+      0.128,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "file explorer icon",
+    "bbox": [
+      0.13333333333333333,
+      0.9637499999999999,
+      0.15466666666666665,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "store icon",
+    "bbox": [
+      0.16,
+      0.9637499999999999,
+      0.18133333333333335,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "antivirus icon",
+    "bbox": [
+      0.18666666666666665,
+      0.9637499999999999,
+      0.20800000000000002,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "virtualbox icon",
+    "bbox": [
+      0.21333333333333335,
+      0.9637499999999999,
+      0.23466666666666666,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031081_00_17_16.033.jpg",
+    "content": "notification icon",
+    "bbox": [
+      0.24000000000000002,
+      0.9637499999999999,
+      0.2613333333333333,
+      0.9951666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "close button",
+    "bbox": [
+      0.4826666666666667,
+      0.06162962962962963,
+      0.49333333333333335,
+      0.0805925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.4613333333333333,
+      0.06162962962962963,
+      0.47200000000000003,
+      0.0805925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.47200000000000003,
+      0.06162962962962963,
+      0.4826666666666667,
+      0.0805925925925926
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.010666666666666666,
+      0.11377777777777777,
+      0.032,
+      0.17066666666666666
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "file manager icon",
+    "bbox": [
+      0.010666666666666666,
+      0.17066666666666666,
+      0.032,
+      0.22755555555555554
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "web browser icon",
+    "bbox": [
+      0.010666666666666666,
+      0.22755555555555554,
+      0.032,
+      0.28444444444444444
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.010666666666666666,
+      0.28444444444444444,
+      0.032,
+      0.3413333333333333
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "music icon",
+    "bbox": [
+      0.010666666666666666,
+      0.3413333333333333,
+      0.032,
+      0.3982222222222222
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "grid icon",
+    "bbox": [
+      0.010666666666666666,
+      0.3982222222222222,
+      0.032,
+      0.4551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "wifi icon",
+    "bbox": [
+      0.5066666666666666,
+      0.018962962962962963,
+      0.5173333333333333,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.5173333333333333,
+      0.018962962962962963,
+      0.528,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.4906666666666667,
+      0.018962962962962963,
+      0.5066666666666666,
+      0.037925925925925925
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "close button",
+    "bbox": [
+      0.4404291666666667,
+      0.03128888888888889,
+      0.45109583333333336,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.4537625,
+      0.03128888888888889,
+      0.4644291666666666,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.4670958333333333,
+      0.03128888888888889,
+      0.4777625,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.9412291666666666,
+      0.03128888888888889,
+      0.9518958333333333,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.9252291666666667,
+      0.03128888888888889,
+      0.9358958333333334,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "network icon",
+    "bbox": [
+      0.9092291666666666,
+      0.03128888888888889,
+      0.9198958333333334,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "battery icon",
+    "bbox": [
+      0.8932291666666666,
+      0.03128888888888889,
+      0.9038958333333333,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.8772291666666666,
+      0.03128888888888889,
+      0.8878958333333333,
+      0.05025185185185185
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "workspace icon",
+    "bbox": [
+      0.8545937499999999,
+      0.009481481481481481,
+      0.86046875,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8619375,
+      0.009481481481481481,
+      0.8678125,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.86928125,
+      0.009481481481481481,
+      0.87515625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.876625,
+      0.009481481481481481,
+      0.8825000000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.88396875,
+      0.009481481481481481,
+      0.88984375,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031219_00_17_20.633.jpg",
+    "content": "dropdown icon",
+    "bbox": [
+      0.8913125,
+      0.009481481481481481,
+      0.8971874999999999,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "application icon",
+    "bbox": [
+      0.013866666666666666,
+      0.27685925925925925,
+      0.0416,
+      0.33754074074074075
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "terminal icon",
+    "bbox": [
+      0.013866666666666666,
+      0.3460740740740741,
+      0.0416,
+      0.40675555555555554
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "file manager icon",
+    "bbox": [
+      0.013866666666666666,
+      0.4152888888888889,
+      0.0416,
+      0.4759703703703704
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "close window icon",
+    "bbox": [
+      0.4986666666666667,
+      0.017066666666666664,
+      0.5146666666666666,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "maximize window icon",
+    "bbox": [
+      0.4826666666666667,
+      0.017066666666666664,
+      0.4986666666666667,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "minimize window icon",
+    "bbox": [
+      0.4666666666666667,
+      0.017066666666666664,
+      0.4826666666666667,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.4986666666666667,
+      0.017066666666666664,
+      0.5306666666666666,
+      0.04551111111111111
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "time icon",
+    "bbox": [
+      0.43722916666666667,
+      0.0,
+      0.4798958333333333,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "workspace icon",
+    "bbox": [
+      0.9172291666666667,
+      0.0,
+      0.9278958333333333,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "settings icon",
+    "bbox": [
+      0.9332291666666667,
+      0.0,
+      0.9438958333333333,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.9492291666666667,
+      0.0,
+      0.9598958333333333,
+      0.028444444444444442
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "workspace icon",
+    "bbox": [
+      0.8545937499999999,
+      0.009481481481481481,
+      0.86046875,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8619375,
+      0.009481481481481481,
+      0.8678125,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.86928125,
+      0.009481481481481481,
+      0.87515625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.876625,
+      0.009481481481481481,
+      0.8825000000000001,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031491_00_17_29.700.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.88396875,
+      0.009481481481481481,
+      0.88984375,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "close button",
+    "bbox": [
+      0.4441625,
+      0.053096296296296294,
+      0.4548291666666667,
+      0.08154074074074073
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "minimize button",
+    "bbox": [
+      0.4574958333333334,
+      0.053096296296296294,
+      0.4681625,
+      0.08154074074074073
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "maximize button",
+    "bbox": [
+      0.47082916666666663,
+      0.053096296296296294,
+      0.48149583333333335,
+      0.08154074074074073
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.9412291666666666,
+      0.012325925925925926,
+      0.9518958333333333,
+      0.03128888888888889
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "settings gear",
+    "bbox": [
+      0.9252291666666667,
+      0.012325925925925926,
+      0.9358958333333334,
+      0.03128888888888889
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "desktop icon",
+    "bbox": [
+      0.8545937499999999,
+      0.009481481481481481,
+      0.864875,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "user icon",
+    "bbox": [
+      0.8663437500000001,
+      0.009481481481481481,
+      0.876625,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "paintbrush icon",
+    "bbox": [
+      0.87809375,
+      0.009481481481481481,
+      0.888375,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "volume icon",
+    "bbox": [
+      0.88984375,
+      0.009481481481481481,
+      0.900125,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "power icon",
+    "bbox": [
+      0.90159375,
+      0.009481481481481481,
+      0.911875,
+      0.04740740740740741
+    ]
+  },
+  {
+    "image_path": "/workspace/training_data_generator/raw_images/031492_00_17_29.733.jpg",
+    "content": "dropdown icon",
+    "bbox": [
+      0.9133437499999999,
+      0.009481481481481481,
+      0.9236249999999999,
+      0.04740740740740741
+    ]
+  }
+]
